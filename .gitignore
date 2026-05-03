@@ -1,0 +1,26 @@
+# Secrets
+.env
+.env.*
+**/credentials.json
+**/*.key
+**/.credentials.json
+
+# Claude Code 本機狀態（不該跨機同步）
+.claude/settings.local.json
+.claude/projects/
+.claude/shell-snapshots/
+.claude/todos/
+.claude/statsig/
+.claude/.credentials.json
+
+# 系統檔
+.DS_Store
+Thumbs.db
+
+# 大檔 / 暫存
+*.log
+node_modules/
+.venv*/
+__pycache__/
+playwright-images/
+*.bak.*
