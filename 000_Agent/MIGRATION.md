@@ -11,7 +11,7 @@
   - `CLAUDE.md` → iCloud：`~/Library/Mobile Documents/com~apple~CloudDocs/Barney-Agent/.claude/CLAUDE.md`
   - `commands/` → iCloud：`~/Library/Mobile Documents/com~apple~CloudDocs/Barney-Agent/.claude/commands/`
   - `skills` → symlink 指向 `~/Downloads/Barney_agent/000_Agent/skills/`
-- **GitHub repo**：尚未推送（執行「情境 1」步驟完成後填這裡）
+- **GitHub repo**：https://github.com/d8a2v8i1d4/barney-agent.git（私有）
 - **體檢腳本**：`000_Agent/scripts/sync-health.sh`
 - **檢查頻率**：每週五複盤日手動跑
 
@@ -84,4 +84,4 @@ git remote add origin git@github.com:[你的帳號]/barney-agent.git
 git push -u origin main
 ```
 
-> 建好 repo 後把 URL 填在「當前架構」的 GitHub repo 欄位。
+> ✅ 已完成，2026-05-04 推送。
