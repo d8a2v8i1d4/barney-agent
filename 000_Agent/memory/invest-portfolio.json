@@ -1,0 +1,12 @@
+{
+  "total_capital": 25000,
+  "deployed": 0,
+  "remaining": 25000,
+  "layers": {
+    "core": {"target": 13750, "deployed": 0, "remaining": 13750, "trades": []},
+    "satellite": {"target": 7500, "deployed": 0, "remaining": 7500, "trades": []},
+    "aggressive": {"target": 3750, "deployed": 0, "remaining": 3750, "trades": []}
+  },
+  "start_date": "2026-05-19",
+  "last_updated": "2026-05-19"
+}

@@ -1,0 +1,58 @@
+{
+  "date": "2026-05-19",
+  "total_score": 55,
+  "vix": 18.99,
+  "yield_10y": 4.61,
+  "yield_2y": 4.08,
+  "yield_spread": 0.53,
+  "dxy": 99.39,
+  "twd": 31.586,
+  "stock_scores": {
+    "META": 15,
+    "AMZN": 5,
+    "MSFT": 0,
+    "VWRA.L": 0,
+    "CNDX.L": 0,
+    "LQQ.PA": 0,
+    "IWMO.L": -5,
+    "TSM": -5,
+    "NVDA": -10,
+    "SOXX": -10,
+    "SMH": -15,
+    "AVGS.L": -99
+  },
+  "prices": {
+    "NVDA": 222.74,
+    "TSM": 404.35,
+    "MSFT": 423.54,
+    "META": 615.0,
+    "AMZN": 264.14,
+    "SMH": 558.0,
+    "SOXX": 506.87,
+    "VWRA.L": 185.28,
+    "CNDX.L": 1650.0,
+    "IWMO.L": 112.61,
+    "AVGS.L": 27.0,
+    "LQQ.PA": 1882.0,
+    "2454": 3350.0
+  },
+  "key_alerts": [
+    "NVDA 財報明日(5/20)盤後 - 個股衛星暫停",
+    "SMH RSI=82、SOXX RSI=78 極度超買",
+    "10Y殖利率4.61%創1年新高，+14bps",
+    "AVGS.L 實際為 Avantis Global Small Cap Value ETF，非半導體ETF，需確認標的",
+    "2454聯發科處置中至5/20，+31%近期漲幅，不宜追高"
+  ],
+  "recommendation": "核心 VWRA.L $1,400 + CNDX.L $900，衛星觀望，進攻暫不動",
+  "total_suggested_deploy": 2300,
+  "portfolio_progress": 0.0,
+  "data_fetch_failures": [
+    "AVGS.L 半導體ETF數據 - 查詢到的是 Avantis Global Small Cap Value ETF，ticker可能有誤",
+    "00631L - 未抓取",
+    "SOXX 52W高未取得",
+    "MSFT RSI未直接取得（估計62）",
+    "META RSI未直接取得（估計55）",
+    "IWMO.L 最新價格為5/8數據",
+    "LQQ.PA 最新價格為5/11數據"
+  ]
+}
