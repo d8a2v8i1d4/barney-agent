@@ -1,13 +1,14 @@
 # 每日投資早報工作流
 
 > 每天早上 8:00 自動觸發，或手動輸入 `/daily-invest` 執行。
-> 資料來源：`000_Agent/knowledge/watchlist.md`
+> 資料來源：`000_Agent/knowledge/watchlist.md`、`000_Agent/knowledge/portfolio.md`
 
 ---
 
-## Step 0：讀取觀察清單
+## Step 0：讀取觀察清單與持倉
 
-讀取 `000_Agent/knowledge/watchlist.md`，取得今日要分析的個股、ETF 清單與巨集指標。
+1. 讀取 `000_Agent/knowledge/watchlist.md`，取得今日要分析的個股、ETF 清單與巨集指標。
+2. 讀取 `000_Agent/knowledge/portfolio.md`，載入各代號的持倉股數與平均成本。
 
 ---
 
@@ -73,6 +74,27 @@ USD/TWD：XX.X
 ...
 最強：[代號]  最弱：[代號]
 ```
+
+---
+
+## Step 4.5：我的持倉損益（有持倉才執行）
+
+從 `portfolio.md` 取出有持倉的代號，搭配 Step 4 抓到的最新價格計算：
+
+- **浮動損益（每股）** = 最新價 - 平均成本
+- **浮動損益（總）** = （最新價 - 平均成本）× 股數
+- **報酬率** = 浮動損益（總）/ 總成本 × 100%
+
+格式：
+```
+【我的持倉】
+● IWMO.L：持 7 股｜成本 $110.00｜現價 $XXX｜損益 +$XX.XX（+X.X%）
+● VWRA.L：持 6 股｜成本 $183.84｜現價 $XXX｜損益 +$XX.XX（+X.X%）
+● CNDX.L：持 0.3 股｜成本 $1,654.80｜現價 $XXX｜損益 +$XX.XX（+X.X%）
+整體持倉：總成本 $X,XXX｜市值 $X,XXX｜浮動損益 +$XX.XX（+X.X%）
+```
+
+注意：若當日找不到最新價，標註「價格待確認」，不要猜測數字。
 
 ---
 
