@@ -1,0 +1,55 @@
+{
+  "holdings": [
+    {
+      "ticker": "IWMO.L",
+      "exchange": "LSE",
+      "shares": 7,
+      "avg_cost": 110.00,
+      "currency": "USD"
+    },
+    {
+      "ticker": "VWRA.L",
+      "exchange": "LSE",
+      "shares": 6,
+      "avg_cost": 183.84,
+      "currency": "USD"
+    },
+    {
+      "ticker": "CNDX.L",
+      "exchange": "LSE",
+      "shares": 0.3,
+      "avg_cost": 1654.80,
+      "currency": "USD"
+    }
+  ],
+  "transactions": [
+    {
+      "date": "2026-05-19",
+      "action": "buy",
+      "ticker": "IWMO.L",
+      "shares": 7,
+      "price": 110.00,
+      "total": 770.00,
+      "currency": "USD"
+    },
+    {
+      "date": "2026-05-19",
+      "action": "buy",
+      "ticker": "VWRA.L",
+      "shares": 6,
+      "price": 183.84,
+      "total": 1103.04,
+      "currency": "USD"
+    },
+    {
+      "date": "2026-05-19",
+      "action": "buy",
+      "ticker": "CNDX.L",
+      "shares": 0.3,
+      "price": 1654.80,
+      "total": 496.44,
+      "currency": "USD"
+    }
+  ],
+  "last_updated": "2026-05-19"
+}
