@@ -1,0 +1,4 @@
+2026-05-20 執行完成，環境分數=55/100，建議部署=$2300，進度=0%
+首次執行：建立 invest-portfolio.json 初始檔
+NVDA 今晚財報，半導體衛星暫停
+AVGS.L Ticker 疑似錯誤，待 Barney 確認
