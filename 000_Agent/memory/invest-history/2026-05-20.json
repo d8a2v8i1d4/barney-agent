@@ -1,0 +1,30 @@
+{
+  "date": "2026-05-20",
+  "total_score": 60,
+  "vix": 18.06,
+  "yield_10y": 4.67,
+  "yield_2y": 4.14,
+  "dxy": 99.08,
+  "twd": 31.69,
+  "stock_scores": {
+    "NVDA": 50,
+    "TSM": 45,
+    "MSFT": 50,
+    "META": 50,
+    "AMZN": 50,
+    "SMH": 40,
+    "SOXX": 40,
+    "AVGS.L": 45,
+    "VWRA.L": 45,
+    "CNDX.L": 50,
+    "IWMO.L": 45,
+    "LQQ.PA": 50,
+    "2454": 35,
+    "00631L": 50
+  },
+  "recommendation": "核心 VWRA.L $1,200 + CNDX.L $600 + IWMO.L $500 = $2,300 DCA 首月啟動",
+  "portfolio_progress": 0.0,
+  "key_events": ["NVDA Q1 FY2027 earnings after close today (EDT 17:00)", "FOMC next: June 16-17"],
+  "data_fetch_failures": ["MSFT 52W high", "META price/52W", "AMZN 52W high", "CNDX.L 52W high", "LQQ.PA 52W high", "00631L 52W high"],
+  "warnings": ["AVGS.L = Avantis Global Small Cap Value UCITS ETF, 非半導體 ETF，請 Barney 確認是否正確", "NVDA 今日財報，衛星加碼暫停", "10Y 殖利率升至 16 個月高點 4.67%"]
+}
