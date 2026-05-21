@@ -1,0 +1,50 @@
+{
+  "date": "2026-05-21",
+  "total_score": 60,
+  "vix": 18.06,
+  "vix_change_pct": 1.35,
+  "yield_10y": 4.65,
+  "yield_2y": 4.14,
+  "dxy": 99.36,
+  "twd": 31.61,
+  "stock_scores": {
+    "NVDA": 40,
+    "TSM": 50,
+    "MSFT": 65,
+    "META": 60,
+    "AMZN": 45,
+    "SMH": 35,
+    "SOXX": 35,
+    "AVGS.L": 55,
+    "VWRA.L": 55,
+    "CNDX.L": 50,
+    "IWMO.L": 45,
+    "LQQ.PA": 35,
+    "2454": 55
+  },
+  "stock_prices": {
+    "NVDA": 223.47,
+    "TSM": 396.0,
+    "MSFT": 418.75,
+    "META": 602.61,
+    "AMZN": 265.0,
+    "SMH": 562.73,
+    "SOXX": 516.37,
+    "AVGS.L": 26.82,
+    "VWRA.L": 184.36,
+    "CNDX.L": 1650.0,
+    "IWMO.L": 112.61,
+    "LQQ.PA": 1851.60,
+    "2454_TWD": 3260.0
+  },
+  "recommendation": "核心層首次月 DCA $2,300：VWRA.L $1,100 + CNDX.L $800 + IWMO.L $400｜衛星暫停｜進攻暫停",
+  "environment": "中性偏多",
+  "portfolio_progress": 0.0,
+  "key_events": [
+    "NVDA Q1 FY27 財報超預期：營收 $81.6B (+85.2% YoY), EPS $1.87 vs 預估 $1.76，Q2 指引 $91B",
+    "半導體 ETF 近 52W 高，RSI 偏高",
+    "美債 10Y 達 16 個月高點 4.7%，今日微降至 4.65%",
+    "本週 WMT/DE 財報（非觀察清單，影響有限）"
+  ],
+  "data_fetch_failures": ["MSFT RSI 估算值", "META RSI 估算值", "AVGS.L 52W 高估算"]
+}
