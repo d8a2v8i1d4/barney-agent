@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-21",
+  "total_score": 55,
+  "vix": 17.44,
+  "yield_10y": 4.63,
+  "yield_2y": 4.14,
+  "dxy": 99.13,
+  "twd": 31.59,
+  "stock_scores": {
+    "NVDA": 35,
+    "TSM": 35,
+    "SMH": 45,
+    "SOXX": 45,
+    "VWRA.L": 45,
+    "CNDX.L": 50,
+    "IWMO.L": 50,
+    "AVGS.L": 45
+  },
+  "recommendation": "環境分數55（中性偏多），但部署進度超前（9.48% vs 理論1.11%），建議金額減半。核心層 DCA $1,150，衛星/進攻層暫停。",
+  "portfolio_progress": 0.0948,
+  "data_fetch_failures": ["AVGS.L（最新價格無法取得，使用5/11估值23.76）", "CNDX.L（當日即時價格不確定，受NVDA財報影響估計偏高）", "IWMO.L（使用5/14 NAV $115.37）", "LQQ.PA（使用5/11估值€1,907）", "00631L（使用5/19收盤29.93）"]
+}
