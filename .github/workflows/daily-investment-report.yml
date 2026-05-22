@@ -1,0 +1,90 @@
+name: 📊 每日投資決策日報
+
+on:
+  schedule:
+    - cron: '0 0 * * 1-5'  # UTC 00:00 = 台北 08:00，週一至週五
+  workflow_dispatch:        # 手動觸發
+
+permissions:
+  contents: write
+
+jobs:
+  daily-report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set Taipei date
+        run: echo "TODAY=$(TZ=Asia/Taipei date +%Y-%m-%d)" >> $GITHUB_ENV
+
+      - name: Configure git
+        run: |
+          git config user.email "barney-bot@users.noreply.github.com"
+          git config user.name "Barney Investment Bot"
+
+      - name: Run investment report (Claude Code)
+        uses: anthropic/claude-code-action@beta
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            台北時間今天是 ${{ env.TODAY }}。
+            請 Read 000_Agent/skills/invest-report.md，完整執行裡面的所有步驟（Step 0 到 Step 8）。
+
+            CI 環境注意事項：
+            - Step 8-4：只執行 git add + git commit，不要 git push（workflow 另外處理）
+            - Step 8-6：Gmail MCP 不可用，改為寫 HTML 到 000_Agent/memory/invest-history/${{ env.TODAY }}-report.html
+
+      - name: Push history files
+        run: |
+          git push origin HEAD || echo "Nothing to push"
+
+      - name: Send email report
+        env:
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: |
+          python3 - <<'PYEOF'
+          import smtplib, os, sys
+          from email.mime.multipart import MIMEMultipart
+          from email.mime.text import MIMEText
+
+          today = os.environ.get('TODAY', 'unknown')
+          report_path = f"000_Agent/memory/invest-history/{today}-report.html"
+
+          if os.path.exists(report_path):
+              with open(report_path, 'r', encoding='utf-8') as f:
+                  html_content = f.read()
+              print(f"✅ 讀取報告：{report_path}")
+          else:
+              html_content = (
+                  f"<h2>⚠️ 報告生成失敗</h2>"
+                  f"<p>日期：{today}</p>"
+                  f"<p>找不到 <code>{report_path}</code>，請檢查 GitHub Actions 日誌。</p>"
+              )
+              print(f"⚠️ 找不到報告檔案：{report_path}")
+
+          msg = MIMEMultipart('alternative')
+          msg['Subject'] = f"📊 {today} 投資決策日報"
+          msg['From'] = 'd8a2v8i1d4@gmail.com'
+          msg['To'] = 'd8a2v8i1d4@gmail.com'
+          msg.attach(MIMEText(html_content, 'html', 'utf-8'))
+
+          try:
+              with smtplib.SMTP('smtp.gmail.com', 587) as server:
+                  server.ehlo()
+                  server.starttls()
+                  server.login('d8a2v8i1d4@gmail.com', os.environ['GMAIL_APP_PASSWORD'])
+                  server.sendmail(
+                      'd8a2v8i1d4@gmail.com',
+                      'd8a2v8i1d4@gmail.com',
+                      msg.as_string()
+                  )
+              print(f"✅ 報告已寄出：{today}")
+          except Exception as e:
+              print(f"❌ 寄信失敗：{e}", file=sys.stderr)
+              sys.exit(1)
+          PYEOF
