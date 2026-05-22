@@ -1,0 +1,28 @@
+{
+  "date": "2026-05-22",
+  "total_score": 55,
+  "vix": 17.44,
+  "yield_10y": 4.59,
+  "yield_2y": 4.12,
+  "dxy": 99.39,
+  "twd": 31.59,
+  "stock_scores": {
+    "NVDA": 50,
+    "TSM": 50,
+    "MSFT": 50,
+    "META": 50,
+    "AMZN": 50,
+    "SMH": 45,
+    "SOXX": 48,
+    "VWRA.L": 50,
+    "CNDX.L": 50,
+    "IWMO.L": 45,
+    "AVGS.L": 45,
+    "2454": 60,
+    "LQQ.PA": 0
+  },
+  "recommendation": "今日建議 $0 — 本月核心 DCA 已完成（5/19 $2,369），部署進度超前（9.48% vs 理論 1.67%），市場中性偏多但無折價機會",
+  "portfolio_progress": 0.0948,
+  "key_events": ["NVDA 財報 5/20 已出（EPS beat，股價 -1.75%）","10Y 從 4.7% 高點回落至 4.59%","FOMC 會議紀錄暗示若通膨持續可能再升息"],
+  "data_fetch_failures": ["00631L", "MSFT 今日價（使用 5/20 數據）", "META 今日價（使用 4/30 數據）", "AMZN 今日價（使用 4/30 數據）", "SOXX 52W high", "TSM 52W high", "VWRA.L 52W high", "CNDX.L 今日精確價格"]
+}
