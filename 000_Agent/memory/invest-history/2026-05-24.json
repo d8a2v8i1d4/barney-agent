@@ -1,0 +1,28 @@
+{
+  "date": "2026-05-24",
+  "total_score": 55,
+  "vix": 16.70,
+  "yield_10y": 4.56,
+  "yield_2y": 4.13,
+  "dxy": 99.32,
+  "twd": 31.47,
+  "stock_scores": {
+    "NVDA": 50,
+    "TSM": 45,
+    "MSFT": 60,
+    "META": 60,
+    "AMZN": 45,
+    "SMH": 35,
+    "SOXX": 45,
+    "AVGS.L": 35,
+    "VWRA.L": 45,
+    "CNDX.L": 45,
+    "IWMO.L": 45,
+    "LQQ.PA": 45,
+    "2454": 35,
+    "00631L": 45
+  },
+  "recommendation": "今日無需動作。環境中性偏多(55分)，部位已超前理論進度(實際9.48% vs 理論2.78%)。無標的分數達衛星層門檻70分。下一筆核心DCA預計6月中旬，建議減半至$1,150。",
+  "portfolio_progress": 0.0948,
+  "data_fetch_failures": ["部分標的RSI無法即時取得，以估算值代替(MSFT、META、AMZN、TSM、AVGS.L、CNDX.L、IWMO.L、LQQ.PA、00631L)"]
+}
