@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-26",
+  "total_score": 55,
+  "vix": 16.68,
+  "yield_10y": 4.56,
+  "yield_2y": 4.13,
+  "dxy": 98.96,
+  "twd": 31.50,
+  "stock_scores": {
+    "NVDA": 45,
+    "TSM": 35,
+    "SMH": 45,
+    "SOXX": 45,
+    "VWRA.L": 45,
+    "CNDX.L": 50,
+    "IWMO.L": 50,
+    "AVGS.L": 45
+  },
+  "recommendation": "環境分數55（中性偏多），部署超前（9.48% vs 理論3.89%），建議金額減半。核心層 DCA $1,150，衛星/進攻層暫停。5/21→5/26 分數無變化，精簡版輸出。",
+  "portfolio_progress": 0.0948,
+  "data_fetch_failures": ["CNDX.L（最新可用5/10：$1,669.40，以此估算）", "IWMO.L（使用5/22 Swiss listing $114.46）", "LQQ.PA（最新可靠數據不足）", "AVGS.L（使用AVWS 5/25 $24.20估算）"]
+}
