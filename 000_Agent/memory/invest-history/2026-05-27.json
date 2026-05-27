@@ -1,0 +1,28 @@
+{
+  "date": "2026-05-27",
+  "total_score": 60,
+  "vix": 16.75,
+  "yield_10y": 4.51,
+  "yield_2y": 4.07,
+  "dxy": 99.24,
+  "twd": 31.49,
+  "stock_scores": {
+    "NVDA": 55,
+    "TSM": 45,
+    "MSFT": 50,
+    "META": 50,
+    "AMZN": 50,
+    "SMH": 45,
+    "SOXX": 35,
+    "AVGS.L": 45,
+    "VWRA.L": 45,
+    "CNDX.L": 50,
+    "IWMO.L": 50,
+    "LQQ.PA": 35,
+    "2454": 60,
+    "00631L": 35
+  },
+  "recommendation": "環境中性偏多(60分)，所有標的分數均未達衛星加碼門檻(>70)。今日建議靜待下次月度DCA(約6/19)，不進新倉",
+  "portfolio_progress": 0.0948,
+  "data_fetch_failures": ["SOXX RSI 來自估算", "多數標的52W高來自估算或搜尋結果", "CNDX.L價格為5/10數據"]
+}
