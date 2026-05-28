@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-28",
+  "total_score": 55,
+  "vix": 16.33,
+  "yield_10y": 4.48,
+  "yield_2y": 4.13,
+  "dxy": 99.14,
+  "twd": 31.40,
+  "stock_scores": {
+    "NVDA": 50,
+    "TSM": 35,
+    "SMH": 35,
+    "SOXX": 40,
+    "VWRA.L": 45,
+    "CNDX.L": 50,
+    "IWMO.L": 50,
+    "AVGS.L": 45
+  },
+  "recommendation": "環境分數55（中性偏多），部署超前（9.48% vs 理論5.00%），建議金額減半。核心層 DCA $1,150（VWRA.L+IWMO.L），衛星暫停。NVDA改善至50，SMH因衝破52W高降至35。油價大跌+10Y持續回落，下週若10Y<4.4%將升至60分。",
+  "portfolio_progress": 0.0948,
+  "data_fetch_failures": ["IWMO.L（使用5/22 $114.79，5/28未取得）", "AVGS.L（數據不足，維持估算）", "LQQ.PA（數據不足）"]
+}
