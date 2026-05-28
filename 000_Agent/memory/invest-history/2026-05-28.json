@@ -1,0 +1,140 @@
+{
+  "date": "2026-05-28",
+  "total_score": 53,
+  "vix": 16.86,
+  "yield_10y": 4.48,
+  "yield_2y": 4.05,
+  "dxy": 99.28,
+  "twd": 31.39,
+  "macro_adjustments": {
+    "vix_band": "13-18 (+5)",
+    "yield_10y_change": "-0.03% (no trigger)",
+    "yield_curve": "normal (2Y 4.05 < 10Y 4.48, no inversion)",
+    "dxy_change": "+0.04% (no trigger)"
+  },
+  "stock_scores": {
+    "NVDA": {
+      "price_usd": 215,
+      "52w_high": 236.54,
+      "pct_from_high": -9.1,
+      "rsi_est": 55,
+      "score": 0
+    },
+    "TSM": {
+      "price_usd": 422,
+      "52w_high": 421.97,
+      "pct_from_high": 0.0,
+      "rsi_est": 72,
+      "score": -15,
+      "note": "近52週高點，RSI偏高"
+    },
+    "MSFT": {
+      "price_usd": 413,
+      "52w_high": 555.45,
+      "pct_from_high": -25.7,
+      "rsi_est": 48,
+      "score": 15
+    },
+    "META": {
+      "price_usd": 637,
+      "52w_high": 796.25,
+      "pct_from_high": -20.0,
+      "rsi_est": 55,
+      "score": 10
+    },
+    "AMZN": {
+      "price_usd": 268,
+      "52w_high": 278.56,
+      "pct_from_high": -3.8,
+      "rsi_est": 62,
+      "score": -5,
+      "note": "距52W高不到5%"
+    },
+    "SMH": {
+      "price_usd": 591,
+      "52w_high": 618,
+      "pct_from_high": -4.4,
+      "rsi_est": 65,
+      "score": -5,
+      "note": "距52W高不到5%"
+    },
+    "SOXX": {
+      "price_usd": 537,
+      "52w_high": 587.58,
+      "pct_from_high": -8.6,
+      "rsi_est": 63,
+      "score": 0
+    },
+    "VWRA.L": {
+      "price_usd": 190,
+      "52w_high": 202.30,
+      "pct_from_high": -6.1,
+      "rsi_est": 58,
+      "score": 0
+    },
+    "CNDX.L": {
+      "price_usd": 1732,
+      "52w_high": 1731.80,
+      "pct_from_high": 0.0,
+      "rsi_est": 65,
+      "score": -5,
+      "note": "突破歷史新高，謹慎"
+    },
+    "IWMO.L": {
+      "price_usd": 115,
+      "52w_high": 113.44,
+      "pct_from_high": 1.4,
+      "rsi_est": 62,
+      "score": -5,
+      "note": "超越52W高"
+    },
+    "AVGS.L": {
+      "price_usd": 27.91,
+      "52w_high": 28.17,
+      "pct_from_high": -0.9,
+      "rsi_est": 50,
+      "score": 0
+    },
+    "LQQ.PA": {
+      "price_eur": 2045,
+      "52w_high_eur": 1907,
+      "pct_from_high": 7.2,
+      "rsi_est": 68,
+      "score": -5,
+      "note": "超越52W高，高槓桿謹慎"
+    },
+    "2454": {
+      "price_twd": 4640,
+      "52w_high_twd": 4690,
+      "pct_from_high": -1.1,
+      "rsi_est": 75,
+      "score": -15,
+      "note": "近52W高+RSI過熱，處置股"
+    },
+    "00631L": {
+      "price_twd": 31.54,
+      "52w_high_twd_est": 35,
+      "pct_from_high": -10.0,
+      "rsi_est": 55,
+      "score": 0,
+      "note": "2026年1月完成1拆22分割"
+    }
+  },
+  "score_breakdown": {
+    "base": 50,
+    "macro_vix": 5,
+    "macro_yield10y": 0,
+    "macro_yield_curve": 0,
+    "macro_dxy": 0,
+    "stock_avg_adjustment": -2,
+    "total": 53
+  },
+  "recommendation": "環境分53/100（中性偏謹慎）。核心層月DCA $2,300，因超前進度減半為 $1,150，建議買入 VWRA.L 或 IWMO.L。衛星層暫不動（無標的分數>70）。進攻層暫不動。今日建議部署 $1,150。",
+  "portfolio_progress": 0.0948,
+  "days_elapsed": 9,
+  "theoretical_progress": 0.05,
+  "status": "超前",
+  "data_fetch_failures": [],
+  "key_events_today": ["DELL Q1 FY2027 財報", "COST 財報"],
+  "next_watch": "2026-06-05 NFP、2026-06-10 CPI、2026-06-16-17 FOMC"
+}
