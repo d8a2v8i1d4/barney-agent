@@ -1,0 +1,28 @@
+{
+  "date": "2026-05-29",
+  "total_score": 55,
+  "vix": 15.74,
+  "yield_10y": 4.50,
+  "yield_2y": 4.06,
+  "dxy": 99.0,
+  "twd": 31.43,
+  "stock_scores": {
+    "NVDA": 50,
+    "TSM": 35,
+    "MSFT": 60,
+    "META": 60,
+    "AMZN": 35,
+    "SMH": 35,
+    "SOXX": 35,
+    "AVGS.L": 35,
+    "VWRA.L": 45,
+    "CNDX.L": 50,
+    "IWMO.L": 35,
+    "LQQ.PA": 60,
+    "2454": 50,
+    "00631L": 45
+  },
+  "recommendation": "環境中性偏多(55分)，所有標的分數均未達衛星加碼門檻(>70)。今日零動作，部署略超前(9.5% vs 理論5.6%)。下次月度DCA約6/19，建議$1,150（超前減半）",
+  "portfolio_progress": 0.0948,
+  "data_fetch_failures": ["LQQ.PA 52W high 為估算值", "CNDX.L 52W high 為估算值", "00631L RSI 為估算值", "部分個股RSI為推算非即時數據"]
+}
