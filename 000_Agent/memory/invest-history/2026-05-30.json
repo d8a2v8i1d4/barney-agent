@@ -1,0 +1,34 @@
+{
+  "date": "2026-05-30",
+  "total_score": 55,
+  "vix": 15.32,
+  "yield_10y": 4.44,
+  "yield_2y": 4.00,
+  "dxy": 98.89,
+  "twd": 31.44,
+  "stock_scores": {
+    "NVDA": 50,
+    "TSM": 35,
+    "MSFT": 50,
+    "META": 50,
+    "AMZN": 50,
+    "SMH": 35,
+    "SOXX": 35,
+    "AVGS.L": 35,
+    "VWRA.L": 50,
+    "CNDX.L": 45,
+    "IWMO.L": 45,
+    "LQQ.PA": 35,
+    "2454": 45,
+    "00631L": 30
+  },
+  "recommendation": "環境中性偏多(55分)，半導體 ETF 均在歷史高點附近(SMH 26年新高)，所有標的分數未達衛星加碼門檻(>70)。部署進度 9.48% 超前理論進度 6.1%。今日建議 $0，靜待 NFP(6/5) 與 CPI(~6/12) 後再評估，下次月度 DCA 約 6/19",
+  "portfolio_progress": 0.0948,
+  "data_fetch_failures": [
+    "AVGS.L Yahoo Finance 403 拒絕，使用 AVWS Frankfurt 代理估算 $24.27",
+    "TSM/SMH/SOXX RSI 部分為估算",
+    "CNDX.L/IWMO.L/VWRA.L 52W 高為估算",
+    "LQQ.PA 報價為 EUR 計價",
+    "00631L 52W 高未取得"
+  ]
+}
