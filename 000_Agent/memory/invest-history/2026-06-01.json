@@ -1,0 +1,28 @@
+{
+  "date": "2026-06-01",
+  "total_score": 55,
+  "vix": 15.32,
+  "yield_10y": 4.44,
+  "yield_2y": 3.98,
+  "dxy": 98.94,
+  "twd": 31.43,
+  "stock_scores": {
+    "NVDA": 55,
+    "TSM": 45,
+    "MSFT": 50,
+    "META": 60,
+    "AMZN": 50,
+    "SMH": 45,
+    "SOXX": 45,
+    "AVGS.L": 45,
+    "VWRA.L": 45,
+    "CNDX.L": 45,
+    "IWMO.L": 45,
+    "LQQ.PA": 45,
+    "2454": 50,
+    "00631L": null
+  },
+  "recommendation": "環境中性偏多(55分)，月首核心DCA $1,150（原$2,300因進度略超前減半），建議買VWRA.L。衛星及進攻層暫停（無標的>70分）。本週關鍵：NFP 6/5，FOMC 6/16-17。",
+  "portfolio_progress": 0.0948,
+  "data_fetch_failures": ["00631L 無最新數據", "多數ETF 52W高為估算", "AMZN 52W高為估算", "美股數據來自5/30收盤"]
+}
