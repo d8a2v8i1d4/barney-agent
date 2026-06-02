@@ -1,0 +1,20 @@
+[2026-06-02] 機票情報員執行完成，情況=B，尋獲 0 筆假期最優解，過濾 0 筆。
+
+執行摘要：
+- 距離核心連假窗口（2026/09/19 - 10/04）剩約 109 天，仍處於商務艙提早佈局期
+- WebSearch 成功 11 路，失敗 0 路
+- 已掃描類別：A (外站特賣)、B (Mistake Fare/閃促)、C (TPE 直飛)、D (哩程 Sweet Spot/Amex 加碼)、E (Status Match)
+
+今日無新增符合 CP 值門檻的特賣，原因如下：
+1. EVA Air ex-KUL 7% off 商務艙：需 Standard Chartered 馬來西亞卡，Barney 無此卡，跳過
+2. Cathay Pacific Ex-HKG 雙倍 Asia Miles：travel period 僅至 2026/07/09，不涵蓋 9-10 月連假
+3. HeyMax 20% Asia Miles 轉點加碼：已於 2026/06/01 截止
+4. Avianca LifeMiles：US-Europe 商務艙剛大幅貶值至 90K+，反向不利
+5. 未發現 9/19 - 10/04 區間的具體 Mistake Fare 或外站閃促
+
+值得追蹤的長線情報（已記錄，待後續日報深挖）：
+- Turkish Airlines Miles&Smiles Status Challenge（4 年 Star Alliance Gold，需先取得 SA Gold 或同等他盟身分）
+- Aeroplan 仍是 Lufthansa US-EU 商務艙 60K 哩的甜蜜點，但與亞洲出發無關
+- Qatar Qsuite Asia-Europe 約 85K-95K Avios，連假位需先查實際 award space
+
+下一輪建議優先檢查：Cathay Pacific 9 月 ex-HKG 商務艙促銷、長榮/星宇 9 月台北直飛歐美促銷、Singapore Airlines Saver Award 釋出。
