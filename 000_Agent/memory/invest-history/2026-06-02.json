@@ -1,0 +1,50 @@
+{
+  "date": "2026-06-02",
+  "taipei_time": "2026-06-02 08:53",
+  "macro": {
+    "vix": 15.32,
+    "vix_signal": "正常（偏低）",
+    "t10y": 4.47,
+    "t2y": 4.04,
+    "spread_10y_2y": 0.43,
+    "dxy": 99.19,
+    "usd_twd": 31.35,
+    "sp500": 7584.15,
+    "nasdaq": 27029.57
+  },
+  "environment_score": 65,
+  "environment_label": "中性偏多",
+  "stocks": {
+    "NVDA": { "price": 214.29, "change_pct": 0.8, "score": 60, "note": "新 AI PC 晶片發布催化，5/30 漲逾 6%" },
+    "TSM": { "price": 435.18, "change_pct": 4.0, "score": 58, "note": "TSMC 市值破 $2.28T，NVIDIA 訂單題材，短線過熱注意" },
+    "MSFT": { "price": 426.84, "change_pct": 3.4, "score": 60, "note": "強勁，Azure 成長催化" },
+    "META": { "price": 635.59, "change_pct": 0.1, "score": 55, "note": "平穩無異動" },
+    "AMZN": { "price": 274.12, "change_pct": 0.8, "score": 55, "note": "平穩，AWS 數據待觀察" },
+    "2454": { "price": 4575, "currency": "TWD", "change_pct": 6.15, "score": 65, "note": "聯發科跟漲 AI 晶片題材，近期強勢，未達加碼門檻" }
+  },
+  "etfs": {
+    "VWRA.L": { "price": 190.54, "currency": "USD", "cost_basis": 183.84, "return_pct": 3.6 },
+    "IWMO.L": { "price": 116.50, "currency": "USD", "cost_basis": 110.00, "return_pct": 5.9, "note": "估算（5/22 $114.79 + 市場上漲）" },
+    "CNDX.L": { "price": 1700.80, "currency": "USD", "cost_basis": 1654.80, "return_pct": 2.8 },
+    "AVGS.L": { "price": 26.82, "currency": "USD" },
+    "LQQ.PA": { "price": 1907.00, "currency": "EUR", "note": "估算（5月中旬數據，偏低估）" },
+    "00631L": { "price": 37.98, "currency": "TWD", "note": "6/1 收盤價" }
+  },
+  "portfolio": {
+    "deployed": 2369.48,
+    "current_value_est": 2465.50,
+    "unrealized_gain_est": 96.02,
+    "unrealized_return_pct": 4.05,
+    "days_since_start": 14,
+    "theoretical_progress_pct": 7.7,
+    "actual_progress_pct": 9.5,
+    "status": "超前"
+  },
+  "recommendation": {
+    "action": "觀望",
+    "deploy_amount": 0,
+    "reason": "環境分數 65 未達衛星 / 進攻加碼門檻（>70 / >80），個股最高分 2454 = 65 差 5 分，靜待訊號",
+    "next_milestone": "下次月度 DCA 約 6/19，金額建議維持 $1,150（部位超前半幅減倉）",
+    "watch": ["VIX 是否升破 18-20 警戒線", "NVDA 新 PC 晶片銷售初期數據", "Iran/美國談判走向（地緣風險）"]
+  }
+}
