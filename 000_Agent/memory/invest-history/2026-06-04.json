@@ -1,0 +1,29 @@
+{
+  "date": "2026-06-04",
+  "total_score": 55,
+  "vix": 15.5,
+  "yield_10y": 4.48,
+  "yield_2y": 4.09,
+  "dxy": 99.54,
+  "twd": 31.42,
+  "stock_scores": {
+    "NVDA": 50,
+    "TSM": 45,
+    "MSFT": 45,
+    "META": 60,
+    "AMZN": 50,
+    "SMH": 35,
+    "SOXX": 35,
+    "AVGS.L": 45,
+    "VWRA.L": 45,
+    "CNDX.L": 45,
+    "IWMO.L": 45,
+    "LQQ.PA": 35,
+    "2454": 50,
+    "00631L": 45
+  },
+  "recommendation": "環境中性偏多(55分)，本週 6/5 NFP、6/10 CPI、6/11 PPI、6/17 FOMC 連環事件，半導體/槓桿 ETF 已過熱接近 52W 高。今日建議按兵不動，等 NFP 數據過後（最快 6/8）再評估；月度 DCA 維持原 6/19 計畫 $2,300",
+  "portfolio_progress": 0.0948,
+  "today_deploy_usd": 0,
+  "data_fetch_failures": ["IWMO.L 最新價估算自 5/22 數據 $114.79", "LQQ.PA 最新價估算自 TradingView 報價 €2,052.5", "部分標的 RSI 由近期動能估算", "AVGS.L 用德國代號 AVWS 5/27 數據替代"]
+}
