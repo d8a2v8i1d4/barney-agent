@@ -1,0 +1,28 @@
+{
+  "date": "2026-06-05",
+  "total_score": 55,
+  "vix": 15.40,
+  "yield_10y": 4.49,
+  "yield_2y": 4.08,
+  "dxy": 99.40,
+  "twd": 31.49,
+  "stock_scores": {
+    "NVDA": 50,
+    "TSM": 35,
+    "MSFT": 65,
+    "META": 65,
+    "AMZN": 55,
+    "SMH": 40,
+    "SOXX": 35,
+    "AVGS.L": 45,
+    "VWRA.L": 45,
+    "CNDX.L": 45,
+    "IWMO.L": 45,
+    "LQQ.PA": 45,
+    "2454": 50,
+    "00631L": 45
+  },
+  "recommendation": "環境中性偏多(55分)，所有標的分數均未達衛星加碼門檻(>70)。維持月度 DCA 紀律，下次 DCA 約 6/19。今日不進新倉，靜待 6/10 CPI + 6/17 FOMC 後再評估。",
+  "portfolio_progress": 0.0948,
+  "data_fetch_failures": ["IWMO.L 報價來自 5/8 延遲行情", "RSI 各標的均為估算", "多數 LSE ETF 52W 高為近似值"]
+}
