@@ -1,0 +1,62 @@
+[
+  {
+    "fingerprint": "BKK-EU|SQ|SGD1208|Mar-Oct2026|greatdeals.com.sg",
+    "date": "2026-06-05",
+    "title": "Singapore Airlines March 2026 sale — Biz from BKK to Europe SGD 1,208+ (travel 10 Mar – 31 Oct 2026)",
+    "url": "https://www.greatdeals.com.sg/2026/03/03/singapore-airlines-march-2026-sale-asia-europe-australia-usa",
+    "category": "outstation_deal",
+    "total_cost_twd": null,
+    "rating": "未驗證",
+    "note": "原始來源 403 阻擋無法驗證庫存；3 月發布的 sale，Sep/Oct 票期可能已罄。需手動上 SQ 官網確認。"
+  },
+  {
+    "fingerprint": "TPE-USA|EVA|USD5493|Sep2026|skyscanner",
+    "date": "2026-06-05",
+    "title": "EVA Air SFO-TPE Sep 2026 商務艙 USD 5,493",
+    "url": "https://www.skyluxtravel.com/business-class-flights/flights-to-taipei-tpe-taiwan/",
+    "category": "tpe_deal",
+    "total_cost_twd": 179000,
+    "rating": "不報",
+    "note": "標準價、無促銷，超出 95K TWD 門檻"
+  },
+  {
+    "fingerprint": "HKG-EU|CX|91K|May2026|mainlymiles",
+    "date": "2026-06-05",
+    "title": "Cathay Asia Miles 2026/5/1 第三次貶值 — HKG-EU Biz 91K miles",
+    "url": "https://mainlymiles.com/2026/04/11/cathay-pacific-adjusts-asia-miles-award-rates-from-may-2026/",
+    "category": "award_chart_change",
+    "total_cost_twd": null,
+    "rating": "警示",
+    "note": "Amex MR → Asia Miles 1:1 但無 bonus，CP 值下降"
+  },
+  {
+    "fingerprint": "global|AC|chart-change|Jun2026|princeoftravel",
+    "date": "2026-06-05",
+    "title": "Aeroplan 2026/6/1 改版 — 歐亞 / HKG-SIN-BKK 直飛 Biz 加價",
+    "url": "https://princeoftravel.com/news/aeroplan-flight-reward-chart-june-2026/",
+    "category": "award_chart_change",
+    "total_cost_twd": null,
+    "rating": "警示",
+    "note": "TPE/HKG/SIN/BKK→EU 用 Aeroplan 換 Biz 變貴；北美起飛甜甜價未動"
+  },
+  {
+    "fingerprint": "status|UA|match|Jun30-2026|united",
+    "date": "2026-06-05",
+    "title": "United Premier Status Match Challenge 申請截止 2026/6/30",
+    "url": "https://awardtravelfinder.com/status-match",
+    "category": "status_match",
+    "total_cost_twd": null,
+    "rating": "情報",
+    "note": "適合星盟 GA Gold / OW Sapphire / SkyTeam Elite 持有人轉跳 UA Premier；Barney 目前無對應航空高卡，要先用 EVA/CX 養"
+  },
+  {
+    "fingerprint": "amex|MR|no-bonus|Jun2026|frequentmiler",
+    "date": "2026-06-05",
+    "title": "2026/6 Amex MR 轉亞洲航空（Asia Miles / KrisFlyer / Infinity）目前無加碼",
+    "url": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
+    "category": "amex_bonus",
+    "total_cost_twd": null,
+    "rating": "情報",
+    "note": "本月只有 Amex → Marriott Bonvoy 20% bonus（不利機票），先等 7-8 月轉點促銷檔期"
+  }
+]

@@ -1,0 +1,8 @@
+2026-06-05 機票情報員執行完成，情況=B（無新神票），尋獲 0 筆假期最優解，過濾 6 筆（其中 1 筆 SIA ex-BKK 待驗證、2 筆哩程貶值警示、1 筆 Status Match 截止、1 筆轉點 bonus 空窗、1 筆 EVA 標準價）。
+
+搜尋覆蓋：8 大類別 × 24 次 WebSearch + 6 次 WebFetch（其中 6 次 403 阻擋：firstclassflyer、secretflying、frequentmiler、awardtravelfinder、greatdeals.sg、thepointsguy/upgradedpoints）。
+
+待追蹤：
+- SIA ex-BKK→EU Biz SGD 1,208 是否仍可訂 9/19-10/4 票期（手動上 singaporeair.com 查）
+- 7-8 月 Amex MR → KrisFlyer / Asia Miles 是否有轉點加碼
+- Qatar QSuite ex-BKK/HKG award space 釋出（用 seats.aero 監控）
