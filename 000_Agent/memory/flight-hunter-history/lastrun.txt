@@ -1,8 +1,19 @@
-2026-06-05 機票情報員執行完成，情況=B（無新神票），尋獲 0 筆假期最優解，過濾 6 筆（其中 1 筆 SIA ex-BKK 待驗證、2 筆哩程貶值警示、1 筆 Status Match 截止、1 筆轉點 bonus 空窗、1 筆 EVA 標準價）。
+2026-06-05 機票情報員執行完成（第二輪 refresh，10:11 CST），情況=A（突發轉點加碼，已寄信）。
 
-搜尋覆蓋：8 大類別 × 24 次 WebSearch + 6 次 WebFetch（其中 6 次 403 阻擋：firstclassflyer、secretflying、frequentmiler、awardtravelfinder、greatdeals.sg、thepointsguy/upgradedpoints）。
+第一輪 09:09：情況=B，6 筆 fingerprint。
+第二輪 10:11：情況=A，新增 4 筆 fingerprint，總計 10 筆。
 
-待追蹤：
-- SIA ex-BKK→EU Biz SGD 1,208 是否仍可訂 9/19-10/4 票期（手動上 singaporeair.com 查）
-- 7-8 月 Amex MR → KrisFlyer / Asia Miles 是否有轉點加碼
-- Qatar QSuite ex-BKK/HKG award space 釋出（用 seats.aero 監控）
+🔥 本日核心發現：Qatar Privilege Club 30% Avios 轉點加碼（6/30 截止），Amex MR 1:1 直轉。
+- 實際效益：SIN/BKK/HKG→歐洲 Biz Saver 原 70K Avios，加碼後實質 53,846 MR 點單程
+- 對比 Asia Miles 已貶值的 91K 單程，省 ~75K 點
+- 已寄 Gmail draft id: r611820934448210078
+
+待 Barney 親自驗證：
+1. 台灣 Amex MR 是否直接列 Qatar 為合作夥伴（美國 Amex 已確認）
+2. 30% bonus 是否套用所有來源（MileLion 文章明列 Citi、HeyMax SG）
+3. qatarairways.com 查 9/19-10/4 BKK/SIN→歐洲 Saver Award 庫存
+
+明日待追：
+- 7-8 月 Amex MR → KrisFlyer / Asia Miles 是否有後續加碼
+- SIA ex-BKK Sep/Oct 庫存手動驗證結果（若 Barney 有時間查）
+- Qatar Qsuite ex-BKK/HKG 連假段 award space 釋出（seats.aero 監控）
