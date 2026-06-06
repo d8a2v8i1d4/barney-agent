@@ -1,0 +1,63 @@
+{
+  "date": "2026-06-06",
+  "taipei_time": "2026-06-06 08:53",
+  "note": "週末日報（週五 6/5 收盤資料）",
+  "macro": {
+    "vix": 20.5,
+    "vix_signal": "⚠️ 警戒（突破 20，已觸發觀察閾值）",
+    "t10y": 4.48,
+    "t2y": 4.05,
+    "spread_10y_2y": 0.43,
+    "dxy": 100.07,
+    "dxy_note": "美元走強（強就業 → Fed 升息預期）",
+    "usd_twd": 31.59,
+    "sp500": 7383.74,
+    "sp500_change_pct": -2.64,
+    "nasdaq": 25709.43,
+    "nasdaq_change_pct": -4.18,
+    "sox": "SOX -10.3%（近 2020 年以來最大單日跌幅）"
+  },
+  "environment_score": 48,
+  "environment_label": "⚠️ 警戒偏空（接近機會區）",
+  "key_event": "Broadcom 財報 AI 網路收入 $4.1B vs 預期 $4.8B（-14%），觸發全球半導體崩跌，SOX 單日 -10.3%",
+  "stocks": {
+    "NVDA": { "price": 201.50, "change_pct": -6.0, "note_source": "搜尋確認 -6%", "score": 68, "note": "大跌但仍為 AI 算力核心，距 52W 高 $236 約 15%，RSI 可能下破 40 → 進入觀察區" },
+    "TSM": { "price": 408.00, "change_pct": -6.3, "score": 60, "note": "從 $435 高點回落，AVGO 財報疑慮蔓延，短線不確定性高" },
+    "MSFT": { "price": 415.00, "change_pct": -2.8, "score": 60, "note": "跌幅相對可控，Azure 業務基本面仍健" },
+    "META": { "price": 608.00, "change_pct": -4.2, "score": 55, "note": "跟跌科技大盤，廣告業務不受 AI capex 疑慮直接影響" },
+    "AMZN": { "price": 265.00, "change_pct": -3.4, "score": 55, "note": "AWS 較 NVDA 鏈條影響間接" },
+    "2454": { "price": 4300, "currency": "TWD", "change_pct": 2.93, "note_date": "6/5 台股尚未完全反應美股 6/5 夜盤崩跌，下週一（6/8）開盤留意", "score": 55, "note": "6/5 台股收盤尚在高位，但美股 6/5 夜盤半導體 -10% 壓力將延遲反應到 6/8" }
+  },
+  "etfs": {
+    "VWRA.L": { "price": 188.00, "currency": "USD", "cost_basis": 183.84, "return_pct": 2.3, "note": "6/5 估算（全球大盤下跌）" },
+    "IWMO.L": { "price": 112.00, "currency": "USD", "cost_basis": 110.00, "return_pct": 1.8, "note": "動能因子受科技股衝擊，估算值" },
+    "CNDX.L": { "price": 1675.00, "currency": "USD", "cost_basis": 1654.80, "return_pct": 1.2, "note": "Nasdaq -4.18% 影響，由 1744 回落" },
+    "AVGS.L": { "price": 26.50, "currency": "USD" },
+    "LQQ.PA": { "price_est": "~EUR 1,800 估算", "note": "2x 槓桿，Nasdaq -4.18% → LQQ 約 -8%，高風險" },
+    "00631L": { "price": 36.50, "currency": "TWD", "note": "6/5 台股跌幅估算，台加權 -1.5% 估" }
+  },
+  "portfolio": {
+    "deployed": 2369.48,
+    "current_value_est": 2415.00,
+    "unrealized_gain_est": 45.52,
+    "unrealized_return_pct": 1.9,
+    "days_since_start": 18,
+    "theoretical_progress_pct": 9.9,
+    "actual_progress_pct": 9.5,
+    "status": "微超前",
+    "note": "大盤大跌後獲利從 +4.1% 縮減至 +1.9%，仍維持正報酬"
+  },
+  "recommendation": {
+    "action": "高度關注，接近衛星層建倉觸發點",
+    "deploy_amount": 0,
+    "reason": "NVDA 分數 68，差 2 分達衛星門檻（70）；VIX 20+ 已達 6/2 設定的觀察閾值；但強就業 → Fed 升息預期是真實阻力，建議等 NVDA 分數明確突破 70 或 VIX 達 22-25 再動",
+    "next_action": "週一（6/8）盤前重新評估 2454 開盤動態 + NVDA 是否繼續下探",
+    "satellite_trigger": "若 NVDA 跌至 $190-195 且 VIX > 22 → 衛星層可考慮首批 $800-1,000",
+    "watch": [
+      "NVDA 週一美股期貨走向（是否持續崩跌或反彈）",
+      "VIX 是否繼續升破 22-25",
+      "Fed 官員週一是否發表升息評論",
+      "2454 週一開盤是否補跌（反應美股 6/5 夜盤）"
+    ]
+  }
+}
