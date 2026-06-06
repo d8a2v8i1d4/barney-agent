@@ -1,0 +1,74 @@
+[
+  {
+    "fingerprint": "TPE-LHR|EVA Royal Laurel|75K Aeroplan|2026-09|aircanada.com",
+    "date": "2026-06-06",
+    "title": "Aeroplan 75K 單程兌 EVA Royal Laurel TPE 直飛歐洲（LHR/VIE/CDG）",
+    "url": "https://www.aircanada.com/aeroplan/redeem/flight",
+    "category": "award_space",
+    "total_cost_twd": 0,
+    "miles_required": 150000,
+    "miles_program": "Aeroplan",
+    "cash_taxes_twd": 6000,
+    "rating": "🔥 神級票"
+  },
+  {
+    "fingerprint": "JFK-ZRH|SWISS|55K LifeMiles|2026-09|lifemiles.com",
+    "date": "2026-06-06",
+    "title": "LifeMiles 55K 單程兌 SWISS JFK-ZRH 商務艙（Throne seat）",
+    "url": "https://www.lifemiles.com/",
+    "category": "award_space",
+    "total_cost_twd": 45000,
+    "miles_required": 110000,
+    "miles_program": "LifeMiles",
+    "cash_taxes_twd": 45000,
+    "rating": "✅ 強推（需 positioning）"
+  },
+  {
+    "fingerprint": "JFK-FRA|Lufthansa|60K Aeroplan|2026-09|aircanada.com",
+    "date": "2026-06-06",
+    "title": "Aeroplan 60K 單程兌 Lufthansa JFK-FRA/MUC 商務艙",
+    "url": "https://www.aircanada.com/aeroplan/redeem/flight",
+    "category": "award_space",
+    "total_cost_twd": 45000,
+    "miles_required": 120000,
+    "miles_program": "Aeroplan",
+    "cash_taxes_twd": 45000,
+    "rating": "✅ 強推（需 positioning）"
+  },
+  {
+    "fingerprint": "Singapore Airlines|2026 Fare Sale|BKK-Europe SGD1208|2026-03|travelandtourworld.com",
+    "date": "2026-06-06",
+    "title": "SQ 2026 Fare Sale BKK 出發歐洲商務艙 SGD 1,208 起（票期 3 月，待 Q3 promo）",
+    "url": "https://www.travelandtourworld.com/news/article/lgc4mr9cf68k/",
+    "category": "tpe_deal",
+    "total_cost_twd": 0,
+    "rating": "⚠️ 監控（票期不含 9 月）"
+  },
+  {
+    "fingerprint": "United|MileagePlus 1K Status Match Challenge|deadline 2026-06-30|united.com",
+    "date": "2026-06-06",
+    "title": "United 1K Status Match Challenge（含 120 天 Star Alliance Gold）6/30 截止",
+    "url": "https://thepointsguy.com/loyalty-programs/elite-status-plans-kgenter/",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "rating": "🔥 緊急時效（24 天倒數）"
+  },
+  {
+    "fingerprint": "Turkish Airlines|Miles Smiles 4yr Gold Challenge|2026|verylvke.com",
+    "date": "2026-06-06",
+    "title": "Turkish Airlines 4 年 Star Alliance Gold 挑戰（15K status miles 內保留）",
+    "url": "https://www.verylvke.com/en/2026/02/03/get-4-year-star-alliance-gold-from-turkish-airlines-status-challenge/",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "rating": "✅ 長線首選"
+  },
+  {
+    "fingerprint": "Marriott Platinum to KrisFlyer Gold|4 SQ flights|2026|frequentmiler.com",
+    "date": "2026-06-06",
+    "title": "Marriott Platinum → KrisFlyer Silver → 4 段 SQ 升 Gold（Star Alliance Gold）",
+    "url": "https://frequentmiler.com/marriott-and-singapore-status-match-star-alliance-gold-with-just-4-flights/",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "rating": "✅ 最低門檻"
+  }
+]

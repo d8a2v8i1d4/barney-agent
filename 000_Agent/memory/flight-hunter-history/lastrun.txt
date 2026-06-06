@@ -1,0 +1,4 @@
+[2026-06-06] 機票情報員執行完成，情況=A，尋獲 7 筆假期最優解，過濾 0 筆。
+本日為 baseline 首日，無歷史去重需求。
+核心鎖定：Aeroplan EVA TPE-歐洲 75K 直飛、Star Alliance Gold Status Match（United 6/30 截止）。
+明日起進入增量去重模式。
