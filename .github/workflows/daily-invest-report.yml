@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write         # 允許 git push 歷史檔案
+      id-token: write         # claude-code-action 需要 OIDC token
 
     steps:
       - name: Checkout repo
@@ -22,6 +23,7 @@ jobs:
         uses: anthropics/claude-code-action@beta
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          mode: agent           # 排程觸發，非 @claude mention 模式
           allowed_tools: >
             Bash,
             Read,
@@ -42,7 +44,7 @@ jobs:
                 }
               }
             }
-          prompt: |
+          direct_prompt: |
             你是 Barney 的投資情報分析師。
             請執行今日投資決策日報，步驟如下：
 

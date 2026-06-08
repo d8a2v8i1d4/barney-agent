@@ -1,0 +1,43 @@
+{
+  "date": "2026-06-08",
+  "total_score": 52,
+  "vix": 15.40,
+  "vix_1y_percentile": 37,
+  "yield_10y": 4.55,
+  "yield_2y": 4.17,
+  "dxy": 100.07,
+  "twd": 31.58,
+  "stock_scores": {
+    "NVDA": 55,
+    "TSM": 55,
+    "MSFT": 75,
+    "META": 75,
+    "AMZN": 50,
+    "SMH": 55,
+    "SOXX": 65,
+    "AVGS.L": 55,
+    "VWRA.L": 50,
+    "CNDX.L": 55,
+    "IWMO.L": 45,
+    "LQQ.PA": 65,
+    "2454": 55,
+    "00631L": 55
+  },
+  "key_events": [
+    "6/5 NFP 強於預期 → DXY 飆 +0.66% 站上 100",
+    "6/5 半導體大跌（SOXX -10.44%、TSM -6.7%），AI chip 賣壓蒸發 $1.4T",
+    "6/10 CPI 為本週關鍵變數"
+  ],
+  "recommendation": "全層按兵不動。衛星層 SOXX 雖跌幅大但分數僅 65（< 70 門檻），等 CPI 出爐再評估；核心層 DCA 日約在 6/19。",
+  "portfolio_progress": 0.0948,
+  "days_elapsed": 20,
+  "theoretical_progress": 0.1111,
+  "deployment_status": "同步",
+  "data_fetch_failures": [
+    "VIX 兩個來源顯示 15.40 vs 21.51，採用較具體的 6/5 收盤 15.40",
+    "SMH 多個價格區間 $566-$627，採用較新的 $566",
+    "IWMO.L 最新數據截至 5/22 ($114.79)",
+    "AVGS.L 最新數據截至 5/27 ($24.27)",
+    "LQQ.PA 最新數據截至 6/4 ($2069.50)"
+  ]
+}
