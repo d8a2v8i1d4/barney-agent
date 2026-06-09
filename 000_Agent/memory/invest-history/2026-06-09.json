@@ -1,0 +1,29 @@
+{
+  "date": "2026-06-09",
+  "total_score": 52,
+  "vix": 15.87,
+  "yield_10y": 4.55,
+  "yield_2y": 4.17,
+  "dxy": 99.92,
+  "usd_twd": 31.659,
+  "stock_scores": {
+    "VWRA.L": 52,
+    "CNDX.L": 55,
+    "IWMO.L": 52,
+    "SMH": 55,
+    "SOXX": 52,
+    "AVGS.L": 50,
+    "LQQ.PA": null,
+    "NVDA": 45,
+    "TSM": 45,
+    "MSFT": 50,
+    "META": 50,
+    "AMZN": 50,
+    "2454": 50
+  },
+  "recommendation": "核心層月度 DCA $2,300：VWRA.L $1,100 + CNDX.L $600 + IWMO.L $600",
+  "portfolio_progress": 0.0948,
+  "deployed_usd": 2369.48,
+  "key_event": "6/11 CPI 數據",
+  "data_fetch_failures": ["META price", "VWRA.L 52W high", "IWMO.L 52W high", "SOXX 52W high"]
+}
