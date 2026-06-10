@@ -1,0 +1,30 @@
+{
+  "date": "2026-06-10",
+  "total_score": 60,
+  "vix": 20.45,
+  "yield_10y": 4.55,
+  "yield_2y": 4.15,
+  "dxy": 99.73,
+  "usd_twd": 31.52,
+  "stock_scores": {
+    "VWRA.L": 55,
+    "CNDX.L": 55,
+    "IWMO.L": 50,
+    "SMH": 55,
+    "SOXX": 60,
+    "AVGS.L": 55,
+    "LQQ.PA": 50,
+    "NVDA": 50,
+    "TSM": 50,
+    "MSFT": 50,
+    "META": 50,
+    "AMZN": 50,
+    "2454": null
+  },
+  "recommendation": "CPI 結果出爐前先觀望；若數據溫和且尚未月度 DCA，可分批 VWRA.L $1,100 + CNDX.L $700 + IWMO.L $500（總 $2,300）",
+  "portfolio_progress": 0.0948,
+  "deployed_usd": 2369.48,
+  "key_event": "今日 8:30 ET CPI 數據、6/11 PPI、6/17 FOMC",
+  "signal_change": "VIX 從 15.87 跳升至 20.45（+29%），進入警戒區；環境分數從 52 升至 60",
+  "data_fetch_failures": ["IWMO.L 6/9 收盤價（最新可得 5/22 $114.79）", "多數標的 52W 高僅 NVDA/SMH/SOXX 有；其他依估算"]
+}
