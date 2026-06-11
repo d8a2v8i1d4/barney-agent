@@ -3,62 +3,47 @@ name: 每日投資決策日報
 on:
   schedule:
     # 每天 00:00 UTC = 08:00 台北時間（UTC+8）
-    - cron: '0 0 * * 1-5'   # 週一到週五（可改 * 包含週末）
-  workflow_dispatch:          # 手動觸發備用
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   daily-report:
     runs-on: ubuntu-latest
     permissions:
-      contents: write         # 允許 git push 歷史檔案
+      contents: write
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          fetch-depth: 0
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
 
-      - name: Run daily investment report via Claude Code
-        uses: anthropics/claude-code-action@beta
-        with:
-          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
-          allowed_tools: >
-            Bash,
-            Read,
-            Write,
-            Edit,
-            WebSearch,
-            WebFetch,
-            mcp__Gmail__create_draft
-          mcp_config: |
-            {
-              "mcpServers": {
-                "gmail": {
-                  "command": "npx",
-                  "args": ["-y", "@gptscript-ai/gmail-mcp"],
-                  "env": {
-                    "GMAIL_CREDENTIALS": "${{ secrets.GMAIL_CREDENTIALS }}"
-                  }
-                }
-              }
-            }
-          prompt: |
-            你是 Barney 的投資情報分析師。
-            請執行今日投資決策日報，步驟如下：
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
 
-            1. Bash `date` 確認台北時間（UTC+8）
-            2. 讀取 000_Agent/memory/invest-portfolio.json 取得部位
-            3. 讀取最近 7 天歷史（000_Agent/memory/invest-history/*.json）
-            4. 依照 CLAUDE.md 的投資日報規則（Step 0–Step 8）執行：
-               - 抓取巨集指標：VIX、10Y、2Y、DXY、USD/TWD
-               - 抓取所有觀察清單標的價格
-               - 計算環境分數與個股分數
-               - 輸出 HTML 報告
-               - 寫入歷史 JSON 與 lastrun.txt
-               - 建立 Gmail 草稿寄給 d8a2v8i1d4@gmail.com
-               - git add + commit + push 歷史檔案
+      - name: Run daily investment report
+        env:
+          GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
+          GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
+          GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
+          REPORT_RECIPIENT: d8a2v8i1d4@gmail.com
+          TZ: Asia/Taipei
+        run: python scripts/daily_invest_report.py
 
-            注意：
-            - 台北時間 = UTC+8，日期計算前先執行 date
-            - 禁止顯示 N/A，每個標的至少嘗試 3 種抓取方式
-            - portfolio.json 不自動修改（只有實際下單後才更新）
+      - name: Commit history files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add 000_Agent/memory/invest-history/
+          if git diff --staged --quiet; then
+            echo "No history changes to commit"
+          else
+            DATE=$(TZ=Asia/Taipei date +%Y-%m-%d)
+            git commit -m "invest: ${DATE} 決策日報（自動產生）"
+            git push origin HEAD:main
+          fi
