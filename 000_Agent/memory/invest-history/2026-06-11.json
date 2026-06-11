@@ -1,47 +1,26 @@
 {
   "date": "2026-06-11",
   "total_score": 60,
-  "vix": 22.22,
-  "yield_10y": 4.53,
-  "yield_2y": 4.12,
-  "dxy": 100.013,
-  "usd_twd": 31.613,
-  "cpi_may_yoy": 4.2,
-  "cpi_core": 2.9,
-  "stock_scores": {
-    "VWRA.L": 45,
-    "CNDX.L": 45,
-    "IWMO.L": 45,
+  "vix": 21.729999542236328,
+  "yield_10y": 4.520999908447266,
+  "yield_2y": null,
+  "dxy": 100.16999816894531,
+  "usd_twd": 31.635000228881836,
+  "etf_scores": {
+    "CNDX.L": 55,
+    "LQQ.PA": 55,
+    "VWRA.L": 50,
     "SMH": 50,
-    "SOXX": 55,
-    "AVGS.L": 45,
-    "LQQ.PA": 45,
-    "NVDA": 60,
-    "TSM": 50,
-    "MSFT": 70,
-    "META": 70,
-    "AMZN": 55,
-    "2454": 45,
-    "00631L": null
+    "SOXX": 50,
+    "IWMO.L": 45,
+    "AVGS.L": 45
   },
-  "prices": {
-    "VWRA.L": 184.08,
-    "CNDX.L": 1744.8,
-    "IWMO.L": 112.61,
-    "SMH": 564.13,
-    "SOXX": 547.56,
-    "AVGS.L": 27.34,
-    "LQQ.PA": 1963.20,
-    "NVDA": 200.03,
-    "TSM": 425.13,
-    "MSFT": 402.25,
-    "META": 584.59,
-    "AMZN": 238.00,
-    "2454_TWD": 4310
-  },
-  "recommendation": "環境分 60（中性偏多）。CPI 5月 4.2% 走熱，VIX 升至 22.22。今日不進新倉；約 6/19 執行核心層月度 DCA $2,300（VWRA.L $1,100 + CNDX.L $600 + IWMO.L $600）。衛星層觀望，等 VIX 回落與 SMH 企穩。",
-  "portfolio_progress": 0.0948,
+  "recommendation": "🟡 中性偏多｜核心：維持月 DCA $2,300｜衛星：觀望，只挑分數>70 加 $500｜進攻：暫不動",
+  "portfolio_progress": 0.0947792,
   "deployed_usd": 2369.48,
-  "key_event": "CPI 5月 4.2% YoY（6/10 公布），熱於預期；半導體 ETF 重挫 4-5%",
-  "data_fetch_failures": ["00631L 今日無法取得", "IWMO.L 為 5月底數據", "部分52W高為估算值", "RSI 均為估算非即時"]
+  "progress_note": "目前同步",
+  "signal_change": "環境分數：60 → 60（+0），與昨日類似",
+  "data_fetch_failures": [
+    "2Y yield"
+  ]
 }
