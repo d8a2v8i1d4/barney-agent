@@ -4,6 +4,8 @@
 **/credentials.json
 **/*.key
 **/.credentials.json
+scripts/client_secret.json
+scripts/token.json
 
 # Claude Code 本機狀態（不該跨機同步）
 .claude/settings.local.json
