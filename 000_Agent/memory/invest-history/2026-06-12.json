@@ -1,0 +1,26 @@
+{
+  "date": "2026-06-12",
+  "total_score": 60,
+  "vix": 19.440000534057617,
+  "yield_10y": 4.463000297546387,
+  "yield_2y": null,
+  "dxy": 99.77200317382812,
+  "usd_twd": 31.58099937438965,
+  "etf_scores": {
+    "VWRA.L": 75,
+    "CNDX.L": 75,
+    "IWMO.L": 75,
+    "LQQ.PA": 75,
+    "AVGS.L": 70,
+    "SMH": 45,
+    "SOXX": 45
+  },
+  "recommendation": "🟡 中性偏多｜核心：維持月 DCA $2,300｜衛星：觀望，只挑分數>70 加 $500｜建議標的：AVGS.L（分數 70）｜進攻：暫不動",
+  "portfolio_progress": 0.0947792,
+  "deployed_usd": 2369.48,
+  "progress_note": "目前同步",
+  "signal_change": "環境分數：60 → 60（+0），與昨日類似",
+  "data_fetch_failures": [
+    "2Y yield"
+  ]
+}
