@@ -1,0 +1,6 @@
+2026-06-12 機票情報員執行完成，情況=A，尋獲 6 筆假期最優解（其中 1 神級、1 強推、1 觀察、1 參考、2 status match），過濾 0 筆（首次運行，歷史庫為空）。
+
+下一步建議：
+- 等 Vantage Pass 詳細 Zone 3-5 (歐美) 開賣 → 鎖定 HKG 起飛
+- 持續監測 Etihad ex-KUL 9 月實際空位
+- 觀察 Amex MR → KrisFlyer/Asia Miles 加碼活動 (目前無)
