@@ -3,19 +3,20 @@
 
 執行流程：
   1. 載入 portfolio.json 與最近歷史
-  2. yfinance + stooq 抓巨集與 ETF 資料
-  3. 量化評分（巨集、ETF、決策矩陣）
+  2. yfinance → Yahoo chart API → stooq/FRED 三段式抓巨集、ETF、個股資料
+  3. 量化評分（巨集、標的、決策矩陣）+ 本週財報暫停規則
   4. 輸出 HTML、寫入歷史 JSON、lastrun.txt
   5. 建立 Gmail 草稿（環境變數有設才寄）
 
-不算個股，只算 ETF 觀察清單。
+規格文件：000_Agent/workflows/daily-invest.md
 """
 
 import json
 import os
 import sys
+import time
 import traceback
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -38,20 +39,110 @@ ETF_LIST = [
     ("LQQ.PA", "進攻"),
 ]
 
+# 觀察清單（不屬於三層配置，只列分數供參考）
+WATCH_LIST = [
+    ("NVDA", "個股"),
+    ("TSM", "個股"),
+    ("MSFT", "個股"),
+    ("META", "個股"),
+    ("AMZN", "個股"),
+    ("2454.TW", "個股"),
+    ("00631L.TW", "槓桿觀察"),
+]
+
+# 本週有財報 → 該股暫停加碼（只查美股，台股財報季另計）
+EARNINGS_CHECK = ["NVDA", "TSM", "MSFT", "META", "AMZN"]
+
 TZ = ZoneInfo("Asia/Taipei")
+
+UA_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
+}
 
 
 # ============= 資料抓取 =============
+
+def clean(val):
+    """NaN / inf / 非數字 → None。LSE/Euronext 最新一列常是 NaN，混進計算會把分數算錯。"""
+    if val is None:
+        return None
+    try:
+        f = float(val)
+    except (TypeError, ValueError):
+        return None
+    if np.isnan(f) or np.isinf(f):
+        return None
+    return f
+
 
 def fetch_yf(ticker, period="1y"):
     try:
         hist = yf.Ticker(ticker).history(period=period, auto_adjust=True)
         if hist.empty:
             return None, None
-        return float(hist["Close"].iloc[-1]), hist["Close"]
+        close = hist["Close"].dropna()
+        if close.empty:
+            return None, None
+        return float(close.iloc[-1]), close
     except Exception as e:
         print(f"[yf fail] {ticker}: {e}", file=sys.stderr)
         return None, None
+
+
+def fetch_chart_api(ticker, range_="1y"):
+    """Yahoo chart API 直連，回 (即時價, 前收, 收盤序列)。
+    yfinance 的 history 對 LSE/Euronext 常延遲一天且帶 NaN，
+    meta.regularMarketPrice 才是最新成交價。429 時退避重試一次。"""
+    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}"
+    params = {"range": range_, "interval": "1d"}
+    for attempt in range(2):
+        try:
+            r = requests.get(url, params=params, headers=UA_HEADERS, timeout=15)
+            if r.status_code == 429:
+                time.sleep(5)
+                continue
+            if r.status_code != 200:
+                return None, None, None
+            res = r.json()["chart"]["result"][0]
+            meta = res.get("meta", {})
+            price = clean(meta.get("regularMarketPrice"))
+            market_time = meta.get("regularMarketTime")  # unix ts，判斷即時價屬於哪一天
+            series = None
+            try:
+                ts = res["timestamp"]
+                closes = res["indicators"]["quote"][0]["close"]
+                s = pd.Series(closes, index=pd.to_datetime(ts, unit="s")).dropna()
+                if not s.empty:
+                    series = s
+            except (KeyError, IndexError, TypeError):
+                pass
+            return price, market_time, series
+        except Exception as e:
+            print(f"[chart api fail] {ticker}: {e}", file=sys.stderr)
+            return None, None, None
+    return None, None, None
+
+
+def fetch_fred(series_id):
+    """FRED 公開 CSV（免 API key），取最近一筆有效值。"""
+    try:
+        r = requests.get(
+            "https://fred.stlouisfed.org/graph/fredgraph.csv",
+            params={"id": series_id}, headers=UA_HEADERS, timeout=15,
+        )
+        if r.status_code != 200:
+            return None
+        for line in reversed(r.text.strip().split("\n")):
+            parts = line.split(",")
+            if len(parts) == 2:
+                try:
+                    return float(parts[1])
+                except ValueError:
+                    continue
+        return None
+    except Exception as e:
+        print(f"[fred fail] {series_id}: {e}", file=sys.stderr)
+        return None
 
 
 def fetch_stooq(symbol):
@@ -93,6 +184,72 @@ def percentile_1y(current, series):
     if len(arr) == 0:
         return None
     return float((arr <= current).sum() / len(arr) * 100)
+
+
+def analyze_ticker(ticker, layer):
+    """單一標的完整分析。抓取順序：yfinance history → Yahoo chart API。
+    即時價以 chart API 的 regularMarketPrice 優先（LSE 收盤 yfinance 會延遲一天）。
+    全部失敗回 None。"""
+    price, series = fetch_yf(ticker)
+    api_price, market_time, api_series = fetch_chart_api(ticker)
+    if series is None:
+        series = api_series
+    if api_price is not None:
+        price = api_price
+    price = clean(price)
+    if price is None and series is not None:
+        price = clean(series.iloc[-1])
+    if price is None:
+        return None
+
+    # 今日漲跌：判斷即時價屬於序列最後一天（前收 = 倒數第二筆）
+    # 還是更新的一天（前收 = 最後一筆）
+    change_pct = None
+    if series is not None and len(series) >= 2:
+        prev = float(series.iloc[-2])
+        if market_time is not None:
+            try:
+                api_date = datetime.fromtimestamp(market_time, tz=ZoneInfo("UTC")).date()
+                if api_date > series.index[-1].date():
+                    prev = float(series.iloc[-1])
+            except (TypeError, ValueError, OSError):
+                pass
+        if prev > 0:
+            change_pct = (price / prev - 1) * 100
+
+    dist_high_pct = None
+    if series is not None and len(series) > 0:
+        high_52w = clean(max(float(series.max()), price))
+        if high_52w:
+            dist_high_pct = (high_52w - price) / high_52w * 100
+
+    rsi = clean(calc_rsi(series))
+    pct_1y = percentile_1y(price, series)
+    return {
+        "ticker": ticker, "layer": layer, "price": price,
+        "change_pct": clean(change_pct), "dist_high_pct": clean(dist_high_pct),
+        "rsi": rsi, "pct_1y": pct_1y,
+        "score": ticker_score(clean(dist_high_pct), rsi), "note": "",
+    }
+
+
+def upcoming_earnings(tickers, today, days_ahead=7):
+    """查未來 N 天內有財報的標的，回 {ticker: date}。查不到就略過（不阻塞日報）。"""
+    result = {}
+    for t in tickers:
+        try:
+            cal = yf.Ticker(t).calendar
+            dates = cal.get("Earnings Date") if isinstance(cal, dict) else None
+            if not dates:
+                continue
+            for d in dates if isinstance(dates, (list, tuple)) else [dates]:
+                d = d.date() if hasattr(d, "date") else d
+                if today <= d <= today + timedelta(days=days_ahead):
+                    result[t] = d
+                    break
+        except Exception as e:
+            print(f"[earnings fail] {t}: {e}", file=sys.stderr)
+    return result
 
 
 # ============= 計分 =============
@@ -171,9 +328,9 @@ def fmt(val, spec=".2f", fallback="—"):
     return format(val, spec)
 
 
-def build_html(ctx):
+def ticker_rows(results):
     rows = ""
-    for r in ctx["etf_results"]:
+    for r in results:
         rows += (
             f"<tr><td>{r['ticker']}</td><td>{r['layer']}</td>"
             f"<td>{fmt(r['price'])}</td>"
@@ -184,6 +341,21 @@ def build_html(ctx):
             f"<td><b>{r['score']}</b></td>"
             f"<td>{r['note']}</td></tr>"
         )
+    return rows
+
+
+def build_html(ctx):
+    rows = ticker_rows(ctx["etf_results"])
+    watch_rows = ticker_rows(ctx["watch_results"])
+
+    if ctx["earnings_map"]:
+        events_html = "".join(
+            f"<li>📅 {d}：<b>{t}</b> 財報（本週暫停加碼）</li>"
+            for t, d in sorted(ctx["earnings_map"].items(), key=lambda x: x[1])
+        )
+    else:
+        events_html = "<li>觀察清單個股未來 7 天無財報</li>"
+    events_html += "<li style='color:#888;'>FOMC / CPI 等宏觀數據日程請另行確認</li>"
 
     failures_html = (
         "".join(f"<li>{f}</li>" for f in ctx["failures"])
@@ -229,6 +401,17 @@ def build_html(ctx):
   </tr>
   {rows}
 </table>
+
+<h3>👀 個股觀察清單（依分數排序，不屬於三層配置）</h3>
+<table border="1" cellpadding="6" style="border-collapse:collapse;">
+  <tr style="background:#f5f5f5;">
+    <th>標的</th><th>類別</th><th>價格</th><th>今日</th><th>距 52W 高</th><th>RSI</th><th>1Y 百分位</th><th>分數</th><th>備註</th>
+  </tr>
+  {watch_rows}
+</table>
+
+<h3>📅 本週關鍵事件</h3>
+<ul>{events_html}</ul>
 
 <h3>🔄 與昨日比較</h3>
 <p>{ctx['signal_change'] or '無歷史資料可比較'}</p>
@@ -294,8 +477,10 @@ def main():
     if y10 is None:
         failures.append("10Y yield")
 
-    # ===== 2Y 殖利率（stooq）=====
+    # ===== 2Y 殖利率（stooq → FRED）=====
     y2 = fetch_stooq("2usy.b")
+    if y2 is None:
+        y2 = fetch_fred("DGS2")
     if y2 is None:
         failures.append("2Y yield")
     inverted = (y2 is not None and y10 is not None and y2 > y10)
@@ -318,35 +503,47 @@ def main():
 
     env_score = macro_score(vix, y10_change_bps, inverted, dxy_change_pct)
 
-    # ===== ETF =====
+    # ===== ETF（三層配置標的）=====
     etf_results = []
     for ticker, layer in ETF_LIST:
-        price, series = fetch_yf(ticker)
-        if price is None:
+        data = analyze_ticker(ticker, layer)
+        if data is None:
             failures.append(f"{ticker} price")
             etf_results.append({
                 "ticker": ticker, "layer": layer, "price": None,
                 "change_pct": None, "dist_high_pct": None, "rsi": None,
-                "pct_1y": None, "score": 0, "note": "資料抓取失敗",
+                "pct_1y": None, "score": 0, "note": "數據暫不可用",
             })
-            continue
-        change_pct = (
-            float((series.iloc[-1] / series.iloc[-2] - 1) * 100)
-            if len(series) >= 2 else None
-        )
-        high_52w = float(series.max())
-        dist_high_pct = (high_52w - price) / high_52w * 100
-        rsi = calc_rsi(series)
-        pct_1y = percentile_1y(price, series)
-        score = ticker_score(dist_high_pct, rsi)
-        etf_results.append({
-            "ticker": ticker, "layer": layer, "price": price,
-            "change_pct": change_pct, "dist_high_pct": dist_high_pct,
-            "rsi": rsi, "pct_1y": pct_1y, "score": score, "note": "",
-        })
+        else:
+            etf_results.append(data)
+        time.sleep(0.5)
+
+    # ===== 個股觀察清單 =====
+    watch_results = []
+    for ticker, layer in WATCH_LIST:
+        data = analyze_ticker(ticker, layer)
+        if data is None:
+            failures.append(f"{ticker} price")
+            watch_results.append({
+                "ticker": ticker, "layer": layer, "price": None,
+                "change_pct": None, "dist_high_pct": None, "rsi": None,
+                "pct_1y": None, "score": 0, "note": "數據暫不可用",
+            })
+        else:
+            watch_results.append(data)
+        time.sleep(0.5)
+
+    # ===== 本週財報 → 該股暫停加碼 =====
+    earnings_map = upcoming_earnings(EARNINGS_CHECK, today)
+    for r in watch_results:
+        base = r["ticker"].split(".")[0]
+        if base in earnings_map:
+            r["note"] = (r["note"] + " " if r["note"] else "") + \
+                f"⚠️ {earnings_map[base]} 財報，本週暫停加碼"
 
     # 排序：分數高的在前
     etf_results.sort(key=lambda r: -(r["score"] or 0))
+    watch_results.sort(key=lambda r: -(r["score"] or 0))
 
     # ===== 決策 =====
     label, core_action, sat_action, agg_action = decide(env_score)
@@ -419,6 +616,8 @@ def main():
         "dxy": dxy, "dxy_pct": dxy_pct, "dxy_change_pct": dxy_change_pct,
         "twd": twd,
         "etf_results": etf_results,
+        "watch_results": watch_results,
+        "earnings_map": earnings_map,
         "signal_change": signal_change,
         "failures": failures,
     }
@@ -432,6 +631,8 @@ def main():
         "vix": vix, "yield_10y": y10, "yield_2y": y2,
         "dxy": dxy, "usd_twd": twd,
         "etf_scores": {r["ticker"]: r["score"] for r in etf_results},
+        "stock_scores": {r["ticker"]: r["score"] for r in watch_results},
+        "upcoming_earnings": {t: str(d) for t, d in earnings_map.items()},
         "recommendation": f"{label}｜核心：{core_action}｜衛星：{sat_action}{sat_pick}｜進攻：{agg_action}",
         "portfolio_progress": actual_progress,
         "deployed_usd": portfolio["deployed"],
