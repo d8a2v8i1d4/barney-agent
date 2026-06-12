@@ -1,0 +1,57 @@
+[
+  {
+    "fingerprint": "HKG-LHR/CDG|Cathay Pacific|HKD14500|2026-09|cathaypacific.com",
+    "date": "2026-06-03",
+    "title": "CX 2026 Vantage Pass ex-HKG Europe business class (avg HKD 14,500 per RT in 2-trip pass)",
+    "url": "https://flights.cathaypacific.com/en_HK/offers/vantage-pass.html",
+    "category": "outstation_deal",
+    "total_cost_twd": 65000,
+    "rating": "強推",
+    "fits_window": "9/19-9/28 or 9/25-10/04, blackout for Zone3-5 is only Sep 1-10 2026",
+    "notes": "Pair with TPE-HKG positioning flight ~TWD 6-8K. Trip complete by Nov 15 2026."
+  },
+  {
+    "fingerprint": "TPE-LAX/LHR|EVA Air|75000miles|2026-09|evaair.com",
+    "date": "2026-06-03",
+    "title": "EVA Infinity MileageLands sweet spot TPE-Europe/US biz 75K each way",
+    "url": "https://www.evaair.com/en-us/infinity-mileagelands/mileage-award-program/mileage-redemption/award-ticket/eva-uni-air/",
+    "category": "award_space",
+    "total_cost_twd": 6000,
+    "rating": "強推",
+    "fits_window": "9/19-10/04 subject to actual J space release",
+    "notes": "Cash cost low (taxes only) but requires EVA miles or partner program. Aeroplan devalued 6/1/2026 - 102.5K now. LifeMiles 78-90K remains best partner route. Amex TW no direct EVA transfer; needs future US Amex MR via Aeroplan/LifeMiles."
+  },
+  {
+    "fingerprint": "FRA/DUS-TPE|Etihad|EUR1335|2026-04-06|secretflying.com",
+    "date": "2026-06-03",
+    "title": "Etihad ex-Europe to East Asia EUR 1335 RT business (reverse direction reference only)",
+    "url": "https://www.secretflying.com/posts/business-class-from-european-cities-to-east-asia-from-only-e1335-roundtrip/",
+    "category": "outstation_deal",
+    "total_cost_twd": 46000,
+    "rating": "參考",
+    "fits_window": "out of window (Apr-Jun 2026)",
+    "notes": "Wrong direction for Barney. Logged for trend monitoring - similar reverse deal in Aug-Sep would be 🔥 grade."
+  },
+  {
+    "fingerprint": "status-match|United MileagePlus|free|2026-06-30|united.com",
+    "date": "2026-06-03",
+    "title": "United MileagePlus Status Match Challenge - up to Premier 1K, instant 120-day Star Alliance Gold (deadline 6/30/2026)",
+    "url": "https://staralliance.statusmatch.com/united",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "rating": "強推",
+    "fits_window": "apply before 6/30/2026, use Sept-Oct trip to complete challenge",
+    "notes": "Requires holding Star Gold / OW Sapphire / SkyTeam Elite+ from another carrier. Status post-7/1 lasts to Jan 2028."
+  },
+  {
+    "fingerprint": "status-match|Turkish Airlines Miles&Smiles|free|ongoing|turkishairlines.com",
+    "date": "2026-06-03",
+    "title": "Turkish Airlines Miles&Smiles Status Challenge - 4-year Star Alliance Gold path",
+    "url": "https://staralliance.statusmatch.com/turkish-airlines",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "rating": "參考",
+    "fits_window": "ongoing program",
+    "notes": "4 months trial -> fly TK 1x int'l -> 15K status miles year 1 -> Gold for 2 yrs -> 22.5K miles year 2 -> renew 2 more yrs. Eligibility requires existing Star Gold/OW Sapphire/SkyTeam E+."
+  }
+]
