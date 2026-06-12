@@ -477,8 +477,10 @@ def main():
     if y10 is None:
         failures.append("10Y yield")
 
-    # ===== 2Y 殖利率（stooq → FRED）=====
-    y2 = fetch_stooq("2usy.b")
+    # ===== 2Y 殖利率（Yahoo 2YY=F 期貨 → stooq → FRED）=====
+    y2, _, _ = fetch_chart_api("2YY=F", range_="5d")
+    if y2 is None:
+        y2 = fetch_stooq("2usy.b")
     if y2 is None:
         y2 = fetch_fred("DGS2")
     if y2 is None:
