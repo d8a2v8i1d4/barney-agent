@@ -2,8 +2,9 @@ name: 每日投資決策日報
 
 on:
   schedule:
-    # 每天 00:00 UTC = 08:00 台北時間（UTC+8）
-    - cron: '0 0 * * *'
+    # 每天 21:47 UTC = 台北 05:47（UTC+8）。刻意避開整點與 00:00 UTC 尖峰，
+    # GitHub 排程冷門時段延遲較小，預計 06:30–08:00 台北時間寄達
+    - cron: '47 21 * * *'
   workflow_dispatch:
 
 jobs:
