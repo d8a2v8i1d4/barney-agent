@@ -1,0 +1,38 @@
+[
+  {
+    "fingerprint": "TPE-AMS|KLM-AirFrance|60K-FlyingBlue-12000TWD-tax|2026-09|thepointsguy.com",
+    "date": "2026-06-01",
+    "title": "Air France/KLM Flying Blue 60K Promo Reward 單程商務艙 TPE-AMS/CDG",
+    "url": "https://thepointsguy.com/deals/business-class-europe-air-france-klm/",
+    "category": "award_space",
+    "total_cost_twd": 36000,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "TPE-HKG-LHR|CathayPacific|2200-2800USD-cashfare|2026-09|firstclassflyer.com",
+    "date": "2026-06-01",
+    "title": "Cathay Pacific ex-HKG 商務艙促銷 + TPE-HKG 接駁觀察",
+    "url": "https://www.firstclassflyer.com/cathay-pacific-discount-business-class-san-francisco-to-hong-kong-2-travelers-4/",
+    "category": "outstation_deal",
+    "total_cost_twd": 88000,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "TPE-BKK-ZRH|Multi-Airline|CHF2409-RT|2026-09|premium-flights.com",
+    "date": "2026-06-01",
+    "title": "ex-BKK Zurich BC RT CHF 2,409 + TPE-BKK 接駁觀察",
+    "url": "https://premium-flights.com/category/cheap-business-class-flights/business-class-deals-from-europe/",
+    "category": "outstation_deal",
+    "total_cost_twd": 96500,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "Status-Match|United-Turkish|2026-Premier1K-4yrSAGold|N/A|awardfares.com",
+    "date": "2026-06-01",
+    "title": "United Premier 1K Match + Turkish 4-year SA Gold Challenge + Asiana 12/1 離星空警示",
+    "url": "https://awardfares.com/blog/status-match-guide/",
+    "category": "amex_bonus",
+    "total_cost_twd": 0,
+    "rating": "強推"
+  }
+]
