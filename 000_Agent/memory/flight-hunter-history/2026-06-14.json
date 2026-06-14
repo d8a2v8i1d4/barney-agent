@@ -1,0 +1,74 @@
+[
+  {
+    "fingerprint": "KUL-TPE-VIE|EVA|72000|2026-09|huitinchou.tw",
+    "date": "2026-06-14",
+    "title": "EVA 長榮 KUL-TPE-VIE 外站四段票商務艙",
+    "url": "https://huitinchou.tw/multi-city-4-segment-ticket/",
+    "category": "outstation_deal",
+    "total_cost_twd": 82000,
+    "rating": "強推",
+    "score": 88,
+    "trip_match": "方案 A (9/19-9/28)",
+    "notes": "外站開票，需加 TPE-KUL 接駁約 NT$10,000；24 小時轉機限制；硬體 EVA 777 反魚骨商務艙"
+  },
+  {
+    "fingerprint": "KUL-TPE-CDG/AMS/LHR|EVA|82000|2026-09|tessatravel.tw",
+    "date": "2026-06-14",
+    "title": "EVA 長榮 KUL-TPE-歐洲主城外站四段票商務艙",
+    "url": "https://tessatravel.tw/four-segment-flight-tickets/",
+    "category": "outstation_deal",
+    "total_cost_twd": 92000,
+    "rating": "強推",
+    "score": 78,
+    "trip_match": "方案 B (9/25-10/4)",
+    "notes": "適合教師節長假，需盡早鎖位置避免漲價"
+  },
+  {
+    "fingerprint": "SIN-TPE-LAX|Starlux|95000|2026-09|mainlymiles.com",
+    "date": "2026-06-14",
+    "title": "Starlux 星宇 SIN-TPE-LAX/SEA 外站商務艙",
+    "url": "https://mainlymiles.com/2026/02/03/starlux-brings-a350-and-first-class-back-to-singapore/",
+    "category": "outstation_deal",
+    "total_cost_twd": 103000,
+    "rating": "參考",
+    "score": 65,
+    "trip_match": "方案 A (9/19-9/28)",
+    "notes": "硬體 A350 Crystal Wing 優秀，但 CP 值不如 KUL EVA"
+  },
+  {
+    "fingerprint": "amex-mr-devaluation|Amex|na|2026-02|singsaver.com.sg",
+    "date": "2026-06-14",
+    "title": "Amex MR 2026/2/23 轉點調漲（策略提醒）",
+    "url": "https://www.singsaver.com.sg/credit-card/blog/amex-mr-devaluation-feb-2026",
+    "category": "amex_bonus",
+    "total_cost_twd": 0,
+    "rating": "提醒",
+    "score": 0,
+    "trip_match": "n/a",
+    "notes": "MR 轉 Asia Miles / KrisFlyer 已漲價，本次連假改以 cash 外站票為主"
+  },
+  {
+    "fingerprint": "turkish-status-challenge|Turkish|na|2026|verylvke.com",
+    "date": "2026-06-14",
+    "title": "Turkish Miles & Smiles 4 年星盟金卡挑戰",
+    "url": "https://www.verylvke.com/en/2026/02/03/get-4-year-star-alliance-gold-from-turkish-airlines-status-challenge/",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "rating": "強推",
+    "score": 85,
+    "trip_match": "可搭配 KUL EVA 商務艙累積",
+    "notes": "本次飛行累積至 Turkish 帳戶，可一口氣拿 4 年星盟金"
+  },
+  {
+    "fingerprint": "united-premier-status-match|United|na|2026|upgradedpoints.com",
+    "date": "2026-06-14",
+    "title": "United MileagePlus Premier Status Match Challenge 2026",
+    "url": "https://upgradedpoints.com/travel/airlines/airline-status-matches-challenges/",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "rating": "強推",
+    "score": 82,
+    "trip_match": "若選美洲線方案可同步達標",
+    "notes": "7/1 後完成可鎖至 2028/1，120 天即時星盟金"
+  }
+]
