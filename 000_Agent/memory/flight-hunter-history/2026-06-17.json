@@ -1,0 +1,62 @@
+[
+  {
+    "fingerprint": "MR-to-FlyingBlue|Amex|25%bonus|2026-06|americanexpress.com",
+    "date": "2026-06-17",
+    "title": "Amex MR → Air France/KLM Flying Blue 25% 轉點加碼（6/30 截止）",
+    "url": "https://awardwallet.com/airlines/flying-blue/promo-rewards/",
+    "category": "amex_bonus",
+    "total_cost_twd": 0,
+    "rating": "🔥 神級",
+    "note": "搭配 Flying Blue Promo Rewards，跨大西洋商務艙 63,750 哩單程 → 等同 51,000 MR + 25% bonus 即可換到歐美商務艙；6/30 截止。"
+  },
+  {
+    "fingerprint": "TPE-FRA-EU|EVA-via-Aeroplan|87.5K-Aeroplan|2026-09|aircanada.com",
+    "date": "2026-06-17",
+    "title": "Aeroplan 兌換 EVA Air TPE → 歐洲商務艙 sweet spot（約 87.5K Aeroplan）",
+    "url": "https://milesopedia.com/en/news/programs/aeroplan-devaluation-2026-all-award-chart-changes/",
+    "category": "award_space",
+    "total_cost_twd": 50000,
+    "rating": "✅ 強推",
+    "note": "Aeroplan 4 月小幅 devalue 後仍是長榮星盟商務艙最有競爭力的兌換管道；含稅金約台幣 1.5-2 萬"
+  },
+  {
+    "fingerprint": "LAX-HKG-Aria|CX|70-85K-AsiaMiles|2026-09|cathaypacific.com",
+    "date": "2026-06-17",
+    "title": "Cathay Pacific Aria Suite 新硬體 LAX-HKG（連假期間每日運行）",
+    "url": "https://news.cathaypacific.com/cathay-pacific-introduces-new-award-winning-aria-suite-business-class-new-premium-economy-and-refreshed-economy-experiences-to-los-angeles-rf82ie",
+    "category": "tpe_deal",
+    "total_cost_twd": 75000,
+    "rating": "✅ 強推",
+    "note": "5/1 起每天運行至 10/24，Aria Suite 含隱私門；Asia Miles 70-85K 一段。注意 3/1 起 Amex 轉 AM 已 devalue 至 5:4。"
+  },
+  {
+    "fingerprint": "LAX-TPE-upgrade|EVA|12950miles+30off|2026-09|evaair.com",
+    "date": "2026-06-17",
+    "title": "EVA Air Infinity MileageLands BR05/BR06 LAX-TPE 商務升等 30% off",
+    "url": "https://slickdeals.net/f/19323720-eva-air-offer-lax-to-from-taipei-route-cabin-upgrades-using-mileageland-points-30-off-travel-april-may-sept-oct-2026",
+    "category": "tpe_deal",
+    "total_cost_twd": 30000,
+    "rating": "⚠️ 參考",
+    "note": "9/10 月限定，購買經濟艙後可用 12,950 哩升等商務；適合 Barney 已有 EVA 哩程的場景"
+  },
+  {
+    "fingerprint": "Status-Match|United-Premier|2026-06-30|united.com",
+    "date": "2026-06-17",
+    "title": "United MileagePlus Premier Status Match Challenge（6/30 截止申請）",
+    "url": "https://travel-on-points.com/united-airlines-2026-status-match/",
+    "category": "amex_bonus",
+    "total_cost_twd": 0,
+    "rating": "⚠️ 參考",
+    "note": "120 天內飛 10 PQF + 3,400 PQP 換 Premier Gold = Star Alliance Gold。對未來連假累積身份有幫助。"
+  },
+  {
+    "fingerprint": "BDNAM26|CX|all-cabin-promo|2026-06-30|cathaypacific.com",
+    "date": "2026-06-17",
+    "title": "Cathay Pacific BDNAM26 全艙等 promo code（訂位至 6/30）",
+    "url": "https://flights.cathaypacific.com/destinations/en_US/business-class-booking",
+    "category": "tpe_deal",
+    "total_cost_twd": 90000,
+    "rating": "⚠️ 參考",
+    "note": "可用於 TPE-HKG-Europe/US 商務艙；實際省幅需個別查詢確認"
+  }
+]
