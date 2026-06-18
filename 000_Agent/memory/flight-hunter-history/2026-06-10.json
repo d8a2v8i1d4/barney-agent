@@ -1,0 +1,92 @@
+[
+  {
+    "fingerprint": "amex-mr-flyingblue|25pct|2026-06|thepointsguy.com",
+    "date": "2026-06-10",
+    "title": "Amex MR → Flying Blue 25% Transfer Bonus（6/30 截止）",
+    "url": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
+    "category": "amex_bonus",
+    "total_cost_twd": null,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "amex-mr-marriott|20pct|2026-06|thepointsguy.com",
+    "date": "2026-06-10",
+    "title": "Amex MR → Marriott Bonvoy 20% Transfer Bonus（6/30 截止）",
+    "url": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
+    "category": "amex_bonus",
+    "total_cost_twd": null,
+    "rating": "不適用"
+  },
+  {
+    "fingerprint": "united-mileageplus|status-match-1K|2026-06|thepointsguy.com",
+    "date": "2026-06-10",
+    "title": "United MileagePlus Premier Status Match Challenge（含 1K，6/30 截止）",
+    "url": "https://thepointsguy.com/loyalty-programs/airline-status-matches-challenges/",
+    "category": "status_match",
+    "total_cost_twd": null,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "turkish|status-challenge|free|staralliance.statusmatch.com",
+    "date": "2026-06-10",
+    "title": "Turkish Airlines Miles&Smiles Status Challenge → Star Alliance Gold 4 年路徑",
+    "url": "https://staralliance.statusmatch.com/turkish-airlines",
+    "category": "status_match",
+    "total_cost_twd": null,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "lifemiles|JFK-LIS|J-35k|2026|milevalue.com",
+    "date": "2026-06-10",
+    "title": "LifeMiles Sweet Spot: JFK→Lisbon 商務艙 35K miles 單程",
+    "url": "https://milevalue.com/one-way-europe-business-class-35000-miles/",
+    "category": "award_space",
+    "total_cost_twd": null,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "lifemiles|US-NE-UK|J-45k|2026|awardwallet.com",
+    "date": "2026-06-10",
+    "title": "LifeMiles Sweet Spot: 美東→英國 商務艙 45K miles 單程",
+    "url": "https://awardwallet.com/airlines/avianca-lifemiles/avianca-lifemiles-sweet-spots/",
+    "category": "award_space",
+    "total_cost_twd": null,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "lifemiles|JFK-ZRH|SWISS-J-55-63k|2026|airtraveler.club",
+    "date": "2026-06-10",
+    "title": "LifeMiles Sweet Spot: JFK→Zurich SWISS J 55–63K miles",
+    "url": "https://www.airtraveler.club/news/lifemiles-devalues-us-europe-awards/",
+    "category": "award_space",
+    "total_cost_twd": null,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "asia-miles|devaluation|asia-eur-J-84k|2026-05|mainlymiles.com",
+    "date": "2026-06-10",
+    "title": "Cathay Asia Miles 2026/05 貶值: 亞洲→歐洲 J 84K, LAX/SFO-HKG J 88K（避雷）",
+    "url": "https://mainlymiles.com/2026/04/11/cathay-pacific-adjusts-asia-miles-award-rates-from-may-2026/",
+    "category": "award_space",
+    "total_cost_twd": null,
+    "rating": "避雷"
+  },
+  {
+    "fingerprint": "krisflyer|spontaneous-escapes|jun2026|intra-asia-only|milelion.com",
+    "date": "2026-06-10",
+    "title": "Singapore KrisFlyer Spontaneous Escapes 6 月版本：僅亞洲區內 J 30% off，無歐美",
+    "url": "https://milelion.com/2026/05/15/krisflyer-spontaneous-escapes-for-june-2026-announced/",
+    "category": "award_space",
+    "total_cost_twd": null,
+    "rating": "不符"
+  },
+  {
+    "fingerprint": "cathay|HKG-JFK|J-cash-7800usd|3w-out|flyertalk.com",
+    "date": "2026-06-10",
+    "title": "Cathay HKG-JFK 商務艙 cash ~$7,800 USD（3 週前訂、I class）— 不符成本門檻",
+    "url": "https://www.flyertalk.com/forum/cathay-pacific-cathay/1747657-any-reason-outrageous-business-class-prices-ex-hkg-cathay-pacific.html",
+    "category": "outstation_deal",
+    "total_cost_twd": 245000,
+    "rating": "不報"
+  }
+]
