@@ -1,0 +1,54 @@
+[
+  {
+    "fingerprint": "TPE-HND-LHR|ANA|160000-aeroplan|2026-09|aeroplan",
+    "date": "2026-06-18",
+    "title": "ANA The Room TPE-HND-LHR/JFK/ORD 商務艙哩程兌換 (160K Aeroplan 來回)",
+    "url": "https://travelsort.com/ana-the-room-business-class-award-space/",
+    "category": "award_space",
+    "total_cost_twd": 20000,
+    "miles_cost": "160,000 Aeroplan (Amex MR 1:1)",
+    "rating": "神級"
+  },
+  {
+    "fingerprint": "TPE-ICN-USA|Asiana|150000-aeroplan|2026-09|aeroplan",
+    "date": "2026-06-18",
+    "title": "Asiana 商務艙 TPE-ICN-JFK/SFO/LAX/SEA 哩程票 (150K Aeroplan 來回)",
+    "url": "https://upgradedpoints.com/news/award-alert-us-seoul-business-class/",
+    "category": "award_space",
+    "total_cost_twd": 11500,
+    "miles_cost": "150,000 Aeroplan (Amex MR 1:1)",
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "SEA-TPE|Delta|97700-skymiles|2026-09|delta",
+    "date": "2026-06-18",
+    "title": "Delta One SEA-TPE 回程單程 97,700 SkyMiles (Amex Delta 卡 15% 折)",
+    "url": "https://upgradedpoints.com/news/award-alert-us-taipei-business-class/",
+    "category": "award_space",
+    "total_cost_twd": 36500,
+    "miles_cost": "97,700 SkyMiles (Amex MR 無法轉)",
+    "rating": "備案"
+  },
+  {
+    "fingerprint": "SIN-EU|SQ|cash-J|2026-09|sq-sale",
+    "date": "2026-06-18",
+    "title": "Singapore Airlines 2026 歐洲商務艙促銷 (北向 blackout 9/23-9/30)",
+    "url": "https://www.travelandtourworld.com/news/article/lgc4mr9cf68k/",
+    "category": "outstation_deal",
+    "total_cost_twd": 130000,
+    "miles_cost": null,
+    "rating": "參考",
+    "blackout_alert": "方案B 9/25 出發完全中槍；僅方案A/C 9/19 出發可用"
+  },
+  {
+    "fingerprint": "united-status-match|UA|free|2026-06-30|united",
+    "date": "2026-06-18",
+    "title": "United MileagePlus Status Match - 6/30 截止申請",
+    "url": "https://thepointsguy.com/loyalty-programs/elite-status-plans-kgenter/",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "miles_cost": null,
+    "rating": "急件",
+    "deadline": "2026-06-30"
+  }
+]
