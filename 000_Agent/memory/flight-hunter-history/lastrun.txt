@@ -1,0 +1,7 @@
+[2026-06-18] 機票情報員執行完成，情況=A，尋獲 5 筆假期最優解，過濾 0 筆。
+重點：
+- 🔥 ANA The Room (160K Aeroplan + NT$20K cash) 適合方案 A/C
+- 🔥 Asiana J (150K Aeroplan + NT$12K cash) 適合方案 A/B/C
+- 🚨 急件：United Status Match 6/30 截止，免費 Star Gold 120 天
+- ⚠️ SQ 歐洲促 9/23-9/30 北向 blackout，方案 B 中槍
+- ❌ Cathay HKG-DFW NT$190K 過濾
