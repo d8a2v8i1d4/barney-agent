@@ -1,0 +1,38 @@
+[
+  {
+    "fingerprint": "TPE-IAD|EVA Air|41504 bonus miles|Sept 2026|evaair.com",
+    "date": "2026-06-24",
+    "title": "EVA Air TPE-IAD 開航促銷：R/T 最高 41,504 Award Miles + Status Sectors 加碼（適用 6/26-9/30 出發）",
+    "url": "https://www.evaair.com/en-tw/plan-and-book/special-offers/promotions/ff-promotion/IAD_Debut.html",
+    "category": "tpe_deal",
+    "total_cost_twd": 150000,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "Status Match|United Premier|free|June 2026|united.com",
+    "date": "2026-06-24",
+    "title": "United MileagePlus Premier Status Match — 截止 6/30/2026，即授 Star Alliance Gold 120 天，120 天內補刷 PQF/PQP 鎖年資至 2028/01",
+    "url": "https://www.united.com/en/us/fly/mileageplus/premier/status-match.html",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "US-TPE|Delta One|97700 SkyMiles|Sept 2026|delta.com",
+    "date": "2026-06-24",
+    "title": "Delta One US (SEA/LAX) ↔ TPE 商務艙哩程位釋出：97,700 SkyMiles（Delta Amex 卡友）/ 115,000（無卡），9 月底前廣泛供應",
+    "url": "https://frequentmiler.com/good-availability-from-us-to-taipei-on-delta-one-from-98000-skymiles-83300-for-delta-cardholders/",
+    "category": "award_space",
+    "total_cost_twd": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "SIN-Europe|Singapore Airlines|promo fare|Oct 2026|singaporeair.com",
+    "date": "2026-06-24",
+    "title": "Singapore Airlines 商務艙歐洲促銷：適用 10/01/2026 - 03/31/2027 旅行區間，例價 $6,125 USD（約 NT$190K，偏貴）",
+    "url": "https://www.travelandtourworld.com/news/article/lgc4mr9cf68k/",
+    "category": "outstation_deal",
+    "total_cost_twd": 190000,
+    "rating": "不報"
+  }
+]
