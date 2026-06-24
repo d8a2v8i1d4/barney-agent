@@ -1,0 +1,47 @@
+[
+  {
+    "fingerprint": "AMEX-MR-Etihad|Amex|N/A|2026-06|awardwallet.com",
+    "date": "2026-06-19",
+    "title": "Etihad Guest 7/1 永久退出 Amex MR 轉點夥伴名單",
+    "url": "https://awardwallet.com/news/amex-membership-rewards/etihad-removed-transfer-partner/",
+    "category": "amex_bonus",
+    "total_cost_twd": null,
+    "rating": "強推 - 警示性"
+  },
+  {
+    "fingerprint": "AMEX-MR-FlyingBlue|AF/KL|25%bonus|2026-06|onemileatatime.com",
+    "date": "2026-06-19",
+    "title": "Flying Blue 25% Amex MR 轉點加碼，6/30 截止，travel by 11/30 涵蓋 9/19-10/4 連假",
+    "url": "https://onemileatatime.com/deals/flying-blue-promo-rewards/",
+    "category": "amex_bonus",
+    "total_cost_twd": null,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "Qatar-Avios|QR|30%bonus|2026-06|onemileatatime.com",
+    "date": "2026-06-19",
+    "title": "Qatar Privilege Club 30% Avios 轉點加碼（Citi ThankYou 路線），6/30 截止",
+    "url": "https://onemileatatime.com/deals/qatar-airways-transfer-bonus/",
+    "category": "amex_bonus",
+    "total_cost_twd": null,
+    "rating": "參考 - Barney 暫時無管道"
+  },
+  {
+    "fingerprint": "EVA-LAX-TPE-upgrade|BR|12950miles|2026-09|slickdeals.net",
+    "date": "2026-06-19",
+    "title": "EVA Air LAX↔TPE BR005/006 Infinity MileageLands 升等 30% off (9-10 月)",
+    "url": "https://slickdeals.net/f/19323720-eva-air-los-angeles-taipei-route-30-off-cabin-upgrades-using-points-for-travel-april-may-september-or-october-2026",
+    "category": "tpe_deal",
+    "total_cost_twd": 50000,
+    "rating": "參考 - 僅美西適用"
+  },
+  {
+    "fingerprint": "Cathay-BLACKAU|CX|$100off|2026-10|theurbanlist.com",
+    "date": "2026-06-19",
+    "title": "Cathay Pacific 澳洲市場 BLACKAU promo code $100 off through 10/31",
+    "url": "https://www.theurbanlist.com/a-list/cathay-pacific-flight-sale",
+    "category": "outstation_deal",
+    "total_cost_twd": null,
+    "rating": "不報 - 澳洲市場限定"
+  }
+]
