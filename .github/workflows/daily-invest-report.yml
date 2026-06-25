@@ -37,6 +37,7 @@ jobs:
         run: python scripts/daily_invest_report.py
 
       - name: Commit history files
+        if: always()  # 即使寄信失敗（上一步非 0），仍要把當天歷史檔 commit 起來
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

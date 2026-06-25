@@ -651,27 +651,36 @@ def main():
     )
 
     # ===== 寄信 =====
+    # 寄信失敗會讓整個 job 回非 0（GitHub 變紅燈並寄失敗通知到收件匣），
+    # 避免再像以前一樣「明明沒寄出卻顯示成功」把問題遮住。
+    # 注意：資料抓取失敗（yfinance 限流）屬正常，不會讓 job 失敗。
+    email_failed = False
     subject = f"📊 {today_str} 投資決策日報 — 環境分數 {env_score}/100｜{label}｜進度 {actual_progress*100:.1f}%"
     if all(k in os.environ for k in ("GMAIL_CLIENT_ID", "GMAIL_CLIENT_SECRET", "GMAIL_REFRESH_TOKEN")):
         try:
             sys.path.insert(0, str(Path(__file__).parent))
-            from gmail_helper import create_draft
-            draft_id = create_draft(
+            from gmail_helper import send_message
+            msg_id = send_message(
                 to=os.environ.get("REPORT_RECIPIENT", "d8a2v8i1d4@gmail.com"),
                 subject=subject,
                 html_body=html,
             )
-            print(f"[gmail] draft id={draft_id}")
+            print(f"[gmail] sent id={msg_id}")
         except Exception as e:
             print(f"[gmail fail] {e}", file=sys.stderr)
             traceback.print_exc()
-            failures.append(f"Gmail draft 失敗：{e}")
+            failures.append(f"Gmail 寄信失敗：{e}")
+            email_failed = True
     else:
         print("[gmail] 未設定 GMAIL_* 環境變數，跳過寄信")
 
     print(f"[done] env_score={env_score}, etf_count={len(etf_results)}, failures={len(failures)}")
     for f in failures:
         print(f"  - {f}", file=sys.stderr)
+
+    if email_failed:
+        print("[fatal] 報告已產生但寄信失敗，job 以非 0 結束以觸發告警。", file=sys.stderr)
+        return 1
     return 0
 
 

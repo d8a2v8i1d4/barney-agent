@@ -1,4 +1,4 @@
-"""Gmail API 包裝：用 OAuth refresh token 建立草稿。
+"""Gmail API 包裝：用 OAuth refresh token 寄信／建立草稿。
 
 需要環境變數：
   GMAIL_CLIENT_ID
@@ -6,6 +6,8 @@
   GMAIL_REFRESH_TOKEN
 
 一次性流程跑 setup_gmail_oauth.py 取得 refresh token。
+gmail.compose 範圍同時涵蓋「建立草稿」與「直接寄送」，所以 send_message
+不需要額外授權範圍。
 """
 
 import base64
@@ -35,15 +37,32 @@ def get_credentials():
     return creds
 
 
-def create_draft(to: str, subject: str, html_body: str) -> str:
-    creds = get_credentials()
-    service = build("gmail", "v1", credentials=creds, cache_discovery=False)
-
+def _build_raw(to: str, subject: str, html_body: str) -> str:
     message = MIMEText(html_body, "html", "utf-8")
     message["to"] = to
     message["subject"] = subject
+    return base64.urlsafe_b64encode(message.as_bytes()).decode("utf-8")
 
-    raw = base64.urlsafe_b64encode(message.as_bytes()).decode("utf-8")
+
+def send_message(to: str, subject: str, html_body: str) -> str:
+    """直接寄出（進收件匣），回傳 message id。gmail.compose 範圍即可寄送。"""
+    creds = get_credentials()
+    service = build("gmail", "v1", credentials=creds, cache_discovery=False)
+    raw = _build_raw(to, subject, html_body)
+    sent = (
+        service.users()
+        .messages()
+        .send(userId="me", body={"raw": raw})
+        .execute()
+    )
+    return sent["id"]
+
+
+def create_draft(to: str, subject: str, html_body: str) -> str:
+    """只建草稿（不寄出），回傳 draft id。保留供需要時使用。"""
+    creds = get_credentials()
+    service = build("gmail", "v1", credentials=creds, cache_discovery=False)
+    raw = _build_raw(to, subject, html_body)
     draft = (
         service.users()
         .drafts()
