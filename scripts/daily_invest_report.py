@@ -29,6 +29,7 @@ import yfinance as yf
 REPO_ROOT = Path(__file__).resolve().parent.parent
 PORTFOLIO_FILE = REPO_ROOT / "000_Agent" / "memory" / "invest-portfolio.json"
 HISTORY_DIR = REPO_ROOT / "000_Agent" / "memory" / "invest-history"
+MACRO_CALENDAR_FILE = REPO_ROOT / "000_Agent" / "memory" / "macro-calendar.json"
 
 ETF_LIST = [
     ("VWRA.L", "核心"),
@@ -127,6 +128,19 @@ def fetch_chart_api(ticker, range_="1y"):
             print(f"[chart api fail] {ticker}: {e}", file=sys.stderr)
             return None, None, None
     return None, None, None
+
+
+def fetch_value_series(ticker, period="1y"):
+    """巨集指標兩段式抓取：yfinance → Yahoo chart API，互補對方的洞。
+    回 (最新值, 收盤序列)。降低被 Yahoo 限流時整個開天窗的機率。"""
+    price, series = fetch_yf(ticker, period=period)
+    if price is None or series is None:
+        api_price, _, api_series = fetch_chart_api(ticker, range_=period)
+        if price is None:
+            price = api_price
+        if series is None:
+            series = api_series
+    return clean(price), series
 
 
 def fetch_fred(series_id):
@@ -256,6 +270,32 @@ def upcoming_earnings(tickers, today, days_ahead=7):
         except Exception as e:
             print(f"[earnings fail] {t}: {e}", file=sys.stderr)
     return result
+
+
+def load_macro_events(today, days_ahead=14):
+    """讀 macro-calendar.json，回未來 days_ahead 天內的總經事件（含天數差）。
+    回 None 代表檔案缺/壞（與「無事件」的空 list 區分）。"""
+    if not MACRO_CALENDAR_FILE.exists():
+        return None
+    try:
+        data = json.loads(MACRO_CALENDAR_FILE.read_text())
+    except Exception as e:
+        print(f"[macro calendar fail] {e}", file=sys.stderr)
+        return None
+    events = []
+    for e in data.get("events", []):
+        try:
+            d = datetime.strptime(e["date"], "%Y-%m-%d").date()
+        except (KeyError, ValueError):
+            continue
+        delta = (d - today).days
+        if 0 <= delta <= days_ahead:
+            events.append({
+                "date": e["date"], "name": e.get("name", ""),
+                "importance": e.get("importance", "medium"), "days": delta,
+            })
+    events.sort(key=lambda x: x["date"])
+    return events
 
 
 # ============= 計分 =============
@@ -490,14 +530,28 @@ def build_html(ctx):
     pnl_rows = pnl_table_html(ctx["pnl"])
     action_html = build_action_html(ctx)
 
+    # 總經事件（官方行事曆）
+    macro = ctx["macro_events"]
+    if macro is None:
+        events_html = "<li style='color:#888;'>⚠️ 總經行事曆檔案缺失（macro-calendar.json）</li>"
+    elif not macro:
+        events_html = "<li>未來 14 天無重大總經數據</li>"
+    else:
+        events_html = ""
+        for e in macro:
+            when = ("今天" if e["days"] == 0
+                    else "明天" if e["days"] == 1
+                    else f"{e['days']} 天後")
+            star = "🔴" if e["importance"] == "high" else "🟡"
+            events_html += f"<li>{star} {e['date']}（{when}）：{e['name']}</li>"
+    # 個股財報
     if ctx["earnings_map"]:
-        events_html = "".join(
-            f"<li>📅 {d}：<b>{t}</b> 財報（本週暫停加碼）</li>"
+        events_html += "".join(
+            f"<li>📊 {d}：<b>{t}</b> 財報（該股本週暫停加碼）</li>"
             for t, d in sorted(ctx["earnings_map"].items(), key=lambda x: x[1])
         )
     else:
-        events_html = "<li>觀察清單個股未來 7 天無財報</li>"
-    events_html += "<li style='color:#888;'>FOMC / CPI 等宏觀數據日程請另行確認</li>"
+        events_html += "<li style='color:#888;'>觀察清單個股未來 7 天無財報</li>"
 
     failures_html = (
         "".join(f"<li>{f}</li>" for f in ctx["failures"])
@@ -557,7 +611,7 @@ def build_html(ctx):
   {watch_rows}
 </table>
 
-<h3>📅 本週關鍵事件</h3>
+<h3>📅 近期關鍵事件（未來 14 天）</h3>
 <ul>{events_html}</ul>
 
 <h3>🔄 與昨日比較</h3>
@@ -594,7 +648,7 @@ def main():
     failures = []
 
     # ===== VIX =====
-    vix, vix_series = fetch_yf("^VIX")
+    vix, vix_series = fetch_value_series("^VIX")
     if vix is None:
         failures.append("VIX")
     vix_pct = percentile_1y(vix, vix_series)
@@ -612,11 +666,13 @@ def main():
         vix_note = "🚨 極端恐慌（歷史機會）"
 
     # ===== 10Y 殖利率 =====
-    y10, y10_series = fetch_yf("^TNX")
+    # ^TNX 有時回 43.8（=4.38%×10）有時回 4.38，price 與 series 各自依大小正規化，
+    # 避免兩段式抓取時來源不同造成單位不一致。
+    y10, y10_series = fetch_value_series("^TNX")
     if y10 is not None and y10 > 20:
         y10 = y10 / 10
-        if y10_series is not None:
-            y10_series = y10_series / 10
+    if y10_series is not None and len(y10_series) and float(y10_series.iloc[-1]) > 20:
+        y10_series = y10_series / 10
     y10_change_bps = None
     if y10_series is not None and len(y10_series) >= 2:
         y10_change_bps = float((y10_series.iloc[-1] - y10_series.iloc[-2]) * 100)
@@ -635,7 +691,7 @@ def main():
     inverted = (y2 is not None and y10 is not None and y2 > y10)
 
     # ===== DXY =====
-    dxy, dxy_series = fetch_yf("DX-Y.NYB")
+    dxy, dxy_series = fetch_value_series("DX-Y.NYB")
     dxy_change_pct = None
     if dxy_series is not None and len(dxy_series) >= 2:
         dxy_change_pct = float((dxy_series.iloc[-1] / dxy_series.iloc[-2] - 1) * 100)
@@ -681,6 +737,9 @@ def main():
         else:
             watch_results.append(data)
         time.sleep(0.5)
+
+    # ===== 近期總經事件（官方行事曆）=====
+    macro_events = load_macro_events(today, days_ahead=14)
 
     # ===== 本週財報 → 該股暫停加碼 =====
     earnings_map = upcoming_earnings(EARNINGS_CHECK, today)
@@ -793,6 +852,7 @@ def main():
         "etf_results": etf_results,
         "watch_results": watch_results,
         "earnings_map": earnings_map,
+        "macro_events": macro_events,
         "signal_change": signal_change,
         "failures": failures,
         # 持倉損益 + 今日行動
