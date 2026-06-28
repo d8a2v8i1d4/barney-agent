@@ -13,6 +13,7 @@
 
 import json
 import os
+import re
 import sys
 import time
 import traceback
@@ -52,6 +53,11 @@ WATCH_LIST = [
 
 # 本週有財報 → 該股暫停加碼（只查美股，台股財報季另計）
 EARNINGS_CHECK = ["NVDA", "TSM", "MSFT", "META", "AMZN"]
+
+# 月度核心 DCA 週期（天）與核心三檔的分配比例（用來把建議金額換算成股數）
+DCA_CYCLE_DAYS = 28
+CORE_SPLIT = [("VWRA.L", 0.50), ("CNDX.L", 0.25), ("IWMO.L", 0.25)]
+SAT_TRIGGER_SCORE = 70  # 衛星層加碼門檻分數
 
 TZ = ZoneInfo("Asia/Taipei")
 
@@ -344,9 +350,145 @@ def ticker_rows(results):
     return rows
 
 
+# ============= 持倉損益 =============
+
+def aggregate_holdings(portfolio):
+    """把各層的 trades 依 ticker 彙總：總股數、總成本、平均成本。"""
+    holdings = {}
+    for layer_key, layer in portfolio["layers"].items():
+        for t in layer.get("trades", []):
+            h = holdings.setdefault(
+                t["ticker"], {"layer": layer_key, "shares": 0.0, "cost": 0.0})
+            h["shares"] += t["shares"]
+            h["cost"] += t["amount"]
+    for h in holdings.values():
+        h["avg_cost"] = h["cost"] / h["shares"] if h["shares"] else None
+    return holdings
+
+
+def build_pnl(portfolio, price_lookup, twd):
+    """以當日現價計算每檔與總計的未實現損益。抓不到價的標的市值留空。"""
+    holdings = aggregate_holdings(portfolio)
+    positions, total_cost, total_mv, mv_known = [], 0.0, 0.0, True
+    for ticker, h in sorted(holdings.items()):
+        price = price_lookup.get(ticker)
+        total_cost += h["cost"]
+        if price is not None:
+            mv = h["shares"] * price
+            total_mv += mv
+            pnl = mv - h["cost"]
+            ret = pnl / h["cost"] if h["cost"] else None
+        else:
+            mv = pnl = ret = None
+            mv_known = False
+        positions.append({
+            "ticker": ticker, "shares": h["shares"], "avg_cost": h["avg_cost"],
+            "price": price, "mv": mv, "pnl": pnl, "ret": ret,
+        })
+    total_pnl = (total_mv - total_cost) if mv_known else None
+    total_ret = (total_pnl / total_cost) if (mv_known and total_cost) else None
+    return {
+        "positions": positions, "total_cost": total_cost,
+        "total_mv": total_mv if mv_known else None,
+        "total_pnl": total_pnl, "total_ret": total_ret, "twd": twd,
+    }
+
+
+def pnl_table_html(pnl):
+    def color(v):
+        return "#1a7f37" if (v is not None and v >= 0) else "#cf222e"
+    rows = ""
+    for p in pnl["positions"]:
+        c = color(p["ret"])
+        ret_str = f"{p['ret']*100:+.1f}%" if p["ret"] is not None else "—"
+        rows += (
+            f"<tr><td>{p['ticker']}</td>"
+            f"<td>{fmt(p['shares'], '.2f')}</td>"
+            f"<td>{fmt(p['avg_cost'])}</td>"
+            f"<td>{fmt(p['price'])}</td>"
+            f"<td>{fmt(p['mv'], ',.0f')}</td>"
+            f"<td style='color:{c};'>{fmt(p['pnl'], '+,.0f')}</td>"
+            f"<td style='color:{c};'>{ret_str}</td></tr>"
+        )
+    tp, tr = pnl["total_pnl"], pnl["total_ret"]
+    tc = color(tp)
+    twd_note = ""
+    if pnl["twd"] and tp is not None:
+        twd_note = f"｜約 NT${tp*pnl['twd']:+,.0f}"
+    rows += (
+        f"<tr style='background:#f5f5f5;font-weight:bold;'>"
+        f"<td>合計</td><td></td><td></td><td></td>"
+        f"<td>{fmt(pnl['total_mv'], ',.0f')}</td>"
+        f"<td style='color:{tc};'>{fmt(tp, '+,.0f')}</td>"
+        f"<td style='color:{tc};'>{f'{tr*100:+.1f}%' if tr is not None else '—'}{twd_note}</td></tr>"
+    )
+    return rows
+
+
+# ============= 今日行動 =============
+
+def parse_amount(action_str):
+    """從決策字串抓出第一個 $金額。"""
+    m = re.search(r"\$([\d,]+)", action_str or "")
+    return float(m.group(1).replace(",", "")) if m else None
+
+
+def last_trade_date(portfolio, layer_key):
+    dates = [t["date"] for t in portfolio["layers"][layer_key].get("trades", [])]
+    return max(dates) if dates else None
+
+
+def build_action_html(ctx):
+    """把「今天到底要不要動、動多少、在等什麼」講成人話。"""
+    # --- 核心層：月度 DCA 時機 ---
+    if ctx["core_due"]:
+        plan = "、".join(
+            (f"{c['ticker']} ≈{c['shares']:.2f} 股（${c['amount']:,.0f}）"
+             if c["shares"] is not None else f"{c['ticker']}（現價暫缺）")
+            for c in ctx["core_plan"])
+        core = (f"🟢 <b>核心層：今天可執行本月 DCA ≈ ${ctx['dca_amount']:,.0f}</b><br>"
+                f"&nbsp;&nbsp;建議分配：{plan}")
+        if ctx["days_since_core"] is not None:
+            core += (f"<br>&nbsp;&nbsp;<span style='color:#888;'>"
+                     f"（距上次核心買入 {ctx['days_since_core']} 天）</span>")
+    else:
+        left = DCA_CYCLE_DAYS - ctx["days_since_core"]
+        core = (f"⏸️ <b>核心層：今天不需動</b>　本月 DCA 已於 {ctx['last_core']} 執行"
+                f"（{ctx['days_since_core']} 天前），下次約 {left} 天後")
+
+    # --- 衛星層：距觸發點 ---
+    sb = ctx["sat_best"]
+    if sb and sb["score"] is not None:
+        if sb["score"] >= SAT_TRIGGER_SCORE:
+            sat = (f"🟢 <b>衛星層：{sb['ticker']} 分數 {sb['score']} 已達標</b>"
+                   f"（≥{SAT_TRIGGER_SCORE}），可加碼 $500–1,000")
+        else:
+            sat = (f"⏸️ <b>衛星層：在等訊號</b>　最高分 {sb['ticker']}（{sb['score']}），"
+                   f"需 ≥{SAT_TRIGGER_SCORE}，<b>還差 {SAT_TRIGGER_SCORE - sb['score']} 分</b>")
+    else:
+        sat = "⏸️ 衛星層：資料暫缺"
+
+    # --- 進攻層：雙條件 ---
+    vix, env = ctx["vix"], ctx["env_score"]
+    vix_ok = vix is not None and vix > 25
+    env_ok = env >= 80
+    if vix_ok and env_ok:
+        agg = "🟢 <b>進攻層：雙條件達標</b>（環境分≥80 + VIX>25），可動 $1,000–1,500"
+    else:
+        parts = []
+        if vix is not None:
+            parts.append(f"VIX {vix:.1f}" + ("✅" if vix_ok else f"（需>25，差 {25 - vix:.1f}）"))
+        parts.append(f"環境分 {env}" + ("✅" if env_ok else f"（需≥80，差 {80 - env}）"))
+        agg = "⏸️ <b>進攻層：在等訊號</b>　" + "｜".join(parts)
+
+    return core + "<br><br>" + sat + "<br>" + agg
+
+
 def build_html(ctx):
     rows = ticker_rows(ctx["etf_results"])
     watch_rows = ticker_rows(ctx["watch_results"])
+    pnl_rows = pnl_table_html(ctx["pnl"])
+    action_html = build_action_html(ctx)
 
     if ctx["earnings_map"]:
         events_html = "".join(
@@ -365,6 +507,19 @@ def build_html(ctx):
 
     return f"""<h2>📊 {ctx['today']} 投資決策日報</h2>
 
+<div style="background:#fff3cd;padding:14px;border-left:5px solid #ff9800;margin-bottom:12px;">
+  <h3 style="margin-top:0;">🎯 今日行動　<span style="font-weight:normal;font-size:14px;color:#555;">環境分數 {ctx['env_score']}/100 · {ctx['label']}</span></h3>
+  <p style="margin:6px 0;line-height:1.7;">{action_html}</p>
+</div>
+
+<div style="background:#e8f5e9;padding:12px;border-left:4px solid #4caf50;margin-bottom:10px;">
+  <h3 style="margin-top:0;">📊 持倉損益<span style="font-weight:normal;font-size:13px;color:#666;">（市值以當日現價計，未實現）</span></h3>
+  <table border="1" cellpadding="6" style="border-collapse:collapse;background:#fff;">
+    <tr style="background:#f5f5f5;"><th>標的</th><th>股數</th><th>平均成本</th><th>現價</th><th>市值</th><th>損益</th><th>報酬率</th></tr>
+    {pnl_rows}
+  </table>
+</div>
+
 <div style="background:#f0f7ff;padding:12px;border-left:4px solid #2196f3;">
   <h3>💼 部位進度</h3>
   <p><strong>已部署</strong>：USD ${ctx['deployed']:,.2f} / ${ctx['total_capital']:,} ({ctx['actual_progress']*100:.1f}%)</p>
@@ -374,14 +529,6 @@ def build_html(ctx):
   <div style="background:#ddd;height:20px;border-radius:10px;overflow:hidden;">
     <div style="background:#2196f3;width:{ctx['actual_progress']*100:.1f}%;height:100%;"></div>
   </div>
-</div>
-
-<div style="background:#fff3cd;padding:12px;border-left:4px solid #ffc107;margin-top:10px;">
-  <h3>💡 今日建議</h3>
-  <p><strong>環境分數</strong>：{ctx['env_score']} / 100（{ctx['label']}）</p>
-  <p><strong>核心層</strong>：{ctx['core_action']}</p>
-  <p><strong>衛星層</strong>：{ctx['sat_action']}{ctx['sat_pick']}</p>
-  <p><strong>進攻層</strong>：{ctx['agg_action']}</p>
 </div>
 
 <h3>🌐 巨集環境</h3>
@@ -575,6 +722,32 @@ def main():
     if "可動" in agg_action and not can_aggressive:
         agg_action = "暫不動（未達雙條件：環境分≥80 + VIX>25）"
 
+    # ===== 持倉損益 =====
+    price_lookup = {r["ticker"]: r["price"]
+                    for r in (etf_results + watch_results) if r.get("price")}
+    pnl = build_pnl(portfolio, price_lookup, twd)
+
+    # ===== 今日行動：核心 DCA 時機 + 換算股數 =====
+    last_core = last_trade_date(portfolio, "core")
+    days_since_core = (
+        (today - datetime.strptime(last_core, "%Y-%m-%d").date()).days
+        if last_core else None)
+    dca_amount = parse_amount(core_action) or 2300.0
+    if "追加" in progress_note:
+        dca_amount *= 1.2
+    elif "減半" in progress_note:
+        dca_amount *= 0.5
+    core_due = (days_since_core is None) or (days_since_core >= DCA_CYCLE_DAYS)
+    core_plan = []
+    for tk, w in CORE_SPLIT:
+        p = price_lookup.get(tk)
+        amt = dca_amount * w
+        core_plan.append({"ticker": tk, "amount": amt,
+                          "shares": (amt / p if p else None), "price": p})
+    sat_etfs = sorted([r for r in etf_results if r["layer"] == "衛星"],
+                      key=lambda r: -(r["score"] or 0))
+    sat_best = sat_etfs[0] if sat_etfs else None
+
     # ===== 比對昨日 =====
     yest_files = sorted(HISTORY_DIR.glob("*.json"), reverse=True)
     prev_data = None
@@ -622,6 +795,11 @@ def main():
         "earnings_map": earnings_map,
         "signal_change": signal_change,
         "failures": failures,
+        # 持倉損益 + 今日行動
+        "pnl": pnl,
+        "core_due": core_due, "days_since_core": days_since_core,
+        "last_core": last_core, "dca_amount": dca_amount, "core_plan": core_plan,
+        "sat_best": sat_best,
     }
     html = build_html(ctx)
 
@@ -638,6 +816,9 @@ def main():
         "recommendation": f"{label}｜核心：{core_action}｜衛星：{sat_action}{sat_pick}｜進攻：{agg_action}",
         "portfolio_progress": actual_progress,
         "deployed_usd": portfolio["deployed"],
+        "market_value_usd": pnl["total_mv"],
+        "unrealized_pnl_usd": pnl["total_pnl"],
+        "unrealized_return": pnl["total_ret"],
         "progress_note": progress_note,
         "signal_change": signal_change,
         "data_fetch_failures": failures,
@@ -655,7 +836,9 @@ def main():
     # 避免再像以前一樣「明明沒寄出卻顯示成功」把問題遮住。
     # 注意：資料抓取失敗（yfinance 限流）屬正常，不會讓 job 失敗。
     email_failed = False
-    subject = f"📊 {today_str} 投資決策日報 — 環境分數 {env_score}/100｜{label}｜進度 {actual_progress*100:.1f}%"
+    pnl_tag = f"｜損益 {pnl['total_ret']*100:+.1f}%" if pnl["total_ret"] is not None else ""
+    subject = (f"📊 {today_str} 投資決策日報 — 環境分數 {env_score}/100｜{label}"
+               f"｜進度 {actual_progress*100:.1f}%{pnl_tag}")
     if all(k in os.environ for k in ("GMAIL_CLIENT_ID", "GMAIL_CLIENT_SECRET", "GMAIL_REFRESH_TOKEN")):
         try:
             sys.path.insert(0, str(Path(__file__).parent))
