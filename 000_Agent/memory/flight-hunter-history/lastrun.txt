@@ -1,0 +1,10 @@
+2026-06-28 機票情報員執行完成，情況=B，尋獲 0 筆假期最優解，過濾 0 筆。
+今日掃描重點：FlyerTalk Premium Fare Deals、Secret Flying、LoyaltyLobby、One Mile at a Time、Awardwallet、Frequent Miler、View from the Wing。
+無 9/19-10/04 區段的 ex-TPE/ex-HKG/ex-KUL/ex-BKK/ex-SIN 商務艙甜甜價達到 ✅ 強推（55,000-75,000 TWD 總成本）門檻。
+背景情報筆記（不寄信）：
+- Flying Blue 6 月 Promo 主打北美/暖冬目的地，缺亞洲-歐洲 BC 折扣，本月不適用。
+- Swiss BC 暑期 award space 透過 Aeroplan/United/LifeMiles 仍寬鬆，但僅 BOS/EWR/JFK → ZRH/GVA，需 US positioning 不適合 Barney。
+- Aeroplan 60K 單程 US-EU vs LifeMiles 92K（已 devalue）→ 未來 Amex MR 轉點優先選 Aeroplan。
+- EVA Air Infinity MileageLands status match：Gold €199，需以現有航空高卡為基礎；Barney 目前無 Star Alliance 高卡，無法直接觸發。
+- Marriott Plat+ → KrisFlyer Gold instant match 仍有效（Barney 目前無 Marriott Plat+，先列為未來路徑）。
+明日續抓：ex-HKG/ex-KUL Bug 票、CX/QR/SQ 暑末黃金連假商務艙閃促、Aeroplan/Asia Miles award space 對 9 月底 TPE-Europe 釋出。
