@@ -28,6 +28,9 @@
   "recommendation": "🟡 中性偏多｜核心：維持月 DCA $2,300｜衛星：觀望，只挑分數>70 加 $500｜進攻：暫不動",
   "portfolio_progress": 0.1886648,
   "deployed_usd": 4716.62,
+  "market_value_usd": 4818.46,
+  "unrealized_pnl_usd": 101.84000000000015,
+  "unrealized_return": 0.021591733063083342,
   "progress_note": "目前同步",
   "signal_change": "環境分數：60 → 60（+0），與昨日類似",
   "data_fetch_failures": []
