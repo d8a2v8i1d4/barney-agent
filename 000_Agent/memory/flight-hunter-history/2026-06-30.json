@@ -1,0 +1,51 @@
+[
+  {
+    "fingerprint": "HKG-LAX/SFO/SEA/JFK|Cathay Pacific|88K-110K Asia Miles|2026-09/10|cathaypacific.com",
+    "date": "2026-06-30",
+    "title": "Cathay Pacific 大量釋出 late 2026 北美 J 艙位 (Asia Miles 88K-110K 單程)",
+    "url": "https://www.thepointsanalyst.com/award-alert-cathay-pacific-business-class-to-hong-kong/",
+    "category": "award_space",
+    "total_cost_twd": 14000,
+    "total_miles": 176000,
+    "rating": "史詩級神級神票",
+    "score": 93,
+    "fit_window": "9/19-10/4 完美",
+    "notes": "TPE-HKG 接駁無痛；含 5月新表已漲 1-4K；釋出常 24-72h 內被掃"
+  },
+  {
+    "fingerprint": "SIN-BCN|Saudia|USD2000 RT|2026-09|premium-flights.com",
+    "date": "2026-06-30",
+    "title": "Saudia SIN-Barcelona 商務艙 ~US$2,000 RT (含 TPE-SIN 接駁 ~NT$77,500)",
+    "url": "https://premium-flights.com/category/cheap-business-class-flights/business-class-deals-from-australia/",
+    "category": "outstation_deal",
+    "total_cost_twd": 77500,
+    "rating": "強推",
+    "score": 79,
+    "fit_window": "9/19-10/4 完美",
+    "notes": "禁酒；RUH/JED 轉機 4-5h；夜班 TPE-SIN 抵達後當晚轉機"
+  },
+  {
+    "fingerprint": "MNL-MAD/DUB/GVA/IST|Etihad|USD2500 RT|2026-09|premium-flights.com",
+    "date": "2026-06-30",
+    "title": "Etihad MNL-歐洲 (Madrid/Dublin/Geneva/Istanbul) 商務艙 ~US$2,500 RT",
+    "url": "https://premium-flights.com/etihad-airways-business-class-deals/",
+    "category": "outstation_deal",
+    "total_cost_twd": 88000,
+    "rating": "強推",
+    "score": 76,
+    "fit_window": "9/19-10/4 完美",
+    "notes": "MNL 機場品質偏低；Etihad 787 Business Studio 反魚骨硬體佳"
+  },
+  {
+    "fingerprint": "Amex MR->Virgin Atlantic|30% bonus|2026-07-31 deadline|upgradedpoints.com",
+    "date": "2026-06-30",
+    "title": "Amex MR 轉 Virgin Atlantic Flying Club 30% 加碼，截止 2026-07-31",
+    "url": "https://upgradedpoints.com/news/amex-virgin-atlantic-transfer-bonus/",
+    "category": "amex_bonus",
+    "total_cost_twd": null,
+    "rating": "強推",
+    "score": 82,
+    "fit_window": "適用於 9-10 月 ANA The Room 兌換",
+    "notes": "限美卡 MR；台灣 MR 不適用 Virgin。NRT-LAX J = 37,000 MR (加碼後)"
+  }
+]
