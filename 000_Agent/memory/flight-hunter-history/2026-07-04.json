@@ -1,0 +1,42 @@
+[
+  {
+    "fingerprint": "NRT-EU-Biz-ANA|VirginAtlantic90K|Sep2026|awardwallet.com",
+    "date": "2026-07-04",
+    "title": "Amex MR → Virgin Atlantic 30% Bonus 兌換 ANA The Room NRT-歐洲商務艙",
+    "url": "https://awardwallet.com/news/amex-membership-rewards/virgin-atlantic-transfer-bonus/",
+    "category": "amex_bonus",
+    "total_cost_twd": 25000,
+    "mr_cost": 69231,
+    "expiration": "2026-07-31",
+    "rating": "史詩神級"
+  },
+  {
+    "fingerprint": "TPE-PRG-Biz-Starlux|Launch2026-08-01|Sep2026|starlux-airlines.com",
+    "date": "2026-07-04",
+    "title": "STARLUX TPE-Prague 首航蜜月期，9-10 月 3-4x weekly 增班",
+    "url": "https://onemileatatime.com/news/starlux-airlines-prague-flights/",
+    "category": "tpe_deal",
+    "total_cost_twd": 75000,
+    "rating": "史詩神級"
+  },
+  {
+    "fingerprint": "TPE-EU-Biz-EVA|LifeMiles63KOW|Sep2026|awardtravelfinder.com",
+    "date": "2026-07-04",
+    "title": "Amex MR → Avianca LifeMiles 15% Bonus 兌換 EVA 商務艙 TPE-歐洲",
+    "url": "https://awardtravelfinder.com/transfer-bonuses/amex-membership-rewards",
+    "category": "amex_bonus",
+    "total_cost_twd": 6000,
+    "mr_cost": 109566,
+    "expiration": "2026-07-15",
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "StatusMatch-TurkishAirlines-ElitePlus|Waitlist|StarGold|statusmatcher.com",
+    "date": "2026-07-04",
+    "title": "Turkish Airlines M&S Elite Plus Status Match（Waitlist），成功得 Star Alliance Gold",
+    "url": "https://statusmatcher.com/company/turkish-airlines",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "rating": "參考"
+  }
+]
