@@ -1,0 +1,32 @@
+[
+  {
+    "fingerprint": "HKG-LHR|CathayPacific|88000AsiaMiles|Sep2026|cathaypacific.com",
+    "date": "2026-07-07",
+    "title": "Cathay Pacific HKG-LHR 商務艙 Asia Miles 標準價 88,000 miles + 稅金（Aria Suite 新艙位）",
+    "url": "https://flights.cathaypacific.com/en_US/redeem-flights/flight-award-chart.html",
+    "category": "award_space",
+    "total_cost_twd": null,
+    "rating": "landscape_note",
+    "note": "非促銷，僅記錄基準；Cathay Aria Suite 4/4 起先 HKG-LAX 上線，未來或擴至歐洲線"
+  },
+  {
+    "fingerprint": "MH_ex-KUL-Europe|MalaysiaAirlines|expired|book-by-Jun24|malaysiaairlines.com",
+    "date": "2026-07-07",
+    "title": "Malaysia Airlines ex-KUL 商務艙歐洲促銷（訂位窗口已於 6/24 關閉）",
+    "url": "https://www.malaysiaairlines.com/us/en/plan-trip/cabin-classes.html",
+    "category": "outstation_deal",
+    "total_cost_twd": null,
+    "rating": "expired",
+    "note": "訂位窗口過期；追蹤下次 MH ex-KUL 促銷"
+  },
+  {
+    "fingerprint": "Aeroplan_devaluation|AirCanada|effective-Jun1-2026|Atlantic-Pacific-up|aircanada.com",
+    "date": "2026-07-07",
+    "title": "Aeroplan 6/1 award chart 貶值已生效：Europe-Asia biz 每階都漲，7501-11000 mile band 從 87.5k → 102.5k",
+    "url": "https://www.maxmilespoints.com/blog/aeroplan-award-chart-changes-2026",
+    "category": "award_chart_change",
+    "total_cost_twd": null,
+    "rating": "negative_news",
+    "note": "影響 Barney 未來以 Aeroplan 兌換 ANA/EVA/Singapore/Asiana 星盟商務艙的策略"
+  }
+]
