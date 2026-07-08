@@ -1,0 +1,6 @@
+2026-07-08 機票情報員執行完成，情況=A，尋獲 4 筆假期最優解，過濾 2 筆。
+- EVA Air ex-KUL 商務艙 D 促銷艙 KUL-TPE-VIE：總估 81,000 TWD（強推）
+- Amex MR → Virgin Atlantic 30% Bonus（7/31 截止）
+- Amex MR → Avianca LifeMiles 15% Bonus（7/15 截止，剩 7 天）
+- Cathay Aria Suite HKG-LAX 產品情報（哩程票 sweet spot）
+Gmail draft ID: r6195067692451680528
