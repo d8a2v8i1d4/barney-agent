@@ -1,0 +1,12 @@
+2026-07-07 機票情報員執行完成，情況=B，尋獲 0 筆符合 9/19-10/4 黃金連假 CP 值門檻的特價，過濾 0 筆。
+
+Landscape notes (非促銷，但已寫入 history):
+- Cathay HKG-LHR 標準 88k Asia Miles 基準價
+- Malaysia Airlines ex-KUL 促銷訂位窗口已於 6/24 關閉
+- Aeroplan 6/1 devaluation 已生效，Atlantic-Pacific biz 全面漲點
+
+下次執行建議追蹤：
+1. Amex MR → Asia Miles/KrisFlyer/Aeroplan 是否釋出 transfer bonus
+2. 8 月 KrisFlyer Spontaneous Escapes 9 月清單
+3. Secret Flying / Reddit r/awardtravel 的 mistake fare
+4. Cathay 7/31 前促銷是否加碼含歐美長程線
