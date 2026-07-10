@@ -1,0 +1,38 @@
+[
+  {
+    "fingerprint": "ex-SIN-Europe|Singapore Airlines|SGD1028+|2026-09|greatdeals.com.sg",
+    "date": "2026-07-10",
+    "title": "新航 SQ ex-SIN 商務艙促銷飛歐洲（旅行區間 blackout 卡死 9/14-10/4 黃金連假，本檔無效）",
+    "url": "https://www.greatdeals.com.sg/2026/03/03/singapore-airlines-march-2026-sale-asia-europe-australia-usa",
+    "category": "outstation_deal",
+    "total_cost_twd": null,
+    "rating": "不符（blackout 卡連假）"
+  },
+  {
+    "fingerprint": "TPE-SFO/LAX|United Polaris award|partner-space-collapse|2027-01|onemileatatime.com",
+    "date": "2026-07-10",
+    "title": "UA Polaris 商務艙夥伴哩程位（Aeroplan/LifeMiles）幾乎歸零，改限 UA 精英與聯名卡卡友",
+    "url": "https://onemileatatime.com/insights/united-polaris-business-class-award-availability/",
+    "category": "ua_us_west",
+    "total_cost_twd": null,
+    "rating": "情報（壞消息／影響 2027 計畫）"
+  },
+  {
+    "fingerprint": "Amex MR transfer bonus|VirginAtlantic30/Hilton20/LifeMiles15|2026-07|frequentmiler.com",
+    "date": "2026-07-10",
+    "title": "2026/07 Amex MR 轉點加碼：Virgin Atlantic +30%、Hilton +20%、Avianca LifeMiles +15%",
+    "url": "https://frequentmiler.com/current-point-transfer-bonuses/",
+    "category": "amex_bonus",
+    "total_cost_twd": null,
+    "rating": "參考（對 UA 美西無實質幫助）"
+  },
+  {
+    "fingerprint": "UA Premier Status Challenge|instant Star Alliance Gold|deadline 2026-12-31|frequentmiler.com",
+    "date": "2026-07-10",
+    "title": "UA MileagePlus Premier Status Challenge：可挑戰至 1K、即刻星盟金卡、7/1 後完成鎖到 2028/01",
+    "url": "https://frequentmiler.com/united-mileage-plus-status-match-challenge/",
+    "category": "ua_us_west",
+    "total_cost_twd": null,
+    "rating": "強推情報（今日最有價值）"
+  }
+]
