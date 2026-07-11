@@ -1,0 +1,6 @@
+[2026-07-11] 機票情報員執行完成，情況=B，尋獲 0 筆假期與 UA 美西最優解，過濾 0 筆。
+備註：WebSearch 成功 11 個 / 失敗 2 個（secretflying.com error-fares、travelandtourworld.com 皆 403 阻擋，未重試）。
+非甜甜價但值得留意的背景情報（未達寄信門檻，未列入歷史指紋）：
+- UA MileagePlus Status Match Challenge 延長至 2026/12/31，新增可 match 至 Premier 1K；7/1 後完成者效期可延至 2028/01/31。
+- Amex MR 轉點加碼僅 Virgin Atlantic 30%（至 7/31）、Hilton 20%（至 7/14），皆非 Barney 目標夥伴。
+- 2027 年 1-2 月 UA 台北–美西 saver 位子多在起飛前 14 天內才釋出，需持續追蹤。
