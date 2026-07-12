@@ -1,0 +1,42 @@
+[
+  {
+    "fingerprint": "LAX-TPE|Starlux|USD5643|2026-09|starlux-airlines.com",
+    "date": "2026-07-12",
+    "title": "STARLUX LAX-TPE 商務艙 Sep 9-28 / Sep 25-Oct 14 2026，約 USD 5,643 RT",
+    "url": "https://flights.evaair.com/en-us/flights-from-los-angeles-to-taiwan",
+    "category": "outstation_deal",
+    "total_cost_twd": 180000,
+    "rating": "不報",
+    "note": "方向反（LAX 出發非亞洲外站）且約 18 萬 TWD 遠超上限，過濾"
+  },
+  {
+    "fingerprint": "EUR-ASIA|AirChina/ChinaEastern|GBP800|unknown|verylvke.com",
+    "date": "2026-07-12",
+    "title": "Air China / China Eastern 歐洲-亞洲商務艙 £800 起 RT（2026/07/10 貼出）",
+    "url": "https://www.verylvke.com/en/2026/07/10/air-china-china-eastern-business-class-return-between-europe-and-asia-from-800/",
+    "category": "outstation_deal",
+    "total_cost_twd": 32000,
+    "rating": "不報",
+    "note": "出發地為歐洲非亞洲外站、確切日期不明；來源頁 HTTP 403 無法驗證，不列入推薦"
+  },
+  {
+    "fingerprint": "AmexMR-LifeMiles|Avianca|15pct-bonus|2026-07|awardwallet.com",
+    "date": "2026-07-12",
+    "title": "Amex MR → Avianca LifeMiles 15% 轉點加碼（截止 2026/07/15）",
+    "url": "https://awardwallet.com/news/amex-membership-rewards/avianca-lifemiles-transfer-bonus/",
+    "category": "amex_bonus",
+    "total_cost_twd": 0,
+    "rating": "參考",
+    "note": "LifeMiles 可開星盟含 UA，惟加碼僅 15%（低於 30% 強推門檻）且 3 天內截止；Barney 現為台灣 MR、尚未轉美卡，暫難吃到"
+  },
+  {
+    "fingerprint": "UA-StatusChallenge|United|match-to-1K|2026|onemileatatime.com",
+    "date": "2026-07-12",
+    "title": "United MileagePlus Status Challenge 2026：十年來首度可挑戰至 1K（收件截止 2026/12/21）",
+    "url": "https://onemileatatime.com/guides/united-status-match/",
+    "category": "ua_us_west",
+    "total_cost_twd": 0,
+    "rating": "參考",
+    "note": "Premier Gold 需 10 PQF + 3,400 PQP；核准後 120 天內須完成 activating flight。可搭配 2027 年 1-2 月 UA 台北-美西計畫刷星盟金卡，重要背景情報"
+  }
+]
