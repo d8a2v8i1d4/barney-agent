@@ -1,0 +1,1 @@
+[2026-07-10] 機票情報員執行完成，情況=A（已寄 Gmail 草稿），尋獲 0 筆現金甜甜價 + 4 則情報（UA夥伴哩程位歸零、UA Status Challenge、Amex轉點加碼、新航特賣blackout），過濾 1 筆（新航blackout卡連假）。核心結論：UA 2027 佈局關鍵是先刷 UA Status Challenge 拿精英身份，而非等哩程位。WebSearch 成功8/失敗1（新航原文403）。
