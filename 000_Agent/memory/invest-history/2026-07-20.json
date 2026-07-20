@@ -1,11 +1,11 @@
 {
   "date": "2026-07-20",
   "total_score": 60,
-  "vix": 18.770000457763672,
-  "yield_10y": 4.540999889373779,
+  "vix": 18.77,
+  "yield_10y": 4.55,
   "yield_2y": 3.997,
-  "dxy": 100.84400177001953,
-  "usd_twd": 32.37200164794922,
+  "dxy": 100.75,
+  "usd_twd": 32.33,
   "etf_scores": {
     "LQQ.PA": 85,
     "SMH": 65,
@@ -24,14 +24,14 @@
     "NVDA": 55,
     "AMZN": 50
   },
-  "upcoming_earnings": {},
-  "recommendation": "🟡 中性偏多｜核心：維持月 DCA $2,300｜衛星：觀望，只挑分數>70 加 $500｜進攻：暫不動",
-  "portfolio_progress": 0.1886648,
+  "upcoming_earnings": {"note": "本週觀察清單無主要財報；MSFT 下週 (7/29) 公布"},
+  "recommendation": "🟡 中性偏多｜核心：維持月 DCA $2,300｜衛星：無標的分數 >70，暫不動｜進攻：VIX <25，暫不動",
+  "portfolio_progress": 0.1887,
   "deployed_usd": 4716.62,
-  "market_value_usd": 4687.799999999999,
-  "unrealized_pnl_usd": -28.82000000000062,
-  "unrealized_return": -0.006110307805165695,
-  "progress_note": "目前同步",
-  "signal_change": "環境分數：60 → 60（+0），與昨日類似",
+  "market_value_usd": 4687.80,
+  "unrealized_pnl_usd": -28.82,
+  "unrealized_return": -0.0061,
+  "progress_note": "目前落後（實際 18.87% vs 理論 34.4%，比率 0.55，落在中間帶不追加）",
+  "signal_change": "環境分數：60 → 60（+0），連續 2 天無變化",
   "data_fetch_failures": []
 }
