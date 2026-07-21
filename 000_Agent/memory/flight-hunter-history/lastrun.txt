@@ -1,0 +1,4 @@
+2026-07-21 機票情報員執行完成，情況=B，尋獲 0 筆符合條件的假期與 UA 美西最優解，過濾 3 筆（近似但未達標：Starlux TPE-PRG 僅航線、SQ 特惠模糊、國航/東航方向相反）。
+WebSearch 成功 8 個 / 失敗 0 個；WebFetch 失敗 1 個（verylvke.com 403）。
+今日無符合 2026/09/19-10/04（±2 天）ex-Asia/TPE 歐美商務艙促銷，亦無 2027/01-02 UA TPE-SFO/LAX Polaris 促銷或 Award Space 釋出，跳過寄信。
+情報備註（非可訂票價，未寄信）：UA MileagePlus Status Challenge 2026 開放至 12/31，可 match 至 Premier 1K + 即時星盟金卡 120 天；Amex MR 轉點加碼 2026 幾乎全年缺席（僅 Avianca LifeMiles 15% 後端加碼）。
