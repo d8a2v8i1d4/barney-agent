@@ -1,0 +1,38 @@
+[
+  {
+    "fingerprint": "TPE-LAX|多航司(premium-flights)|USD2145|2027-01|premium-flights.com",
+    "date": "2026-07-22",
+    "title": "TPE-LAX 商務艙來回 US$2,145（約 NT$63,000），釋出至 2027/03，涵蓋 2027 1-2 月美西窗",
+    "url": "https://premium-flights.com/business-class-deal-taipei-to-los-angeles/",
+    "category": "ua_us_west",
+    "total_cost_twd": 63000,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "LAX-TPE|EVA長榮|MileageLands升等-30%|2026-09|slickdeals.net",
+    "date": "2026-07-22",
+    "title": "EVA Infinity MileageLands 30% off 哩程升等 LAX⇄TPE，旅行效期 2026/09/01-10/31，覆蓋中秋教師節連假",
+    "url": "https://slickdeals.net/f/19323720-eva-air-offer-lax-to-from-taipei-route-cabin-upgrades-using-mileageland-points-30-off-travel-april-may-sept-oct-2026",
+    "category": "award_space",
+    "total_cost_twd": null,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "SIN-EUR/US|SingaporeAirlines|globalsale|2026-09|travelandtourworld.com",
+    "date": "2026-07-22",
+    "title": "SIA 全球特賣 ex-SIN 商務艙（訂票 07/14-08/09，出發效期至 2027/05/31），外站方案需盯連假 blackout",
+    "url": "https://www.travelandtourworld.com/news/article/lgc4mr9cf68k/",
+    "category": "outstation_deal",
+    "total_cost_twd": null,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "UA-status-challenge|United|SA-Gold-120d|2026|frequentmiler.com",
+    "date": "2026-07-22",
+    "title": "UA MileagePlus Status Challenge 開放至 2026/12/31，可匹配至 1K，7/1 後完成鎖到 2028/01，搭配美西飛行計畫",
+    "url": "https://frequentmiler.com/united-mileage-plus-status-match-challenge/",
+    "category": "status_challenge",
+    "total_cost_twd": null,
+    "rating": "參考"
+  }
+]
