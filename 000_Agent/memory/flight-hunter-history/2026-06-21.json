@@ -1,0 +1,47 @@
+[
+  {
+    "fingerprint": "TPE-PRG|Starlux|新航線|9月|onemileatatime.com",
+    "date": "2026-06-21",
+    "title": "Starlux 8/1 首航 TPE-PRG 布拉格直飛（A350-900，9 月每週 3 班 Tue/Thu/Sat；10/1 起加密為 4 班）",
+    "url": "https://onemileatatime.com/news/starlux-airlines-prague-flights/",
+    "category": "tpe_deal",
+    "total_cost_twd": 90000,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "MR-AsiaMiles|Amex|15%bonus|2026Q2|frequentmiler.com",
+    "date": "2026-06-21",
+    "title": "Amex MR 轉 Cathay Asia Miles 15% bonus（targeted 限期；提醒 3/1 已從 1:1 降為 5:4，5/1 award chart 又再貶值 2-4K）",
+    "url": "https://frequentmiler.com/15-transfer-bonus-to-cathay-pacific-asia-miles-from-amex-membership-rewards-targeted/",
+    "category": "amex_bonus",
+    "total_cost_twd": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "Aeroplan|75K|EuropeBiz|sweetspot|maxmilespoints.com",
+    "date": "2026-06-21",
+    "title": "Aeroplan 北美→歐洲 75K J 艙 sweet spot 保留（JFK-FRA 漢莎、ORD-NRT 全日空 75K 等老金礦未動）",
+    "url": "https://www.maxmilespoints.com/blog/aeroplan-award-chart-changes-2026",
+    "category": "award_space",
+    "total_cost_twd": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "TK|StatusChallenge|StarAllianceGold|4mo|verylvke.com",
+    "date": "2026-06-21",
+    "title": "Turkish Miles&Smiles Status Challenge：先給 4 個月 Star Alliance Gold，飛 1 段國際線轉滿 1 年；2 年內累 37.5K 可續 4 年",
+    "url": "https://www.verylvke.com/en/2026/02/03/get-4-year-star-alliance-gold-from-turkish-airlines-status-challenge/",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "EVA|StatusMatch|Gold199EUR|2026|awardfares.com",
+    "date": "2026-06-21",
+    "title": "EVA Air Infinity MileageLands Status Match：寫信 infinitymileagelands@evaair.com，Gold €199（一年期，回國降落用得到）",
+    "url": "https://awardfares.com/blog/status-match-guide/",
+    "category": "status_match",
+    "total_cost_twd": 7000,
+    "rating": "參考"
+  }
+]
