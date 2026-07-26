@@ -1,0 +1,38 @@
+[
+  {
+    "fingerprint": "SIN-Europe|Singapore Airlines|SGD4838+|2026-2027|greatdeals.com.sg",
+    "date": "2026-07-26",
+    "title": "SQ 全球特賣 14 Jul-9 Aug：ex-SIN 商務艙飛歐洲 S$4,838(IST)-S$6,598(CPH)",
+    "url": "https://www.greatdeals.com.sg/2026/07/13/singapore-airlines-global-fare-sale-july-august-2026",
+    "category": "outstation_deal",
+    "total_cost_twd": 128000,
+    "rating": "不報_超預算"
+  },
+  {
+    "fingerprint": "BKK-LGW|Thai Airways|THB86307|summer2026|thaiairways.com",
+    "date": "2026-07-26",
+    "title": "Thai Airways ex-BKK 商務艙飛歐洲 BKK-LGW 約 THB 86,307（夏季檔期，非連假確認）",
+    "url": "https://www.thaiairways.com/flights/en/business-class-flights-to-europe",
+    "category": "outstation_deal",
+    "total_cost_twd": 87000,
+    "rating": "參考_日期未確認"
+  },
+  {
+    "fingerprint": "TPE-US West|United Airlines Polaris|no-deal|2027-01-02|united.com",
+    "date": "2026-07-26",
+    "title": "UA TPE-SFO/LAX 2027 1-2 月 Polaris：今日無促銷/無 Saver Award 釋出，Award 位普遍稀缺",
+    "url": "https://onemileatatime.com/insights/united-polaris-business-class-award-availability/",
+    "category": "ua_us_west",
+    "total_cost_twd": 0,
+    "rating": "無_持續追蹤"
+  },
+  {
+    "fingerprint": "UA Status Challenge|MileagePlus|window-thru-2026-12-31|award|awardwallet.com",
+    "date": "2026-07-26",
+    "title": "UA MileagePlus Status Challenge：7/1 後完成可享至 2028/01，120 天即享星盟金卡",
+    "url": "https://awardwallet.com/news/united-mileageplus/united-status-match/",
+    "category": "amex_bonus",
+    "total_cost_twd": 0,
+    "rating": "強推_策略"
+  }
+]
