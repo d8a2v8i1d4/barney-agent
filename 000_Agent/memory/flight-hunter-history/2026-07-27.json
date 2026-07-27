@@ -1,0 +1,56 @@
+[
+  {
+    "fingerprint": "SIN-EUR|Singapore Airlines|SGD1028+|Sep2026|greatdeals.com.sg",
+    "date": "2026-07-27",
+    "title": "SQ ex-SIN 商務艙飛歐洲 SGD1028 起（3月 sale）— 出發窗口 13Jul-13Sep / 5Oct-18Nov，精準黑掉 9/14-10/4 黃金連假",
+    "url": "https://www.greatdeals.com.sg/2026/03/03/singapore-airlines-march-2026-sale-asia-europe-australia-usa",
+    "category": "outstation_deal",
+    "total_cost_twd": null,
+    "rating": "過濾-日期不符(連假黑名單)"
+  },
+  {
+    "fingerprint": "EUR-ASIA|Air China/China Eastern|GBP800|2026|verylvke.com",
+    "date": "2026-07-27",
+    "title": "國航/東航 歐洲⇄亞洲 商務艙 £800 RT — ex-Europe 反方向，403 無法證實旅行窗",
+    "url": "https://www.verylvke.com/en/2026/07/10/air-china-china-eastern-business-class-return-between-europe-and-asia-from-800/",
+    "category": "outstation_deal",
+    "total_cost_twd": 32000,
+    "rating": "過濾-反方向(ex-EU)"
+  },
+  {
+    "fingerprint": "LAX-TPE|Starlux|USD5729|Sep2026|starlux-airlines.com",
+    "date": "2026-07-27",
+    "title": "Starlux LAX-TPE 商務艙 Sep2026 USD5729（約 NT$18.5萬）— 超出天花板",
+    "url": "https://www.starlux-airlines.com/flights/en-us/flights-from-los-angeles-to-taipei",
+    "category": "tpe_deal",
+    "total_cost_twd": 185000,
+    "rating": "不報-超預算"
+  },
+  {
+    "fingerprint": "BRU-KUL/BKK/HKG/SIN|Etihad|EUR1650|Apr-Jun2026|flyertalk.com",
+    "date": "2026-07-27",
+    "title": "Etihad ex-BRU 商務艙 €1650 RT 飛東南亞 — 反方向且窗口 4-6月",
+    "url": "https://www.flyertalk.com/forum/premium-fare-deals/2214889-ey-bru-kul-bkk-hkt-kbv-sin-1650-1750-c-rt.html",
+    "category": "outstation_deal",
+    "total_cost_twd": 58000,
+    "rating": "過濾-反方向且日期不符"
+  },
+  {
+    "fingerprint": "UA-status-challenge|United|match-to-1K|2026-2027|upgradedpoints.com",
+    "date": "2026-07-27",
+    "title": "UA MileagePlus Status Challenge 延長至 2026/12/31，可 match 到 1K，7/1 後完成鎖到 2028/1，即刻星盟金卡 120 天",
+    "url": "https://upgradedpoints.com/travel/airlines/united-airlines-status-match/",
+    "category": "ua_us_west",
+    "total_cost_twd": null,
+    "rating": "背景情報-高相關(UA美西+星盟金卡計畫)"
+  },
+  {
+    "fingerprint": "amex-mr-asiamiles|Amex|5:4-devaluation|2026-03-01|loyaltylobby.com",
+    "date": "2026-07-27",
+    "title": "Amex MR → Cathay Asia Miles 已於 2026/03/01 貶值為 5:4（-20%）",
+    "url": "https://loyaltylobby.com/2026/01/03/amex-membership-rewards-to-cathay-pacific-asia-miles-20-conversion-devaluation-march-1-2026/",
+    "category": "amex_bonus",
+    "total_cost_twd": null,
+    "rating": "背景情報-籌碼影響"
+  }
+]
