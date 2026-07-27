@@ -1,41 +1,60 @@
 {
   "date": "2026-07-27",
   "total_score": 60,
-  "vix": 18.579999923706055,
-  "yield_10y": 4.678999900817871,
-  "yield_2y": 4.051,
-  "dxy": 101.3030014038086,
-  "usd_twd": 32.32099914550781,
+  "environment": "🟡 中性偏多",
+  "vix": 18.73,
+  "yield_10y": 4.67,
+  "yield_2y": 4.34,
+  "dxy": 101.44,
+  "usd_twd": 32.337,
   "etf_scores": {
-    "LQQ.PA": 85,
     "SMH": 65,
     "SOXX": 65,
-    "CNDX.L": 55,
     "IWMO.L": 55,
-    "VWRA.L": 50,
-    "AVGS.L": 45
+    "CNDX.L": 50,
+    "LQQ.PA": 50,
+    "AVGS.L": 50,
+    "VWRA.L": 45
   },
   "stock_scores": {
     "MSFT": 75,
     "TSM": 65,
     "META": 65,
     "AMZN": 65,
-    "2454.TW": 65,
-    "00631L.TW": 65,
+    "2454.TW": 55,
+    "00631L.TW": 55,
     "NVDA": 50
   },
   "upcoming_earnings": {
-    "MSFT": "2026-07-30",
-    "META": "2026-07-30",
-    "AMZN": "2026-07-31"
+    "MSFT": "2026-07-29",
+    "META": "2026-07-29",
+    "AMZN": "2026-07-30"
   },
-  "recommendation": "🟡 中性偏多｜核心：維持月 DCA $2,300｜衛星：觀望，只挑分數>70 加 $500｜進攻：暫不動",
-  "portfolio_progress": 0.1886648,
+  "macro_events": [
+    "FOMC 7/28-7/29 (decision 7/29)",
+    "Core PCE 7/31",
+    "NFP 8/7"
+  ],
+  "recommendation": "🟡 中性偏多｜核心：月 DCA $2,300 追加 20% → 建議 $2,760｜衛星：暫停（所有標的分數<70）｜進攻：暫停",
+  "today_suggested_deploy_usd": 2760,
+  "portfolio_progress": 0.18866,
   "deployed_usd": 4716.62,
-  "market_value_usd": 4719.3,
-  "unrealized_pnl_usd": 2.680000000000291,
-  "unrealized_return": 0.0005682035016601488,
-  "progress_note": "目前落後 → 建議金額追加 20%",
-  "signal_change": "環境分數：60 → 60（+0），與昨日類似",
-  "data_fetch_failures": []
+  "market_value_usd": 4731.94,
+  "unrealized_pnl_usd": 15.32,
+  "unrealized_return": 0.00325,
+  "days_elapsed": 69,
+  "theoretical_progress": 0.3833,
+  "progress_note": "落後（實際 18.87% vs 理論 38.33% × 50% = 19.17%）→ 建議金額追加 20%",
+  "signal_change": "📌 半導體板塊回檔顯著（SMH -3.27%、SOXX -3.1%、TSM -3.24%、2454 -3.23%）；2Y 殖利率跳升 29bps 至 4.34%；LQQ.PA 因 7/9 200:1 拆股，分數從 85 降至 50",
+  "historical_percentiles": {
+    "VIX": "當前 18.73，過去 1 年約第 35 百分位（偏低，市場略偏樂觀）",
+    "yield_10y": "當前 4.67%，過去 1 年約第 75 百分位（相對偏高）",
+    "CNDX.L": "當前 1656，過去 1 年約第 76 百分位（相對偏高）",
+    "SMH": "當前 561，過去 1 年約第 72 百分位（相對偏高，但今日剛回檔）"
+  },
+  "data_fetch_failures": [
+    {"field": "IWMO.L dist_52w_high", "reason": "搜尋來源未回傳，改用 RSI 單獨評分"},
+    {"field": "LQQ.PA dist_52w_high", "reason": "7/9 200:1 拆股後歷史高點未調整，暫用 RSI 估計"},
+    {"field": "RSI(14)", "reason": "除 NVDA 直接取得外，其餘由 % 距 52W 高 + 近期漲跌估算"}
+  ]
 }
