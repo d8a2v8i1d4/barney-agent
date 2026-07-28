@@ -1,0 +1,1 @@
+2026-07-28 執行完成，情況=A，新增 5 筆，過濾 6 筆（GHA已頂、RJ飯店窗口過期、Malaysia Airlines不符資格、IHG無活動、Vietnam Airlines資訊不足、RJ需航空status）
