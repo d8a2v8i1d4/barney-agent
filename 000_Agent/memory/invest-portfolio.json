@@ -1,13 +1,37 @@
 {
   "total_capital": 25000,
-  "deployed": 4716.62,
-  "remaining": 20283.38,
+  "deployed": 8492.12,
+  "remaining": 16507.88,
   "layers": {
     "core": {
       "target": 13750,
-      "deployed": 4716.62,
-      "remaining": 9033.38,
+      "deployed": 7492.12,
+      "remaining": 6257.88,
       "trades": [
+        {
+          "date": "2026-07-30",
+          "ticker": "IWMO.L",
+          "shares": 6,
+          "price": 111.70,
+          "amount": 670.20,
+          "note": "核心層加碼 DCA"
+        },
+        {
+          "date": "2026-07-30",
+          "ticker": "VWRA.L",
+          "shares": 7,
+          "price": 186.30,
+          "amount": 1304.10,
+          "note": "核心層加碼 DCA"
+        },
+        {
+          "date": "2026-07-30",
+          "ticker": "CNDX.L",
+          "shares": 0.5,
+          "price": 1602.40,
+          "amount": 801.20,
+          "note": "核心層加碼 DCA"
+        },
         {
           "date": "2026-06-27",
           "ticker": "VWRA.L",
@@ -60,9 +84,18 @@
     },
     "satellite": {
       "target": 7500,
-      "deployed": 0,
-      "remaining": 7500,
-      "trades": []
+      "deployed": 1000.00,
+      "remaining": 6500.00,
+      "trades": [
+        {
+          "date": "2026-07-30",
+          "ticker": "SOXX",
+          "shares": 1.99,
+          "price": 503.00,
+          "amount": 1000.00,
+          "note": "衛星層建倉（半導體）"
+        }
+      ]
     },
     "aggressive": {
       "target": 3750,
@@ -72,5 +105,5 @@
     }
   },
   "start_date": "2026-05-19",
-  "last_updated": "2026-06-27"
+  "last_updated": "2026-07-30"
 }

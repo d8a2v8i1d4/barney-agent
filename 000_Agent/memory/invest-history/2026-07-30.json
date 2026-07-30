@@ -1,0 +1,39 @@
+{
+  "date": "2026-07-30",
+  "total_score": 60,
+  "vix": 19.100000381469727,
+  "yield_10y": 4.666999816894531,
+  "yield_2y": 3.961,
+  "dxy": 100.02100372314453,
+  "usd_twd": 32.39699935913086,
+  "etf_scores": {
+    "SMH": 65,
+    "SOXX": 65,
+    "LQQ.PA": 65,
+    "CNDX.L": 55,
+    "IWMO.L": 55,
+    "VWRA.L": 50,
+    "AVGS.L": 45
+  },
+  "stock_scores": {
+    "META": 75,
+    "2454.TW": 75,
+    "00631L.TW": 75,
+    "NVDA": 65,
+    "TSM": 65,
+    "AMZN": 55,
+    "MSFT": 50
+  },
+  "upcoming_earnings": {
+    "AMZN": "2026-07-31"
+  },
+  "recommendation": "🟡 中性偏多｜核心：維持月 DCA $2,300｜衛星：觀望，只挑分數>70 加 $500｜進攻：暫不動",
+  "portfolio_progress": 0.3396848,
+  "deployed_usd": 8492.12,
+  "market_value_usd": 8429.56023,
+  "unrealized_pnl_usd": -62.55977000000166,
+  "unrealized_return": -0.007366802400343101,
+  "progress_note": "目前同步",
+  "signal_change": "環境分數：60 → 60（+0），與昨日類似",
+  "data_fetch_failures": []
+}
