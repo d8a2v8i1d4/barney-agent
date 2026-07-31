@@ -1,0 +1,38 @@
+[
+  {
+    "fingerprint": "TPE-MNL-LAX|Oneworld|USD2145|2026-09~2027-03|premium-flights.com",
+    "date": "2026-07-19",
+    "title": "台北 TPE ➡️ 洛杉磯 LAX 商務艙 US$2,145 來回（經馬尼拉轉機，Oneworld，位子開到 2027/03）",
+    "url": "https://premium-flights.com/business-class-deal-taipei-to-los-angeles/",
+    "category": "tpe_deal",
+    "total_cost_twd": 63000,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "KUL-BCN|Oneworld/中東線|USD2230|2026~2027|premium-flights.com",
+    "date": "2026-07-19",
+    "title": "外站 吉隆坡 KUL ➡️ 巴塞隆納 BCN 商務艙 US$2,230 來回（2026 & 2027 日期）+ TPE-KUL 接駁",
+    "url": "https://premium-flights.com/kuala-lumpur-barcelona-business-class-round-trip/",
+    "category": "outstation_deal",
+    "total_cost_twd": 75000,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "AmexMR-VirginAtlantic|transfer-bonus-30pct|2026-07|frequentmiler.com",
+    "date": "2026-07-19",
+    "title": "Amex MR 轉 Virgin Atlantic Flying Club 30% 加碼（2026/07/31 到期）",
+    "url": "https://frequentmiler.com/current-point-transfer-bonuses/",
+    "category": "amex_bonus",
+    "total_cost_twd": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "UA-StatusChallenge|StarAllianceGold|2026-2028|onemileatatime.com",
+    "date": "2026-07-19",
+    "title": "UA MileagePlus Status Challenge：7/1 後完成給到 2028/01，即刻星盟金卡 120 天，可搭配美西直飛觸發",
+    "url": "https://onemileatatime.com/guides/united-status-match/",
+    "category": "ua_us_west",
+    "total_cost_twd": 0,
+    "rating": "強推"
+  }
+]
