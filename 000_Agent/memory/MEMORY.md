@@ -22,7 +22,17 @@
 
 ## 踩坑筆記
 
-（還是空的）
+### 改了持倉但日報還是舊數字（2026-08-01）
+
+投資日報跑在 GitHub Actions 上，**讀的是遠端 repo 的 `000_Agent/memory/invest-portfolio.json`**，不是本機那份。
+2026-07-30 新增的四筆持倉（IWMO/VWRA/CNDX/SOXX）只 commit 在本機沒 push，遠端停在 6/27 版，
+所以 7/31、8/1 的日報都用舊部位算（進度顯示 18.9%，正確應是 34.0%）。
+
+**規則：改完 `invest-portfolio.json` 一定要 `git push origin main`，光 commit 沒用。**
+
+合併時注意：Actions 每天自動 commit 日報歷史檔，本機容易「落後幾十筆」。
+`git merge origin/main` 若在 `invest-history/` 撞衝突，一律採用遠端（Actions）版本，
+本機手動跑出來的歷史檔丟掉，才能跟後續日期接得起來。持倉檔本身不會衝突。
 
 ---
 
