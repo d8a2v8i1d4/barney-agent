@@ -1,0 +1,29 @@
+[
+  {
+    "fingerprint": "KUL-BCN|Qatar Airways Qsuite/Etihad|USD2230|2026-09|premium-flights.com",
+    "date": "2026-08-04",
+    "title": "Kuala Lumpur → Barcelona 商務艙 RT from US$2,230（Qatar Qsuite / Etihad，一停 DOH/AUH，2026 & 2027 日期）",
+    "url": "https://premium-flights.com/kuala-lumpur-barcelona-business-class-round-trip/",
+    "category": "outstation_deal",
+    "total_cost_twd": 82000,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "KUL-FRA|Turkmenistan Airlines|EUR1360|2026-09|travel-dealz.com",
+    "date": "2026-08-04",
+    "title": "Kuala Lumpur → Frankfurt/Milan 商務艙 RT ~€1,360（Turkmenistan Airlines，經 Ashgabat，6-10 月，dry airline 無聯盟累積）",
+    "url": "https://travel-dealz.com/deal/turkmenistan-airlines-business-asia/",
+    "category": "outstation_deal",
+    "total_cost_twd": 59000,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "UA-status-challenge|United MileagePlus|Premier Match to 1K|2026-2027|awardwallet.com",
+    "date": "2026-08-04",
+    "title": "United MileagePlus Premier Status Match/Challenge（延長至 2026/12/31，7/1 後完成鎖到 2028/1，即享星盟金卡 120 天）",
+    "url": "https://awardwallet.com/news/united-mileageplus/united-status-match/",
+    "category": "ua_us_west",
+    "total_cost_twd": 0,
+    "rating": "強推"
+  }
+]
