@@ -1,0 +1,62 @@
+[
+  {
+    "fingerprint": "HKG-EUR|CathayPacific|HKD22000-30000|2026-09|luxetravel.com.hk",
+    "date": "2026-06-12",
+    "title": "Cathay Pacific Vantage Pass 2026 - HKG→歐美商務艙配對票包 (2人份)",
+    "url": "https://news.cathaypacific.com/vantage-pass-is-back-by-popular-demand",
+    "category": "outstation_deal",
+    "total_cost_twd": 55000,
+    "note": "2 張商務艙包套需兩人同行；歐美 Zone 3-5 起價 HKD 22,000-30,000/2 張；TPE-HKG 接駁 TWD 5-7k；9/19-10/4 未在黑名單",
+    "rating": "神級 92"
+  },
+  {
+    "fingerprint": "KUL-EUR|Etihad|USD2056|2026-09|australianfrequentflyer.com.au",
+    "date": "2026-06-12",
+    "title": "Etihad 商務艙 KUL→歐洲 RT $2,056 (約 TWD 65,800)",
+    "url": "https://www.australianfrequentflyer.com.au/etihad-business-sale-kuala-lumpur-to-europe/",
+    "category": "outstation_deal",
+    "total_cost_twd": 75000,
+    "note": "需在 AUH 阿布達比 transit；含 TPE-KUL 接駁約 TWD 8-12k；需確認 9 月仍有票",
+    "rating": "強推 80"
+  },
+  {
+    "fingerprint": "SIN-EUR|SingaporeAirlines|SaleFare|2026-09|travelandtourworld.com",
+    "date": "2026-06-12",
+    "title": "Singapore Airlines 2026 Fare Sale - SIN→歐洲/美洲商務艙",
+    "url": "https://www.travelandtourworld.com/news/article/lgc4mr9cf68k/",
+    "category": "outstation_deal",
+    "total_cost_twd": 150000,
+    "note": "Travel 3/10-10/31/2026 涵蓋連假；SIN-JFK SGD 6,848 太貴；歐洲段待查；總價超過 95k 上限",
+    "rating": "不報 (供參考觀察)"
+  },
+  {
+    "fingerprint": "TPE-EUR/US|Starlux|FLYJXNOW26|2026-09|starlux-airlines.com",
+    "date": "2026-06-12",
+    "title": "Starlux 長程促銷碼 FLYJXNOW26 - TPE 直飛/接駁",
+    "url": "https://www.starlux-airlines.com/flights/en-us/promotions",
+    "category": "tpe_deal",
+    "total_cost_twd": 100000,
+    "note": "Travel 7/1-12/5/2026；Starlux 即將開航 BCN/ZUR；無需接駁；待查實際艙位價格",
+    "rating": "參考 70"
+  },
+  {
+    "fingerprint": "StatusMatch|TurkishAirlines|4yearGold|2026|verylvke.com",
+    "date": "2026-06-12",
+    "title": "土耳其航空 Status Challenge - 4 年星空聯盟金卡",
+    "url": "https://www.verylvke.com/en/2026/02/03/get-4-year-star-alliance-gold-from-turkish-airlines-status-challenge/",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "note": "Y1 飛 15,000 哩 + Y2 飛 22,500 哩 → 4 年 *G；適合搭配連假商務艙票觸發",
+    "rating": "推薦搭配"
+  },
+  {
+    "fingerprint": "StatusMatch|United|Premier1K|2026|thepointsguy.com",
+    "date": "2026-06-12",
+    "title": "United MileagePlus Premier Status Match (新增 1K 等級)",
+    "url": "https://thepointsguy.com/loyalty-programs/airline-status-matches-challenges/",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "note": "可即時 Star Alliance Gold 120 天；7/1 後完成挑戰 → 效期至 2028/1",
+    "rating": "推薦搭配"
+  }
+]
