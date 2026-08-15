@@ -1,0 +1,1 @@
+2026-08-14 執行完成，情況=A，新增 5 筆，過濾 3 筆（Malaysia Airlines 台灣不符合、Royal Jordanian 狀態不確定、Kenya Airways 需 Accor 等級）
