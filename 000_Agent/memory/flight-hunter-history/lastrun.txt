@@ -1,0 +1,2 @@
+2026-06-03 機票情報員執行完成，情況=A（已寄 Gmail 草稿），尋獲 5 筆假期最優解，過濾 0 筆（首次執行）。
+重點：CX Vantage Pass ex-HKG 歐洲線約 TWD 65K/趟（含 TPE 接駁），完全避開連假加價；United Status Match 6/30 截止倒數 27 天。
