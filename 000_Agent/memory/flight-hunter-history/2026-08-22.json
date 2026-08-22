@@ -1,0 +1,47 @@
+[
+  {
+    "fingerprint": "KUL-LHR|Turkish Airlines|507USD-OW|Sep2026|secretflying.com",
+    "date": "2026-08-22",
+    "title": "Turkish Airlines KUL/BKK/JKT ➡️ London 商務艙 Error Fare（單程 $507 USD 起）",
+    "url": "https://www.secretflying.com/posts/error-fare-business-class-from-south-east-asia-to-european-cities-from-only-507-usd-one-way/",
+    "category": "outstation_deal",
+    "total_cost_twd": 42000,
+    "rating": "神級"
+  },
+  {
+    "fingerprint": "TPE-SFO|United Polaris|85-90k-miles|2027|awardlocker.com",
+    "date": "2026-08-22",
+    "title": "UA TPE-SFO Polaris 基準哩程現況（85-90k 哩，尚無新促銷）",
+    "url": "https://awardlocker.com/flights/sfo-to-tpe",
+    "category": "ua_us_west",
+    "total_cost_twd": null,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "AsiaMiles|Amex MR US|10pct-bonus|Aug2026|awardwallet.com",
+    "date": "2026-08-22",
+    "title": "Cathay Asia Miles 10% Transfer Bonus（美卡 Amex MR，8/28 到期）",
+    "url": "https://awardwallet.com/news/credit-card-transfer-bonuses/",
+    "category": "amex_bonus",
+    "total_cost_twd": null,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "BAClub|Amex MR US|30pct-bonus|Aug2026|thepointsguy.com",
+    "date": "2026-08-22",
+    "title": "British Airways Club 30% Transfer Bonus（美卡 Amex MR，9/27 到期）",
+    "url": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
+    "category": "amex_bonus",
+    "total_cost_twd": null,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "UA-StatusChallenge|United MileagePlus|SA-Gold-120d|2026-2027|staralliance.statusmatch.com",
+    "date": "2026-08-22",
+    "title": "United MileagePlus Status Match/Challenge 2026（最高 1K，申請至 12/31）",
+    "url": "https://staralliance.statusmatch.com/united",
+    "category": "ua_us_west",
+    "total_cost_twd": null,
+    "rating": "強推"
+  }
+]
