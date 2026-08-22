@@ -1,0 +1,3 @@
+2026-08-22 執行完成，情況=A，新增 7 筆，過濾 0 筆（首次執行無歷史）
+WebFetch 成功 0 個 / 失敗（403/egress blocked）11 個
+搜尋類別：航空 Status Match、飯店 Status Match、Amex 家活動、商務艙特賣、長期目標
