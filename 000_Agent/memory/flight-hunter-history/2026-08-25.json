@@ -1,0 +1,29 @@
+[
+  {
+    "fingerprint": "KUL-LON|Turkish Airlines|USD507ow|2026-09|secretflying.com",
+    "date": "2026-08-25",
+    "title": "Turkish Airlines ex-KUL 商務艙 error fare：吉隆坡→倫敦 $507 USD 單程（票期 2026/09-2027/05）",
+    "url": "https://www.secretflying.com/posts/error-fare-business-class-from-south-east-asia-to-european-cities-from-only-507-usd-one-way/",
+    "category": "outstation_deal",
+    "total_cost_twd": 42000,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "AmexMR-AsiaMiles|Cathay|10pct-bonus|2026-08|awardwallet.com",
+    "date": "2026-08-25",
+    "title": "Amex MR → 國泰 Asia Miles 10% 轉點加碼（2026/08/28 截止，上限 1 萬哩）",
+    "url": "https://awardwallet.com/news/amex-membership-rewards/",
+    "category": "amex_bonus",
+    "total_cost_twd": null,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "UA-status-challenge|United|Premier-1K|2026|promo.united.com",
+    "date": "2026-08-25",
+    "title": "United MileagePlus Premier Status Challenge 2026（20 PQF + 7,500 PQP，最高挑戰 1K）",
+    "url": "https://promo.united.com/offers/statusmatch",
+    "category": "ua_us_west",
+    "total_cost_twd": null,
+    "rating": "參考"
+  }
+]
