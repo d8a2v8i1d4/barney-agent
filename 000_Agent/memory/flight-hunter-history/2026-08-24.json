@@ -1,0 +1,47 @@
+[
+  {
+    "fingerprint": "BKK-CGK-HKT->Europe|Turkish Airlines|507USD-OW|2026-09|secretflying.com",
+    "date": "2026-08-24",
+    "title": "[Bug票/需驗證] Turkish Airlines 東南亞外站(BKK/CGK/HKT)->歐洲商務艙 error fare 單程 US$507 起",
+    "url": "https://www.secretflying.com/posts/error-fare-business-class-from-south-east-asia-to-european-cities-from-only-507-usd-one-way/",
+    "category": "outstation_deal",
+    "total_cost_twd": 41000,
+    "rating": "史詩級(需即時驗證是否失效)"
+  },
+  {
+    "fingerprint": "TPE-SFO/LAX|United Polaris|award-restricted-IN-bucket|2027-01|onemileatatime.com",
+    "date": "2026-08-24",
+    "title": "[情報] UA Polaris saver 位子改為 Premier 會員/聯名卡專屬，Aeroplan/LifeMiles 幾乎清零",
+    "url": "https://onemileatatime.com/insights/united-polaris-business-class-award-availability/",
+    "category": "ua_us_west",
+    "total_cost_twd": 0,
+    "rating": "情報(非可訂促銷)"
+  },
+  {
+    "fingerprint": "amex-MR->Cathay Asia Miles|10pct-bonus|2026-08|awardwallet.com",
+    "date": "2026-08-24",
+    "title": "Amex MR -> 國泰 Asia Miles 10% 轉點加碼(至 2026/08/28)",
+    "url": "https://awardwallet.com/news/credit-card-transfer-bonuses/",
+    "category": "amex_bonus",
+    "total_cost_twd": 0,
+    "rating": "參考(加碼幅度<30%)"
+  },
+  {
+    "fingerprint": "amex-USMR->BA/Iberia/AerLingus Avios|30pct-bonus|2026-08|awardtravelfinder.com",
+    "date": "2026-08-24",
+    "title": "美卡 Amex MR -> BA/Iberia/Aer Lingus Avios 30% 轉點加碼(至 2026/09/27)",
+    "url": "https://awardtravelfinder.com/transfer-bonuses/amex-membership-rewards",
+    "category": "amex_bonus",
+    "total_cost_twd": 0,
+    "rating": "強推(僅美卡MR適用)"
+  },
+  {
+    "fingerprint": "UA-status-challenge|Premier-1K-match|StarGold-120d|2026|awardtravelfinder.com",
+    "date": "2026-08-24",
+    "title": "UA MileagePlus Status Match/Challenge 開放至 2026/12/31，可拿即時星盟金卡 120 天",
+    "url": "https://staralliance.statusmatch.com/united",
+    "category": "ua_us_west",
+    "total_cost_twd": 0,
+    "rating": "強推(搭配2027美西計畫)"
+  }
+]
