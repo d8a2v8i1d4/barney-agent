@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-27",
+  "total_score": 55,
+  "vix": 15.45,
+  "vix_1y_percentile": 30,
+  "yield_10y": 4.66,
+  "yield_2y": 4.17,
+  "dxy": 99.15,
+  "usd_twd": 31.837,
+  "etf_scores": {
+    "SMH": 70,
+    "SOXX": 70,
+    "IWMO.L": 55,
+    "LQQ.PA": 55,
+    "CNDX.L": 55,
+    "VWRA.L": 45,
+    "AVGS.L": null
+  },
+  "stock_scores": {
+    "META": 75,
+    "NVDA": 70,
+    "TSM": 60,
+    "2454.TW": 60,
+    "00631L.TW": 60,
+    "MSFT": 50,
+    "AMZN": 50
+  },
+  "upcoming_earnings": {
+    "CRWD": "2026-08-27",
+    "CRM": "2026-08-27",
+    "MRVL": "2026-08-27",
+    "ADSK": "2026-08-28"
+  },
+  "big_event": "NVDA Q2 FY27 盤後爆發：營收 $96.2B（vs 預期 $92.2B）、EPS $2.22（vs $2.09），毛利率 75%，Jensen 稱 FY28 供不應求，盤後 +4.4%",
+  "recommendation": "🟡 中性偏多｜核心：DCA $2,300 + 加碼 $1,000（VWRA.L 或 IWMO.L）｜衛星：SMH 加 $500-800（NVDA 利多）｜進攻：暫不動（VIX 過低）",
+  "portfolio_progress": 0.3397,
+  "deployed_usd": 8492.12,
+  "market_value_estimate": 8669.4,
+  "unrealized_pnl_usd": 177.3,
+  "unrealized_return": 0.0209,
+  "progress_note": "已過 100 天，理論進度 55.6%，實際 34%，落後但未達嚴重觸發線",
+  "signal_change": "[訊號變化] 環境分數 55 → 55（+0），但 NVDA 財報全面超預期，半導體 ETF 分數 +5 至 70",
+  "data_fetch_failures": ["AVGS.L：僅取得 2026/06 舊資料，最新價格暫不可用"]
+}
