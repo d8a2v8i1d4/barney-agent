@@ -1,0 +1,1 @@
+2026-08-27 執行完成，情況=A，新增 7 筆，過濾 3 筆（Royal Jordanian 台灣地區不符、United 已過期、Delta/Hilton 互配已過期）
