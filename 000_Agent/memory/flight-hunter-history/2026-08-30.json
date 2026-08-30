@@ -1,0 +1,38 @@
+[
+  {
+    "fingerprint": "BKK-Europe|TurkishAirlines|507USD-oneway|2026-09|secretflying.com",
+    "date": "2026-08-30",
+    "title": "【Error Fare】土耳其航空 ex-Bangkok 商務艙飛歐洲多城 US$507 單程起（9/20、9/25、9/30 出發，契合連假方案 B）",
+    "url": "https://www.secretflying.com/error-fares/",
+    "category": "outstation_deal",
+    "total_cost_twd": 42000,
+    "rating": "神級票"
+  },
+  {
+    "fingerprint": "TPE-SFO|UnitedPolaris|award-75kUA/LifeMiles|2027-01_02|upgradedpoints.com",
+    "date": "2026-08-30",
+    "title": "United Polaris 商務艙台北美西 award space 已開放至 2027/02，可經 LifeMiles / Aeroplan 訂",
+    "url": "https://upgradedpoints.com/travel/best-ways-to-fly-to-taiwan/",
+    "category": "ua_us_west",
+    "total_cost_twd": 0,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "US-TPE|EVAair|award-business-7seats|2026-08_2027-02|upgradedpoints.com",
+    "date": "2026-08-30",
+    "title": "EVA Air 商務艙美國–台北 award space 多達 7 席，2026/08–2027/02 開放（星盟可累積）",
+    "url": "https://upgradedpoints.com/news/award-alert-us-taipei-business-class/",
+    "category": "award_space",
+    "total_cost_twd": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "status-challenge|UnitedMileagePlus|Premier1K-StarGold120d|2026-2027|headforpoints.com",
+    "date": "2026-08-30",
+    "title": "United MileagePlus Status Challenge 可衝到 Premier 1K，即享星盟金卡 120 天，申請至 2026/12/31",
+    "url": "https://www.headforpoints.com/2026/08/15/united-airlines-uk-status-match/",
+    "category": "status_challenge",
+    "total_cost_twd": 0,
+    "rating": "強推"
+  }
+]
