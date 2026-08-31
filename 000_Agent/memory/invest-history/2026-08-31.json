@@ -1,37 +1,47 @@
 {
   "date": "2026-08-31",
   "total_score": 55,
-  "vix": 14.430000305175781,
-  "yield_10y": 4.71999979019165,
-  "yield_2y": 3.961,
-  "dxy": 99.65499877929688,
-  "usd_twd": 31.625,
-  "etf_scores": {
-    "SMH": 65,
-    "SOXX": 65,
-    "IWMO.L": 55,
-    "LQQ.PA": 50,
-    "VWRA.L": 45,
-    "CNDX.L": 45,
-    "AVGS.L": 45
-  },
+  "environment_verdict": "🟡 中性偏多",
+  "vix": 14.43,
+  "vix_1y_pct": 22,
+  "yield_10y": 4.72,
+  "yield_2y": 4.36,
+  "yield_spread_10y_2y": 0.36,
+  "dxy": 99.65,
+  "usd_twd": 31.65,
   "stock_scores": {
-    "META": 75,
-    "TSM": 55,
-    "NVDA": 50,
+    "NVDA": 45,
+    "TSM": 45,
+    "MSFT": 50,
+    "META": 70,
     "AMZN": 50,
     "2454.TW": 50,
-    "00631L.TW": 50,
-    "MSFT": 35
+    "00631L.TW": 50
   },
-  "upcoming_earnings": {},
-  "recommendation": "🟡 中性偏多｜核心：維持月 DCA $2,300｜衛星：觀望，只挑分數>70 加 $500｜進攻：暫不動",
-  "portfolio_progress": 0.3396848,
+  "etf_scores": {
+    "SMH": 45,
+    "SOXX": 60,
+    "IWMO.L": 50,
+    "VWRA.L": 45,
+    "CNDX.L": 45,
+    "LQQ.PA": 50,
+    "AVGS.L": null
+  },
+  "upcoming_events": [
+    "9/1 ISM Manufacturing PMI",
+    "9/3 ISM Services PMI",
+    "9/4 8月非農就業 (NFP)",
+    "9/11 CPI",
+    "9/15-16 FOMC"
+  ],
+  "recommendation": "核心 8月 DCA $2,760 (落後20%追加): IWMO.L $1,100 + VWRA.L $1,100 + CNDX.L $560｜衛星 暫不動 (無 ETF 分數>70)｜進攻 暫不動",
+  "portfolio_progress": 0.3397,
+  "days_elapsed": 104,
+  "theoretical_progress": 0.578,
+  "progress_note": "落後（追加 20%）",
   "deployed_usd": 8492.12,
-  "market_value_usd": 8793.6638,
-  "unrealized_pnl_usd": 301.54379999999946,
-  "unrealized_return": 0.03550865979284318,
-  "progress_note": "目前同步",
-  "signal_change": "環境分數：52 → 55（+3），與昨日類似",
-  "data_fetch_failures": []
+  "signal_change": "環境分數 55 → 55 (與昨日相同，連續 3 天穩定；VIX 14.43 為 2026 年區間偏低但未達自滿警戒)",
+  "data_fetch_failures": [
+    "AVGS.L 最新價僅取到 2026-06-19 £28.13"
+  ]
 }
