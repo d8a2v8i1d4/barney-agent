@@ -1,7 +1,7 @@
 {
   "total_capital": 25000,
-  "deployed": 9671.39,
-  "remaining": 15328.61,
+  "deployed": 10503.89,
+  "remaining": 14496.11,
   "layers": {
     "core": {
       "target": 13750,
@@ -13,14 +13,14 @@
           "ticker": "IWMO.L",
           "shares": 5,
           "price": 116.98,
-          "amount": 584.90,
+          "amount": 584.9,
           "note": "核心層加碼 DCA"
         },
         {
           "date": "2026-08-27",
           "ticker": "CNDX.L",
           "shares": 0.35,
-          "price": 1698.20,
+          "price": 1698.2,
           "amount": 594.37,
           "note": "核心層加碼 DCA"
         },
@@ -28,47 +28,47 @@
           "date": "2026-07-30",
           "ticker": "IWMO.L",
           "shares": 6,
-          "price": 111.70,
-          "amount": 670.20,
+          "price": 111.7,
+          "amount": 670.2,
           "note": "核心層加碼 DCA"
         },
         {
           "date": "2026-07-30",
           "ticker": "VWRA.L",
           "shares": 7,
-          "price": 186.30,
-          "amount": 1304.10,
+          "price": 186.3,
+          "amount": 1304.1,
           "note": "核心層加碼 DCA"
         },
         {
           "date": "2026-07-30",
           "ticker": "CNDX.L",
           "shares": 0.5,
-          "price": 1602.40,
-          "amount": 801.20,
+          "price": 1602.4,
+          "amount": 801.2,
           "note": "核心層加碼 DCA"
         },
         {
           "date": "2026-06-27",
           "ticker": "VWRA.L",
           "shares": 6,
-          "price": 185.70,
-          "amount": 1114.20,
+          "price": 185.7,
+          "amount": 1114.2,
           "note": "核心層加碼 DCA"
         },
         {
           "date": "2026-06-27",
           "ticker": "IWMO.L",
           "shares": 6,
-          "price": 121.70,
-          "amount": 730.20,
+          "price": 121.7,
+          "amount": 730.2,
           "note": "核心層加碼 DCA"
         },
         {
           "date": "2026-06-27",
           "ticker": "CNDX.L",
           "shares": 0.3,
-          "price": 1675.80,
+          "price": 1675.8,
           "amount": 502.74,
           "note": "核心層加碼 DCA"
         },
@@ -76,8 +76,8 @@
           "date": "2026-05-19",
           "ticker": "IWMO.L",
           "shares": 7,
-          "price": 110.00,
-          "amount": 770.00,
+          "price": 110.0,
+          "amount": 770.0,
           "note": "核心層首批建倉"
         },
         {
@@ -92,7 +92,7 @@
           "date": "2026-05-19",
           "ticker": "CNDX.L",
           "shares": 0.3,
-          "price": 1654.80,
+          "price": 1654.8,
           "amount": 496.44,
           "note": "核心層首批建倉"
         }
@@ -100,15 +100,23 @@
     },
     "satellite": {
       "target": 7500,
-      "deployed": 1000.00,
-      "remaining": 6500.00,
+      "deployed": 1832.5,
+      "remaining": 5667.5,
       "trades": [
+        {
+          "date": "2026-08-31",
+          "ticker": "SMH",
+          "shares": 1.5,
+          "price": 555.0,
+          "amount": 832.5,
+          "note": "衛星層加碼（半導體）"
+        },
         {
           "date": "2026-07-30",
           "ticker": "SOXX",
           "shares": 1.99,
-          "price": 503.00,
-          "amount": 1000.00,
+          "price": 503.0,
+          "amount": 1000.0,
           "note": "衛星層建倉（半導體）"
         }
       ]
