@@ -1,0 +1,47 @@
+[
+  {
+    "fingerprint": "JKT-Europe|Turkish Airlines(error fare)|507USD-ow|2026-09|secretflying.com",
+    "date": "2026-09-01",
+    "title": "[ERROR FARE] 東南亞(雅加達等) → 歐洲 商務艙 單程約 507 USD，效期含 9 月出發，完美卡進黃金連假",
+    "url": "https://www.secretflying.com/error-fares/",
+    "category": "outstation_deal",
+    "total_cost_twd": 45000,
+    "rating": "史詩級神票"
+  },
+  {
+    "fingerprint": "HKG-Europe(VIE/FRA/CDG)|Cathay Pacific|1863-1965USD-rt|2026-09|samchui.com",
+    "date": "2026-09-01",
+    "title": "國泰 ex-HKG → 維也納/法蘭克福/巴黎 商務艙 約 1863-1965 USD 來回",
+    "url": "https://samchui.com/2023/07/23/business-class-deals-asia-to-europe-from-1863-roundtrip/",
+    "category": "outstation_deal",
+    "total_cost_twd": 68000,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "KUL-Europe(IST/FCO/FRA/CDG)|malaysia/partners|2084-2326USD-rt|2026-09|premium-flights.com",
+    "date": "2026-09-01",
+    "title": "ex-KUL → 伊斯坦堡/羅馬/法蘭克福/巴黎 商務艙 約 2084-2326 USD 來回",
+    "url": "https://premium-flights.com/category/cheap-business-class-flights/business-class-deals-from-europe/",
+    "category": "outstation_deal",
+    "total_cost_twd": 79000,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "US West-TPE|EVA Air(Star Alliance)|85000-Aeroplan+57USD|2027-01|thepointsguy.com",
+    "date": "2026-09-01",
+    "title": "長榮/星宇 星盟商務艙 Aeroplan 85K 哩程 大量釋出至 2027/02，可對接 2027 UA 美西窗口",
+    "url": "https://thepointsguy.com/deals/wide-open-starlux-business-class-award-availability/",
+    "category": "award_space",
+    "total_cost_twd": 0,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "UA-MileagePlus|Status Challenge|match-up-to-1K|2026-2027|awardwallet.com",
+    "date": "2026-09-01",
+    "title": "UA MileagePlus Status Match Challenge：最高比對 Premier 1K，即享星盟金卡 120 天，7/1 後完成鎖到 2028/01",
+    "url": "https://awardwallet.com/news/united-mileageplus/united-status-match/",
+    "category": "amex_bonus",
+    "total_cost_twd": 0,
+    "rating": "強推"
+  }
+]
