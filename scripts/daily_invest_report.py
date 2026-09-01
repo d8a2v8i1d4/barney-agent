@@ -60,6 +60,15 @@ DCA_CYCLE_DAYS = 28
 CORE_SPLIT = [("VWRA.L", 0.50), ("CNDX.L", 0.25), ("IWMO.L", 0.25)]
 SAT_TRIGGER_SCORE = 70  # 衛星層加碼門檻分數
 
+# 進攻層階梯進場：VIX 抓急殺、回檔幅度抓陰跌，任一滿足就開下一階。
+# 只看 VIX 會整段錯過 2022 那種 S&P -25% 但 VIX 少有站上 35 的慢跌熊市。
+AGG_BENCHMARK = "QQQ"          # 回檔基準（進攻層標的 LQQ.PA 是 2x 那斯達克，用原型指數量測才不會失真）
+AGG_LADDER = [
+    {"level": 1, "amount": 1250.0, "vix": 25.0, "drawdown": 15.0},
+    {"level": 2, "amount": 1250.0, "vix": 32.0, "drawdown": 25.0},
+    {"level": 3, "amount": 1250.0, "vix": 40.0, "drawdown": 35.0},
+]
+
 TZ = ZoneInfo("Asia/Taipei")
 
 UA_HEADERS = {
@@ -358,6 +367,58 @@ DECISION_MATRIX = [
 ]
 
 
+def aggressive_ladder(agg_deployed, vix, bench_dd):
+    """進攻層階梯進場判斷。
+
+    已開幾階直接從進攻層「已投入金額」推回，不另外存狀態——這樣 Barney
+    在 portfolio.json 補一筆成交，階數就自動跟著走，不會有兩份真相打架。
+
+    回傳 dict：done（三階開完）、level、amount（補滿本階還差多少）、
+    triggered、reason（觸發原因或還差多少）。
+    """
+    cum = 0.0
+    tranche = None
+    for t in AGG_LADDER:
+        cum += t["amount"]
+        if agg_deployed < cum - 1.0:   # 容忍 1 美元零頭，避免浮點數卡在同一階
+            tranche = t
+            break
+    if tranche is None:
+        return {"done": True, "level": None, "amount": 0.0,
+                "triggered": False, "reason": "三階已全部開完"}
+
+    vix_hit = vix is not None and vix >= tranche["vix"]
+    dd_hit = bench_dd is not None and bench_dd >= tranche["drawdown"]
+
+    if vix_hit or dd_hit:
+        hits = []
+        if vix_hit:
+            hits.append(f"VIX {vix:.1f} ≥ {tranche['vix']:.0f}")
+        if dd_hit:
+            hits.append(f"{AGG_BENCHMARK} 回檔 {bench_dd:.1f}% ≥ {tranche['drawdown']:.0f}%")
+        reason = "、".join(hits)
+    else:
+        gaps = []
+        if vix is not None:
+            gaps.append(f"VIX {vix:.1f}（需 ≥{tranche['vix']:.0f}，差 {tranche['vix'] - vix:.1f}）")
+        else:
+            gaps.append("VIX 資料暫缺")
+        if bench_dd is not None:
+            gaps.append(f"{AGG_BENCHMARK} 回檔 {bench_dd:.1f}%"
+                        f"（需 ≥{tranche['drawdown']:.0f}%，差 {tranche['drawdown'] - bench_dd:.1f}%）")
+        else:
+            gaps.append(f"{AGG_BENCHMARK} 資料暫缺")
+        reason = "｜".join(gaps)
+
+    return {
+        "done": False,
+        "level": tranche["level"],
+        "amount": round(min(tranche["amount"], cum - agg_deployed), 2),
+        "triggered": bool(vix_hit or dd_hit),
+        "reason": reason,
+    }
+
+
 def decide(env_score):
     s = max(0, min(env_score, 100))
     for lo, hi, label, core, sat, agg in DECISION_MATRIX:
@@ -508,18 +569,16 @@ def build_action_html(ctx):
     else:
         sat = "⏸️ 衛星層：資料暫缺"
 
-    # --- 進攻層：雙條件 ---
-    vix, env = ctx["vix"], ctx["env_score"]
-    vix_ok = vix is not None and vix > 25
-    env_ok = env >= 80
-    if vix_ok and env_ok:
-        agg = "🟢 <b>進攻層：雙條件達標</b>（環境分≥80 + VIX>25），可動 $1,000–1,500"
+    # --- 進攻層：階梯進場 ---
+    a = ctx["agg"]
+    if a["done"]:
+        agg = "✅ <b>進攻層：三階已全部開完</b>"
+    elif a["triggered"]:
+        agg = (f"🟢 <b>進攻層：第 {a['level']} 階觸發</b>（{a['reason']}），"
+               f"建議投入 <b>${a['amount']:,.0f}</b>")
     else:
-        parts = []
-        if vix is not None:
-            parts.append(f"VIX {vix:.1f}" + ("✅" if vix_ok else f"（需>25，差 {25 - vix:.1f}）"))
-        parts.append(f"環境分 {env}" + ("✅" if env_ok else f"（需≥80，差 {80 - env}）"))
-        agg = "⏸️ <b>進攻層：在等訊號</b>　" + "｜".join(parts)
+        agg = (f"⏸️ <b>進攻層：在等第 {a['level']} 階</b>（${a['amount']:,.0f}）　"
+               f"{a['reason']}")
 
     return core + "<br><br>" + sat + "<br>" + agg
 
@@ -755,6 +814,7 @@ def main():
 
     # ===== 決策 =====
     label, core_action, sat_action, agg_action = decide(env_score)
+    layers_raw = portfolio["layers"]
 
     # 部位進度調整
     if days_elapsed > 0 and actual_progress > theoretical_progress * 1.0 and theoretical_progress > 0:
@@ -776,10 +836,18 @@ def main():
         if best["score"] >= threshold:
             sat_pick = f"｜建議標的：{best['ticker']}（分數 {best['score']}）"
 
-    # 進攻層門檻
-    can_aggressive = (env_score >= 80 and vix is not None and vix > 25)
-    if "可動" in agg_action and not can_aggressive:
-        agg_action = "暫不動（未達雙條件：環境分≥80 + VIX>25）"
+    # 進攻層階梯（覆寫決策矩陣的建議，門檻改由 VIX / 回檔幅度決定）
+    bench = analyze_ticker(AGG_BENCHMARK, "進攻基準")
+    bench_dd = bench["dist_high_pct"] if bench else None
+    if bench is None:
+        failures.append(f"{AGG_BENCHMARK} price")
+    agg = aggressive_ladder(layers_raw["aggressive"]["deployed"], vix, bench_dd)
+    if agg["done"]:
+        agg_action = "三階已全部開完"
+    elif agg["triggered"]:
+        agg_action = f"🟢 第 {agg['level']} 階觸發（{agg['reason']}），可投入 ${agg['amount']:,.0f}"
+    else:
+        agg_action = f"暫不動（等第 {agg['level']} 階：{agg['reason']}）"
 
     # ===== 持倉損益 =====
     price_lookup = {r["ticker"]: r["price"]
@@ -828,7 +896,7 @@ def main():
             signal_change = f"環境分數：{prev_score} → {env_score}（{'+' if diff>=0 else ''}{diff}），與昨日類似"
 
     # ===== HTML =====
-    layers = portfolio["layers"]
+    layers = layers_raw
     ctx = {
         "today": today_str,
         "deployed": portfolio["deployed"],
@@ -844,6 +912,7 @@ def main():
         "env_score": env_score, "label": label,
         "core_action": core_action, "sat_action": sat_action,
         "sat_pick": sat_pick, "agg_action": agg_action,
+        "agg": agg, "bench_dd": bench_dd,
         "vix": vix, "vix_pct": vix_pct, "vix_note": vix_note,
         "y10": y10, "y10_pct": y10_pct, "y10_change_bps": y10_change_bps,
         "y2": y2, "inverted": inverted,
@@ -880,6 +949,8 @@ def main():
         "unrealized_pnl_usd": pnl["total_pnl"],
         "unrealized_return": pnl["total_ret"],
         "progress_note": progress_note,
+        "agg_ladder": agg,
+        "agg_benchmark_drawdown": bench_dd,
         "signal_change": signal_change,
         "data_fetch_failures": failures,
     }
