@@ -1,13 +1,29 @@
 {
   "total_capital": 25000,
-  "deployed": 10503.89,
-  "remaining": 14496.11,
+  "deployed": 12240.87,
+  "remaining": 12759.13,
   "layers": {
     "core": {
       "target": 13750,
-      "deployed": 8671.39,
-      "remaining": 5078.61,
+      "deployed": 10408.37,
+      "remaining": 3341.63,
       "trades": [
+        {
+          "date": "2026-09-02",
+          "ticker": "IWMO.L",
+          "shares": 5,
+          "price": 114.26,
+          "amount": 571.3,
+          "note": "核心層加碼 DCA"
+        },
+        {
+          "date": "2026-09-02",
+          "ticker": "VWRA.L",
+          "shares": 6,
+          "price": 194.28,
+          "amount": 1165.68,
+          "note": "核心層加碼 DCA"
+        },
         {
           "date": "2026-08-27",
           "ticker": "IWMO.L",
@@ -129,5 +145,5 @@
     }
   },
   "start_date": "2026-05-19",
-  "last_updated": "2026-08-31"
+  "last_updated": "2026-09-02"
 }
