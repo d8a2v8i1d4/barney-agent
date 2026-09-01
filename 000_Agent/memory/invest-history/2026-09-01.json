@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-01",
+  "total_score": 55,
+  "vix": 15.29,
+  "yield_10y": 4.72,
+  "yield_2y": 3.96,
+  "dxy": 99.56,
+  "usd_twd": 31.69,
+  "etf_scores": {
+    "SMH": 50,
+    "SOXX": 50,
+    "IWMO.L": 50,
+    "LQQ.PA": 50,
+    "VWRA.L": 45,
+    "CNDX.L": 45,
+    "AVGS.L": 45
+  },
+  "stock_scores": {
+    "META": 70,
+    "TSM": 50,
+    "NVDA": 45,
+    "AMZN": 50,
+    "MSFT": 45,
+    "2454.TW": 50,
+    "00631L.TW": 50
+  },
+  "upcoming_earnings": {},
+  "recommendation": "🟡 中性偏多｜核心：本月 DCA $2,300 可執行（VWRA.L $1,500 + IWMO.L $800）｜衛星：暫停（分數皆 <60）｜進攻：暫不動",
+  "portfolio_progress": 0.4202,
+  "deployed_usd": 10503.89,
+  "progress_note": "略微落後同步（實際 42.0% vs 理論 58.3%）",
+  "signal_change": "環境分數：55 → 55（0），VIX 14.43 → 15.29（+0.86），與昨日類似",
+  "days_elapsed": 105,
+  "theoretical_progress": 0.583,
+  "data_fetch_failures": ["AVGS.L 最新報價（僅有 6 月資料）"]
+}
