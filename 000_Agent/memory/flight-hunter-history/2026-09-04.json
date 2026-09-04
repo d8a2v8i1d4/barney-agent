@@ -1,0 +1,38 @@
+[
+  {
+    "fingerprint": "KUL-LHR/BKK-DUB|Turkish Airlines|USD507|2026-09|secretflying.com",
+    "date": "2026-09-04",
+    "title": "土航 Error Fare：吉隆坡/曼谷 ➡️ 倫敦/都柏林 商務艙 US$507 單程（效期 2026/09-2027/05）",
+    "url": "https://www.secretflying.com/posts/error-fare-business-class-from-south-east-asia-to-european-cities-from-only-507-usd-one-way/",
+    "category": "outstation_deal",
+    "total_cost_twd": 42500,
+    "rating": "史詩級神票"
+  },
+  {
+    "fingerprint": "TPE-SFO/LAX|United Polaris|75000-90000miles|2027-01|awardfares.com",
+    "date": "2026-09-04",
+    "title": "UA Polaris 台北 ➡️ 舊金山/洛杉磯 商務艙 Award Space 追蹤（2027 年 1-2 月，LifeMiles/Aeroplan 75k-90k 哩）",
+    "url": "https://awardfares.com/destinations/san-francisco",
+    "category": "ua_us_west",
+    "total_cost_twd": 30000,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "Amex MR-KrisFlyer|transfer bonus|no active bonus|2026-09|awardtravelfinder.com",
+    "date": "2026-09-04",
+    "title": "Amex MR 轉點加碼追蹤：KrisFlyer 目前無檔，歷史最佳 15%（建議囤點待加碼）",
+    "url": "https://awardtravelfinder.com/transfer-bonuses/amex-membership-rewards",
+    "category": "amex_bonus",
+    "total_cost_twd": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "United MileagePlus|status match challenge Premier 1K|Star Alliance Gold|2026-12|frequentmiler.com",
+    "date": "2026-09-04",
+    "title": "UA Premier Status Match Challenge：可 match Premier 1K，送星盟金卡 120 天，申請至 2026/12/31",
+    "url": "https://frequentmiler.com/united-mileage-plus-status-match-challenge/",
+    "category": "status_challenge",
+    "total_cost_twd": 0,
+    "rating": "強推"
+  }
+]
