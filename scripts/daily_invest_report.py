@@ -106,7 +106,7 @@ def fetch_yf(ticker, period="1y"):
 
 
 def fetch_chart_api(ticker, range_="1y"):
-    """Yahoo chart API 直連，回 (即時價, 前收, 收盤序列)。
+    """Yahoo chart API 直連，回 (即時價, 報價時間, 收盤序列, 計價幣別)。
     yfinance 的 history 對 LSE/Euronext 常延遲一天且帶 NaN，
     meta.regularMarketPrice 才是最新成交價。429 時退避重試一次。"""
     url = f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}"
@@ -118,10 +118,11 @@ def fetch_chart_api(ticker, range_="1y"):
                 time.sleep(5)
                 continue
             if r.status_code != 200:
-                return None, None, None
+                return None, None, None, None
             res = r.json()["chart"]["result"][0]
             meta = res.get("meta", {})
             price = clean(meta.get("regularMarketPrice"))
+            currency = meta.get("currency")
             market_time = meta.get("regularMarketTime")  # unix ts，判斷即時價屬於哪一天
             series = None
             try:
@@ -132,11 +133,11 @@ def fetch_chart_api(ticker, range_="1y"):
                     series = s
             except (KeyError, IndexError, TypeError):
                 pass
-            return price, market_time, series
+            return price, market_time, series, currency
         except Exception as e:
             print(f"[chart api fail] {ticker}: {e}", file=sys.stderr)
-            return None, None, None
-    return None, None, None
+            return None, None, None, None
+    return None, None, None, None
 
 
 def fetch_value_series(ticker, period="1y"):
@@ -144,7 +145,7 @@ def fetch_value_series(ticker, period="1y"):
     回 (最新值, 收盤序列)。降低被 Yahoo 限流時整個開天窗的機率。"""
     price, series = fetch_yf(ticker, period=period)
     if price is None or series is None:
-        api_price, _, api_series = fetch_chart_api(ticker, range_=period)
+        api_price, _, api_series, _ = fetch_chart_api(ticker, range_=period)
         if price is None:
             price = api_price
         if series is None:
@@ -220,7 +221,7 @@ def analyze_ticker(ticker, layer):
     即時價以 chart API 的 regularMarketPrice 優先（LSE 收盤 yfinance 會延遲一天）。
     全部失敗回 None。"""
     price, series = fetch_yf(ticker)
-    api_price, market_time, api_series = fetch_chart_api(ticker)
+    api_price, market_time, api_series, currency = fetch_chart_api(ticker)
     if series is None:
         series = api_series
     if api_price is not None:
@@ -256,6 +257,7 @@ def analyze_ticker(ticker, layer):
     pct_1y = percentile_1y(price, series)
     return {
         "ticker": ticker, "layer": layer, "price": price,
+        "currency": currency or "USD",
         "change_pct": clean(change_pct), "dist_high_pct": clean(dist_high_pct),
         "rsi": rsi, "pct_1y": pct_1y,
         "score": ticker_score(clean(dist_high_pct), rsi), "note": "",
@@ -453,29 +455,82 @@ def ticker_rows(results):
 
 # ============= 持倉損益 =============
 
+def fetch_fx_to_usd(currency):
+    """非美元計價標的 → 換算成美元的匯率。USD 回 1.0，抓不到回 None。
+    LQQ.PA 這種歐元計價的標的若不換算，市值會被當成美元直接加總，損益整個虛胖。"""
+    if not currency or currency == "USD":
+        return 1.0
+    if currency == "GBp":  # LSE 部分標的以便士報價
+        base, _ = fetch_yf("GBPUSD=X", period="5d")
+        if base is None:
+            base, _, _, _ = fetch_chart_api("GBPUSD=X", range_="5d")
+        base = clean(base)
+        return base / 100 if base else None
+    pair = f"{currency}USD=X"
+    price, _ = fetch_yf(pair, period="5d")
+    if price is None:
+        price, _, _, _ = fetch_chart_api(pair, range_="5d")
+    return clean(price)
+
+
+def derive_deployed(portfolio):
+    """已部署金額一律從 trades 現算（含手續費）。
+    JSON 裡的 deployed/remaining 只是快照，手動維護遲早跟交易紀錄對不上。"""
+    total = 0.0
+    for layer in portfolio["layers"].values():
+        d = sum(t["amount"] + t.get("fee", 0.0) for t in layer.get("trades", []))
+        layer["deployed"] = round(d, 2)
+        layer["remaining"] = round(layer["target"] - d, 2)
+        total += d
+    portfolio["deployed"] = round(total, 2)
+    portfolio["remaining"] = round(portfolio["total_capital"] - total, 2)
+    return portfolio
+
+
 def aggregate_holdings(portfolio):
-    """把各層的 trades 依 ticker 彙總：總股數、總成本、平均成本。"""
+    """把各層的 trades 依 ticker 彙總：總股數、總成本（含費）、平均成本、台幣成本。
+    台幣成本用「各筆成交日當時的匯率」累加，不能拿今天的匯率回頭乘總額。"""
     holdings = {}
     for layer_key, layer in portfolio["layers"].items():
         for t in layer.get("trades", []):
-            h = holdings.setdefault(
-                t["ticker"], {"layer": layer_key, "shares": 0.0, "cost": 0.0})
+            h = holdings.setdefault(t["ticker"], {
+                "layer": layer_key, "shares": 0.0, "cost": 0.0,
+                "fee": 0.0, "twd_cost": 0.0, "twd_known": True,
+            })
+            fee = t.get("fee", 0.0)
+            cost = t["amount"] + fee
             h["shares"] += t["shares"]
-            h["cost"] += t["amount"]
+            h["cost"] += cost
+            h["fee"] += fee
+            fx = t.get("fx_rate")
+            if fx:
+                h["twd_cost"] += cost * fx
+            else:
+                h["twd_known"] = False  # 缺當日匯率就不報台幣，寧可留白也不給錯的
     for h in holdings.values():
         h["avg_cost"] = h["cost"] / h["shares"] if h["shares"] else None
     return holdings
 
 
-def build_pnl(portfolio, price_lookup, twd):
-    """以當日現價計算每檔與總計的未實現損益。抓不到價的標的市值留空。"""
+def build_pnl(portfolio, price_lookup, ccy_lookup, twd):
+    """以當日現價計算每檔與總計的未實現損益。
+    美元帳與台幣帳分開算：台幣帳用各筆成交日匯率當成本，才看得到匯率的影響。"""
     holdings = aggregate_holdings(portfolio)
-    positions, total_cost, total_mv, mv_known = [], 0.0, 0.0, True
+    fx_cache, positions = {}, []
+    total_cost = total_mv = total_fee = twd_cost = 0.0
+    mv_known = twd_known = True
     for ticker, h in sorted(holdings.items()):
         price = price_lookup.get(ticker)
+        ccy = ccy_lookup.get(ticker) or "USD"
         total_cost += h["cost"]
-        if price is not None:
-            mv = h["shares"] * price
+        total_fee += h["fee"]
+        twd_cost += h["twd_cost"]
+        twd_known = twd_known and h["twd_known"]
+        if ccy not in fx_cache:
+            fx_cache[ccy] = fetch_fx_to_usd(ccy)
+        fx = fx_cache[ccy]
+        if price is not None and fx is not None:
+            mv = h["shares"] * price * fx
             total_mv += mv
             pnl = mv - h["cost"]
             ret = pnl / h["cost"] if h["cost"] else None
@@ -484,14 +539,27 @@ def build_pnl(portfolio, price_lookup, twd):
             mv_known = False
         positions.append({
             "ticker": ticker, "shares": h["shares"], "avg_cost": h["avg_cost"],
-            "price": price, "mv": mv, "pnl": pnl, "ret": ret,
+            "price": price, "ccy": ccy, "mv": mv, "pnl": pnl, "ret": ret,
         })
     total_pnl = (total_mv - total_cost) if mv_known else None
     total_ret = (total_pnl / total_cost) if (mv_known and total_cost) else None
+
+    # ===== 台幣帳 =====
+    twd_view = None
+    if mv_known and twd_known and twd and twd_cost:
+        twd_mv = total_mv * twd
+        twd_pnl = twd_mv - twd_cost
+        avg_fx = twd_cost / total_cost if total_cost else None
+        twd_view = {
+            "cost": twd_cost, "mv": twd_mv, "pnl": twd_pnl,
+            "ret": twd_pnl / twd_cost, "avg_fx": avg_fx,
+            "fx_impact": (twd / avg_fx - 1) if avg_fx else None,
+        }
     return {
-        "positions": positions, "total_cost": total_cost,
+        "positions": positions, "total_cost": total_cost, "total_fee": total_fee,
         "total_mv": total_mv if mv_known else None,
-        "total_pnl": total_pnl, "total_ret": total_ret, "twd": twd,
+        "total_pnl": total_pnl, "total_ret": total_ret,
+        "twd": twd, "twd_view": twd_view,
     }
 
 
@@ -502,28 +570,60 @@ def pnl_table_html(pnl):
     for p in pnl["positions"]:
         c = color(p["ret"])
         ret_str = f"{p['ret']*100:+.1f}%" if p["ret"] is not None else "—"
+        ccy_tag = "" if p["ccy"] == "USD" else f" <span style='color:#888;font-size:11px;'>{p['ccy']}</span>"
         rows += (
             f"<tr><td>{p['ticker']}</td>"
             f"<td>{fmt(p['shares'], '.2f')}</td>"
             f"<td>{fmt(p['avg_cost'])}</td>"
-            f"<td>{fmt(p['price'])}</td>"
+            f"<td>{fmt(p['price'])}{ccy_tag}</td>"
             f"<td>{fmt(p['mv'], ',.0f')}</td>"
             f"<td style='color:{c};'>{fmt(p['pnl'], '+,.0f')}</td>"
             f"<td style='color:{c};'>{ret_str}</td></tr>"
         )
     tp, tr = pnl["total_pnl"], pnl["total_ret"]
     tc = color(tp)
-    twd_note = ""
-    if pnl["twd"] and tp is not None:
-        twd_note = f"｜約 NT${tp*pnl['twd']:+,.0f}"
     rows += (
         f"<tr style='background:#f5f5f5;font-weight:bold;'>"
-        f"<td>合計</td><td></td><td></td><td></td>"
+        f"<td>合計 (USD)</td><td></td><td></td><td></td>"
         f"<td>{fmt(pnl['total_mv'], ',.0f')}</td>"
         f"<td style='color:{tc};'>{fmt(tp, '+,.0f')}</td>"
-        f"<td style='color:{tc};'>{f'{tr*100:+.1f}%' if tr is not None else '—'}{twd_note}</td></tr>"
+        f"<td style='color:{tc};'>{f'{tr*100:+.1f}%' if tr is not None else '—'}</td></tr>"
     )
+    tv = pnl["twd_view"]
+    if tv:
+        vc = color(tv["pnl"])
+        rows += (
+            f"<tr style='background:#fafafa;'>"
+            f"<td colspan='4' style='font-weight:bold;'>合計 (TWD)"
+            f"<span style='font-weight:normal;color:#888;font-size:11px;'>"
+            f"　成本以各筆成交日匯率計</span></td>"
+            f"<td>{fmt(tv['mv'], ',.0f')}</td>"
+            f"<td style='color:{vc};'>{fmt(tv['pnl'], '+,.0f')}</td>"
+            f"<td style='color:{vc};'>{tv['ret']*100:+.1f}%</td></tr>"
+        )
     return rows
+
+
+def pnl_note_html(pnl):
+    """損益表下方的補充：匯率影響、手續費是否已填。"""
+    notes = []
+    tv = pnl["twd_view"]
+    if tv and tv["fx_impact"] is not None:
+        imp = tv["fx_impact"] * 100
+        word = "匯兌貢獻" if imp >= 0 else "匯兌侵蝕"
+        notes.append(
+            f"平均換匯成本 {tv['avg_fx']:.3f}／今日 {pnl['twd']:.3f}，"
+            f"{word} {abs(imp):.2f}%（美元帳 {pnl['total_ret']*100:+.1f}% → "
+            f"台幣帳 {tv['ret']*100:+.1f}%）"
+        )
+    elif pnl["twd_view"] is None and pnl["total_mv"] is not None:
+        notes.append("部分交易缺 fx_rate，台幣帳暫不計算")
+    if pnl["total_fee"] == 0:
+        notes.append("手續費尚未填入（trades 的 fee 欄位），實際報酬會再低一些")
+    else:
+        notes.append(f"成本已含手續費 ${pnl['total_fee']:,.2f}")
+    return "".join(
+        f"<p style='margin:4px 0;font-size:12px;color:#666;'>※ {n}</p>" for n in notes)
 
 
 # ============= 今日行動 =============
@@ -587,6 +687,7 @@ def build_html(ctx):
     rows = ticker_rows(ctx["etf_results"])
     watch_rows = ticker_rows(ctx["watch_results"])
     pnl_rows = pnl_table_html(ctx["pnl"])
+    pnl_notes = pnl_note_html(ctx["pnl"])
     action_html = build_action_html(ctx)
 
     # 總經事件（官方行事曆）
@@ -631,6 +732,7 @@ def build_html(ctx):
     <tr style="background:#f5f5f5;"><th>標的</th><th>股數</th><th>平均成本</th><th>現價</th><th>市值</th><th>損益</th><th>報酬率</th></tr>
     {pnl_rows}
   </table>
+  {pnl_notes}
 </div>
 
 <div style="background:#f0f7ff;padding:12px;border-left:4px solid #2196f3;">
@@ -697,7 +799,7 @@ def main():
     if not PORTFOLIO_FILE.exists():
         print(f"portfolio file missing: {PORTFOLIO_FILE}", file=sys.stderr)
         sys.exit(1)
-    portfolio = json.loads(PORTFOLIO_FILE.read_text())
+    portfolio = derive_deployed(json.loads(PORTFOLIO_FILE.read_text()))
 
     start_date = datetime.strptime(portfolio["start_date"], "%Y-%m-%d").date()
     days_elapsed = (today - start_date).days
@@ -740,7 +842,7 @@ def main():
         failures.append("10Y yield")
 
     # ===== 2Y 殖利率（Yahoo 2YY=F 期貨 → stooq → FRED）=====
-    y2, _, _ = fetch_chart_api("2YY=F", range_="5d")
+    y2, _, _, _ = fetch_chart_api("2YY=F", range_="5d")
     if y2 is None:
         y2 = fetch_stooq("2usy.b")
     if y2 is None:
@@ -852,7 +954,9 @@ def main():
     # ===== 持倉損益 =====
     price_lookup = {r["ticker"]: r["price"]
                     for r in (etf_results + watch_results) if r.get("price")}
-    pnl = build_pnl(portfolio, price_lookup, twd)
+    ccy_lookup = {r["ticker"]: r.get("currency", "USD")
+                  for r in (etf_results + watch_results)}
+    pnl = build_pnl(portfolio, price_lookup, ccy_lookup, twd)
 
     # ===== 今日行動：核心 DCA 時機 + 換算股數 =====
     last_core = last_trade_date(portfolio, "core")
@@ -948,6 +1052,12 @@ def main():
         "market_value_usd": pnl["total_mv"],
         "unrealized_pnl_usd": pnl["total_pnl"],
         "unrealized_return": pnl["total_ret"],
+        "cost_usd": pnl["total_cost"],
+        "fee_usd": pnl["total_fee"],
+        "cost_twd": pnl["twd_view"]["cost"] if pnl["twd_view"] else None,
+        "unrealized_pnl_twd": pnl["twd_view"]["pnl"] if pnl["twd_view"] else None,
+        "unrealized_return_twd": pnl["twd_view"]["ret"] if pnl["twd_view"] else None,
+        "avg_fx_cost": pnl["twd_view"]["avg_fx"] if pnl["twd_view"] else None,
         "progress_note": progress_note,
         "agg_ladder": agg,
         "agg_benchmark_drawdown": bench_dd,
@@ -967,7 +1077,13 @@ def main():
     # 避免再像以前一樣「明明沒寄出卻顯示成功」把問題遮住。
     # 注意：資料抓取失敗（yfinance 限流）屬正常，不會讓 job 失敗。
     email_failed = False
-    pnl_tag = f"｜損益 {pnl['total_ret']*100:+.1f}%" if pnl["total_ret"] is not None else ""
+    if pnl["twd_view"]:
+        pnl_tag = (f"｜損益 台幣 {pnl['twd_view']['ret']*100:+.1f}%"
+                   f"／美元 {pnl['total_ret']*100:+.1f}%")
+    elif pnl["total_ret"] is not None:
+        pnl_tag = f"｜損益 {pnl['total_ret']*100:+.1f}%"
+    else:
+        pnl_tag = ""
     subject = (f"📊 {today_str} 投資決策日報 — 環境分數 {env_score}/100｜{label}"
                f"｜進度 {actual_progress*100:.1f}%{pnl_tag}")
     if all(k in os.environ for k in ("GMAIL_CLIENT_ID", "GMAIL_CLIENT_SECRET", "GMAIL_REFRESH_TOKEN")):
