@@ -65,6 +65,17 @@
 
 ---
 
+### deal-hunter 在雲端排程環境跑時 WebFetch 全被封鎖（2026-09-10）
+
+Claude Code 雲端排程（remote session）的網路 egress 政策把 loyaltylobby、doctorofcredit、awardwallet、
+frequentmiler、pointstalent、awardtravelfinder 等全部擋掉（EGRESS_BLOCKED，不是 403），WebSearch 可以用。
+2026-09-10 那次 16 個 WebFetch 全數失敗，只能靠白名單來源的**文章標題**（標題本身含金額 / 日期的才算證據）
+加搜尋摘要撰寫，弱證據的一律放「待證實」區並在信裡明講。
+
+**規則：WebFetch 失敗時不要硬寫成已查證；若要恢復全文查證，需在 claude.ai 環境設定把上述網域加進允許清單。**
+
+---
+
 ## 環境速查表
 
 | 項目             | 值                        |
