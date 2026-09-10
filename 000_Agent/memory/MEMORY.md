@@ -65,6 +65,17 @@
 
 ---
 
+### 排程任務在遠端環境跑時，WebFetch 幾乎全被擋（2026-09-10）
+
+flight-hunter（機票情報員）首次在 Claude Code 遠端容器執行，WebFetch 對 loyaltylobby、onemileatatime、
+awardwallet、delta.com、aa.com、alaskaair.com 等 33 次請求全部回 EGRESS_BLOCKED，只有 WebSearch 能用。
+
+**規則：遠端排程任務的事實核對，改用「多組 WebSearch 交叉比對 ≥ 2 個專業媒體」；
+單一來源或推估數字一律在信裡標 [未證實] / [估]，不要假裝驗證過。**
+歷史檔放 `000_Agent/memory/flight-hunter-history/YYYY-MM-DD.json`，指紋去重複邏輯同 invest-history。
+
+---
+
 ## 環境速查表
 
 | 項目             | 值                        |
