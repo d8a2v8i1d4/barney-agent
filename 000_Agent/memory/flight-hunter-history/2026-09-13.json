@@ -1,0 +1,101 @@
+[
+  {
+    "fingerprint": "TPE-LAX-FLL|Starlux+AS|75000pts|202703-04|alaskaair.com",
+    "date": "2026-09-13",
+    "title": "Starlux TPE→LAX/SEA 商務艙 + AS 國內接駁至 FLL",
+    "url": "https://www.alaskaair.com/atmosrewards/content/partners/airlines/starlux",
+    "category": "fll_award",
+    "total_cost_twd": 130000,
+    "credit_program": "Atmos",
+    "challenge_progress_pct": 100,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "TPE-SEA-FLL|Delta One|93500SkyMiles|202703-04|delta.com",
+    "date": "2026-09-13",
+    "title": "Delta One TPE↔SEA + 國內段 SEA↔FLL",
+    "url": "https://www.delta.com/us/en/skymiles/medallion-program/status-match-challenge",
+    "category": "fll_award",
+    "total_cost_twd": 144000,
+    "credit_program": "Delta",
+    "challenge_progress_pct": 90,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "ATH-IST-TPE|Turkish J|87500Aeroplan|202706|aircanada.com",
+    "date": "2026-09-13",
+    "title": "Turkish ATH-IST-TPE 商務艙（Aeroplan 87.5K 兌換 + 現在購點 110% 加碼）",
+    "url": "https://loyaltylobby.com/2026/09/11/air-canada-buy-aeroplan-miles-up-to-110-bonus-september-11-25-2026/",
+    "category": "ath_award",
+    "total_cost_twd": 49500,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "神級"
+  },
+  {
+    "fingerprint": "AeroplanBuy|+110%|1.35cpp|202609|aircanada.com",
+    "date": "2026-09-13",
+    "title": "Aeroplan 購點 110% 加碼促銷（截止 2026/09/25）",
+    "url": "https://loyaltylobby.com/2026/09/11/air-canada-buy-aeroplan-miles-up-to-110-bonus-september-11-25-2026/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 0,
+    "credit_program": "Aeroplan",
+    "challenge_progress_pct": 0,
+    "rating": "神級"
+  },
+  {
+    "fingerprint": "VSBuy|+70%|1.20cpp|202609|virginatlantic.com",
+    "date": "2026-09-13",
+    "title": "Virgin Atlantic 購點 70% 加碼促銷（截止 2026/10/04）",
+    "url": "https://awardwallet.com/airlines/virgin-atlantic-flying-club/buy-virgin-points/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 0,
+    "credit_program": "VirginAtlantic",
+    "challenge_progress_pct": 0,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "AA-ISP|OW-Sapphire|from-UA-Gold|202608-10|aa.com",
+    "date": "2026-09-13",
+    "title": "AA Instant Status Pass — 用 UA Gold 申請，門檻 25K LP 保 Platinum，截止 2026/10/23",
+    "url": "https://loyaltylobby.com/2026/08/21/american-airlines-instant-status-pass-promotion-sign-up-by-october-23-2026/",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "AA",
+    "challenge_progress_pct": 60,
+    "rating": "神級"
+  },
+  {
+    "fingerprint": "AS-Atmos|StatusMatch|Gold-10K-base|202609|alaskaair.com",
+    "date": "2026-09-13",
+    "title": "Alaska Atmos Rewards Status Match — 90 天內 10K base points（Gold）",
+    "url": "https://awardwallet.com/airlines/alaska-atmos-rewards/alaska-status-match/",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "Atmos",
+    "challenge_progress_pct": 50,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "DL-Medallion|StatusMatch|3750MQD|202609|delta.com",
+    "date": "2026-09-13",
+    "title": "Delta Medallion Status Match Challenge — 90 天 3,750 MQD 換 Platinum",
+    "url": "https://www.delta.com/us/en/skymiles/medallion-program/status-match-challenge",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "Delta",
+    "challenge_progress_pct": 100,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "FB-PromoRewards|Sept2026|45KJ|202609|flyingblue.com",
+    "date": "2026-09-13",
+    "title": "Flying Blue Promo Rewards 九月：北美-歐洲 J 從 45K 起",
+    "url": "https://awardwallet.com/airlines/flying-blue/promo-rewards/",
+    "category": "transfer_bonus",
+    "total_cost_twd": 0,
+    "credit_program": "FlyingBlue",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  }
+]
