@@ -1,0 +1,38 @@
+[
+  {
+    "fingerprint": "TPE-LAX/SFO|Starlux|75k Atmos each way|2027-01/02|thepointsguy.com",
+    "date": "2026-08-10",
+    "title": "Starlux TPE↔LAX/SFO 商務艙獎勵位大量釋出（Jul 2026 - Jun 2027），Alaska Atmos 75k 單程 + 稅 ~US$25-54",
+    "url": "https://thepointsguy.com/deals/wide-open-starlux-business-class-award-availability/",
+    "category": "award_space",
+    "total_cost_twd": 3000,
+    "rating": "神級票"
+  },
+  {
+    "fingerprint": "SIN-Europe|unknown carrier|US$1455 RT|2026-09/10|worldtravelerclub.com",
+    "date": "2026-08-10",
+    "title": "ex-SIN 新加坡出發歐洲商務艙約 US$1,455 來回（航司/確切日期未證實，來源站被 egress 阻擋）",
+    "url": "https://worldtravelerclub.com/from-singapore-in-business-class-to-austria-for-less/",
+    "category": "outstation_deal",
+    "total_cost_twd": 56000,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "N/A|Amex MR->Cathay Asia Miles|10% bonus|2026-08|awardwallet.com",
+    "date": "2026-08-10",
+    "title": "Amex MR 轉 Cathay Asia Miles 10% 加碼（至 2026/08/28；注意 2026/03 起貶值為 5:4）",
+    "url": "https://awardwallet.com/news/amex-membership-rewards/cathay-pacific-transfer-devaluation/",
+    "category": "amex_bonus",
+    "total_cost_twd": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "N/A|United MileagePlus Status Match Challenge|match to 1K|2026-2027|frequentmiler.com",
+    "date": "2026-08-10",
+    "title": "United MileagePlus Status Match/Challenge（至 2026/12/31，可 match 至 1K，即享星盟金卡 120 天）",
+    "url": "https://frequentmiler.com/united-mileage-plus-status-match-challenge/",
+    "category": "ua_us_west",
+    "total_cost_twd": 0,
+    "rating": "強推"
+  }
+]

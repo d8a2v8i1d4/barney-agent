@@ -1,0 +1,42 @@
+[
+  {
+    "fingerprint": "Flying Blue SkyTeam Elite Plus paid status match|flyingblue.statusmatch.com",
+    "date": "2026-05-19",
+    "title": "Flying Blue（Air France/KLM）SkyTeam Elite Plus 付費 Status Match — €199 for Gold, 12個月, 無飛行要求, 接受 Hilton Diamond",
+    "url": "https://flyingblue.statusmatch.com/",
+    "category": "airline_match",
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "IHG Fast Track Gold Elite Platinum Elite 5 nights Dec 2026|ihg.com",
+    "date": "2026-05-19",
+    "title": "IHG One Rewards Fast Track：Gold Elite → Platinum Elite（5晚 targeted 挑戰），截止 2026-12-31",
+    "url": "https://www.ihg.com/content/us/en/deals/b2b/fasttracktostatus2025",
+    "category": "hotel_match",
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "Amex MR Hilton Honors 20% transfer bonus May 30 2026|americanexpress.com",
+    "date": "2026-05-19",
+    "title": "Amex MR → Hilton Honors 20% Transfer Bonus，截止 2026-05-30",
+    "url": "https://global.americanexpress.com/rewards/transfer",
+    "category": "amex",
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "Amex Green Card 40k MR welcome offer standard 2026|americanexpress.com",
+    "date": "2026-05-19",
+    "title": "Amex Green Card 當前 SUB：40k MR（標準值，歷史高峰 60k）",
+    "url": "https://www.americanexpress.com/us/credit-cards/card/green/",
+    "category": "amex",
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "Amex Hilton Aspire 150k SUB current offer standard 2026|americanexpress.com",
+    "date": "2026-05-19",
+    "title": "Amex Hilton Aspire 當前 SUB：150k（標準值，歷史高峰 180k，175k 已於 04-15 過期）",
+    "url": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/",
+    "category": "amex",
+    "rating": "參考"
+  }
+]

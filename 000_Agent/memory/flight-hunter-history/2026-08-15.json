@@ -1,0 +1,47 @@
+[
+  {
+    "fingerprint": "SEAsia-LON|Turkish Airlines|507USD-OW|2026-09|secretflying.com",
+    "date": "2026-08-15",
+    "title": "Turkish Airlines error fare 東南亞外站→倫敦/歐洲商務艙 從 $507 USD 單程 (lie-flat)，適用 2026/09-2027/05",
+    "url": "https://www.secretflying.com/posts/error-fare-business-class-from-south-east-asia-to-european-cities-from-only-507-usd-one-way/",
+    "category": "outstation_deal",
+    "total_cost_twd": 43000,
+    "rating": "史詩級神票"
+  },
+  {
+    "fingerprint": "KUL-BCN|Malaysia-Qatar|2230USD-RT|2026-09|premium-flights.com",
+    "date": "2026-08-15",
+    "title": "ex-KUL 吉隆坡→巴塞隆納商務艙來回從 $2,230 USD (2026 & 2027 dates)",
+    "url": "https://premium-flights.com/kuala-lumpur-barcelona-business-class-round-trip/",
+    "category": "outstation_deal",
+    "total_cost_twd": 80700,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "TPE-USWest|EVA-Starlux-award|business|2026-2027|thepointsguy.com",
+    "date": "2026-08-15",
+    "title": "EVA/Starlux 商務艙 award 釋出佳 up to 4 seats (2026/07-2027/01)，可作 UA TPE-美西 Plan B",
+    "url": "https://thepointsguy.com/deals/wide-open-starlux-business-class-award-availability/",
+    "category": "award_space",
+    "total_cost_twd": 0,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "AmexMR-CathayAsiaMiles|10pct-bonus|2026-08|frequentmiler.com",
+    "date": "2026-08-15",
+    "title": "Amex MR→Cathay Asia Miles +10% 轉點加碼 (截止 2026/08/28)；另 BA/Iberia/Aer Lingus +30% (截止 2026/09/27)",
+    "url": "https://frequentmiler.com/current-point-transfer-bonuses/",
+    "category": "amex_bonus",
+    "total_cost_twd": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "UA-StatusChallenge|Premier1K-StarGold|2026|frequentmiler.com",
+    "date": "2026-08-15",
+    "title": "United MileagePlus Status Challenge 可到 Premier 1K，窗口延至 2026/12/31，7/1 後完成鎖到 2028/01",
+    "url": "https://frequentmiler.com/united-mileage-plus-status-match-challenge/",
+    "category": "ua_us_west",
+    "total_cost_twd": 0,
+    "rating": "強推"
+  }
+]

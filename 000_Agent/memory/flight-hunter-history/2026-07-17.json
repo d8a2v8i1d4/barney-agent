@@ -1,0 +1,42 @@
+[
+  {
+    "fingerprint": "UA-status-challenge|United MileagePlus|status|2026-07|united.com",
+    "date": "2026-07-17",
+    "title": "United MileagePlus Premier Status Match Challenge（延長至 2026/12/31，可挑戰至 Premier 1K，即時 Star Alliance Gold 120 天）",
+    "url": "https://www.united.com/en/us/fly/mileageplus/premier/status-match.html",
+    "category": "status_challenge",
+    "total_cost_twd": 0,
+    "rating": "強推",
+    "note": "7/1 後完成挑戰可享 status 至 2028/01，完美覆蓋 2027 Jan-Feb UA 美西行程；每 3 年限一次"
+  },
+  {
+    "fingerprint": "CA/MU-EU-Asia-J|Air China China Eastern|GBP800|2026-09|verylvke.com",
+    "date": "2026-07-17",
+    "title": "Air China / China Eastern 商務艙 歐洲-亞洲來回 £800 起（R class，累積星盟 110-125%）",
+    "url": "https://www.verylvke.com/en/2026/07/10/air-china-china-eastern-business-class-return-between-europe-and-asia-from-800/",
+    "category": "outstation_deal",
+    "total_cost_twd": 0,
+    "rating": "不適用",
+    "note": "ex-EU（歐洲出發），Barney 在 TPE 方向相反，不列入推薦，僅記錄去重複"
+  },
+  {
+    "fingerprint": "JX-SFO-TPE-J|STARLUX|USD5710|2027-01|starlux-airlines.com",
+    "date": "2026-07-17",
+    "title": "STARLUX SFO-TPE 商務艙 2027/01/03-01/20 來回 約 USD 5,710",
+    "url": "https://www.starlux-airlines.com/flights/en-us/flights-from-united-states",
+    "category": "ua_us_west",
+    "total_cost_twd": 185000,
+    "rating": "不報",
+    "note": "非 UA 且遠超 95,000 TWD 上限；僅記錄，非 Barney 追蹤的 UA 專案"
+  },
+  {
+    "fingerprint": "SQ-SIN-EU-J|Singapore Airlines|promo|2026-11到2027-02|travelandtourworld.com",
+    "date": "2026-07-17",
+    "title": "Singapore Airlines 商務艙/豪經 歐洲特賣（travel 2026 末-2027 初）",
+    "url": "https://www.travelandtourworld.com/news/article/lgc4mr9cf68k/",
+    "category": "outstation_deal",
+    "total_cost_twd": 0,
+    "rating": "觀察",
+    "note": "旅遊窗口多在 11 月及明年 1 月中-2 月初，非 9/19-10/4 核心連假窗口；持續追蹤未來釋出"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "fingerprint": "SIN-Europe|SingaporeAirlines|NZ$8617|2026-09|singaporeair.com",
+    "date": "2026-06-15",
+    "title": "Singapore Airlines 2026 Spring Sale - Europe 段去程僅至 9/24",
+    "url": "https://www.travelandtourworld.com/news/article/lgc4mr9cf68k/",
+    "category": "outstation_deal",
+    "total_cost_twd": 173000,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "LAX-TPE|EVAAir|12950miles|2026-09-10|evaair.com",
+    "date": "2026-06-15",
+    "title": "EVA Air LAX-TPE Royal Laurel 哩程升等 30% off (Apr-May & Sep-Oct 2026)",
+    "url": "https://slickdeals.net/f/19323720-eva-air-los-angeles-taipei-route-30-off-cabin-upgrades-using-points-for-travel-april-may-september-or-october-2026",
+    "category": "tpe_deal",
+    "total_cost_twd": 0,
+    "rating": "參考偏強"
+  },
+  {
+    "fingerprint": "MR-AsiaMiles|Amex|15percentbonus|2026-Q2|americanexpress.com",
+    "date": "2026-06-15",
+    "title": "Amex MR 轉 Cathay Asia Miles 15% targeted 加碼（已 3/1 貶值後）",
+    "url": "https://frequentmiler.com/15-transfer-bonus-to-cathay-pacific-asia-miles-from-amex-membership-rewards-targeted/",
+    "category": "amex_bonus",
+    "total_cost_twd": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "TPE-EU|EVAAir|75000Aeroplan|2026-09|aircanada.com",
+    "date": "2026-06-15",
+    "title": "EVA Royal Laurel TPE-Europe Aeroplan 75K 單程 Sweet Spot",
+    "url": "https://princeoftravel.com/airlines/eva-air-business-class/",
+    "category": "award_space",
+    "total_cost_twd": 60000,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "StatusMatch|United|Premier1K|2026|united.com",
+    "date": "2026-06-15",
+    "title": "United MileagePlus Status Match Challenge 2026 含直升 Premier 1K",
+    "url": "https://awardfares.com/blog/status-match-guide/",
+    "category": "amex_bonus",
+    "total_cost_twd": 0,
+    "rating": "強推"
+  }
+]

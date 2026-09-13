@@ -1,0 +1,38 @@
+[
+  {
+    "fingerprint": "BRU-KUL/BKK/HKG/SIN|Etihad|1650EUR|Apr-Jun2026|flyertalk.com",
+    "date": "2026-07-24",
+    "title": "Etihad Brussels -> KUL/BKK/HKG/SIN business ~1650-1750 EUR RT (歐洲出發、票期4-6月已過，方向與時間皆不契合)",
+    "url": "https://www.flyertalk.com/forum/premium-fare-deals/2214889-ey-bru-kul-bkk-hkt-kbv-sin-1650-1750-c-rt.html",
+    "category": "outstation_deal",
+    "total_cost_twd": 0,
+    "rating": "不報-方向與時間不契合"
+  },
+  {
+    "fingerprint": "SIN-TPE|Starlux|S$2450|Sep2026|mainlymiles.com",
+    "date": "2026-07-24",
+    "title": "Starlux SIN-TPE business RT ~S$2,450 (泛用價、非長程歐美段，CP值不足)",
+    "url": "https://mainlymiles.com/2026/02/03/starlux-brings-a350-and-first-class-back-to-singapore/",
+    "category": "outstation_deal",
+    "total_cost_twd": 57000,
+    "rating": "參考-非目標長程段"
+  },
+  {
+    "fingerprint": "LAX-TPE|EVA|12950miles-upgrade|Apr-May-Sep-Oct2026|slickdeals.net",
+    "date": "2026-07-24",
+    "title": "EVA Air LAX-TPE 30% off 用點數升艙 (Sep/Oct 2026窗口內，但為升艙工具非可訂商務票)",
+    "url": "https://slickdeals.net/f/19323720-eva-air-los-angeles-taipei-route-30-off-cabin-upgrades-using-points-for-travel-april-may-september-or-october-2026",
+    "category": "award_space",
+    "total_cost_twd": 0,
+    "rating": "參考-升艙促銷"
+  },
+  {
+    "fingerprint": "UA-MileagePlus|StatusMatchChallenge|free|thru2026-12-31|awardtravelfinder.com",
+    "date": "2026-07-24",
+    "title": "UA MileagePlus Premier Status Match Challenge 延至2026/12/31，7/1後完成鎖狀態到2028/1，即享星盟金卡120天",
+    "url": "https://awardtravelfinder.com/status-match/united-mileageplus",
+    "category": "ua_us_west",
+    "total_cost_twd": 0,
+    "rating": "情報-搭配UA美西計畫"
+  }
+]

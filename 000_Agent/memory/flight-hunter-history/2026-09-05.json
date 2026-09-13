@@ -1,0 +1,189 @@
+[
+  {
+    "fingerprint": "TPE-SEA-FLL|Delta|cash~3900usd_RT+900|2027-03|flyertalk.com",
+    "date": "2026-09-05",
+    "title": "Delta One TPE–SEA + Delta First SEA–FLL 全 Delta 金屬（餵 MQD 主力路線），來回約 TWD 153,600；混合方案（去程 Virgin 60K 獎勵票）約 TWD 111,000",
+    "url": "https://www.flyertalk.com/forum/other-asian-australian-south-pacific-airlines/2154442-four-airlines-operate-taipei-seattle-19.html",
+    "category": "fll_cash",
+    "total_cost_twd": 153600,
+    "credit_program": "Delta",
+    "challenge_progress_pct": 176,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "SEA-TPE|VirginAtlantic-DeltaOne|60000pts_oneway|2027-03|onemileatatime.com",
+    "date": "2026-09-05",
+    "title": "Virgin Atlantic Flying Club 換 Delta One 美國–亞洲單程 60,000 點（SEA–TPE），搭配 70% 購點加碼單程約 TWD 37,500",
+    "url": "https://onemileatatime.com/guides/redeem-virgin-atlantic-points-delta/",
+    "category": "fll_award",
+    "total_cost_twd": 37500,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "TPE-SEA|Starlux-Atmos|75000pts_oneway|2027-03|thepointsguy.com",
+    "date": "2026-09-05",
+    "title": "Starlux TPE–SEA/LAX/SFO/ONT 商務艙 Atmos 75K 單程獎勵位大開（2026/7–2027/6）+ AS SEA–FLL First 轉機段；無購點促銷時不划算，100% 加碼回歸時總計約 TWD 122,900",
+    "url": "https://thepointsguy.com/deals/wide-open-starlux-business-class-award-availability/",
+    "category": "fll_award",
+    "total_cost_twd": 122900,
+    "credit_program": "Atmos",
+    "challenge_progress_pct": 55,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "ATH-AMS-TPE|FlyingBlue-KLM|~80000miles+buy45off|2027-06|upgradedpoints.com",
+    "date": "2026-09-05",
+    "title": "KLM ATH–AMS–TPE 商務艙 Flying Blue 約 75–90K 哩，搭配買哩 45% off（1.68¢，至 9/16）換算約 TWD 51,600",
+    "url": "https://upgradedpoints.com/news/flying-blue-miles-purchase-discount/",
+    "category": "ath_award",
+    "total_cost_twd": 51600,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "ATH-DXB-TPE|Emirates-Skywards|~90000miles_oneway_saver|2027-06|liveandletsfly.com",
+    "date": "2026-09-05",
+    "title": "Emirates ATH–DXB–TPE 商務艙 Skywards 單程 Saver 新制（2026/5/20 起 = 來回一半），估約 90K 哩 + 附加費 $300；買哩 2.4¢ 不划算（TWD 78,700），需台灣 Amex MR 轉點",
+    "url": "https://liveandletsfly.com/emirates-skywards-more-expensive-one-exception/",
+    "category": "ath_award",
+    "total_cost_twd": 78700,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "buy|VirginAtlantic|70pct|2026-09|virginatlantic.com",
+    "date": "2026-09-05",
+    "title": "Virgin Atlantic Flying Club 購點加碼最高 70%（2026/9/1–10/4），1.47¢ USD / 1.19¢ GBP，上限 400K",
+    "url": "https://www.virginatlantic.com/en-US/flying-club/earn-points/buy-points",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 0,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "buy|FlyingBlue|45off_80pct|2026-09|awardwallet.com",
+    "date": "2026-09-05",
+    "title": "Air France–KLM Flying Blue 買哩 45% off 或 80% bonus（至 2026/9/16），1.68¢ USD",
+    "url": "https://awardwallet.com/airlines/flying-blue/buy-miles/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 0,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "transfer|AmexUS-MR|30pct_Virgin_Avios_Hilton|2026-09|frequentmiler.com",
+    "date": "2026-09-05",
+    "title": "美國 Amex MR 轉點加碼 30%：Virgin Atlantic（進行中）、Avios BA/Iberia/Aer Lingus（至 9/27）、Hilton（至 10/14）",
+    "url": "https://frequentmiler.com/current-point-transfer-bonuses/",
+    "category": "transfer_bonus",
+    "total_cost_twd": 0,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "transfer|AmexTW-MR|AsiaMiles_bonus_unknown|2026-09|americanexpress.com",
+    "date": "2026-09-05",
+    "title": "台灣 Amex MR → 亞洲萬里通 轉點加碼（2026/8/24–9/23，限特定卡別，比例資料不足）",
+    "url": "https://www.americanexpress.com/zh-tw/rewards/membership-rewards/partner/Asia_Miles/Asia-Miles-Transfer/CATH",
+    "category": "transfer_bonus",
+    "total_cost_twd": 0,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "match|AA-InstantStatusPass|Gold4mo_13K_25K_42K_67K_deadline_Oct23_vs_Dec31|2026-09|aa.com",
+    "date": "2026-09-05",
+    "title": "AA Instant Status Pass：UA 精英免費，即時 Gold 4 個月，LP 13K/25K/42K/67K 保級至 2028/3/31；報名截止 LoyaltyLobby 10/23 vs aa.com T&C 12/31 矛盾",
+    "url": "https://www.aa.com/i18n/aadvantage-program/instant-status-pass-terms.jsp",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "AA",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "match|Delta-Medallion|90d_MQD_1250_2500_3750_thru_2028-01-31|2026-09|delta.com",
+    "date": "2026-09-05",
+    "title": "Delta Status Match Challenge：UA Gold → Gold Medallion，90 天內 MQD $1,250/$2,500/$3,750，2026 報名保級至 2028/1/31；建議 2027/1/13–1/31 送件",
+    "url": "https://www.delta.com/us/en/skymiles/medallion-program/status-match-challenge",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "Delta",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "match|Alaska-Atmos|90d_basepts_5K_10K_20K_AS_HA_only_thru_2027-12-31|2026-09|alaskaair.com",
+    "date": "2026-09-05",
+    "title": "Atmos Rewards Status Match：90 天內 AS/HA 自營航段 base points 5K/10K/20K，夥伴與獎勵票不計；7/1 後開始者有效至 2027/12/31；建議 2027/1/13–1/31 送件",
+    "url": "https://www.alaskaair.com/content/mileage-plan/membership-benefits/status-match",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "Atmos",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "match|FlyingBlue-paid|Silver99_Gold199_12mo_US_CA|2026-09|awardwallet.com",
+    "date": "2026-09-05",
+    "title": "Flying Blue 付費 Status Match（美加居民）：Silver $99 / Gold(Elite Plus) $199，12 個月，不需挑戰航段",
+    "url": "https://awardwallet.com/news/flying-blue/status-match-flying-blue/",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "FlyingBlue",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "buy|LifeMiles|145pct_ended_2026-08-27|2026-08|loyaltylobby.com",
+    "date": "2026-09-05",
+    "title": "[已過濾] LifeMiles 145% 購點加碼 8/27 結束，目前無促銷",
+    "url": "https://loyaltylobby.com/2026/08/19/avianca-lifemiles-buy-miles-up-to-145-bonus-flash-sale-through-august-19-24-2026/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 0,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "不報"
+  },
+  {
+    "fingerprint": "buy|Turkish|status_miles_only_3cents|2026-09|loyaltylobby.com",
+    "date": "2026-09-05",
+    "title": "[已過濾] Turkish Miles&Smiles 9/2–9/10 買哩送 status miles，無價格折扣（3¢/哩）",
+    "url": "https://loyaltylobby.com/2026/09/02/turkish-airlines-campaign-buy-miles-get-also-status-miles-september-2-10-2026/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 0,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "不報"
+  },
+  {
+    "fingerprint": "FLL-TPE|United|967usd_economy_RT|2027|theflightdeal.com",
+    "date": "2026-09-05",
+    "title": "[已過濾] United FLL–TPE 經濟艙來回 $967/$1,157（非商務艙，僅作航線背景）",
+    "url": "https://www.theflightdeal.com/2026/08/27/united-fort-lauderdale-taipei-taiwan-967-basic-economy-1157-regular-economy-roundtrip-including-all-taxes/",
+    "category": "fll_cash",
+    "total_cost_twd": 0,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "不報"
+  },
+  {
+    "fingerprint": "match|RoyalJordanian-paid|149usd_UA_DL_not_eligible|2026-09|awardtravelfinder.com",
+    "date": "2026-09-05",
+    "title": "[已過濾] Royal Jordanian Gold Sparrow 付費 match $149，Delta/United 狀態不接受",
+    "url": "https://awardtravelfinder.com/status-match/alliance/oneworld",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "不報"
+  }
+]

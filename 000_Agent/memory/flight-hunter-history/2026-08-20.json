@@ -1,0 +1,29 @@
+[
+  {
+    "fingerprint": "BKK-IST-Europe|Turkish Airlines|507USD_ow|2026-09|secretflying.com",
+    "date": "2026-08-20",
+    "title": "Turkish Airlines Error Fare: ex-BKK/CGK 商務艙飛歐洲多點，$507 USD 單程起（平躺 lie-flat，經 IST 轉機），可用區間 2026/09-2027/05",
+    "url": "https://www.secretflying.com/error-fares/",
+    "category": "outstation_deal",
+    "total_cost_twd": 42000,
+    "rating": "史詩級神票"
+  },
+  {
+    "fingerprint": "AmexMR-CathayAsiaMiles|Amex|10pct_bonus|2026-08|roame.travel",
+    "date": "2026-08-20",
+    "title": "Amex MR → 國泰 Asia Miles 10% 轉點加碼，截止 2026/08/28（後續比例將由 1:1 降為 5:4）",
+    "url": "https://roame.travel/guides/points-transfer-bonuses",
+    "category": "amex_bonus",
+    "total_cost_twd": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "UA-StatusChallenge|United|StarGold_120d|2026|promo.united.com",
+    "date": "2026-08-20",
+    "title": "United MileagePlus Status Match/Challenge：可 match 至 Premier 1K，即享 120 天星盟金卡，申請至 2026/12/31，7/1 後完成鎖定至 2028/01",
+    "url": "https://promo.united.com/offers/statusmatch",
+    "category": "status_challenge",
+    "total_cost_twd": 0,
+    "rating": "參考"
+  }
+]

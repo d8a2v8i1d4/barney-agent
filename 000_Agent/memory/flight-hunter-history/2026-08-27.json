@@ -1,0 +1,38 @@
+[
+  {
+    "fingerprint": "BKK/SE-Asia-Europe|Turkish Airlines TK|TWD49000|09|secretflying.com",
+    "date": "2026-08-27",
+    "title": "Turkish Airlines 商務艙 ex-Bangkok/東南亞 → 歐洲 error fare 單程約 $507-624 USD（lie-flat，出發日含 9/20、9/25、9/30、10/5）",
+    "url": "https://www.secretflying.com/posts/error-fare-business-class-from-south-east-asia-to-european-cities-from-only-507-usd-one-way/",
+    "category": "outstation_deal",
+    "total_cost_twd": 49000,
+    "rating": "神級"
+  },
+  {
+    "fingerprint": "TPE-USWest|EVA Air/Starlux Royal Laurel|75000-87500 Aeroplan|08-02|viewfromthewing.com",
+    "date": "2026-08-27",
+    "title": "EVA Air / Starlux 商務艙 award space TPE↔美西（LAX/SFO）75,000-87,500 Aeroplan + 約 $57 稅金/單程，2026/08-2027/02 最多 7 位釋出",
+    "url": "https://viewfromthewing.com/business-class-awards-to-asia-have-been-brutal-star-alliances-eva-air-just-opened-a-new-way-to-get-there/",
+    "category": "award_space",
+    "total_cost_twd": 3600,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "transfer-bonus|Amex MR->Cathay Asia Miles 10pct|Aug28|awardwallet.com",
+    "date": "2026-08-27",
+    "title": "Amex MR → 國泰 Asia Miles 10% 轉點加碼（至 8/28）＋ Amex MR → Avios(BA/Iberia/Aer Lingus) 30%（至 9/27，美卡 MR）",
+    "url": "https://awardwallet.com/news/credit-card-transfer-bonuses/",
+    "category": "amex_bonus",
+    "total_cost_twd": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "status-challenge|United MileagePlus Premier Gold|USD3400|2026-2027|frequentmiler.com",
+    "date": "2026-08-27",
+    "title": "United MileagePlus Status Match Challenge：Premier Gold 需飛滿 $3,400 UA，2026/12/31 前完成可享至 2028/01（可搭 2027 美西行）",
+    "url": "https://frequentmiler.com/united-mileage-plus-status-match-challenge/",
+    "category": "ua_us_west",
+    "total_cost_twd": 0,
+    "rating": "參考"
+  }
+]

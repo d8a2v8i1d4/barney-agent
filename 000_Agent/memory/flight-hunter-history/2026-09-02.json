@@ -1,0 +1,38 @@
+[
+  {
+    "fingerprint": "BKK/CGK/HKT-Europe|Turkish Airlines|US$507ow|2026-09|secretflying.com",
+    "date": "2026-09-02",
+    "title": "Turkish Airlines 東南亞外站(BKK/CGK/HKT)→歐洲多點 商務艙 Bug 票，單程 US$507 起，票期 2026/09-2027/05",
+    "url": "https://www.secretflying.com/error-fares/",
+    "category": "outstation_deal",
+    "total_cost_twd": 50000,
+    "rating": "史詩級神票"
+  },
+  {
+    "fingerprint": "TPE-US(SFO/LAX)|EVA Air|85k Aeroplan+US$57|2026-08to2027-02|thepointsguy.com",
+    "date": "2026-09-02",
+    "title": "EVA Air 台北⇄美國(含美西) 商務艙哩程神位，Aeroplan 85,000哩+US$57單程，2026/08-2027/02 大量釋出",
+    "url": "https://thepointsguy.com/deals/eva-business-us-taiwan/",
+    "category": "award_space",
+    "total_cost_twd": 60000,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "TPE-PRG|Starlux|no-sale-price|2026-09|onemileatatime.com",
+    "date": "2026-09-02",
+    "title": "Starlux 星宇 台北TPE→布拉格PRG 直飛歐洲商務艙新航線，2026/10/01 起每週4班（今日無促銷價，備查）",
+    "url": "https://onemileatatime.com/news/starlux-airlines-prague-flights/",
+    "category": "tpe_deal",
+    "total_cost_twd": 100000,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "TPE-SFO/LAX|United Polaris|no-award-space|2027-01to02|awardfares.com",
+    "date": "2026-09-02",
+    "title": "UA 台北→美西 Polaris 商務艙 2027/1-2 月追蹤：今日無 saver Award Space 釋出、無現金促銷，持續監控中",
+    "url": "https://awardfares.com/blog/united-mileageplus-guide/",
+    "category": "ua_us_west",
+    "total_cost_twd": 0,
+    "rating": "追蹤中"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "fingerprint": "EWR-SFO/LAX|United|27000mi|domestic-transcon|viewfromthewing.com",
+    "date": "2026-08-12",
+    "title": "United 卡友 Polaris 27,000 哩美國國內橫貫特惠（非跨太平洋，與 TPE 無關）",
+    "url": "https://viewfromthewing.com/united-cardmembers-can-book-polaris-business-class-for-27000-miles-and-use-the-polaris-lounge/",
+    "category": "ua_us_west",
+    "total_cost_twd": null,
+    "rating": "不報",
+    "note": "屬美國國內段 transcon，非台北出發跨太平洋，不符合 2027 TPE-美西目標"
+  },
+  {
+    "fingerprint": "SIN-Europe|Singapore Airlines|global-sale|2026-2027|greatdeals.com.sg",
+    "date": "2026-08-12",
+    "title": "新航全球促銷（含商務艙，歐洲/亞洲）訂位期 7/14-8/9",
+    "url": "https://www.greatdeals.com.sg/2026/07/13/singapore-airlines-global-fare-sale-july-august-2026",
+    "category": "outstation_deal",
+    "total_cost_twd": null,
+    "rating": "不報",
+    "note": "訂位期已於 8/9 截止（今日 8/12），無法再訂；且未見符合 9/19-10/4 之具體商務艙票價"
+  },
+  {
+    "fingerprint": "Amex-MR-to-AsiaMiles|Cathay|10%-bonus|thru-2026-08-28|roame.travel",
+    "date": "2026-08-12",
+    "title": "Amex MR 轉國泰 Asia Miles 10% 加碼（上限 10,000 哩，2026/3/1 已貶值為 5:4）",
+    "url": "https://roame.travel/guides/cathay-pacific-transfer-bonus",
+    "category": "amex_bonus",
+    "total_cost_twd": null,
+    "rating": "參考",
+    "note": "加碼上限僅 10k 哩且已貶值，CP 值偏低；截止 8/28"
+  },
+  {
+    "fingerprint": "UA-MileagePlus|status-challenge|Premier-1K|thru-2026-12-31|staralliance.statusmatch.com",
+    "date": "2026-08-12",
+    "title": "United MileagePlus Status Match/Challenge（可挑戰至 Premier 1K，即享星盟金卡 120 天）",
+    "url": "https://staralliance.statusmatch.com/united",
+    "category": "amex_bonus",
+    "total_cost_twd": null,
+    "rating": "強推情報",
+    "note": "非票價，但契合 Barney 2027 UA Polaris 美西計畫；7/1 後完成可鎖定狀態至 2028/1"
+  }
+]

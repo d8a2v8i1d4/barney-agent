@@ -1,0 +1,56 @@
+[
+  {
+    "fingerprint": "HKG-歐洲|國泰/星盟|65000-77000TWD|2026-09|flyertalk.com",
+    "date": "2026-08-05",
+    "title": "[參考基準] ex-HKG 商務艙至歐洲（含 TPE-HKG 接駁）2026 黃金連假窗口",
+    "url": "https://www.flyertalk.com/forum/premium-fare-deals/1955077-current-ex-eu-long-haul-oneworld-business-class-deals.html",
+    "category": "outstation_deal",
+    "total_cost_twd": 71000,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "KUL-歐洲|土航/馬航/星盟|75000-86000TWD|2026-09|premium-flights.com",
+    "date": "2026-08-05",
+    "title": "[參考基準] ex-KUL 商務艙至歐洲（含 TPE-KUL 接駁）2026 黃金連假窗口",
+    "url": "https://premium-flights.com/category/cheap-business-class-flights/business-class-deals-from-europe/",
+    "category": "outstation_deal",
+    "total_cost_twd": 80000,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "TPE-美西|Starlux|83000TWD|2026-09|skyluxtravel.com",
+    "date": "2026-08-05",
+    "title": "[參考基準] Starlux 星宇 TPE 直飛美西 LAX/SFO 商務艙",
+    "url": "https://www.skyluxtravel.com/business-class-flights/flights-to-taipei-tpe-taiwan/",
+    "category": "tpe_deal",
+    "total_cost_twd": 83000,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "TPE-SFO|UA Polaris|75000LifeMiles+稅|2027-01|awardlocker.com",
+    "date": "2026-08-05",
+    "title": "UA Polaris TPE-SFO 2027 1-2月哩程 Sweet Spot（LifeMiles 約 75K 單程 US-北亞）",
+    "url": "https://awardlocker.com/finders/united-polaris",
+    "category": "ua_us_west",
+    "total_cost_twd": null,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "AmexMR-BAClub|轉點加碼30%|截止2026-09-27|point.me",
+    "date": "2026-08-05",
+    "title": "Amex MR → British Airways Club (Avios) 30% 轉點加碼，截止 2026-09-27",
+    "url": "https://www.point.me/insights/current-transfer-bonuses/",
+    "category": "amex_bonus",
+    "total_cost_twd": null,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "UA-StatusChallenge|星盟金卡|窗口至2026-12-31|staralliance.statusmatch.com",
+    "date": "2026-08-05",
+    "title": "United MileagePlus Status Match/Challenge，7/1 後完成鎖狀態至 2028/01",
+    "url": "https://staralliance.statusmatch.com/united",
+    "category": "award_space",
+    "total_cost_twd": null,
+    "rating": "強推"
+  }
+]

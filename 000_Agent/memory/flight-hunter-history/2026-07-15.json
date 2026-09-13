@@ -1,0 +1,47 @@
+[
+  {
+    "fingerprint": "EU-Asia|AirChina+ChinaEastern|GBP800|2026-07|verylvke.com",
+    "date": "2026-07-15",
+    "title": "Air China / China Eastern 歐洲-亞洲來回商務艙 from £800（R艙，A350 1-2-1，Star Alliance 累積 110-125%）",
+    "url": "https://www.verylvke.com/en/2026/07/10/air-china-china-eastern-business-class-return-between-europe-and-asia-from-800/",
+    "category": "outstation_deal",
+    "total_cost_twd": null,
+    "rating": "不符（ex-EU 出發、旅行日 2026/07-08，非中秋連假窗口）"
+  },
+  {
+    "fingerprint": "Asia-Europe|SingaporeAirlines|SALE|2026-09to2027-05|singaporeair.com",
+    "date": "2026-07-15",
+    "title": "Singapore Airlines 全球商務艙特賣（訂票 2026/07/14-08/09，旅行至 2027/05/31，含 UK/Europe）",
+    "url": "https://www.travelandtourworld.com/news/article/lgc4mr9cf68k/",
+    "category": "outstation_deal",
+    "total_cost_twd": null,
+    "rating": "待確認（無公布商務具體票價，中秋連假疑為 blackout peak）"
+  },
+  {
+    "fingerprint": "TPE-SFO|United|88000miles|award-baseline|united.com",
+    "date": "2026-07-15",
+    "title": "United MileagePlus TPE-SFO 商務 Saver 標準 88,000 哩單程（無促銷，Award Space 通常裝載日與出發前 2-3 週釋出）",
+    "url": "https://awardfares.com/blog/united-mileageplus-guide/",
+    "category": "ua_us_west",
+    "total_cost_twd": null,
+    "rating": "基準值（非促銷，2027/01-02 尚未見特別釋出）"
+  },
+  {
+    "fingerprint": "UA|StatusChallenge|match-to-1K|2026-12-31deadline|united.com",
+    "date": "2026-07-15",
+    "title": "United Premier Status Match Challenge：可 match 至 Premier 1K，即享 Star Alliance Gold 120 天，7/1 後完成鎖到 2028/01",
+    "url": "https://onemileatatime.com/guides/united-status-match/",
+    "category": "status_challenge",
+    "total_cost_twd": null,
+    "rating": "情報（搭配 2027 UA 美西計畫的高卡挑戰籌碼）"
+  },
+  {
+    "fingerprint": "Amex|MR|transfer-bonus-drought|2026|thriftytraveler.com",
+    "date": "2026-07-15",
+    "title": "Amex MR 轉點加碼 2026 幾近消失（Etihad Guest 2026/06/30 永久終止；目前 16 航空 3 飯店夥伴）",
+    "url": "https://thriftytraveler.com/news/points/what-happened-to-amex-transfer-bonuses/",
+    "category": "amex_bonus",
+    "total_cost_twd": null,
+    "rating": "情報（負面：暫無有意義加碼，轉點需審慎）"
+  }
+]

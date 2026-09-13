@@ -1,0 +1,145 @@
+[
+  {
+    "fingerprint": "TPE-SEA-FLL|Delta|USD3500-4000RT|2027-03|delta.com",
+    "date": "2026-09-06",
+    "title": "Delta 全程自家金屬 TPE–SEA–FLL Delta One Suites 來回（估 130,000–155,000 TWD，餵 Delta MQD 124–144% Gold）",
+    "url": "https://news.delta.com/delta-upgrade-tpe-sea-service-with-A350-TC",
+    "category": "fll_cash",
+    "total_cost_twd": 142000,
+    "credit_program": "Delta",
+    "challenge_progress_pct": 134,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "TPE-SEA-FLL|Starlux+Alaska Atmos|75K-oneway|2027-03|pnm.now",
+    "date": "2026-09-06",
+    "title": "Starlux TPE–SEA Atmos 75K 單程獎勵票 + Alaska SEA–FLL（估 115,000 TWD，僅 SEA–FLL 入帳 Atmos Silver 108%）",
+    "url": "https://www.pnm.now/starlux-business-class-award-space-alaska/",
+    "category": "fll_award",
+    "total_cost_twd": 115000,
+    "credit_program": "Atmos",
+    "challenge_progress_pct": 54,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "ATH-AMS-TPE|KLM Flying Blue|45pct-off-buy-miles|2027-06|upgradedpoints.com",
+    "date": "2026-09-06",
+    "title": "KLM ATH–AMS–TPE 商務艙 Flying Blue 獎勵票 + 9/16 前買哩 45% off（估 53,000 TWD）",
+    "url": "https://upgradedpoints.com/news/flying-blue-miles-purchase-discount/",
+    "category": "ath_award",
+    "total_cost_twd": 53000,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "ATH-IST-TPE|Turkish Miles&Smiles|45K-60K|2027-06|awardwallet.com",
+    "date": "2026-09-06",
+    "title": "Turkish ATH–IST–TPE 商務艙 Miles&Smiles 獎勵票（估 52,000–63,000 TWD，買哩無折扣）",
+    "url": "https://awardwallet.com/blog/deal-alert-turkish-airlines/",
+    "category": "ath_award",
+    "total_cost_twd": 58000,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "ATH-DXB-TPE|Emirates Skywards|saver-oneway-90K-120K|2027-06|thriftytraveler.com",
+    "date": "2026-09-06",
+    "title": "Emirates ATH–DXB–TPE 商務艙 Skywards Saver 單程解禁（估 90,000–115,000 TWD）",
+    "url": "https://thriftytraveler.com/news/points/emirates-reduces-one-way-business-class/",
+    "category": "ath_award",
+    "total_cost_twd": 102000,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "buy-miles|Flying Blue|45pct-off-80pct-bonus|2026-09|upgradedpoints.com",
+    "date": "2026-09-06",
+    "title": "Flying Blue 購哩 45% off / 80% bonus 至 2026-09-16（1.69 美分）",
+    "url": "https://upgradedpoints.com/news/flying-blue-miles-purchase-discount/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 0,
+    "credit_program": "FlyingBlue",
+    "challenge_progress_pct": 0,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "buy-miles|Virgin Atlantic|70pct-bonus|2026-09|onemileatatime.com",
+    "date": "2026-09-06",
+    "title": "Virgin Atlantic Flying Club 購點 70% bonus 2026-09-01 至 10-04（1.47 美分，上限 400K）",
+    "url": "https://onemileatatime.com/deals/buy-virgin-atlantic-flying-club-points/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 0,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "buy-miles|Turkish Miles&Smiles|0pct-status-miles|2026-09|loyaltylobby.com",
+    "date": "2026-09-06",
+    "title": "Turkish Miles&Smiles 買哩送 status miles 2026-09-02 至 09-10（無折扣 3 美分）",
+    "url": "https://loyaltylobby.com/2026/09/02/turkish-airlines-campaign-buy-miles-get-also-status-miles-september-2-10-2026/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 0,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "transfer-bonus|Amex MR US|30pct-Avios-Virgin|2026-09|frequentmiler.com",
+    "date": "2026-09-06",
+    "title": "美國 Amex MR 轉 Avios 30% 至 9/27、轉 Virgin Atlantic 30%、轉 Hilton 30% 至 10/14",
+    "url": "https://frequentmiler.com/current-point-transfer-bonuses/",
+    "category": "transfer_bonus",
+    "total_cost_twd": 0,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "status-match|Flying Blue paid|Taiwan-eligible-Gold-USD299|2026-09|loyaltylobby.com",
+    "date": "2026-09-06",
+    "title": "Flying Blue 付費 Status Match 納入台灣居民，Gold USD 299 / Silver USD 99，12 個月，上限 Gold",
+    "url": "https://loyaltylobby.com/2026/05/27/air-france-klm-flying-blue-status-match-includes-china-hong-kong-taiwan-again-more-airlines-elites-eligible/",
+    "category": "status_match",
+    "total_cost_twd": 9600,
+    "credit_program": "FlyingBlue",
+    "challenge_progress_pct": 100,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "status-match|Delta Medallion|3mo-MQD1250-2500-3750|2026-09|delta.com",
+    "date": "2026-09-06",
+    "title": "Delta Status Match Challenge：3 個月、MQD 1,250/2,500/3,750、夥伴航空與 Amex MQD 計入、2026 報名到 2028/1/31；建議 2027/1/15–1/22 送件",
+    "url": "https://www.delta.com/us/en/skymiles/medallion-program/status-match-challenge",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "Delta",
+    "challenge_progress_pct": 0,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "status-match|Atmos Rewards|90d-5000-10000-20000-AS-only|2026-09|alaskaair.com",
+    "date": "2026-09-06",
+    "title": "Atmos Status Match：90 天、base points 5,000/10,000/20,000、僅 Alaska/Hawaiian 執飛計入、1–6 月開始只到當年底；建議 2027/1/15–1/22 送件",
+    "url": "https://www.alaskaair.com/content/benefits/status-match",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "Atmos",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "status-match|AA Instant Status Pass|deadline-2026-10-23-LP13000-25000|2026-09|loyaltylobby.com",
+    "date": "2026-09-06",
+    "title": "AA Instant Status Pass 最後報名 2026/10/23、4 個月、LP 13,000/25,000/42,000/67,000；窗口無法涵蓋 2027/3/31–4/12",
+    "url": "https://loyaltylobby.com/2026/08/21/american-airlines-instant-status-pass-promotion-sign-up-by-october-23-2026/",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "AA",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  }
+]

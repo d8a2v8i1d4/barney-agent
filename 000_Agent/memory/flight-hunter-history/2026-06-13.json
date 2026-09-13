@@ -1,0 +1,56 @@
+[
+  {
+    "fingerprint": "TPE-LAX|EVA Air BR06/BR05|12950miles upgrade|2026-09/10|evaair.com",
+    "date": "2026-06-13",
+    "title": "EVA Air BR06/BR05 商務艙升等 30% off — 12,950 哩單程升等，旅行期 2026/09/01-10/31",
+    "url": "https://www.evaair.com/en-us/infinity-mileagelands/member-special-offers/special-mileage-promotion/",
+    "category": "tpe_deal",
+    "total_cost_twd": 63000,
+    "rating": "神級"
+  },
+  {
+    "fingerprint": "HKG-USA|Cathay Pacific|75000 Asia Miles one-way|2026-09/10|loyaltylobby.com",
+    "date": "2026-06-13",
+    "title": "Cathay Pacific HKG → 北美 Aria Suite 商務艙 75K Asia Miles 起單程",
+    "url": "https://flights.cathaypacific.com/destinations/en_US/business-class-booking",
+    "category": "award_space",
+    "total_cost_twd": 13500,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "SEA-TPE|Delta One|97700 SkyMiles|2026-Jan-Sep|frequentmiler.com",
+    "date": "2026-06-13",
+    "title": "Delta One SEA-TPE 商務艙 97,700 SkyMiles（Delta 卡友 15% off）",
+    "url": "https://frequentmiler.com/delta-flash-sale-business-class-tickets-to-taipei-from-115k-skymiles-one-way-less-with-delta-card/",
+    "category": "award_space",
+    "total_cost_twd": 60000,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "MR-FlyingBlue|Amex MR|25% Transfer Bonus|2026-06|frequentmiler.com",
+    "date": "2026-06-13",
+    "title": "Amex MR → Flying Blue 25% Transfer Bonus（6/30 到期）",
+    "url": "https://frequentmiler.com/current-point-transfer-bonuses/",
+    "category": "amex_bonus",
+    "total_cost_twd": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "Aeroplan-SwissBiz|Aeroplan|60000 points one-way|2026-07-09|viewfromthewing.com",
+    "date": "2026-06-13",
+    "title": "Aeroplan Swiss 商務艙 美東岸→歐洲 60K 點 單程（暑期大開最多 9 位）",
+    "url": "https://viewfromthewing.com/wide-open-swiss-business-class-awards-for-summer-2026-up-to-9-seats-bookable-through-united-aeroplan-and-lifemiles-now/",
+    "category": "award_space",
+    "total_cost_twd": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "TurkishChallenge|Miles&Smiles|Star Gold 4mo|2026|staralliance.statusmatch.com",
+    "date": "2026-06-13",
+    "title": "Turkish Airlines Miles&Smiles Status Challenge — 4 個月 Star Alliance Gold（須先有 OW/SkyTeam/Star Gold 母身份）",
+    "url": "https://staralliance.statusmatch.com/turkish-airlines",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "rating": "參考"
+  }
+]

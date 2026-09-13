@@ -1,0 +1,41 @@
+[
+  {
+    "fingerprint": "United-StatusMatch|MileagePlus|Free|2026-06|united.com",
+    "date": "2026-06-29",
+    "title": "United MileagePlus Status Match Challenge — 直送 Star Alliance Gold（6/30 申請截止）",
+    "url": "https://www.united.com/en/us/fly/mileageplus/premier/status-match.html",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "rating": "強推",
+    "score": 85,
+    "deadline": "2026-06-30",
+    "covers_holiday_period": true,
+    "notes": "申請須於 6/30 前送出。若 7/1 後完成 Challenge 飛行門檻，身分延到 2028/1。覆蓋整個 9/19-10/4 黃金假期。"
+  },
+  {
+    "fingerprint": "AmexMR-FlyingBlue|TransferBonus|25pct|2026-06|americanexpress.com",
+    "date": "2026-06-29",
+    "title": "Amex MR → Flying Blue 25% 轉點加碼（6/30 截止）",
+    "url": "https://global.americanexpress.com/rewards/transfer",
+    "category": "amex_bonus",
+    "total_cost_twd": 0,
+    "rating": "參考",
+    "score": 65,
+    "deadline": "2026-06-30",
+    "covers_holiday_period": true,
+    "notes": "美國 Amex MR 體系，台灣 Amex MR 目前無 Flying Blue partner。Barney 短期無法直接受惠，但開美卡後可用。25% 低於 30% 強推門檻。"
+  },
+  {
+    "fingerprint": "Turkish-StatusChallenge|MilesSmiles|4yrGold|ongoing|verylvke.com",
+    "date": "2026-06-29",
+    "title": "Turkish Airlines Miles&Smiles Status Challenge — 4 年 Star Alliance Gold",
+    "url": "https://www.verylvke.com/en/2026/02/03/get-4-year-star-alliance-gold-from-turkish-airlines-status-challenge/",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "rating": "強推",
+    "score": 80,
+    "deadline": null,
+    "covers_holiday_period": true,
+    "notes": "第 1 年 15K miles 拿 Elite Plus；第 2 年 22.5K miles 延長，共 4 年 Star Alliance Gold。可疊加 9/19-10/4 行程同時完成第 1 階段挑戰。"
+  }
+]

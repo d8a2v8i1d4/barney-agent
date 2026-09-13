@@ -1,0 +1,145 @@
+[
+  {
+    "fingerprint": "TPE-SEA-FLL|Delta One via Virgin Atlantic|60000pts-ow|2027-03|awardwallet.com",
+    "date": "2026-09-08",
+    "title": "Delta One TPE–SEA 以 Virgin Atlantic 60K/單程換票 + SEA–FLL Delta 現金 First，搭配 Virgin 買點 70% 加碼",
+    "url": "https://awardwallet.com/airlines/virgin-atlantic-flying-club/buy-virgin-points/",
+    "category": "fll_award",
+    "total_cost_twd": 100000,
+    "credit_program": "Delta",
+    "challenge_progress_pct": 36,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "TPE-SEA-FLL|Delta cash|157000TWD|2027-03|thriftytraveler.com",
+    "date": "2026-09-08",
+    "title": "Delta 全程現金 TPE–SEA–FLL 商務艙（Delta One Suite），一趟餵滿 Delta Platinum 挑戰",
+    "url": "https://thriftytraveler.com/deals/flights/delta-one-business-class-deals/",
+    "category": "fll_cash",
+    "total_cost_twd": 157000,
+    "credit_program": "Delta",
+    "challenge_progress_pct": 120,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "TPE-SEA-FLL|Starlux via Atmos + Alaska|75000pts-ow|2027-03|onemileatatime.com",
+    "date": "2026-09-08",
+    "title": "Starlux TPE–SEA 以 Atmos 75K/單程換票（開放至 2027/6）+ Alaska SEA–FLL 現金 First 餵 Atmos 挑戰",
+    "url": "https://onemileatatime.com/news/redeem-alaska-points-starlux/",
+    "category": "fll_award",
+    "total_cost_twd": 124800,
+    "credit_program": "Atmos",
+    "challenge_progress_pct": 54,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "ATH-AMS-TPE|China Airlines via Flying Blue|72000mi-ow|2027-06|travel-dealz.com",
+    "date": "2026-09-08",
+    "title": "華航 ATH–AMS–TPE 商務 以 Flying Blue 約 72K 哩換票，搭配 Flying Blue 買哩 80% 加碼",
+    "url": "https://travel-dealz.com/blog/flying-blue-sweet-spots/",
+    "category": "ath_award",
+    "total_cost_twd": 47700,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "ATH-DXB-TPE|Emirates Skywards|saver-ow|2027-06|onemileatatime.com",
+    "date": "2026-09-08",
+    "title": "Emirates ATH–DXB–TPE 商務 Skywards Business Saver 單程（台灣 Amex MR 1:1 轉入）",
+    "url": "https://onemileatatime.com/news/emirates-skywards-devalues-miles/",
+    "category": "ath_award",
+    "total_cost_twd": 0,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "ATH-IST-TPE|Turkish Miles&Smiles|85000mi-ow|2027-06|awardtravelfinder.com",
+    "date": "2026-09-08",
+    "title": "Turkish ATH–IST–TPE 商務 Miles&Smiles 85K/單程（哩程來源受限：購哩 3¢、年上限 50K）",
+    "url": "https://awardtravelfinder.com/turkish-miles-guides",
+    "category": "ath_award",
+    "total_cost_twd": 91000,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "buy|Virgin Atlantic|70%|2026-09|awardwallet.com",
+    "date": "2026-09-08",
+    "title": "Virgin Atlantic 買點加碼最高 70%（9/1–10/4，1.47¢ USD / 1.19¢ GBP，上限 400K）",
+    "url": "https://awardwallet.com/airlines/virgin-atlantic-flying-club/buy-virgin-points/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 0,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "buy|Flying Blue|80%|2026-09|upgradedpoints.com",
+    "date": "2026-09-08",
+    "title": "Flying Blue 買哩加碼最高 80%（至 9/16，1.69¢，非菁英年上限 100K）",
+    "url": "https://upgradedpoints.com/news/flying-blue-miles-purchase-discount/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 0,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "transfer|Amex US MR|30% Virgin+Avios+Hilton|2026-09|awardtravelfinder.com",
+    "date": "2026-09-08",
+    "title": "Amex 美國 MR 轉點加碼：Virgin 30%、Avios 30%（至 9/27）、Hilton 30%（至 10/14）；台灣 Amex 無加碼",
+    "url": "https://awardtravelfinder.com/transfer-bonuses/amex-membership-rewards",
+    "category": "transfer_bonus",
+    "total_cost_twd": 0,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "status|Delta Medallion|90d MQD 1250/2500/3750 no-match-2023-2026|2026-09|upgradedpoints.com",
+    "date": "2026-09-08",
+    "title": "Delta Status Match Challenge：90 天、MQD 1,250/2,500/3,750、UA 可 match；建議 2027/1/15–1/28 送件涵蓋 3/31–4/12",
+    "url": "https://upgradedpoints.com/travel/airlines/delta-air-lines-status-match/",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "Delta",
+    "challenge_progress_pct": 0,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "status|AA Instant Status Pass|corporate-email by 2026-10-23 4mo LP 13k/25k/42k/67k|2026-10|loyaltylobby.com",
+    "date": "2026-09-08",
+    "title": "AA Instant Status Pass 秋季檔：企業 Email 限定、10/23 前註冊、4 個月 LP 13K/25K/42K/67K；窗口蓋不到 3/31–4/12",
+    "url": "https://loyaltylobby.com/2026/08/21/american-airlines-instant-status-pass-promotion-sign-up-by-october-23-2026/",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "AA",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "status|Atmos Rewards|90d base points 5k/10k/20k on AS-HA metal|2026-09|alaskaair.com",
+    "date": "2026-09-08",
+    "title": "Atmos Status Match：90 天、Alaska/Hawaiian 自營 base points 5K/10K/20K；上半年完成僅到 2027/12/31",
+    "url": "https://www.alaskaair.com/en-gb/atmosrewards/content/benefits/status-match",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "Atmos",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "status|Flying Blue paid match|12mo statusmatch.com UK re-added 2026-08-26|2026-09|flyingblue.statusmatch.com",
+    "date": "2026-09-08",
+    "title": "Flying Blue 付費 Status Match（StatusMatch.com）：12 個月、不需飛行、8/26 英國重新納入；建議 2026/11–12 送件",
+    "url": "https://flyingblue.statusmatch.com/",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "FlyingBlue",
+    "challenge_progress_pct": 0,
+    "rating": "強推"
+  }
+]

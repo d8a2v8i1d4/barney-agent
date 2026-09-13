@@ -1,0 +1,58 @@
+[
+  {
+    "fingerprint": "KUL-TPE-VIE|EVA Air|~70000TWD|09-2026|huitinchou.tw",
+    "date": "2026-07-08",
+    "title": "EVA Air ex-KUL 商務艙 D 促銷艙 經 TPE 至維也納 VIE",
+    "url": "https://huitinchou.tw/multi-city-4-segment-ticket/",
+    "category": "outstation_deal",
+    "route": "KUL-TPE-VIE (return)",
+    "long_haul_fare_twd": 72000,
+    "positioning_fare_twd": 9000,
+    "total_cost_twd": 81000,
+    "date_fit": "9/19-9/28 或 9/25-10/4 皆可，票規 24h 轉機限制須注意",
+    "rating": "強推",
+    "score": 82,
+    "notes": "票規 VALID FOR TRAVEL VIA TAIPEI，經 TPE 轉機保留促銷價；限制：TPE 轉機需 24h 內"
+  },
+  {
+    "fingerprint": "MR-VS|Amex Virgin Atlantic|30% bonus|07-2026|awardwallet.com",
+    "date": "2026-07-08",
+    "title": "Amex MR 轉 Virgin Atlantic 30% Bonus",
+    "url": "https://awardwallet.com/news/amex-membership-rewards/virgin-atlantic-transfer-bonus/",
+    "category": "amex_bonus",
+    "expiry": "2026-07-31",
+    "sweet_spots": [
+      "Virgin 兌 ANA The Room NRT-LHR 商務艙 45k VS points 單程",
+      "Virgin 兌 Delta One 洛杉磯-歐洲 50k VS points 單程"
+    ],
+    "rating": "強推",
+    "score": 88,
+    "notes": "Barney TW MR 未來轉 US MR 後可用；建議先累積等 US 卡下卡再轉"
+  },
+  {
+    "fingerprint": "MR-LM|Amex Avianca LifeMiles|15% bonus|07-2026|awardtravelfinder.com",
+    "date": "2026-07-08",
+    "title": "Amex MR 轉 Avianca LifeMiles 15% Bonus",
+    "url": "https://awardtravelfinder.com/transfer-bonuses/amex-membership-rewards",
+    "category": "amex_bonus",
+    "expiry": "2026-07-15",
+    "sweet_spots": [
+      "LifeMiles 兌 EVA / ANA / 長榮商務艙 TPE-歐洲 63k 單程",
+      "LifeMiles 兌 ANA The Room 或 EVA 皇璽桂冠"
+    ],
+    "rating": "參考",
+    "score": 76,
+    "notes": "Amex MR 轉點加碼幅度中等，但 LifeMiles 星盟哩程票 sweet spot 極多；截止 7/15 需搶時間"
+  },
+  {
+    "fingerprint": "CX-Aria|Cathay Pacific|Aria Suite|HKG-LAX 2026|luxurytraveladvisor.com",
+    "date": "2026-07-08",
+    "title": "國泰新旗艦 Aria Suite 進駐 HKG-LAX（產品情報）",
+    "url": "https://www.luxurytraveladvisor.com/transportation/cathay-pacific-resume-seattle-hong-kong-nonstop-flights-march-2026",
+    "category": "product_info",
+    "operating_window": "2026-04-04 至 2026-10-24（週六周班）→ 5 月起每週 5 班",
+    "rating": "產品情報",
+    "score": 70,
+    "notes": "9/19-10/4 期間 HKG-LAX 週六班次為 Aria Suite；建議用 Asia Miles 或 Alaska Miles 兌換"
+  }
+]

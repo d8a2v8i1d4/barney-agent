@@ -1,0 +1,47 @@
+[
+  {
+    "fingerprint": "TPE-SFO/JFK/LHR|STARLUX|USD2600|2026-09|starlux-airlines.com",
+    "date": "2026-06-25",
+    "title": "STARLUX A350-1000 TPE 直飛 SFO/JFK/LHR 商務艙約 USD 2,600 來回",
+    "url": "https://www.starlux-airlines.com/flights/en-us/promotions",
+    "category": "tpe_deal",
+    "total_cost_twd": 78000,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "Status_Match|United_MileagePlus|1K_Challenge|2026-06|united.com",
+    "date": "2026-06-25",
+    "title": "United MileagePlus Premier 1K Status Match Challenge（申請截止 6/30/2026）",
+    "url": "https://www.united.com/en/us/fly/mileageplus/premier/status-match.html",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "HKG-LHR|CathayPacific|88000miles|2026-09|asiamiles.com",
+    "date": "2026-06-25",
+    "title": "Cathay Pacific Asia Miles HKG-LHR 商務艙 88,000 哩甜甜價",
+    "url": "https://awardtravelfinder.com/award-charts/cathay-pacific",
+    "category": "award_space",
+    "total_cost_twd": 62000,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "TPE-SEA|DeltaOne|97700miles|2026-09|delta.com",
+    "date": "2026-06-25",
+    "title": "Delta One TPE-SEA 商務艙廣泛開放至 9 月，97,700 SkyMiles 起",
+    "url": "https://upgradedpoints.com/news/award-alert-us-taipei-business-class/",
+    "category": "award_space",
+    "total_cost_twd": 50000,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "Sale|SingaporeAirlines|KrisFlyer|2026-09|travelandtourworld.com",
+    "date": "2026-06-25",
+    "title": "Singapore Airlines 2026/2027 歐洲/南非/亞洲商務艙與豪華經濟艙促銷",
+    "url": "https://www.travelandtourworld.com/news/article/lgc4mr9cf68k/",
+    "category": "amex_bonus",
+    "total_cost_twd": 80000,
+    "rating": "參考"
+  }
+]

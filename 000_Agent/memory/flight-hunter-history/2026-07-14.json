@@ -1,0 +1,42 @@
+[
+  {
+    "fingerprint": "TPE-PRG|Starlux|158000|09-10|starlux-airlines.com",
+    "date": "2026-07-14",
+    "title": "Starlux 星宇 台北 TPE ➡️ 布拉格 PRG A350 商務艙（首條歐洲線，10/1 起每週 4 班）",
+    "url": "https://www.starlux-airlines.com/flights/en/flights-from-taipei-to-prague",
+    "category": "tpe_deal",
+    "total_cost_twd": 158000,
+    "rating": "不報（無促銷、超過 95k CP 門檻）",
+    "note": "契合 9/19-10/4 窗口且為 TPE 直飛歐洲，但目前為原價非特價。列入監控：若跌破 ~95k 或推出開航促銷即重報。"
+  },
+  {
+    "fingerprint": "EU-Asia-RT|AirChina/ChinaEastern|32000|08|verylvke.com",
+    "date": "2026-07-14",
+    "title": "Air China / China Eastern 歐洲-亞洲來回商務艙 £800 起（R 艙、星盟累積 110-125%）",
+    "url": "https://www.verylvke.com/en/2026/07/10/air-china-china-eastern-business-class-return-between-europe-and-asia-from-800/",
+    "category": "outstation_deal",
+    "total_cost_twd": 32000,
+    "rating": "不報（無法驗證）",
+    "note": "已知票例為 Stockholm-Shanghai 8/23-31，ex-歐洲出發、非 9/19-10/4 窗口。來源 403 無法確認是否有 ex-Asia 9-10 月同艙位。列入監控。"
+  },
+  {
+    "fingerprint": "TPE-SFO/LAX|United|64000|2027-01-02|united.com",
+    "date": "2026-07-14",
+    "title": "United Polaris 台北 TPE ➡️ 舊金山 SFO / 洛杉磯 LAX 商務艙（2027 1-2 月追蹤標的）",
+    "url": "https://www.united.com/en/us/fly/travel/inflight/united-polaris.html",
+    "category": "ua_us_west",
+    "total_cost_twd": 64000,
+    "rating": "不報（無促銷）",
+    "note": "查無 2027 1-2 月專案促銷；現金均價約 $2,200 商務非甜甜價。Award Space 受 337 天規則約束（約 2027 春季才開放釋出），持續每日追蹤。"
+  },
+  {
+    "fingerprint": "STATUS|United|MileagePlus Status Challenge|2026-12-31|onemileatatime.com",
+    "date": "2026-07-14",
+    "title": "[情資] United MileagePlus Status Challenge：最高可 match 至 Premier 1K，即享 Star Alliance Gold 120 天",
+    "url": "https://onemileatatime.com/guides/united-status-match/",
+    "category": "status_challenge",
+    "total_cost_twd": 0,
+    "rating": "情資保留（非機票甜甜價）",
+    "note": "申請窗口延長至 2026/12/31；7/1 後完成挑戰可鎖定身分至 2028/01。與 Barney 2027 UA 美西計畫高度相關，可搭配一次商務艙來回快速累 PQP。Premier 1K match 需先有 AA/DL 身分。"
+  }
+]

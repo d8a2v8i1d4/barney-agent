@@ -1,0 +1,29 @@
+[
+  {
+    "fingerprint": "BKK/CGK-EUR|Turkish Airlines|507USD-ow|2026-09|secretflying.com",
+    "date": "2026-08-28",
+    "title": "ERROR FARE 土航 Business Class 東南亞(BKK/CGK)出發飛歐洲 單程 507 USD 起（平躺座）",
+    "url": "https://www.secretflying.com/posts/error-fare-business-class-from-south-east-asia-to-european-cities-from-only-507-usd-one-way/",
+    "category": "outstation_deal",
+    "total_cost_twd": 41000,
+    "rating": "神級票"
+  },
+  {
+    "fingerprint": "AmexMR-KrisFlyer|Amex|20pct-bonus|2026|awardtravelfinder.com",
+    "date": "2026-08-28",
+    "title": "Amex Membership Rewards 轉 Singapore KrisFlyer 20% Transfer Bonus（歷史最佳）",
+    "url": "https://awardtravelfinder.com/transfer-bonuses/amex-membership-rewards-to-singapore-airlines-krisflyer",
+    "category": "amex_bonus",
+    "total_cost_twd": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "UA-StatusMatch|United|PremierGold-1K-StarGold120d|2026|headforpoints.com",
+    "date": "2026-08-28",
+    "title": "United Airlines Status Match 延長至 2026/12/31，最高比對 Premier 1K，即享星盟金卡 120 天",
+    "url": "https://www.headforpoints.com/2026/08/15/united-airlines-uk-status-match/",
+    "category": "ua_us_west",
+    "total_cost_twd": 0,
+    "rating": "參考"
+  }
+]

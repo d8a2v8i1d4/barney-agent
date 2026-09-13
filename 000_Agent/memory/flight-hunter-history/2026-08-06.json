@@ -1,0 +1,52 @@
+[
+  {
+    "fingerprint": "US-TPE|EVA Air|85K Aeroplan+$57|2026-07to2027-01|upgradedpoints.com",
+    "date": "2026-08-06",
+    "title": "EVA Air 商務艙 美國各城市↔台北 Aeroplan 85K + $57（up to 4 seats, 2026/07–2027/01）",
+    "url": "https://upgradedpoints.com/news/award-alert-us-taipei-business-class/",
+    "category": "award_space",
+    "total_cost_twd": null,
+    "rating": "丟棄-方向錯且非目標窗口",
+    "email_sent": false
+  },
+  {
+    "fingerprint": "EWR-SFO/LAX|United|27K miles|to 2027-02|viewfromthewing.com",
+    "date": "2026-08-06",
+    "title": "United 卡友 Polaris 27K miles EWR→SFO/LAX transcon（美國國內段，非 TPE 出發）",
+    "url": "https://viewfromthewing.com/united-cardmembers-can-book-polaris-business-class-for-27000-miles-and-use-the-polaris-lounge/",
+    "category": "ua_us_west",
+    "total_cost_twd": null,
+    "rating": "丟棄-非台北出發",
+    "email_sent": false
+  },
+  {
+    "fingerprint": "Amex-MR-to-AsiaMiles|Cathay|10pct bonus|2026-08|roame.travel",
+    "date": "2026-08-06",
+    "title": "Amex MR → Cathay Asia Miles 10% 轉點加碼（7/27–8/28，5:4 劣質比、cap 10K）",
+    "url": "https://roame.travel/guides/cathay-pacific-transfer-bonus",
+    "category": "amex_bonus",
+    "total_cost_twd": null,
+    "rating": "參考-低於30%門檻",
+    "email_sent": false
+  },
+  {
+    "fingerprint": "UA-status-challenge|United|Premier1K match+SA Gold 120d|2026|awardwallet.com",
+    "date": "2026-08-06",
+    "title": "United MileagePlus Status Match/Challenge 2026（可到 Premier 1K，即得星盟金卡 120 天，7/1 後完成鎖至 2028/01）",
+    "url": "https://awardwallet.com/news/united-mileageplus/united-status-match/",
+    "category": "amex_bonus",
+    "total_cost_twd": null,
+    "rating": "情報-搭配2027 UA美西計畫",
+    "email_sent": false
+  },
+  {
+    "fingerprint": "UA-polaris-award-restriction|United|saver to elites/cardholders only|2026|onemileatatime.com",
+    "date": "2026-08-06",
+    "title": "United Polaris saver award 限縮：Aeroplan/LifeMiles 夥伴清零，僅 elite/卡友可訂",
+    "url": "https://onemileatatime.com/insights/united-polaris-business-class-award-availability/",
+    "category": "ua_us_west",
+    "total_cost_twd": null,
+    "rating": "負面情報-影響2027訂票策略",
+    "email_sent": false
+  }
+]

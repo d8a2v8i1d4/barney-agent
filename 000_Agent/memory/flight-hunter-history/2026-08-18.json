@@ -1,0 +1,38 @@
+[
+  {
+    "fingerprint": "BKK-CPH|Turkish Airlines|USD675|2026-09|secretflying.com",
+    "date": "2026-08-18",
+    "title": "Turkish Airlines Error Fare 曼谷 BKK ➡️ 哥本哈根 CPH 商務艙 US$675 單程（可用 9/25、9/30；適用 9 月中～5 月）",
+    "url": "https://www.secretflying.com/posts/error-fare-business-class-from-south-east-asia-to-european-cities-from-only-507-usd-one-way/",
+    "category": "outstation_deal",
+    "total_cost_twd": 53200,
+    "rating": "史詩級"
+  },
+  {
+    "fingerprint": "SEA-EU|Turkish Airlines|USD624-671|2026-09|secretflying.com",
+    "date": "2026-08-18",
+    "title": "Turkish Airlines Error Fare 普吉 HKT ➡️ 倫敦 LHR US$671 / 雅加達 CGK ➡️ 倫敦 LHR US$624 商務艙單程（含 9/20-10/5 日期）",
+    "url": "https://www.secretflying.com/posts/error-fare-business-class-from-south-east-asia-to-european-cities-from-only-507-usd-one-way/",
+    "category": "outstation_deal",
+    "total_cost_twd": 51000,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "PVG-EU|Air China/China Eastern|GBP800|2026-09|verylvke.com",
+    "date": "2026-08-18",
+    "title": "Air China 國航 / China Eastern 東航 上海 PVG ⇄ 歐洲商務艙來回 £800 起（SkyTeam，需確認 9/19-10/4 有位）",
+    "url": "https://www.verylvke.com/en/2026/07/10/air-china-china-eastern-business-class-return-between-europe-and-asia-from-800/",
+    "category": "outstation_deal",
+    "total_cost_twd": 39000,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "UA-status-challenge|United MileagePlus|StarGold120d|2026-2027|staralliance.statusmatch.com",
+    "date": "2026-08-18",
+    "title": "United MileagePlus Status Match Challenge（最高 Premier 1K，立即 120 天 Star Alliance Gold，申請至 2026/12/31）",
+    "url": "https://staralliance.statusmatch.com/united",
+    "category": "status_challenge",
+    "total_cost_twd": 0,
+    "rating": "強推"
+  }
+]

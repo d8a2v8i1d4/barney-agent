@@ -1,0 +1,66 @@
+[
+  {
+    "fingerprint": "Amex MR→Etihad Guest|轉點夥伴退場|0%|2026-06|amex.com",
+    "date": "2026-06-26",
+    "title": "Etihad Guest 6/30 退出 Amex MR 轉點夥伴",
+    "url": "https://awardtravelfinder.com/transfer-bonuses/amex-membership-rewards",
+    "category": "amex_bonus",
+    "total_cost_twd": 0,
+    "rating": "強推",
+    "deadline": "2026-06-30",
+    "notes": "需要立即決定是否投機性轉點。Barney 操作 Etihad 較少，建議跳過。"
+  },
+  {
+    "fingerprint": "Amex MR→Flying Blue|25% 加碼|1:1.25|2026-06|flyingblue.com",
+    "date": "2026-06-26",
+    "title": "Flying Blue 25% Amex 加碼，6/30 截止",
+    "url": "https://frequentmiler.com/get-a-25-bonus-when-transferring-amex-membership-rewards-to-air-france-klm-flying-blue/",
+    "category": "amex_bonus",
+    "total_cost_twd": 0,
+    "rating": "強推",
+    "deadline": "2026-06-30",
+    "notes": "60k FB → 48k MR = 北美↔歐洲商務。需要 positioning 到美國/歐洲才能用。"
+  },
+  {
+    "fingerprint": "Amex MR→Virgin Atlantic|30% 加碼|1:1.30|2026-07|virginatlantic.com",
+    "date": "2026-06-26",
+    "title": "Virgin Atlantic 30% Amex 加碼，7/31 截止",
+    "url": "https://upgradedpoints.com/news/amex-virgin-atlantic-transfer-bonus/",
+    "category": "amex_bonus",
+    "total_cost_twd": 0,
+    "rating": "強推",
+    "deadline": "2026-07-31",
+    "notes": "ANA 美東-日本商務 60k VS → 46k MR。可組合 TPE-NRT 現金 + NRT-USA ANA 哩程票"
+  },
+  {
+    "fingerprint": "Amex MR→Avianca LifeMiles|15% 加碼|1:1.15|2026-07|lifemiles.com",
+    "date": "2026-06-26",
+    "title": "Avianca LifeMiles 15% Amex 加碼，7/15 截止",
+    "url": "https://frequentmiler.com/current-point-transfer-bonuses/",
+    "category": "amex_bonus",
+    "total_cost_twd": 0,
+    "rating": "強推",
+    "deadline": "2026-07-15",
+    "notes": "星空聯盟通用，無燃油附加費。可開長榮 TPE-歐美商務艙位子，對 Barney 最對位。"
+  },
+  {
+    "fingerprint": "Cathay biz ex-HKG|HKG-USA shoulder|US$3800-4600|2026-09|consolidator",
+    "date": "2026-06-26",
+    "title": "國泰 ex-HKG 商務艙 9-10 月 shoulder season（consolidator 價）",
+    "url": "https://flights.cathaypacific.com/destinations/en_US/business-class-booking",
+    "category": "outstation_deal",
+    "total_cost_twd": 138000,
+    "rating": "參考",
+    "notes": "HKG-JFK/LAX 含 TPE-HKG 接駁約 NT$125-153k。超過 95k 上限，僅供現金票備案。Asia Miles 已於 5 月 devaluation"
+  },
+  {
+    "fingerprint": "SQ biz ex-SIN/KUL|SIN-EU sale|blackout 9/17-22|2026-09|singaporeair.com",
+    "date": "2026-06-26",
+    "title": "新航 SQ 9-11 月歐洲商務促銷（含 9/17-22 黑名單期）",
+    "url": "https://www.travelandtourworld.com/news/article/lgc4mr9cf68k/",
+    "category": "outstation_deal",
+    "total_cost_twd": 0,
+    "rating": "參考",
+    "notes": "Plan A（9/19-9/28）完全卡死黑名單。Plan B 可用但今日 6/26 已是 booking deadline。"
+  }
+]

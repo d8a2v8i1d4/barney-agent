@@ -1,0 +1,38 @@
+[
+  {
+    "fingerprint": "KUL-BCN|Malaysia Airlines/星盟|US$2230|2026-09/10|premium-flights.com",
+    "date": "2026-07-23",
+    "title": "ex-KUL 吉隆坡→巴塞隆納商務艙來回 約 US$2,230（含 TPE-KUL 接駁總計約 NT$82,000-85,000，日期待驗證）",
+    "url": "https://premium-flights.com/kuala-lumpur-barcelona-business-class-round-trip/",
+    "category": "outstation_deal",
+    "total_cost_twd": 83000,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "TPE-SFO/LAX|United Polaris|no-deal|2027-01/02|thepointsguy.com",
+    "date": "2026-07-23",
+    "title": "2027 1-2 月 UA 台北直飛美西無專屬促銷/Award 大釋出；UA Polaris 2.0 為 2027/04 SFO-SIN 首航（不在窗口）",
+    "url": "https://thepointsguy.com/deals/wide-open-starlux-business-class-award-availability/",
+    "category": "ua_us_west",
+    "total_cost_twd": 0,
+    "rating": "無"
+  },
+  {
+    "fingerprint": "AmexMR->AsiaMiles|Cathay|15%bonus|2026|frequentmiler.com",
+    "date": "2026-07-23",
+    "title": "Amex MR → Cathay Asia Miles 15% 轉點加碼（定向）+ KrisFlyer 20% 加碼",
+    "url": "https://frequentmiler.com/15-transfer-bonus-to-cathay-pacific-asia-miles-from-amex-membership-rewards-targeted/",
+    "category": "amex_bonus",
+    "total_cost_twd": 0,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "UA-status-challenge|United|SA-Gold|2026-2027|frequentmiler.com",
+    "date": "2026-07-23",
+    "title": "United MileagePlus Status Match Challenge 延長至 2026/12/31，7/1 後完成鎖到 2028/01/31，送 120 天 Star Alliance Gold",
+    "url": "https://frequentmiler.com/united-mileage-plus-status-match-challenge/",
+    "category": "award_space",
+    "total_cost_twd": 0,
+    "rating": "強推"
+  }
+]

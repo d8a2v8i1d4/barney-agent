@@ -1,0 +1,156 @@
+[
+  {
+    "fingerprint": "TPE-SEA-FLL|Delta|cash_rt_usd3800+900|2027-03|taiwanstartshere.com",
+    "date": "2026-09-09",
+    "title": "Delta One TPE–SEA–FLL 全程 Delta 開票，估 US$4,700 RT，餵 Gold Medallion 136% MQD",
+    "url": "https://taiwanstartshere.com/2026/06/16/delta-one-seattle-to-taipei/",
+    "category": "fll_cash",
+    "total_cost_twd": 148000,
+    "credit_program": "Delta",
+    "challenge_progress_pct": 136,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "TPE-SEA-FLL|Starlux/Atmos|award_150k_pts|2027-03|pnm.now",
+    "date": "2026-09-09",
+    "title": "星宇 TPE–SEA Atmos 獎勵票 75k 單程（位子開放至 2027/6）+ Alaska SEA–FLL，以 1.88¢ 促銷價估總計 TWD 105,500",
+    "url": "https://www.pnm.now/starlux-business-class-award-space-alaska/",
+    "category": "fll_award",
+    "total_cost_twd": 105500,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "TPE-SEA|Delta via Virgin Atlantic|130k_pts_oneway|2027-03|awardtravelfinder.com",
+    "date": "2026-09-09",
+    "title": "Virgin 點數訂 Delta One SEA–TPE 單程 130k 點（5,001–6,000 哩級距），買點成本 TWD 52k 單程，不建議",
+    "url": "https://awardtravelfinder.com/how-many-virgin-points-to-fly-delta",
+    "category": "fll_award",
+    "total_cost_twd": 115000,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "不推"
+  },
+  {
+    "fingerprint": "ATH-IST-TPE|Turkish via Aeroplan|80k_pts|2027-06|maxmilespoints.com",
+    "date": "2026-09-09",
+    "title": "土航 ATH–IST–TPE 商務艙 Aeroplan 新表 80k 點（Atlantic–Pacific 5,001–7,000 哩），促銷價買點總計約 TWD 37,800",
+    "url": "https://www.maxmilespoints.com/blog/aeroplan-award-chart-changes-2026",
+    "category": "ath_award",
+    "total_cost_twd": 37800,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "ATH-IST-TPE|Turkish via LifeMiles|78k_miles_est|2027-06|awardwallet.com",
+    "date": "2026-09-09",
+    "title": "土航 ATH–IST–TPE 商務艙 LifeMiles 估 78k 哩，以 1.35¢ 促銷價估總計約 TWD 36,300（哩程數待驗證）",
+    "url": "https://awardwallet.com/airlines/avianca-lifemiles/buy-lifemiles/",
+    "category": "ath_award",
+    "total_cost_twd": 36300,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "ATH-IST-TPE|Turkish Miles&Smiles|85k+surcharge_3c|2027-06|awardwallet.com",
+    "date": "2026-09-09",
+    "title": "土航自家 Miles&Smiles 歐洲–遠東商務 85k + US$200–250 附加費，買哩 3¢ 換算 TWD 87,000，不划算",
+    "url": "https://awardwallet.com/airlines/turkish-airlines-award-chart/",
+    "category": "ath_award",
+    "total_cost_twd": 87000,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "不推"
+  },
+  {
+    "fingerprint": "ATH-AMS-TPE|KLM via Flying Blue|100k_miles_80pct_bonus|2027-06|awardwallet.com",
+    "date": "2026-09-09",
+    "title": "KLM ATH–AMS–TPE 商務艙 Flying Blue 動態 90–125k 哩，搭配 80% 買點促銷估總計 TWD 60,000",
+    "url": "https://awardwallet.com/airlines/flying-blue/buy-miles/",
+    "category": "ath_award",
+    "total_cost_twd": 60000,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "buy_points|Virgin Atlantic|70pct|2026-09|onemileatatime.com",
+    "date": "2026-09-09",
+    "title": "Virgin Atlantic 買點最高 70% bonus，2026/9/1–10/4，1.47¢/點，上限 400k",
+    "url": "https://onemileatatime.com/deals/buy-virgin-atlantic-flying-club-points/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 0,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "buy_points|Flying Blue|80pct|2026-09|awardwallet.com",
+    "date": "2026-09-09",
+    "title": "Flying Blue 買哩程 80% bonus 至 2026/9/16，1.69¢/哩，非菁英年上限 100k",
+    "url": "https://awardwallet.com/airlines/flying-blue/buy-miles/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 0,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "buy_points|Turkish Miles&Smiles|0pct_plus_status_miles|2026-09|awardwallet.com",
+    "date": "2026-09-09",
+    "title": "土航買哩程送 status miles 2026/9/2–9/10，哩程不打折 3¢，100k 以上送 5k status miles，跳過",
+    "url": "https://awardwallet.com/airlines/buy-turkish-miles/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 0,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "不推"
+  },
+  {
+    "fingerprint": "status_match|Delta|gold_2500mqd_90d_needs_prior_delta_flight|2026-09|delta.com",
+    "date": "2026-09-09",
+    "title": "Delta Status Match 2026 規則：UA Gold→Gold Medallion，90 天內 2,500 MQD；需近 3 年搭過 Delta；建議送件 2027/1/13–1/31",
+    "url": "https://www.delta.com/us/en/skymiles/medallion-program/status-match-challenge",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "Delta",
+    "challenge_progress_pct": 0,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "status_match|Atmos|gold_10k_base_points_AS_HA_only_90d|2026-09|alaskaair.com",
+    "date": "2026-09-09",
+    "title": "Atmos Status Match 規則：一生一次，Gold 需 90 天內 10k base points 且僅計 AS/HA 自營；行程 1 僅 SEA–FLL 可餵 54%",
+    "url": "https://www.alaskaair.com/en-gb/atmosrewards/content/benefits/status-match",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "Atmos",
+    "challenge_progress_pct": 54,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "status_match|AA Instant Status Pass|13k_gold_25k_plat_LP_4mo_deadline_1023|2026-09|aa.com",
+    "date": "2026-09-09",
+    "title": "AA Instant Status Pass 新申請截止 2026/10/23；4 個月 13k LP Gold / 25k LP Platinum；需確認 Barney 現行階段起訖日",
+    "url": "https://www.aa.com/i18n/aadvantage-program/aadvantage-status/aadvantage-status-match.html",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "AA",
+    "challenge_progress_pct": 18,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "status_match|Flying Blue paid|taiwan_eligible_gold_cap_12mo|2026-09|skystatus.pro",
+    "date": "2026-09-09",
+    "title": "Flying Blue 付費 Status Match 台灣居民 5/27 起重新納入，最高 Gold（Elite Plus）12 個月不需飛行；建議 2027/1 中送件",
+    "url": "https://skystatus.pro/guide/flying-blue-status-match",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "FlyingBlue",
+    "challenge_progress_pct": 100,
+    "rating": "參考"
+  }
+]

@@ -1,0 +1,167 @@
+[
+  {
+    "fingerprint": "TPE-SEA-FLL|Delta|USD3500-4000rt|2027-03|thriftytraveler.com",
+    "date": "2026-09-10",
+    "title": "Delta One TPE–SEA–FLL 商務艙來回（歷史區間 < US$4,000，無 2027 即時報價）",
+    "url": "https://thriftytraveler.com/deals/flights/delta-one-business-class-deals/",
+    "category": "fll_cash",
+    "total_cost_twd": 117000,
+    "credit_program": "Delta",
+    "challenge_progress_pct": 140,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "TPE-SEA|Starlux via Atmos|75000pts|2027-04|thepointsguy.com",
+    "date": "2026-09-10",
+    "title": "Starlux SEA⇄TPE 商務艙 Atmos 獎勵票 75,000 點單程，位子開到 2027/06",
+    "url": "https://thepointsguy.com/deals/wide-open-starlux-business-class-award-availability/",
+    "category": "fll_award",
+    "total_cost_twd": 113000,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "ATH-AMS-TPE|KLM via Flying Blue|80000mi est|2027-06|loyaltylobby.com",
+    "date": "2026-09-10",
+    "title": "KLM ATH–AMS–TPE 商務艙 Flying Blue 哩程票 × 80% 購點促銷（9/16 止）",
+    "url": "https://loyaltylobby.com/2026/08/27/air-france-klm-flying-blue-buy-miles-45-off-bonus-80-offers-through-september-16-2026/",
+    "category": "ath_award",
+    "total_cost_twd": 54000,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "ATH-IST-TPE|Turkish Miles&Smiles|65000mi|2027-06|awardwallet.com",
+    "date": "2026-09-10",
+    "title": "Turkish ATH–IST–TPE 商務艙 65,000 哩單程（無便宜哩程來源）",
+    "url": "https://awardwallet.com/airlines/turkish-airlines-award-chart/",
+    "category": "ath_award",
+    "total_cost_twd": 69000,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "ATH-DXB/AUH-TPE|Emirates/Etihad|n/a|2027-06|awardwallet.com",
+    "date": "2026-09-10",
+    "title": "Emirates / Etihad ATH→TPE 商務艙獎勵票觀察名單（資料不足）",
+    "url": "https://awardwallet.com/news/airlines/emirates-skywards-2026-devaluation/",
+    "category": "ath_award",
+    "total_cost_twd": null,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "buy|Virgin Atlantic Flying Club|70%|2026-09|loyaltylobby.com",
+    "date": "2026-09-10",
+    "title": "Virgin Atlantic 購點加碼最高 70%，2026/09/01 – 10/04，每點約 1.47¢",
+    "url": "https://loyaltylobby.com/2026/09/01/virgin-atlantic-buy-miles-up-to-70-bonus-through-october-4-2026/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": null,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "buy|Flying Blue|80%|2026-09|loyaltylobby.com",
+    "date": "2026-09-10",
+    "title": "Flying Blue 購點加碼最高 80% / 45% 折扣，至 2026/09/16，每哩約 1.69¢",
+    "url": "https://loyaltylobby.com/2026/08/27/air-france-klm-flying-blue-buy-miles-45-off-bonus-80-offers-through-september-16-2026/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": null,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "buy|Turkish Miles&Smiles|0% + status miles|2026-09|loyaltylobby.com",
+    "date": "2026-09-10",
+    "title": "Turkish 購點送 Status Miles，2026/09/02 – 09/10，原價 3¢ 無折扣",
+    "url": "https://loyaltylobby.com/2026/09/02/turkish-airlines-campaign-buy-miles-get-also-status-miles-september-2-10-2026/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": null,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "不推薦"
+  },
+  {
+    "fingerprint": "transfer|US Amex MR→Virgin Atlantic|30%|2026-09|awardtravelfinder.com",
+    "date": "2026-09-10",
+    "title": "美國 Amex MR → Virgin Atlantic 轉點加碼 30%",
+    "url": "https://awardtravelfinder.com/transfer-bonuses/amex-membership-rewards",
+    "category": "transfer_bonus",
+    "total_cost_twd": null,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "transfer|US Amex MR→Avios (BA/IB/EI)|30%|2026-09|awardtravelfinder.com",
+    "date": "2026-09-10",
+    "title": "美國 Amex MR → BA / Iberia / Aer Lingus Avios 轉點加碼 30%，至 2026/09/27",
+    "url": "https://awardtravelfinder.com/transfer-bonuses/amex-membership-rewards",
+    "category": "transfer_bonus",
+    "total_cost_twd": null,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "buy|LifeMiles/Atmos/Aeroplan/Etihad/Qatar|no promo|2026-09|awardtravelfinder.com",
+    "date": "2026-09-10",
+    "title": "LifeMiles、Atmos、Aeroplan、Etihad、Qatar Avios 目前皆無購點促銷（上一檔均於 8 月結束）",
+    "url": "https://awardtravelfinder.com/buy-points/avianca-lifemiles",
+    "category": "buy_miles_promo",
+    "total_cost_twd": null,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "status_match|Delta Medallion|Gold 2500 MQD 90d|2026-09|delta.com",
+    "date": "2026-09-10",
+    "title": "Delta Status Match Challenge：UA Gold → Gold Medallion，90 天，Gold 2,500 / Platinum 3,750 MQD；2027 MQD 門檻不變；建議 2027/01/13 – 01/31 送件",
+    "url": "https://www.delta.com/us/en/skymiles/medallion-program/status-match-challenge",
+    "category": "status_match",
+    "total_cost_twd": null,
+    "credit_program": "Delta",
+    "challenge_progress_pct": 0,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "status_match|Alaska Atmos Rewards|Gold 10000 pts 90d AS/HA only|2026-09|alaskaair.com",
+    "date": "2026-09-10",
+    "title": "Atmos Status Match：90 天，Silver 5,000 / Gold 10,000 / Platinum 20,000 點，僅 Alaska/Hawaiian 自營航段計入，終身一次；1–6 月開始只到當年底",
+    "url": "https://www.alaskaair.com/content/benefits/status-match",
+    "category": "status_match",
+    "total_cost_twd": null,
+    "credit_program": "Atmos",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "status_match|AA Instant Status Pass|Gold 13000 LP 4mo reg by 2026-10-23|2026-09|aa.com",
+    "date": "2026-09-10",
+    "title": "AA Instant Status Pass：企業限定，10/23 前註冊，4 個月 Gold 13,000 / Platinum 25,000 LP；窗口最晚 2027/02 結束，行程 1 餵不到",
+    "url": "https://www.aa.com/i18n/aadvantage-program/instant-status-pass-terms.jsp",
+    "category": "status_match",
+    "total_cost_twd": null,
+    "credit_program": "AA",
+    "challenge_progress_pct": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "status_match|Flying Blue paid match|Taiwan Silver USD99 Gold USD299 12mo|2026-09|loyaltylobby.com",
+    "date": "2026-09-10",
+    "title": "Flying Blue 付費 Status Match：台灣居民可申請，Silver US$99 / Gold US$299，12 個月，無需挑戰；建議 2027/01/20 – 01/31 購買",
+    "url": "https://loyaltylobby.com/2026/05/27/air-france-klm-flying-blue-status-match-includes-china-hong-kong-taiwan-again-more-airlines-elites-eligible/",
+    "category": "status_match",
+    "total_cost_twd": 9400,
+    "credit_program": "FlyingBlue",
+    "challenge_progress_pct": 100,
+    "rating": "強推"
+  }
+]

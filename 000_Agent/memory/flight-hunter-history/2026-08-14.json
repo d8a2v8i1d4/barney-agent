@@ -1,0 +1,38 @@
+[
+  {
+    "fingerprint": "KUL-BCN|Etihad|USD2230|Sep2026|premium-flights.com",
+    "date": "2026-08-14",
+    "title": "Etihad ex-KUL 吉隆坡 ➡️ 巴塞隆納 商務艙來回 US$2,230（9月開放）",
+    "url": "https://premium-flights.com/kuala-lumpur-barcelona-business-class-round-trip/",
+    "category": "outstation_deal",
+    "total_cost_twd": 82000,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "SEA-LON|Turkish|USD507ow|error|secretflying.com",
+    "date": "2026-08-14",
+    "title": "Turkish ex-東南亞 ➡️ 倫敦 商務艙 error fare US$507 單程（bug 票，未證實日期/存活）",
+    "url": "https://www.secretflying.com/error-fares/",
+    "category": "outstation_deal",
+    "total_cost_twd": 16300,
+    "rating": "Bug票-待證實"
+  },
+  {
+    "fingerprint": "TPE-USWest|United|no-promo|Jan-Feb2027|united.com",
+    "date": "2026-08-14",
+    "title": "UA TPE-SFO/LAX Polaris 2027年1-2月：今日無新現金促銷或大量 Award Space",
+    "url": "https://staralliance.statusmatch.com/united",
+    "category": "ua_us_west",
+    "total_cost_twd": null,
+    "rating": "無新特價"
+  },
+  {
+    "fingerprint": "AmexMR-AsiaMiles|Cathay|10pct-bonus|Aug2026|frequentmiler.com",
+    "date": "2026-08-14",
+    "title": "國泰 Asia Miles 轉點 10% bonus 至 2026/08/28（含 Amex MR，惟 MR 已 5:4）",
+    "url": "https://frequentmiler.com/get-a-10-bonus-when-transferring-bank-or-hotel-points-to-cathay-pacific-asia-miles/",
+    "category": "amex_bonus",
+    "total_cost_twd": null,
+    "rating": "參考"
+  }
+]

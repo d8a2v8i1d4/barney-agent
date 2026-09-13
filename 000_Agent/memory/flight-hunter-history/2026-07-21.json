@@ -1,0 +1,29 @@
+[
+  {
+    "fingerprint": "TPE-PRG|Starlux|route_launch|2026-09|onemileatatime.com",
+    "date": "2026-07-21",
+    "title": "Starlux 星宇 TPE-PRG 布拉格新航線 8/1 開航，A350 26 席商務艙（僅航線開通，無促銷票價）",
+    "url": "https://onemileatatime.com/news/starlux-airlines-prague-flights/",
+    "category": "tpe_deal",
+    "total_cost_twd": null,
+    "rating": "未達標-僅航線資訊"
+  },
+  {
+    "fingerprint": "ex-SIN-EUR|Singapore Airlines|sale|2026-2027|travelandtourworld.com",
+    "date": "2026-07-21",
+    "title": "新航 SQ 商務艙/豪經艙歐洲、南非、亞洲特惠（2026及2027初，票價/航線模糊未確認金秋連假可用）",
+    "url": "https://www.travelandtourworld.com/news/article/lgc4mr9cf68k/",
+    "category": "outstation_deal",
+    "total_cost_twd": null,
+    "rating": "未達標-資訊模糊"
+  },
+  {
+    "fingerprint": "EUR-Asia|Air China/China Eastern|business|2026-07|verylvke.com",
+    "date": "2026-07-21",
+    "title": "國航/東航歐亞商務艙來回 £800 起（方向為 ex-Europe，與 Barney ex-Asia 需求相反，403 無法驗證）",
+    "url": "https://www.verylvke.com/en/2026/07/10/air-china-china-eastern-business-class-return-between-europe-and-asia-from-800/",
+    "category": "outstation_deal",
+    "total_cost_twd": null,
+    "rating": "未達標-方向相反"
+  }
+]

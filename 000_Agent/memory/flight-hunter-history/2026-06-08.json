@@ -1,0 +1,57 @@
+[
+  {
+    "fingerprint": "HKG-Europe/USA|Cathay Pacific|HKD10000_2tickets|2026-09|cathaypacific.com",
+    "date": "2026-06-08",
+    "title": "Cathay Vantage Pass 2026 ex-HKG 商務艙兩段套票 起 HKD 7,600（黃金連假 9/19+ 可用，blackout 僅 9/1-9/10）",
+    "url": "https://news.cathaypacific.com/vantage-pass-is-back-by-popular-demand",
+    "category": "outstation_deal",
+    "total_cost_twd": 33000,
+    "rating": "🔥 史詩級神票",
+    "notes": "兩段商務艙來回均價，含 TPE-HKG 接駁估算"
+  },
+  {
+    "fingerprint": "TPE-Europe|Singapore Airlines|sale|2026-07-13_to_2026-09-13|singaporeair.com",
+    "date": "2026-06-08",
+    "title": "Singapore Airlines 2026 歐洲商務艙促銷 出發窗 7/13-9/13",
+    "url": "https://www.travelandtourworld.com/news/article/lgc4mr9cf68k/",
+    "category": "tpe_deal",
+    "total_cost_twd": 0,
+    "rating": "⚠️ 窗口卡死 9/13，距 9/19 不符"
+  },
+  {
+    "fingerprint": "TPE-Europe|Aeroplan|75000_to_higher|2026-06-01_chart_change|aeroplan.com",
+    "date": "2026-06-08",
+    "title": "Aeroplan 6/1/2026 起 32 條哩程升價，亞歐 sweet spot 縮水",
+    "url": "https://www.maxmilespoints.com/blog/aeroplan-award-chart-changes-2026",
+    "category": "award_space",
+    "total_cost_twd": 0,
+    "rating": "❌ 不建議"
+  },
+  {
+    "fingerprint": "Asia-Doha-Europe|Qatar Qsuite|70000_avios_OW|2026-09|qatarairways.com",
+    "date": "2026-06-08",
+    "title": "Qatar Qsuite 70K Avios 單程 sweet spot 仍可用，需查 9/19-10/4 award space",
+    "url": "https://awardfares.com/blog/qatar-airways-privilege-club-guide/",
+    "category": "award_space",
+    "total_cost_twd": 60000,
+    "rating": "✅ 強推"
+  },
+  {
+    "fingerprint": "TPE-IAD|EVA Air|miles_boost|2026-06-26_to_2026-09-30|evaair.com",
+    "date": "2026-06-08",
+    "title": "EVA Air 華盛頓 DC 開航哩程加碼活動 6/26-9/30/2026",
+    "url": "https://www.evaair.com/en-us/plan-and-book/special-offers/promotions/ff-promotion/2026MilesnSectorsBoost.html",
+    "category": "amex_bonus",
+    "total_cost_twd": 0,
+    "rating": "⚠️ 參考（適合累積哩程而非當下票價優惠）"
+  },
+  {
+    "fingerprint": "global|Asiana Star Alliance exit|2026-12-01|loyaltystatus.com",
+    "date": "2026-06-08",
+    "title": "Asiana 2026/12/1 退出星空聯盟（影響星盟高卡規劃）",
+    "url": "https://maphappy.org/the-star-alliance-gold-hack-through-asiana-airlines-is-finally-dying/",
+    "category": "status_alert",
+    "total_cost_twd": 0,
+    "rating": "⚠️ 政策變動快訊"
+  }
+]

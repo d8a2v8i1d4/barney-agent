@@ -1,0 +1,50 @@
+[
+  {
+    "fingerprint": "Vietnam Airlines 飯店等級匹配 SkyTeam 航空聯盟 Hilton|vietnamairlines.statusmatch.com",
+    "date": "2026-06-03",
+    "title": "Vietnam Airlines Lotusmiles 飯店 Status Match（Hilton Diamond 可用 → SkyTeam Elite）",
+    "url": "https://vietnamairlines.statusmatch.com/",
+    "category": "airline_match",
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "Flying Blue Gold SkyTeam Elite Plus Taiwan 台灣 5月27日開放|flyingblue.statusmatch.com",
+    "date": "2026-06-03",
+    "title": "Flying Blue Gold Status Match 台灣重新開放（2026-05-27）→ SkyTeam Elite Plus $299",
+    "url": "https://flyingblue.statusmatch.com/",
+    "category": "airline_match",
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "Amex Hilton Aspire 175k 延期 July 29 2026 歡迎獎勵|www.americanexpress.com",
+    "date": "2026-06-03",
+    "title": "Amex Hilton Honors Aspire 175,000 點歡迎獎勵延期至 2026-07-29",
+    "url": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/",
+    "category": "amex",
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "Amex MR 25% transfer bonus Flying Blue June 30 2026|upgradedpoints.com",
+    "date": "2026-06-03",
+    "title": "Amex Membership Rewards 25% 轉 Flying Blue 加碼（截止 2026-06-30）",
+    "url": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+    "category": "amex",
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "Amex Green Card 40k standard welcome offer 2026 ITIN|americanexpress.com",
+    "date": "2026-06-03",
+    "title": "Amex Green Card 標準 40k MR 方案（非歷史高峰 60k）",
+    "url": "https://www.americanexpress.com/us/credit-cards/card/green/",
+    "category": "amex",
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "Mercury OCC national bank charter conditional approval 2026|fintechfutures.com",
+    "date": "2026-06-03",
+    "title": "Mercury 獲 OCC 有條件國家銀行執照批准，完成 $200M Series D",
+    "url": "https://www.fintechfutures.com/regulatory-actions/mercury-lands-conditional-approval-for-us-national-bank-charter",
+    "category": "long_term",
+    "rating": "參考"
+  }
+]

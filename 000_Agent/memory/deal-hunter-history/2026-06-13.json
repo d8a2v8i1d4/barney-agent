@@ -1,0 +1,65 @@
+[
+  {
+    "fingerprint": "Vietnam Airlines Lotusmiles 飯店等級 paid status match → S|travel-dealz.com",
+    "date": "2026-06-13",
+    "title": "Vietnam Airlines Lotusmiles hotel status match → SkyTeam Elite（$199，接受 Hilton Diamond）",
+    "url": "https://travel-dealz.com/deal/vietnam-airlines-status-match/",
+    "category": "airline_match",
+    "rating": "參考",
+    "notes": "一生只能用一次！目前只能到 SkyTeam Elite（非 Elite Plus），建議謹慎使用"
+  },
+  {
+    "fingerprint": "Marriott Gold Elite → Singapore Airlines KrisFlyer 挑戰 → 星盟 Si|awardwallet.com",
+    "date": "2026-06-13",
+    "title": "Marriott Bonvoy + Singapore KrisFlyer status match — Barney Gold Elite → 2 SQ 航班 → Star Alliance Silver，升等路徑至 Gold",
+    "url": "https://awardwallet.com/hotels/marriott-bonvoy/singapore-krisflyer-status-match/",
+    "category": "airline_match",
+    "rating": "參考",
+    "notes": "無截止日。Silver 是入門，Elite Gold = Star Alliance Gold 是目標。可先做 Marriott Platinum challenge 再 match"
+  },
+  {
+    "fingerprint": "IHG Fast Track 2026：5 晚升至 Platinum Elite（Barney 目前 Gold Elite|loyaltylobby.com",
+    "date": "2026-06-13",
+    "title": "IHG One Rewards Fast Track 2026：5 晚達標 → Platinum Elite，有效至 2027/12/31",
+    "url": "https://loyaltylobby.com/2026/02/08/ihg-one-rewards-gold-platinum-fast-track-offer-for-2026/",
+    "category": "hotel_match",
+    "rating": "參考",
+    "notes": "可能是 corporate 優先推出，建議登入 IHG 帳號確認資格。截止 2026/12/31"
+  },
+  {
+    "fingerprint": "Amex MR 25% Transfer Bonus → Air France/KLM Flying Blue（到 7/1）|awardwallet.com",
+    "date": "2026-06-13",
+    "title": "Amex MR 25% transfer bonus → Flying Blue，到期 2026/07/01",
+    "url": "https://awardwallet.com/news/credit-card-transfer-bonuses/",
+    "category": "amex",
+    "rating": "強推",
+    "notes": "1,000 MR → 1,250 Flying Blue 里程。SkyTeam 里程，可兌換 China Airlines TPE 商務艙 66k 甜蜜點"
+  },
+  {
+    "fingerprint": "Amex MR 20% Transfer Bonus → Marriott Bonvoy（到 7/1）|doctorofcredit.com",
+    "date": "2026-06-13",
+    "title": "Amex MR 20% transfer bonus → Marriott Bonvoy，到期 2026/07/01",
+    "url": "https://www.doctorofcredit.com/american-express-transfer-bonus-20-to-marriott-11-2-2/",
+    "category": "amex",
+    "rating": "參考",
+    "notes": "1,000 MR → 1,200 Marriott 點數"
+  },
+  {
+    "fingerprint": "Amex Hilton Aspire 175k 史上第二高 Welcome Offer（到 7/29）|upgradedpoints.com",
+    "date": "2026-06-13",
+    "title": "Amex Hilton Aspire 175k welcome offer，$6,000/6個月，到期 2026/07/29",
+    "url": "https://upgradedpoints.com/news/new-welcome-bonuses-hilton-american-express-cards/",
+    "category": "amex",
+    "rating": "強推",
+    "notes": "史上第二高（最高 2023 年 180k）。年度效益：$400 resort credit + $200 flight credit + FNC + Diamond"
+  },
+  {
+    "fingerprint": "Flying Blue June Promo Rewards：商務艙最低 63,750 里程（Book by 6/30|upgradedpoints.com",
+    "date": "2026-06-13",
+    "title": "Flying Blue June 2026 Promo Rewards，商務艙 25% 折扣，Book by 2026/06/30",
+    "url": "https://upgradedpoints.com/news/flying-blue-promo-rewards/",
+    "category": "biz_class",
+    "rating": "參考",
+    "notes": "亞洲航線本月只有北京，台北不在促銷中。長期甜蜜點：China Airlines TPE 商務艙 66k Flying Blue 里程"
+  }
+]

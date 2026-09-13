@@ -1,0 +1,38 @@
+[
+  {
+    "fingerprint": "BKK/CGK-Europe|Turkish Airlines|USD507ow|2026-09|secretflying.com",
+    "date": "2026-08-17",
+    "title": "[Bug 票] 土耳其航空 東南亞(BKK/CGK) 出發歐洲各城 商務艙 error fare 單程 US$507 起，適用 2026/09/15 起",
+    "url": "https://www.secretflying.com/posts/error-fare-business-class-from-south-east-asia-to-european-cities-from-only-507-usd-one-way/",
+    "category": "outstation_deal",
+    "total_cost_twd": 44000,
+    "rating": "神級"
+  },
+  {
+    "fingerprint": "TPE-LAX/SFO|Starlux(Alaska Atmos)|75000pts|2027|thepointsguy.com",
+    "date": "2026-08-17",
+    "title": "星宇航空 TPE↔LAX/SFO 商務艙 award space 大量清出（Alaska Atmos 75,000 pts 單程 + 稅），適用 2026/07-2027/06 含 2027 年 1-2 月",
+    "url": "https://thepointsguy.com/deals/wide-open-starlux-business-class-award-availability/",
+    "category": "award_space",
+    "total_cost_twd": 0,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "AmexMR-transfer|BA/Iberia/AerLingus Avios|30pct|2026-09|awardtravelfinder.com",
+    "date": "2026-08-17",
+    "title": "Amex MR 轉點加碼 30%：British Airways Avios / Iberia Avios / Aer Lingus（截止 2026/09/27）",
+    "url": "https://awardtravelfinder.com/transfer-bonuses/amex-membership-rewards",
+    "category": "amex_bonus",
+    "total_cost_twd": 0,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "UA-status-challenge|Premier1K match|StarGold120d|2026-2027|frequentmiler.com",
+    "date": "2026-08-17",
+    "title": "United MileagePlus Status Match Challenge：可 match 到 Premier 1K，立即星盟金卡 120 天，7/1 後完成效期至 2028/01",
+    "url": "https://frequentmiler.com/united-mileage-plus-status-match-challenge/",
+    "category": "ua_us_west",
+    "total_cost_twd": 0,
+    "rating": "強推"
+  }
+]

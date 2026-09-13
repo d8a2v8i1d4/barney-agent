@@ -1,0 +1,29 @@
+[
+  {
+    "fingerprint": "SIN-USA/EUR|Singapore Airlines|SGD6848起|2027-01|travelandtourworld.com",
+    "date": "2026-07-09",
+    "title": "新航商務艙特賣：UK/歐洲/美國，低價窗口為 2026/11 出發與 2027/01 中旬出發回 2027/02 初（商務到紐約約 SGD 6,848 ≈ 15.5 萬 TWD）",
+    "url": "https://www.travelandtourworld.com/news/article/lgc4mr9cf68k/",
+    "category": "outstation_deal",
+    "total_cost_twd": 155000,
+    "rating": "不報（超出門檻/非目標區間，僅追蹤）"
+  },
+  {
+    "fingerprint": "TPE-SFO/LAX|United Polaris|無促銷/saver稀少|2027-01|onemileatatime.com",
+    "date": "2026-07-09",
+    "title": "UA Polaris 跨太平洋商務艙 Award Space 持續縮水，2027 年 1-2 月 TPE-美西無現金特賣、saver 位子稀少（約 75k-88k Aeroplan 單程級距，需近期才釋出）",
+    "url": "https://onemileatatime.com/insights/united-polaris-business-class-award-availability/",
+    "category": "ua_us_west",
+    "total_cost_twd": null,
+    "rating": "追蹤中（今日無釋出）"
+  },
+  {
+    "fingerprint": "STATUS|United MileagePlus Status Challenge|match至1K/星盟金卡|2026-2027|united.com",
+    "date": "2026-07-09",
+    "title": "UA MileagePlus Status Challenge：延長至 2026/12/31 申請，最高 match 至 Premier 1K、即享星盟金卡 120 天；7/1 後完成挑戰可鎖狀態至 2028/01",
+    "url": "https://www.united.com/en/us/fly/mileageplus/premier/status-match.html",
+    "category": "status_challenge",
+    "total_cost_twd": null,
+    "rating": "強推行動（搭配 UA 高卡計畫）"
+  }
+]

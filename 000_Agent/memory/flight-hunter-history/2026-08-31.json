@@ -1,0 +1,29 @@
+[
+  {
+    "fingerprint": "BKK/CGK-Europe|Turkish Airlines|USD507ow|2026-09|secretflying.com",
+    "date": "2026-08-31",
+    "title": "[ERROR FARE] Turkish Airlines 曼谷 BKK / 雅加達 CGK ➡️ 歐洲多城 商務艙 單程約 USD 507 起（含 TPE 接駁預估總價約 NT$42,500）",
+    "url": "https://www.secretflying.com/posts/error-fare-business-class-from-south-east-asia-to-european-cities-from-only-507-usd-one-way/",
+    "category": "outstation_deal",
+    "total_cost_twd": 42500,
+    "rating": "史詩級（Error Fare，需即時驗證是否已修正）"
+  },
+  {
+    "fingerprint": "Amex-MR-BAAvios|Amex Membership Rewards|30pct|2026-09|awardtravelfinder.com",
+    "date": "2026-08-31",
+    "title": "Amex MR 轉點加碼 30%：British Airways Avios / Iberia Avios（至 2026-09-27）、Aer Lingus",
+    "url": "https://awardtravelfinder.com/transfer-bonuses/amex-membership-rewards",
+    "category": "amex_bonus",
+    "total_cost_twd": 0,
+    "rating": "參考（轉點加碼 30%）"
+  },
+  {
+    "fingerprint": "UA-StatusChallenge|United MileagePlus|challenge|2026-2027|upgradedpoints.com",
+    "date": "2026-08-31",
+    "title": "United MileagePlus Status Match Challenge：可 match 至 Premier 1K，即享 Star Alliance Gold 120 天，7/1 後完成鎖到 2028/01",
+    "url": "https://upgradedpoints.com/travel/airlines/united-airlines-status-match/",
+    "category": "ua_us_west",
+    "total_cost_twd": 0,
+    "rating": "參考（高卡挑戰情報）"
+  }
+]

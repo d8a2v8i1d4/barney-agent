@@ -1,0 +1,38 @@
+[
+  {
+    "fingerprint": "BKK/CGK-Europe|Turkish Airlines|USD507ow|2026-09|secretflying.com",
+    "date": "2026-08-19",
+    "title": "ERROR FARE：Turkish Airlines 商務艙 東南亞(BKK/Jakarta) → 歐洲多城 from $507 USD 單程（可用期 2026/09-2027/05，避開耶誕新年）",
+    "url": "https://www.secretflying.com/posts/error-fare-business-class-from-south-east-asia-to-european-cities-from-only-507-usd-one-way/",
+    "category": "outstation_deal",
+    "total_cost_twd": 44000,
+    "rating": "史詩級神票"
+  },
+  {
+    "fingerprint": "TPE-SFO/LAX|United Polaris|no-promo-baseline-USD3400-5400rt|2027-01|awardtravelfinder.com",
+    "date": "2026-08-19",
+    "title": "UA TPE-美西 2027/1-2：查無促銷，現金商務 RT 約 $3,400-5,400 USD；Polaris saver award 已限縮給 UA 精英/聯名卡卡友，Aeroplan/LifeMiles 幾乎清零",
+    "url": "https://onemileatatime.com/insights/united-polaris-business-class-award-availability/",
+    "category": "ua_us_west",
+    "total_cost_twd": null,
+    "rating": "情報(無促銷)"
+  },
+  {
+    "fingerprint": "AmexMR-KrisFlyer|transfer-bonus-20pct|2026-08|awardtravelfinder.com",
+    "date": "2026-08-19",
+    "title": "Amex MR → 新航 KrisFlyer 20% 轉點加碼（未達 30% 門檻，僅情報）",
+    "url": "https://awardtravelfinder.com/transfer-bonuses/amex-membership-rewards",
+    "category": "amex_bonus",
+    "total_cost_twd": null,
+    "rating": "情報"
+  },
+  {
+    "fingerprint": "UA-status-challenge|Premier1K-match-StarGold-120d|2026-2027|frequentmiler.com",
+    "date": "2026-08-19",
+    "title": "UA MileagePlus Status Match Challenge：可 match 到 Premier 1K、即享星盟金卡 120 天，申請窗延至 2026/12/31，7 月後完成鎖到 2028/1",
+    "url": "https://frequentmiler.com/united-mileage-plus-status-match-challenge/",
+    "category": "status_challenge",
+    "total_cost_twd": null,
+    "rating": "情報"
+  }
+]

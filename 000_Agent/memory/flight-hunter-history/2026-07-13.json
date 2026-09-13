@@ -1,0 +1,52 @@
+[
+  {
+    "fingerprint": "Stockholm-Asia|AirChina/ChinaEastern|EUR1235|2026-07/08|verylvke.com",
+    "date": "2026-07-13",
+    "title": "Air China / China Eastern 歐洲-亞洲來回商務艙 £800 / €1,235 (Stockholm 出發)",
+    "url": "https://www.verylvke.com/en/2026/07/10/air-china-china-eastern-business-class-return-between-europe-and-asia-from-800/",
+    "category": "outstation_deal",
+    "total_cost_twd": 42000,
+    "rating": "不報",
+    "reject_reason": "方向相反(歐洲出發往亞洲) + 旅行日期為 2026 年 7-8 月,不符 09/19-10/04 黃金連假窗口"
+  },
+  {
+    "fingerprint": "LAX-TPE|Starlux|USD5643|2026-09/10|evaair/skylux",
+    "date": "2026-07-13",
+    "title": "Starlux LAX-TPE 商務艙 USD 5,643 (2026/9-10)",
+    "url": "https://www.starlux-airlines.com/flights/en-us/flights-to-taipei",
+    "category": "tpe_deal",
+    "total_cost_twd": 180000,
+    "rating": "不報",
+    "reject_reason": "方向相反(美西出發回台) + 現金票超過 9.5 萬硬體門檻,非甜甜價"
+  },
+  {
+    "fingerprint": "US-TPE|EVAAir|85000miles|2026|upgradedpoints.com",
+    "date": "2026-07-13",
+    "title": "EVA Air 美國-台北商務艙 Award 85,000 哩大量釋出 (Capital One 30% 轉點加碼至 07/31)",
+    "url": "https://upgradedpoints.com/news/award-alert-us-taipei-business-class/",
+    "category": "award_space",
+    "total_cost_twd": 0,
+    "rating": "不報",
+    "reject_reason": "方向相反(美國出發回台) + 轉點來源為 Capital One 非 Barney 主力 Amex MR + 非目標窗口"
+  },
+  {
+    "fingerprint": "intel|UA-StatusChallenge|match-to-1K|2026-2027|onemileatatime.com",
+    "date": "2026-07-13",
+    "title": "[情報] UA MileagePlus Status Challenge 可 match 至 Premier 1K,即享星盟金卡 120 天,7/1 後完成效期至 2028/01",
+    "url": "https://onemileatatime.com/guides/united-status-match/",
+    "category": "status_intel",
+    "total_cost_twd": 0,
+    "rating": "情報參考",
+    "reject_reason": "非機票/哩程位,屬 Status 挑戰情報,不觸發寄信但高度相關於 2027 UA 計畫"
+  },
+  {
+    "fingerprint": "intel|Amex-MR-transfer-bonus|none-2026|thriftytraveler.com",
+    "date": "2026-07-13",
+    "title": "[情報] Amex MR 轉點加碼 2026 年幾乎全面消失;Etihad Guest 已於 2026/06/30 退出 Amex 合作",
+    "url": "https://thriftytraveler.com/news/points/what-happened-to-amex-transfer-bonuses/",
+    "category": "amex_bonus",
+    "total_cost_twd": 0,
+    "rating": "情報參考",
+    "reject_reason": "無可行加碼,屬點數策略情報"
+  }
+]

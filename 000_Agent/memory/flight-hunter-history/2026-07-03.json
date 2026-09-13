@@ -1,0 +1,52 @@
+[
+  {
+    "fingerprint": "AUH-EU|Etihad|INR153800|Jul-Oct|etihad.com",
+    "date": "2026-07-03",
+    "title": "Etihad Airways 商務艙促銷（ex-India 經 AUH 轉歐洲）",
+    "url": "https://premium-flights.com/etihad-airways-business-class-deals/",
+    "category": "outstation_deal",
+    "total_cost_twd": 75000,
+    "rating": "參考",
+    "notes": "訂票窗口 06/23-06/29 可能已關閉，需 TPE-DEL/BOM 定位，時間成本高"
+  },
+  {
+    "fingerprint": "TPE-Europe/US|Aeroplan/United|~70K miles|Sep2026|aircanada.com",
+    "date": "2026-07-03",
+    "title": "9/19-10/4 商務艙 Award Space 釋出臨界點警示",
+    "url": "https://awardfares.com/blog/ultimate-guide-to-award-release-dates/",
+    "category": "award_space",
+    "total_cost_twd": 45000,
+    "rating": "強推",
+    "notes": "多數航空 330-361 天前開票，Sept 中下旬座位正陸續釋出，Amex MR 可 1:1 轉 Aeroplan"
+  },
+  {
+    "fingerprint": "Status Match|United MP|Free|Post-Jul1|united.com",
+    "date": "2026-07-03",
+    "title": "United MileagePlus Premier Status Match Challenge（Star Alliance Gold 120 天）",
+    "url": "https://awardtravelfinder.com/status-match",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "rating": "強推",
+    "notes": "7/1 後完成挑戰可鎖 Status 至 2028/01，9 月出遊前正好含金卡效益"
+  },
+  {
+    "fingerprint": "Status Match|Royal Jordanian|Paid|2026|rj.com",
+    "date": "2026-07-03",
+    "title": "Royal Jordanian Royal Club Status Match（付費）→ Oneworld Sapphire",
+    "url": "https://awardtravelfinder.com/status-match",
+    "category": "status_match",
+    "total_cost_twd": 15000,
+    "rating": "參考",
+    "notes": "適用美/加居民為主，台灣身分需確認資格；直接鎖 Oneworld Sapphire 含 CX/QR 貴賓室"
+  },
+  {
+    "fingerprint": "LifeMiles Devaluation|Avianca|90K|2026|lifemiles.com",
+    "date": "2026-07-03",
+    "title": "LifeMiles 大貶值警示（美→歐 商務由 45K 漲到 80-90K）",
+    "url": "https://www.airtraveler.club/news/lifemiles-devalues-us-europe-awards/",
+    "category": "devaluation_alert",
+    "total_cost_twd": 0,
+    "rating": "警訊",
+    "notes": "此時再囤 LifeMiles 已無吸引力，Amex MR 建議優先轉 Aeroplan 或 KrisFlyer"
+  }
+]

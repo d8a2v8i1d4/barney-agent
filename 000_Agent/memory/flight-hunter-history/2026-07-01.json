@@ -1,0 +1,56 @@
+[
+  {
+    "fingerprint": "SIN-EU|Singapore Airlines|SGD6500-8500|202609-10|singaporeair.com",
+    "date": "2026-07-01",
+    "title": "Singapore Airlines Business Class sale — SIN 出發歐洲，promo 涵蓋 9-10 月出發",
+    "url": "https://www.singaporeair.com/en_UK/sg/plan-travel/local-promotions/offers/",
+    "category": "outstation_deal",
+    "total_cost_twd": 165000,
+    "rating": "參考"
+  },
+  {
+    "fingerprint": "LAX-HKG|Cathay Pacific|USD3800-4600|202609|consolidator",
+    "date": "2026-07-01",
+    "title": "Cathay Pacific LAX/SFO-HKG 商務艙 consolidator 市價基準",
+    "url": "https://news.cathaypacific.com/",
+    "category": "tpe_deal",
+    "total_cost_twd": 135000,
+    "rating": "不報"
+  },
+  {
+    "fingerprint": "AmexMR-AsiaMiles|devaluation|5:4|202603|awardwallet.com",
+    "date": "2026-07-01",
+    "title": "Amex MR → Asia Miles 貶值 20%（1:1 → 5:4，2026/03/01 生效）",
+    "url": "https://awardwallet.com/news/amex-membership-rewards/cathay-pacific-transfer-devaluation/",
+    "category": "amex_bonus",
+    "total_cost_twd": null,
+    "rating": "重大警示"
+  },
+  {
+    "fingerprint": "AmexMR-AsiaMiles|15pct-bonus|targeted|2026|frequentmiler.com",
+    "date": "2026-07-01",
+    "title": "Amex MR → Asia Miles 15% targeted 定向轉點加碼",
+    "url": "https://frequentmiler.com/15-transfer-bonus-to-cathay-pacific-asia-miles-from-amex-membership-rewards-targeted/",
+    "category": "amex_bonus",
+    "total_cost_twd": null,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "TurkishAirlines|StarAllianceGold|4year-challenge|2026|verylvke.com",
+    "date": "2026-07-01",
+    "title": "Turkish Airlines Miles&Smiles Challenge → 4 年星盟 Gold",
+    "url": "https://www.verylvke.com/en/2026/02/03/get-4-year-star-alliance-gold-from-turkish-airlines-status-challenge/",
+    "category": "status_match",
+    "total_cost_twd": null,
+    "rating": "強推"
+  },
+  {
+    "fingerprint": "United|MileagePlus|StatusMatchChallenge|2028-01-lock|upgradedpoints.com",
+    "date": "2026-07-01",
+    "title": "United Premier Status Match Challenge — 7/1 後完成鎖到 2028/01",
+    "url": "https://upgradedpoints.com/travel/airlines/airline-status-matches-challenges/",
+    "category": "status_match",
+    "total_cost_twd": null,
+    "rating": "強推"
+  }
+]
