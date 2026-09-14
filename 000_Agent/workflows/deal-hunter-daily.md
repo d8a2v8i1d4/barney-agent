@@ -192,7 +192,14 @@ Read 工具讀取最近 7 天 JSON 檔，建立 `history_set`（活動指紋集�
 
 ---
 
-### 第六步：判斷今日狀態 & 產出
+### 第六步：判斷今日狀態 & 產出（⚠️ 情況 A、B 都要寄信）
+
+**每天一定寄一封信。** 情況 B 靜默不寄的話，Barney 從收件匣分不出「今天沒新東西」和「排程壞了」。
+
+**先整理「⏳ 到期倒數」清單（A、B 共用）**：
+- 來源：今天搜尋中看到、仍在有效期內、有明確截止日的活動——**包含第三步被去重過濾掉的**；再加上近 30 天歷史檔中 `deadline` ≥ 今天的條目。只收第四步個人化篩選會通過的（已頂品牌、非目標卡照樣不列）。
+- 只列 30 天內到期的，依截止日排序，最多 8 筆。7 天內到期的標 🚨。
+- 去重只管「不重複詳述」，**不能讓快到期的活動從信裡消失**。
 
 #### 情況 A：今日有新活動 → 寄 Gmail 草稿
 
@@ -202,6 +209,7 @@ Read 工具讀取最近 7 天 JSON 檔，建立 `history_set`（活動指紋集�
 <h2>🗓️ [TODAY] 薅羊毛日報</h2>
 <p style="color:#666;font-size:13px;">📊 今日新增 N 筆，已過濾 M 筆（重複）</p>
 <p style="color:#c00;font-size:13px;">⏳ 距 Amex spend 截止 X 天｜Green 剩 $1,913｜Aspire 剩 $3,863</p>
+<p style="color:#c00;font-size:13px;">⏳ 到期倒數：🚨 [活動] [M/D]（剩 X 天）｜[活動] [M/D]（剩 X 天）｜…</p>
 <hr>
 
 <h3>✈️ 航空 Status Match & UA Challenge（重點區）</h3>
@@ -233,17 +241,33 @@ Read 工具讀取最近 7 天 JSON 檔，建立 `history_set`（活動指紋集�
 Gmail `create_draft`：
 - to: `d8a2v8i1d4@gmail.com`
 - subject: `🔥 [TODAY] 薅羊毛日報 — 今日 N 個新活動`（有 Oneworld / SkyTeam match、目標卡 elevated SUB 或史詩級 SUB 加 hot tag）
-- htmlBody: 上方 HTML
+- **htmlBody**: 上方 HTML
+- body: 一兩行純文字摘要（給不支援 HTML 的信箱看）
 
-若 Gmail 工具不可用 → Write 到 `000_Agent/memory/deal-hunter-history/[TODAY]-report.html`
+⚠️ **HTML 一定要放 `htmlBody`，絕對不可以放進 `body`。** `body` 是純文字欄位，塞 HTML 進去會讓整封信變成裸露的標籤（2026-09-13 商務艙日報就是這樣跑版）。
 
-#### 情況 B：今日無新活動 → 不寄信
+若 Gmail 工具不可用 → Write 到 `000_Agent/memory/deal-hunter-history/[TODAY]-report.html`，並在回覆最後一行寫 `⚠️ Gmail 不可用，報告只存檔未寄出`。
 
-輸出：`[TODAY] 無新活動，全部 X 筆皆為重複，跳過寄信。`
+#### 情況 B：今日無新活動 → 寄簡短平安信
+
+```html
+<h2>🗓️ [TODAY] 薅羊毛日報：今日無新活動</h2>
+<p style="color:#666;font-size:13px;">✅ 排程正常執行完畢。今日搜尋 X 類別，過濾 M 筆（皆為近 7 天已報過）。</p>
+<p style="color:#c00;font-size:13px;">⏳ 距 Amex spend 截止 X 天｜Green 剩 $1,913｜Aspire 剩 $3,863</p>
+<h3>⏳ 到期倒數</h3>
+<ul>
+  <li>🚨 <b>[活動名稱]</b>：[M/D] 截止（剩 X 天）｜[一句話對 Barney 的意義] ｜<a href="[URL]">來源</a></li>
+  <li><b>[活動名稱]</b>：[M/D] 截止（剩 X 天）｜[一句話] ｜<a href="[URL]">來源</a></li>
+</ul>
+```
+
+- 倒數清單是空的 → 整個 `<h3>⏳ 到期倒數</h3>` 區塊改成一行 `<p>目前 30 天內沒有到期中的活動。</p>`
+- subject：`🗓️ [TODAY] 薅羊毛日報 — 今日無新活動`；倒數清單有 🚨 項目時改成 `🗓️ [TODAY] 薅羊毛日報 — 無新活動｜🚨 [活動] 剩 X 天`
+- 一樣用 `htmlBody`，不可放 `body`
 
 #### 週日加碼（`date +%u` = 7）
 
-讀過去 7 天 history JSON，挑 ✅ 強推 做「本週 Top 5」，放在報告最上方。若當日為情況 B 但是週日 → 只寄週報，主旨改為 `📅 [TODAY] 薅羊毛週報 — 本週精選回顧`
+讀過去 7 天 history JSON，挑 ✅ 強推 做「本週 Top 5」，放在報告最上方。若當日為情況 B 但是週日 → 用週報取代平安信（週報裡一樣要有到期倒數），主旨改為 `📅 [TODAY] 薅羊毛週報 — 本週精選回顧`
 
 ---
 
@@ -260,10 +284,13 @@ Write 工具寫入 `000_Agent/memory/deal-hunter-history/[TODAY].json`：
     "title": "完整標題",
     "url": "...",
     "category": "airline_match | ua_challenge | hotel_match | credit_card | biz_class | points_talent | long_term",
-    "rating": "強推 | 參考"
+    "rating": "強推 | 參考",
+    "deadline": "YYYY-MM-DD 或 null"
   }
 ]
 ```
+
+`deadline`：活動截止日，沒有明確截止日就填 `null`。第六步的到期倒數靠這個欄位，務必填。
 
 歷史檔寫好後**先不要 commit**，收尾統一在第九步做（heartbeat 要跟它進同一個 commit）。
 
@@ -273,7 +300,7 @@ Write 工具寫入 `000_Agent/memory/deal-hunter-history/[TODAY].json`：
 
 Write 工具更新 `000_Agent/memory/deal-hunter-history/lastrun.txt`：
 ```
-[TODAY] 執行完成，情況=[A 或 B]，新增 N 筆，過濾 M 筆
+[TODAY] 執行完成，情況=[A 或 B]，新增 N 筆，過濾 M 筆，草稿=[已建立 / 失敗：原因]
 ```
 
 ---
@@ -298,7 +325,7 @@ push 失敗時（權限不足、rebase 衝突、non-fast-forward）**不要吞�
 
 ## 🚫 執行紀律
 
-1. **去重複最高優先** — 寧可不寄也不寄重複內容
+1. **去重複最高優先** — 已報過的活動不重複詳述；但每天一定寄信（情況 B 寄平安信 + 到期倒數），HTML 放 `htmlBody`
 2. **Search 先行** — 不硬寫 WebFetch 目標；從搜尋結果取 URL 再 fetch；403 就記錄跳過
 3. **個人化過濾嚴格** — 已頂品牌 match、非目標三張 / 非 Amex MR / 非史詩級 SUB，直接丟
 4. **第七、八、九步無條件執行** — 不被情況 A/B 的邏輯打斷，是每次 run 的收尾動作；第九步沒成功就等於前面全白做

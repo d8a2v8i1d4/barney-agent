@@ -155,7 +155,7 @@ FOMC / CPI 等宏觀日程 Python 不可靠取得，報告註明請另行確認�
 2. **不修改** `invest-portfolio.json`（只有 Barney 實際下單後才更新）
 3. git commit + push 歷史檔案
 4. 寫 heartbeat 到 `000_Agent/memory/invest-history/lastrun.txt`
-5. Gmail `create_draft` 到 `d8a2v8i1d4@gmail.com`，主旨：`📊 [TODAY] 投資決策日報 — 環境分數 [X]/100｜…｜進度 [Z]%`
+5. Gmail `create_draft` 到 `d8a2v8i1d4@gmail.com`，主旨：`📊 [TODAY] 投資決策日報 — 環境分數 [X]/100｜…｜進度 [Z]%`；**HTML 報告放 `htmlBody`，不可放 `body`**（`body` 是純文字欄位，塞 HTML 會整封裸標籤跑版）
 6. Gmail 不可用 → 寫 `[TODAY]-report.html` 備援
 
 ---

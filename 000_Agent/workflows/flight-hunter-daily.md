@@ -138,7 +138,14 @@ ls 000_Agent/memory/flight-hunter-history/*.json 2>/dev/null | sort -r | head -7
 - 行程 1 總成本 > 130,000 TWD 或行程 2 > 65,000 TWD 且硬體普通。
 - 無法涵蓋目標日期的促銷。
 
-### 第六步：產出今日狀態報告
+### 第六步：產出今日狀態報告（⚠️ 情況 A、B 都要寄信）
+
+**每天一定寄一封信。** 情況 B 靜默不寄的話，Barney 從收件匣分不出「今天沒新東西」和「排程壞了」——2026-09-14 就是這樣被誤會成沒跑。
+
+**先整理「⏳ 到期倒數」清單（A、B 共用）**：
+- 來源：今天搜尋中看到、仍在有效期內、有明確截止日的購點促銷／轉點加碼／Status Match 送件窗口——**包含第三步被去重過濾掉的**；再加上近 30 天歷史檔中 `deadline` ≥ 今天的條目。
+- 只列 30 天內到期的，依截止日排序，最多 8 筆。7 天內到期的標 🚨。
+- 去重只管「不重複詳述」，**不能讓快到期的活動從信裡消失**。2026-09-14 那次 Flying Blue 80% 買哩剩 2 天到期，就是被去重吃掉、完全沒通知。
 
 **情況 A：今日有符合條件的內容 → 寄 Gmail 草稿**
 按「評分 → 時間契合度」排序：🔥 神級 → ✅ 強推 → ⚠️ 參考
@@ -146,6 +153,7 @@ ls 000_Agent/memory/flight-hunter-history/*.json 2>/dev/null | sort -r | head -7
 ```html
 <h2>✈️ [TODAY] Barney 專屬 2027 商務艙 × 哩程套利 × 高卡挑戰觀測日報</h2>
 <p style="color:#666;font-size:13px;">📊 今日尋獲 N 筆新情報，已過濾 M 筆（重複／低 CP 值／日期不符）</p>
+<p style="color:#c00;font-size:13px;">⏳ 到期倒數：🚨 [活動] [M/D]（剩 X 天）｜[活動] [M/D]（剩 X 天）｜…</p>
 <hr>
 
 <!-- 區塊一：行程 1 -->
@@ -201,9 +209,30 @@ ls 000_Agent/memory/flight-hunter-history/*.json 2>/dev/null | sort -r | head -7
 Gmail create_draft 參數：
 - to: d8a2v8i1d4@gmail.com
 - subject: ✈️ [🔥2027 商務艙/哩程/高卡日報] 今日新增 N 筆：FLL 來回、ATH 回程、購點促銷與挑戰時機
+- **htmlBody**: 上方 HTML
+- body: 一兩行純文字摘要（給不支援 HTML 的信箱看）
 
-**情況 B：今日無新內容 → 不寄信**
-輸出：`[TODAY] 2027/3/31–4/12 TPE⇄FLL、2027/6/6–6/9 ATH→TPE 暫無新票價／哩程位／購點促銷／挑戰規則變動，跳過寄信。`
+⚠️ **HTML 一定要放 `htmlBody`，絕對不可以放進 `body`。** `body` 是純文字欄位，塞 HTML 進去會讓整封信變成裸露的 `<h2>`、`<b>` 標籤——2026-09-13 那封就是這樣跑版。
+
+若 Gmail 工具不可用 → Write 到 `000_Agent/memory/flight-hunter-history/[TODAY]-report.html`，並在回覆最後一行寫 `⚠️ Gmail 不可用，報告只存檔未寄出`。
+
+**情況 B：今日無新內容 → 寄簡短平安信**
+
+```html
+<h2>✈️ [TODAY] 2027 商務艙日報：今日無新情報</h2>
+<p style="color:#666;font-size:13px;">✅ 排程正常執行完畢。今日搜尋 Y 個關鍵字，過濾 M 筆（皆為近 7 天已報過／日期不符）。TPE⇄FLL（3/31–4/12）、ATH→TPE（6/6–6/9）暫無新票價、哩程位、購點促銷或挑戰規則變動。</p>
+<h3>⏳ 到期倒數</h3>
+<ul>
+  <li>🚨 <b>[活動名稱]</b>：[M/D] 截止（剩 X 天）｜對行程 [1/2] 的意義：[一句話] ｜<a href="[URL]">來源</a></li>
+  <li><b>[活動名稱]</b>：[M/D] 截止（剩 X 天）｜[一句話] ｜<a href="[URL]">來源</a></li>
+</ul>
+<!-- 若今天有「參考」等級的小變動（例如規則微調），在這裡用一兩行帶過 -->
+<p style="color:#888;font-size:12px;">🔧 WebSearch 成功 Y 個 / 失敗 Z 個</p>
+```
+
+- 倒數清單是空的 → 整個 `<h3>⏳ 到期倒數</h3>` 區塊改成一行 `<p>目前 30 天內沒有到期中的促銷。</p>`
+- subject：`✈️ [2027 商務艙日報] [TODAY] 今日無新情報`；倒數清單有 🚨 項目時改成 `✈️ [2027 商務艙日報] [TODAY] 無新情報｜🚨 [活動] 剩 X 天`
+- 一樣用 `htmlBody`，不可放 `body`
 
 ### 第七步：寫入今日歷史（⚠️ 無論情況 A/B 都必須執行）
 Write 工具寫入 `000_Agent/memory/flight-hunter-history/[TODAY].json`：
@@ -219,17 +248,20 @@ Write 工具寫入 `000_Agent/memory/flight-hunter-history/[TODAY].json`：
     "total_cost_twd": 82000,
     "credit_program": "Delta | AA | Atmos | FlyingBlue | none",
     "challenge_progress_pct": 55,
-    "rating": "強推"
+    "rating": "強推",
+    "deadline": "2026-09-25"
   }
 ]
 ```
+
+`deadline`：促銷／送件窗口的截止日（YYYY-MM-DD），沒有明確截止日就填 `null`。第六步的到期倒數靠這個欄位，務必填。
 
 歷史檔寫好後**先不要 commit**，收尾統一在第九步做（heartbeat 要跟它進同一個 commit）。
 
 ### 第八步：寫 heartbeat 紀錄
 更新 `000_Agent/memory/flight-hunter-history/lastrun.txt`：
 
-`[TODAY] 機票情報員執行完成，情況=[A 或 B]，尋獲 N 筆（FLL/ATH/購點/挑戰），過濾 M 筆。`
+`[TODAY] 機票情報員執行完成，情況=[A 或 B]，尋獲 N 筆（FLL/ATH/購點/挑戰），過濾 M 筆，草稿=[已建立 / 失敗：原因]。`
 
 ### 第九步：推回 main（⚠️ 最關鍵的一步，無論情況 A/B 都必須執行）
 
@@ -250,6 +282,8 @@ push 失敗時（權限不足、rebase 衝突、non-fast-forward）**不要吞�
 ---
 
 ## 🚫 執行紀律
+- **每天都要寄信**：情況 B 寄平安信，不可以靜默跳過。
+- **HTML 放 `htmlBody`**：不可放 `body`。
 - **第七、八、九步無條件執行**：不被情況 A/B 的邏輯打斷，是每次 run 的收尾動作；第九步沒成功就等於前面全白做。
 - **轉機段必須加計**：不報看似便宜但加上轉機段與時間成本後變貴的票。
 - **三軌並列**：每筆票必須同時給現金軌、哩程軌、入帳軌，缺一軌即標註「資料不足」而非略過。
