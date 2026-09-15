@@ -1,1 +1,1 @@
-[2026-09-14] 機票情報員執行完成（Taipei 09:20），情況=B（不寄信），尋獲 1 筆（Delta Basic Business 2027/01/19 產品規則變動，等級=參考），過濾 20+ 筆（Aeroplan 110%、Virgin 70%、Flying Blue 80%、Amex MR 30%、Delta/Atmos/AA/Flying Blue Status Match 規則、Starlux Atmos 75K、Turkish/KLM/Emirates ATH-TPE 商務艙全部與 09-13 指紋一致）。時效性提醒（未寄信）：Flying Blue 80% 買哩促銷 2026-09-16 到期，只剩 2 天。
+2026-09-15 機票情報員執行完成，情況=B，尋獲 0 筆（FLL/ATH/購點/挑戰皆無新內容），過濾 9 筆（近 7 天已報過的購點促銷、Status Match 規則、哩程票路徑；Virgin 60K→105K Delta 貶值屬 09-08、09-09 已記錄），草稿=已建立（Gmail draft id r-129104175914920016，主旨含 🚨 Flying Blue 買哩 80% 剩 1 天）。
