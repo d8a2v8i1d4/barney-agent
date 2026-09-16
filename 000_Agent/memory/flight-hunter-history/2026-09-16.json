@@ -1,0 +1,86 @@
+[
+  {
+    "fingerprint": "buy|FlyingBlue|80%|2026-09|awardwallet.com",
+    "date": "2026-09-16",
+    "title": "Flying Blue 買哩 80% bonus / 45% off — CET 今晚 23:59 截止（最後幾小時）",
+    "url": "https://awardwallet.com/airlines/flying-blue/buy-miles/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 0,
+    "credit_program": "FlyingBlue",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-09-16"
+  },
+  {
+    "fingerprint": "buy|Aeroplan|110%|2026-09|aircanada.com",
+    "date": "2026-09-16",
+    "title": "Aeroplan 買點 110% bonus，1.35¢/點；行程 2 Turkish ATH-IST-TPE 87.5k 點的關鍵籌碼",
+    "url": "https://loyaltylobby.com/2026/09/11/air-canada-buy-aeroplan-miles-up-to-110-bonus-september-11-25-2026/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 0,
+    "credit_program": "Aeroplan",
+    "challenge_progress_pct": 0,
+    "rating": "強推",
+    "deadline": "2026-09-25"
+  },
+  {
+    "fingerprint": "transfer|AmexUS MR|Avios BA/IB/EI 30%|2026-09|awardtravelfinder.com",
+    "date": "2026-09-16",
+    "title": "Amex US MR → BA/Iberia/Aer Lingus Avios 30% 轉點加碼（Barney 美國 MR 餘額近零，僅備忘）",
+    "url": "https://awardtravelfinder.com/transfer-bonuses/amex-membership-rewards",
+    "category": "transfer_bonus",
+    "total_cost_twd": 0,
+    "credit_program": "Avios",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-09-27"
+  },
+  {
+    "fingerprint": "buy|United MileagePlus|95-100%|2026-09|united.com",
+    "date": "2026-09-16",
+    "title": "United MileagePlus 買哩最高 95-100% bonus，90 天 50k 上限；UA Gold 效期內可利用",
+    "url": "https://loyaltylobby.com/2026/09/10/united-airlines-buy-miles-up-to-95-or-higher-bonus-until-september-30-2026/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 0,
+    "credit_program": "MileagePlus",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-09-30"
+  },
+  {
+    "fingerprint": "buy|VirginAtlantic|70%|2026-09|awardwallet.com",
+    "date": "2026-09-16",
+    "title": "Virgin Atlantic Flying Club 買點 70% bonus，1.47¢/點，上限 400k",
+    "url": "https://awardwallet.com/airlines/virgin-atlantic-flying-club/buy-virgin-points/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 0,
+    "credit_program": "VirginAtlantic",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-10-04"
+  },
+  {
+    "fingerprint": "transfer|AmexUS MR|Hilton 30%|2026-09|awardwallet.com",
+    "date": "2026-09-16",
+    "title": "Amex US MR → Hilton 30% 轉點加碼（僅備忘，不影響機票）",
+    "url": "https://awardwallet.com/news/credit-card-transfer-bonuses/",
+    "category": "transfer_bonus",
+    "total_cost_twd": 0,
+    "credit_program": "Hilton",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-10-14"
+  },
+  {
+    "fingerprint": "status_match|AA Instant Status Pass|4mo 13k/25k LP|2026-10|aa.com",
+    "date": "2026-09-16",
+    "title": "AA Instant Status Pass — 10/23 登記截止，4 個月 13K/25K/42K/67K LP，窗口蓋不到 3/31 行程",
+    "url": "https://loyaltylobby.com/2026/08/21/american-airlines-instant-status-pass-promotion-sign-up-by-october-23-2026/",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "AA",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-10-23"
+  }
+]
