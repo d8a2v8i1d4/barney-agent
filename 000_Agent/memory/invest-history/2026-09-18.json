@@ -1,0 +1,51 @@
+{
+  "date": "2026-09-18",
+  "total_score": 55,
+  "vix": 15.4399995803833,
+  "yield_10y": 4.947000026702881,
+  "yield_2y": 4.404,
+  "dxy": 100.23600006103516,
+  "usd_twd": 31.847000122070312,
+  "etf_scores": {
+    "SMH": 65,
+    "SOXX": 60,
+    "IWMO.L": 55,
+    "LQQ.PA": 55,
+    "VWRA.L": 50,
+    "CNDX.L": 50,
+    "AVGS.L": 50
+  },
+  "stock_scores": {
+    "AMZN": 55,
+    "00631L.TW": 55,
+    "NVDA": 50,
+    "TSM": 50,
+    "MSFT": 50,
+    "2454.TW": 50,
+    "META": 40
+  },
+  "upcoming_earnings": {},
+  "recommendation": "🟡 中性偏多｜核心：維持月 DCA $2,300｜衛星：觀望，只挑分數>70 加 $500｜進攻：暫不動（等第 1 階：VIX 15.4（需 ≥25，差 9.6）｜QQQ 回檔 3.8%（需 ≥15%，差 11.2%））",
+  "portfolio_progress": 0.48963480000000004,
+  "deployed_usd": 12240.87,
+  "market_value_usd": 12493.414,
+  "unrealized_pnl_usd": 252.5440000000017,
+  "unrealized_return": 0.02063121330428325,
+  "cost_usd": 12240.869999999999,
+  "fee_usd": 0.0,
+  "cost_twd": 390535.191411,
+  "unrealized_pnl_twd": 7342.565772074973,
+  "unrealized_return_twd": 0.01880129098109277,
+  "avg_fx_cost": 31.904202185874045,
+  "progress_note": "目前同步",
+  "agg_ladder": {
+    "done": false,
+    "level": 1,
+    "amount": 1250.0,
+    "triggered": false,
+    "reason": "VIX 15.4（需 ≥25，差 9.6）｜QQQ 回檔 3.8%（需 ≥15%，差 11.2%）"
+  },
+  "agg_benchmark_drawdown": 3.8131386670040546,
+  "signal_change": "環境分數：52 → 55（+3），與昨日類似",
+  "data_fetch_failures": []
+}
