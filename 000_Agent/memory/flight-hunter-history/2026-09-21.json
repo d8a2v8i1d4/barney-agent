@@ -1,0 +1,38 @@
+[
+  {
+    "fingerprint": "transfer|CitiTY|LifeMiles 25%|2026-09|loyaltylobby.com",
+    "date": "2026-09-21",
+    "title": "Citi ThankYou → Avianca LifeMiles 25% 轉點加碼（9/20–10/24），對行程 2 Turkish 78K 套利可能更划算",
+    "url": "https://loyaltylobby.com/2026/09/20/citi-thankyou-to-avianca-lifemiles-25-points-to-miles-conversion-bonus-september-20-october-24-2026/",
+    "category": "transfer_bonus",
+    "total_cost_twd": 0,
+    "credit_program": "LifeMiles",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-10-24"
+  },
+  {
+    "fingerprint": "transfer|AmexUS MR|VirginAtlantic 40%|2026-09|frequentmiler.com",
+    "date": "2026-09-21",
+    "title": "Amex US MR → Virgin Atlantic Flying Club 40% 轉點加碼，9/30 到期；Barney 美國 MR≈0，僅備忘（VS 可訂 Delta 夥伴票）",
+    "url": "https://frequentmiler.com/get-a-40-bonus-when-transferring-amex-membership-rewards-to-virgin-atlantic/",
+    "category": "transfer_bonus",
+    "total_cost_twd": 0,
+    "credit_program": "VirginAtlantic",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-09-30"
+  },
+  {
+    "fingerprint": "rule|Atmos|only-AS-HA-metal-for-challenge|2026-09|onemileatatime.com",
+    "date": "2026-09-21",
+    "title": "Alaska Atmos Rewards 挑戰只認 AS/HA 執飛航段計分；建議從行程 1 入帳候選中剔除 Atmos，主力改為 Delta MQD 與 AA LP",
+    "url": "https://onemileatatime.com/guides/alaska-status-match/",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "Atmos",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": null
+  }
+]
