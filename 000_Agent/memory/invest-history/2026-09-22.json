@@ -1,0 +1,52 @@
+{
+  "date": "2026-09-22",
+  "total_score": 55,
+  "vix": 14.93,
+  "yield_10y": 4.97,
+  "yield_2y": 4.4,
+  "dxy": 100.27,
+  "usd_twd": 31.79,
+  "etf_scores": {
+    "SOXX": 60,
+    "SMH": 55,
+    "VWRA.L": 50,
+    "IWMO.L": 50,
+    "AVGS.L": 50,
+    "LQQ.PA": 50,
+    "CNDX.L": 45
+  },
+  "stock_scores": {
+    "AMZN": 55,
+    "NVDA": 50,
+    "TSM": 50,
+    "MSFT": 50,
+    "META": 50,
+    "00631L.TW": 50,
+    "2454.TW": 45
+  },
+  "upcoming_earnings": {},
+  "recommendation": "🟡 中性偏多｜核心：本月 DCA 已於 9/2 執行，下次約 8 天後｜衛星：SOXX 60 未達 70 門檻，觀望｜進攻：暫不動（VIX 14.93 < 25，QQQ 回檔 3.7% < 15%）",
+  "portfolio_progress": 0.48963480000000004,
+  "deployed_usd": 12240.87,
+  "market_value_usd": 12537.62,
+  "unrealized_pnl_usd": 296.75,
+  "unrealized_return": 0.02423998,
+  "cost_usd": 12240.87,
+  "fee_usd": 0.0,
+  "cost_twd": 390535.19,
+  "unrealized_pnl_twd": 8035.75,
+  "unrealized_return_twd": 0.02057871,
+  "avg_fx_cost": 31.904202,
+  "progress_note": "實際 49.0% vs 理論 70.0%，輕微落後但未觸發加碼追加",
+  "agg_ladder": {
+    "done": false,
+    "level": 1,
+    "amount": 1250.0,
+    "triggered": false,
+    "reason": "VIX 14.93（需 ≥25，差 10.07）｜QQQ 回檔 3.7%（需 ≥15%，差 11.3%）"
+  },
+  "agg_benchmark_drawdown": 3.67,
+  "signal_change": "📌 連續 4+ 天環境分數 55 中性偏多，維持原計畫",
+  "data_fetch_failures": [],
+  "data_source_note": "使用 WebSearch fallback 抓取；egress policy 擋掉 yfinance/stooq/FRED，AVGS.L 與 LQQ.PA 沿用歷史分數 50"
+}
