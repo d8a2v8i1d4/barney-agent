@@ -1,0 +1,38 @@
+[
+  {
+    "fingerprint": "rule|Delta|MQD-2500-Gold-90d-thru-2028|2026-09|delta.com",
+    "date": "2026-09-22",
+    "title": "Delta Medallion Status Match Challenge：Gold 需 90 天內 $2,500 MQD + 1 段 non-Basic DL 航班；2026 年報名完成挑戰有效到 2028/01/31。建議 Barney 於 2027/01/02–01/05 送件，讓窗口 1/5–4/5 涵蓋 3/31 去程；TPE-SEA-FLL DL 金屬 J 單程約 MQD $1,300–1,800，來回一趟達標。",
+    "url": "https://www.delta.com/us/en/skymiles/medallion-program/status-match-challenge",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "Delta",
+    "challenge_progress_pct": 100,
+    "rating": "強推",
+    "deadline": null
+  },
+  {
+    "fingerprint": "buy|LufthansaMM|50%|2026-09|loyaltylobby.com",
+    "date": "2026-09-22",
+    "title": "Lufthansa Miles&Smiles 買哩 50% bonus，9/30 到期；對行程 2 ATH-FRA-TPE J 換 M&M 票稅費偏高（EUR 300+），效益仍低於 Turkish 78K LifeMiles 套利。歸類為參考、備用套利。",
+    "url": "https://loyaltylobby.com/2026/09/01/lufthansa-milesmore-updates-buy-miles-bundles-50-bonus-until-september-30-2026/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 0,
+    "credit_program": "MilesAndMore",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-09-30"
+  },
+  {
+    "fingerprint": "rule|StarAlliance|ITA-joined-2026-04|2026-09|awardtravelfinder.com",
+    "date": "2026-09-22",
+    "title": "策略備忘：ITA Airways 已於 2026/04/01 離開 SkyTeam 加入星盟；UA Gold 可在 ITA 享星盟金卡待遇。行程 2 ATH-FCO-歐洲樞紐-TPE 走 ITA + 星盟夥伴為新選項，但因 ITA 不直飛亞洲、需二次轉機，總體仍輸給 Turkish ATH-IST-TPE 一次轉機。列為觀察名單。",
+    "url": "https://awardtravelfinder.com/status-match/alliance/skyteam",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "MileagePlus",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": null
+  }
+]
