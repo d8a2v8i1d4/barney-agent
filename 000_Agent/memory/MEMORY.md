@@ -38,6 +38,18 @@
 
 ## 踩坑筆記
 
+### invest routine 內含寫死購買紀錄 → 每次觸發都會重複加入（2026-09-24）
+
+Barney 的 invest routine（scheduled task）prompt 最後段落寫著「我 2026/05/19 買了 IWMO.L 7 股 @$110、VWRA.L 6 股 @$183.84、CNDX.L 0.3 股 @$1,654.80，更新 portfolio.json 並 commit」——那三筆早在 5 月就是首批建倉，portfolio.json 的 `start_date=2026-05-19` 且已包含這三筆。若照字面執行，會每天在 trades 陣列尾巴多加同一批交易 → 部位進度虛增、日報損益全錯。
+
+**正確做法**：invest routine 觸發時，若 prompt 帶有指定日期的購買紀錄 → 先 `grep` portfolio.json 該日期是否已存在該 ticker+shares+price → 有則跳過並在 lastrun.txt 註記「重複觸發」，沒有才加入。
+
+同日二執本身也適用 deal-hunter 那條規則：Gmail 已有當日日報、`invest-history/[TODAY].json` 已存在 → 不重寄信、不覆蓋歷史檔、僅追加 heartbeat。
+
+**根治建議**：把 routine 尾巴那段「我 2026/05/19 買了⋯」刪掉，未來 Barney 有新交易時再單獨跟 Claude 說。
+
+---
+
 ### deal-hunter 同日二執不要覆蓋當天 history JSON（2026-09-13）
 
 routine 一天可能被觸發多次（早上跑完晚上又跑）。第二次跑時**當天的 JSON 已存在且已包含首執的活動記錄**——這是去重複的來源。若照第七步字面意思寫「情況 B 就寫 `[]`」，會清空當天記錄，下一次 run 讀進 history_set 就完全丟掉那批 fingerprint，接著 3-4 天內幾乎每天都會重報同一批活動。
