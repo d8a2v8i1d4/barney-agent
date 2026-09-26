@@ -1,0 +1,38 @@
+[
+  {
+    "fingerprint": "transfer|AmexUSMR|Hilton30%|2026-10|awardwallet.com",
+    "date": "2026-09-26",
+    "title": "Amex US MR → Hilton Honors 30% 轉點加碼，1:2.6，10/14 截止；對 Barney 兩段 2027 行程無用（美國 MR≈0 且 Hilton 對機票無幫助），僅備忘。",
+    "url": "https://awardwallet.com/news/amex-membership-rewards/hilton-transfer-bonus/",
+    "category": "transfer_bonus",
+    "total_cost_twd": 0,
+    "credit_program": "Hilton",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-10-14"
+  },
+  {
+    "fingerprint": "promo|FlyingBlue|SepPromoRewards-Book0930|2026-09|awardwallet.com",
+    "date": "2026-09-26",
+    "title": "Flying Blue 9 月 Promo Rewards：13 個北美城市飛歐洲商務艙起跳 45K 點；訂票 9/30 前、travel window 到 2027/02/28。對 Barney 兩段 2027 行程無用（travel window 不含 3/31 起與 6/6），僅備忘。",
+    "url": "https://awardwallet.com/airlines/flying-blue/promo-rewards/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 0,
+    "credit_program": "FlyingBlue",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-09-30"
+  },
+  {
+    "fingerprint": "buy|TurkishMS|StatusMilesBonus-Sep0210|2026-09|loyaltylobby.com",
+    "date": "2026-09-26",
+    "title": "Turkish M&S 買哩加送 Status Miles 活動 9/2–9/10（已結束）：100K–500K 買點對應 5K–20K Status Miles，價格未打折。備忘：Turkish M&S 若要走保級/挑戰，需注意此類活動。",
+    "url": "https://loyaltylobby.com/2026/09/02/turkish-airlines-campaign-buy-miles-get-also-status-miles-september-2-10-2026/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 0,
+    "credit_program": "TurkishMS",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": null
+  }
+]
