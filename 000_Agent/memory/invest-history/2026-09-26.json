@@ -1,0 +1,52 @@
+{
+  "date": "2026-09-26",
+  "total_score": 55,
+  "vix": 16.34,
+  "yield_10y": 5.163,
+  "yield_2y": 4.87,
+  "dxy": 101.138,
+  "usd_twd": 31.725,
+  "etf_scores": {
+    "SMH": 45,
+    "SOXX": 50,
+    "AVGS.L": 50,
+    "IWMO.L": 45,
+    "VWRA.L": 45,
+    "CNDX.L": 45,
+    "LQQ.PA": 45
+  },
+  "stock_scores": {
+    "AMZN": 55,
+    "TSM": 50,
+    "MSFT": 45,
+    "00631L.TW": 50,
+    "NVDA": 45,
+    "META": 45,
+    "2454.TW": 45
+  },
+  "upcoming_earnings": {
+    "NKE": "2026-10-01 (非觀察清單)"
+  },
+  "recommendation": "🟡 中性偏多｜核心：本月 DCA 已於 9/2 執行，本週不加碼｜衛星：觀望（無標的分數 >70）｜進攻：暫不動（VIX 16.3 需 ≥25，QQQ 回檔近 0% 需 ≥15%）",
+  "portfolio_progress": 0.4896348,
+  "deployed_usd": 12240.87,
+  "market_value_usd": 12785.75,
+  "unrealized_pnl_usd": 544.88,
+  "unrealized_return": 0.0445,
+  "cost_usd": 12240.87,
+  "fee_usd": 0.0,
+  "cost_twd": 390535.191411,
+  "avg_fx_cost": 31.9042,
+  "progress_note": "目前同步（實際 49.0% vs 理論 72.2%，接近落後邊界但未觸發追加條件）",
+  "days_elapsed": 130,
+  "theoretical_progress": 0.7222,
+  "agg_ladder": {
+    "done": false,
+    "level": 1,
+    "amount": 1250.0,
+    "triggered": false,
+    "reason": "VIX 16.3（需 ≥25，差 8.7）｜QQQ 回檔 <1%（需 ≥15%）"
+  },
+  "signal_change": "📌 環境分數：55 → 55（+0），與昨日類似；VIX 15.67 → 16.34（+0.67）小幅上升仍屬正常區",
+  "data_fetch_failures": []
+}
