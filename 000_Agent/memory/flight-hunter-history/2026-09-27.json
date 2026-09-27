@@ -1,0 +1,50 @@
+[
+  {
+    "fingerprint": "buy|Aeroplan|100%|2026-09|awardwallet.com",
+    "date": "2026-09-27",
+    "title": "Air Canada Aeroplan 買點加碼最高 100%（1.88 CAD¢/mile，5K 起加 50%、80K 起加 100%，上限 500K/次、1M/年），已於 2026/09/25 到期。Barney 無 Aeroplan 換票需求，Turkish M&S 78K 仍為行程 2 主戰場；未來 90%+ 若再現可備作 UA/EVA 星盟夥伴票囤點。",
+    "url": "https://awardwallet.com/airlines/air-canada-aeroplan/buy-aeroplan-points/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 0,
+    "credit_program": "Aeroplan",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": null
+  },
+  {
+    "fingerprint": "buy|LifeMiles|145%|2026-09|loyaltylobby.com",
+    "date": "2026-09-27",
+    "title": "Avianca LifeMiles 買點閃電加碼最高 145%（51K–200K 段位 1.35¢/mile），2026/09/16–09/25 已到期。行程 2 Turkish 78K J 換票理想套利點；下一波高水位可提前補點準備。",
+    "url": "https://loyaltylobby.com/2026/09/17/avianca-lifemiles-buy-miles-up-to-145-bonus-flash-sale-through-september-16-25-2026/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 0,
+    "credit_program": "LifeMiles",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": null
+  },
+  {
+    "fingerprint": "transfer|AmexUSMR|BA-IB-EI-30%|2026-09|upgradedpoints.com",
+    "date": "2026-09-27",
+    "title": "Amex US MR → British Airways / Iberia / Aer Lingus Avios 30% 轉點加碼於 2026/09/27（今日）到期。Barney 美國 MR≈0 無法利用，僅備忘：未來 BA Avios 對 JAL / Qatar / Cathay 短程套利仍有價值。",
+    "url": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+    "category": "transfer_bonus",
+    "total_cost_twd": 0,
+    "credit_program": "AviosBA",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-09-27"
+  },
+  {
+    "fingerprint": "rule|Delta|Enrollment-Deadline-2026-12-31|2026-09|delta.com",
+    "date": "2026-09-27",
+    "title": "Delta Medallion Status Match Challenge：2026 年度報名截止 2026/12/31，達成後 status 有效至 2028/01/31。補足 09/22 條目缺漏的報名截止日欄位。Barney 送件計畫維持 2027/01/02–01/05，讓 90 天挑戰窗口 1/5–4/5 涵蓋行程 1 去程 3/31。",
+    "url": "https://www.delta.com/us/en/skymiles/medallion-program/status-match-challenge",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "Delta",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-12-31"
+  }
+]
