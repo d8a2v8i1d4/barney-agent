@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-29",
+  "total_score": 55,
+  "vix": 16.17,
+  "yield_10y": 5.24,
+  "yield_2y": 4.94,
+  "dxy": 101.12,
+  "usd_twd": 31.81,
+  "etf_scores": {
+    "SMH": 50,
+    "SOXX": 50,
+    "AVGS.L": 50,
+    "VWRA.L": 45,
+    "CNDX.L": 45,
+    "IWMO.L": 45,
+    "LQQ.PA": 45
+  },
+  "stock_scores": {
+    "NVDA": 45,
+    "TSM": 50,
+    "MSFT": 45,
+    "META": 50,
+    "AMZN": 50,
+    "2454.TW": 45,
+    "00631L.TW": 50
+  },
+  "upcoming_earnings": {},
+  "recommendation": "🟡 中性偏多｜核心：維持月 DCA $2,300（未執行則本週補）｜衛星：觀望，無標的分數 >70｜進攻：暫不動（VIX 16.2 未達 25）",
+  "portfolio_progress": 0.4896,
+  "deployed_usd": 12240.87,
+  "cost_usd": 12240.87,
+  "fee_usd": 0.0,
+  "progress_note": "落後（實際 49.0% vs 理論 73.9%，比率 0.66）",
+  "agg_ladder": {
+    "done": false,
+    "level": 1,
+    "amount": 1250.0,
+    "triggered": false,
+    "reason": "VIX 16.2（需 ≥25，差 8.8）｜環境分數 55（需 ≥80）"
+  },
+  "signal_change": "環境分數：55 → 55（+0），與昨日無變化；VIX 微升 14.9→16.2 但仍在正常區",
+  "data_fetch_failures": []
+}
