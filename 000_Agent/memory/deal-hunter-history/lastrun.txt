@@ -1,1 +1,1 @@
-2026-09-29 執行完成，情況=A，新增 4 筆，過濾 5 筆（近 7 天已報：Amex MR→Hilton/Marriott 30% transfer bonus、Wyndham 系列 Amex Offer、Chase UR→Aeroplan 20%、Delta SkyMiles Platinum Match），草稿=已建立（r7286772450384525164）
+2026-09-30 執行完成，情況=A，新增 7 筆（3 強推 + 4 參考），過濾 12 筆，草稿=已建立（Gmail draft id r8650499992542162353）
