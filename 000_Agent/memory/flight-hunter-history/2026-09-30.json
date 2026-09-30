@@ -1,0 +1,38 @@
+[
+  {
+    "fingerprint": "buy|TurkishMS|100%|2026-10|loyaltylobby.com",
+    "date": "2026-09-30",
+    "title": "Turkish Miles&Smiles 買點加碼最高 100%（9/29–10/15/2026）。階梯：50K–100K 25% bonus、100K–250K 50%、250K–500K 100%（年上限 500K）。100% 段位有效成本 0.75¢/mile。對行程 2 ATH→IST→TPE 78K J 換票是絕佳套利：搭配 100% bonus 湊 78K miles，總成本約 43,900 TWD（含稅），比現金 J 65K–90K TWD 便宜 50%+。行動：10/15 前先確認 6/7 或 6/8 位子有放，再一次買到 251K miles 段位以享 100% bonus。",
+    "url": "https://loyaltylobby.com/2026/09/29/turkish-airlines-milessmiles-buy-miles-up-to-100-bonus-september-29-october-15-2026/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 43900,
+    "credit_program": "TurkishMS",
+    "challenge_progress_pct": 0,
+    "rating": "神級",
+    "deadline": "2026-10-15"
+  },
+  {
+    "fingerprint": "rule|Atmos|MemberChoiceEarn-2027-01-01|2026-09|loyaltylobby.com",
+    "date": "2026-09-30",
+    "title": "Alaska Atmos Rewards：2027/1/1 起會員可自選 elite award points 賺點方式。細節待官方 FAQ；對 Atmos 挑戰（Platinum 需 90 天 20K base points）的具體影響需 12 月再重評。備忘性質，不改變「趁 UA Gold 有效送件」的整體時序。",
+    "url": "https://loyaltylobby.com/2026/09/29/alaska-airlines-atmos-rewards-members-can-choose-how-they-earn-elite-award-points-from-january-1-2027/",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "Atmos",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": null
+  },
+  {
+    "fingerprint": "award|Starlux-Atmos|75K-USWC-TPE-thru-Jun2027|2026-09|thepointsguy.com",
+    "date": "2026-09-30",
+    "title": "Starlux 商務艙 Atmos Rewards 甜點：LAX/SFO/ONT/SEA → TPE 75K 點、PHX → TPE 85K 點，travel window 7/2026–6/2027，含 4/11–4/12 行程 1 回程日期。稅費 TPE 段 $53.83。可組合 FLL→SEA/LAX 現金 domestic（~$350–500 USD）＋ Starlux J 主段。硬體 A350 1-2-1 反魚骨頂級，但 Starlux 非聯盟成員→無法餵 AA/DL/Atmos 以外的挑戰。Barney 無 Atmos 存量，需靠 Bilt/Amex US 或現金買點；美國 MR≈0 是主要卡點。策略上仍輸給 TPE-SEA-FLL 全 Delta 金屬（餵 MQD 一趟達 Gold）。",
+    "url": "https://thepointsguy.com/deals/wide-open-starlux-business-class-award-availability/",
+    "category": "fll_award",
+    "total_cost_twd": 45000,
+    "credit_program": "Atmos",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": null
+  }
+]
