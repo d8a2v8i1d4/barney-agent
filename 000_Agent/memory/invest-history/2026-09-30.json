@@ -1,0 +1,51 @@
+{
+  "date": "2026-09-30",
+  "total_score": 55,
+  "vix": 16.03,
+  "yield_10y": 5.24,
+  "yield_2y": 4.94,
+  "dxy": 101.36,
+  "usd_twd": 31.835,
+  "etf_scores": {
+    "IWMO.L": 45,
+    "SMH": 50,
+    "SOXX": 50,
+    "AVGS.L": 50,
+    "VWRA.L": 45,
+    "CNDX.L": 40,
+    "LQQ.PA": 45
+  },
+  "stock_scores": {
+    "AMZN": 55,
+    "META": 50,
+    "MSFT": 50,
+    "NVDA": 45,
+    "TSM": 45,
+    "00631L.TW": 50,
+    "2454.TW": 30
+  },
+  "upcoming_earnings": {},
+  "recommendation": "🟡 中性偏多｜核心：維持月 DCA $2,300（下次 10 月初）｜衛星：觀望，只挑分數>70 加 $500｜進攻：暫不動（VIX 16.0 需 ≥25，差 9.0；QQQ 回檔 1.5% 需 ≥15%，差 13.5%）",
+  "portfolio_progress": 0.48963480000000004,
+  "deployed_usd": 12240.87,
+  "market_value_usd": 12776.67,
+  "unrealized_pnl_usd": 535.80,
+  "unrealized_return": 0.04377,
+  "cost_usd": 12240.87,
+  "fee_usd": 0.0,
+  "cost_twd": 390535.191411,
+  "unrealized_pnl_twd": 16209.94,
+  "unrealized_return_twd": 0.04151,
+  "avg_fx_cost": 31.904202185874045,
+  "progress_note": "落後（實際 49.0% vs 理論 74.4%），下次 DCA 可考慮追加 20%",
+  "agg_ladder": {
+    "done": false,
+    "level": 1,
+    "amount": 1250.0,
+    "triggered": false,
+    "reason": "VIX 16.0（需 ≥25，差 9.0）｜QQQ 回檔 1.5%（需 ≥15%，差 13.5%）"
+  },
+  "agg_benchmark_drawdown": 1.4597,
+  "signal_change": "環境分數：55 → 55（+0），連續 5 天無明顯訊號變化；META 因分析師調升目標價 +3.3% 反彈",
+  "data_fetch_failures": []
+}
