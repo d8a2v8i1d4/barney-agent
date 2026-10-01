@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-01",
+  "total_score": 55,
+  "vix": 16.33,
+  "yield_10y": 5.302,
+  "yield_2y": 4.89,
+  "dxy": 101.26,
+  "usd_twd": 31.89,
+  "etf_scores": {
+    "AVGS.L": 55,
+    "SMH": 50,
+    "SOXX": 50,
+    "IWMO.L": 50,
+    "VWRA.L": 45,
+    "CNDX.L": 45,
+    "LQQ.PA": 35
+  },
+  "stock_scores": {
+    "AMZN": 55,
+    "META": 55,
+    "MSFT": 50,
+    "TSM": 45,
+    "NVDA": 35,
+    "2454.TW": 50,
+    "00631L.TW": 55
+  },
+  "upcoming_earnings": {
+    "TSM": "2026-10-15",
+    "MSFT": "2026-10-28",
+    "META": "late October 2026",
+    "AMZN": "late October 2026"
+  },
+  "recommendation": "🟡 中性偏多｜核心：維持月 DCA $2,300｜衛星：觀望，無標的分數>70，暫停加碼｜進攻：暫不動（VIX 16.3 < 25）",
+  "portfolio_progress": 0.4896348,
+  "deployed_usd": 12240.87,
+  "remaining_usd": 12759.13,
+  "days_elapsed": 135,
+  "theoretical_progress": 0.75,
+  "progress_note": "落後（實際 48.96% vs 理論 75%，但未達 50% 以下觸發追加條件）",
+  "agg_ladder": {
+    "done": false,
+    "level": 1,
+    "amount": 1250.0,
+    "triggered": false,
+    "reason": "VIX 16.33（需 ≥25，差 8.67）"
+  },
+  "signal_change": "環境分數：55 → 55（+0），與昨日類似；10Y 5.302% 續創 24 年新高",
+  "data_fetch_failures": [],
+  "note_stale_prompt": "排程 prompt 底部的 2026/05/19 三筆交易已於歷史中記錄（portfolio.json core.trades），本次執行未重複寫入以避免雙重計算"
+}
