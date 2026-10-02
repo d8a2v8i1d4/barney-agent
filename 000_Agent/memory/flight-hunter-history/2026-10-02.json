@@ -1,0 +1,62 @@
+[
+  {
+    "fingerprint": "transfer|AmexUSMR|FlyingBlue25%|2026-10|awardwallet.com",
+    "date": "2026-10-02",
+    "title": "Amex US MR → Flying Blue 25% 轉點加碼（1:1.25），2026/10/31 截止。對 Barney 兩段 2027 行程效用低（美國 MR≈0），但 Flying Blue 可開 KL/AF ATH→AMS/CDG→TPE 商務艙，若未來美國 MR 補到位可當備案。TW Amex MR 無 Flying Blue 轉點通道，僅備忘。",
+    "url": "https://awardwallet.com/news/amex-membership-rewards/flying-blue-transfer-bonus/",
+    "category": "transfer_bonus",
+    "total_cost_twd": 0,
+    "credit_program": "FlyingBlue",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-10-31"
+  },
+  {
+    "fingerprint": "transfer|AmexUSMR|IberiaPlus30%|2026-10|upgradedpoints.com",
+    "date": "2026-10-02",
+    "title": "Amex US MR → Iberia Plus Avios 30% 轉點加碼（1:1.3），2026/10/24 截止。Avios 可用 BA/Iberia/Qatar 寰宇票；對行程 1 TPE⇄FLL 可能用於 AA 短程段，但 Barney 美國 MR≈0 無法利用，備忘。",
+    "url": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+    "category": "transfer_bonus",
+    "total_cost_twd": 0,
+    "credit_program": "AviosIberia",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-10-24"
+  },
+  {
+    "fingerprint": "transfer|AmexUSMR|Aeromexico20%|2026-10|upgradedpoints.com",
+    "date": "2026-10-02",
+    "title": "Amex US MR → Aeromexico Rewards 20% 轉點加碼，2026/10/30 截止。Aeromexico 對 Barney 兩段 2027 行程無直接幫助（SkyTeam 已有 Virgin 23K 開 DL 夥伴票的主路徑），備忘。",
+    "url": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+    "category": "transfer_bonus",
+    "total_cost_twd": 0,
+    "credit_program": "Aeromexico",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-10-30"
+  },
+  {
+    "fingerprint": "buy|Aeroplan|30%off|2026-10|upgradedpoints.com",
+    "date": "2026-10-02",
+    "title": "Air Canada Aeroplan 買點 30% 折扣（最高段 110K+ 享 1.85¢/point），2026/10/13 截止。本次是「折扣」非「加碼」，實際單價仍不如 09 月 Aeroplan 100% bonus 的 1.88¢ 水位。對行程 2 若要走星盟 ANA/EVA/Turkish 夥伴票可備案，但 Turkish M&S 自家 100% bonus（0.75¢/mile）更划算。備忘等級。",
+    "url": "https://upgradedpoints.com/news/buy-aeroplan-points-with-bonus/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 0,
+    "credit_program": "Aeroplan",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-10-13"
+  },
+  {
+    "fingerprint": "transfer|MarriottBonvoy|Aeroplan15%|2026-10|loyaltylobby.com",
+    "date": "2026-10-02",
+    "title": "Marriott Bonvoy → Air Canada Aeroplan 15% 轉點加碼，2026/10/1–10/31。Marriott 標準轉 Aeroplan 比例 3:1、每 60K Bonvoy 送 5K bonus；對 Barney 兩段 2027 行程無當前用途（Barney 無大量 Bonvoy 存量，且 Turkish 走自家 100% bonus 更划算），備忘。",
+    "url": "https://loyaltylobby.com/2026/10/01/air-canada-aeroplan-15-conversion-bonus-from-marriott-bonvoy-october-1-31-2026/",
+    "category": "transfer_bonus",
+    "total_cost_twd": 0,
+    "credit_program": "Aeroplan",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-10-31"
+  }
+]
