@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-02",
+  "total_score": 52,
+  "vix": 16.39,
+  "yield_10y": 5.24,
+  "yield_2y": 4.80,
+  "dxy": 102.09,
+  "usd_twd": 31.92,
+  "etf_scores": {
+    "AVGS.L": 55,
+    "VWRA.L": 45,
+    "SMH": 45,
+    "SOXX": 50,
+    "CNDX.L": 40,
+    "IWMO.L": 45,
+    "LQQ.PA": 40
+  },
+  "stock_scores": {
+    "AMZN": 55,
+    "META": 50,
+    "2454.TW": 50,
+    "00631L.TW": 50,
+    "NVDA": 45,
+    "TSM": 40,
+    "MSFT": 45
+  },
+  "upcoming_earnings": {
+    "TSM": "2026-10-15",
+    "MSFT": "2026-10-28",
+    "META": "2026-10-28",
+    "AMZN": "2026-10-29",
+    "NVDA": "2026-11-17"
+  },
+  "recommendation": "🟡 中性偏多｜今天 NFP 日，建議靜觀｜核心：維持月 DCA $2,300（10 月尚未加碼，可等下週非農消化後再執行）｜衛星：暫無分數 >60 標的，暫停｜進攻：VIX 16.4（需 ≥25）＋ QQQ 回檔 <1.5%（需 ≥15%）兩階皆未觸發",
+  "portfolio_progress": 0.48963480000000004,
+  "deployed_usd": 12240.87,
+  "market_value_usd": 12845.03,
+  "unrealized_pnl_usd": 604.16,
+  "unrealized_return": 0.04935,
+  "cost_usd": 12240.87,
+  "fee_usd": 0.0,
+  "cost_twd": 390535.19,
+  "unrealized_pnl_twd": 19284.4,
+  "unrealized_return_twd": 0.04937,
+  "avg_fx_cost": 31.90,
+  "progress_note": "實際進度 49.0% vs 理論進度 75.6%（已過 136 天），落後但未達追加門檻",
+  "agg_ladder": {
+    "done": false,
+    "level": 1,
+    "amount": 1250.0,
+    "triggered": false,
+    "reason": "VIX 16.4（需 ≥25，差 8.6）｜QQQ 回檔 ~1.5%（需 ≥15%，差 13.5%）"
+  },
+  "agg_benchmark_drawdown": 1.42,
+  "signal_change": "環境分數：55 → 52（-3，DXY 走強扣分）；今天 NFP 日，風險偏事件型",
+  "key_event_today": "2026-10-02 美國 9 月非農就業報告（NFP）",
+  "data_fetch_failures": []
+}
