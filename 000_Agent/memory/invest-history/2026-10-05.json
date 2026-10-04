@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-05",
+  "total_score": 55,
+  "vix": 15.31,
+  "yield_10y": 5.29,
+  "yield_2y": 4.83,
+  "dxy": 101.8,
+  "usd_twd": 31.82,
+  "etf_scores": {
+    "SMH": 50,
+    "SOXX": 50,
+    "AVGS.L": 50,
+    "VWRA.L": 45,
+    "CNDX.L": 45,
+    "IWMO.L": 45,
+    "LQQ.PA": 45,
+    "00631L.TW": 50
+  },
+  "stock_scores": {
+    "NVDA": 45,
+    "TSM": 45,
+    "MSFT": 50,
+    "META": 50,
+    "AMZN": 50,
+    "2454.TW": 50
+  },
+  "upcoming_earnings": {},
+  "recommendation": "🟡 中性偏多｜核心：維持月 DCA $2,300｜衛星：觀望（最高分 50，無分數>70 標的）｜進攻：暫不動（等第 1 階：VIX 15.31（需 ≥25，差 9.69）｜QQQ 回檔 0.3%（需 ≥15%，差 14.7%））",
+  "portfolio_progress": 0.4896,
+  "deployed_usd": 12240.87,
+  "market_note": "10Y 盤中因就業數據走弱一度回落至 5.15%，尾盤回升至 5.29%；Fed 9月會議紀要 10/7 公布；TSM 財報 10/15",
+  "data_fetch_failures": [
+    "00631L 52W高點數據異常（疑似拆分污染，Finnhub 顯示 542），採中性分數",
+    "RSI 未能逐檔取得公開數據，分數僅依距52W高規則計算",
+    "DXY 無單一即時源，多源交叉約 101.8"
+  ]
+}
