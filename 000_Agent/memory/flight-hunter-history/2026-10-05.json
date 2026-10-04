@@ -1,0 +1,50 @@
+[
+  {
+    "fingerprint": "buy|Atmos|100%bonus-targeted120|2026-10|onemileatatime.com",
+    "date": "2026-10-05",
+    "title": "Atmos Rewards 購點 up to 100% bonus（部分帳號 targeted 120%），10/2–10/19",
+    "url": "https://onemileatatime.com/deals/buy-alaska-atmos-rewards-points/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 0,
+    "credit_program": "Atmos",
+    "challenge_progress_pct": 0,
+    "rating": "強推",
+    "deadline": "2026-10-19"
+  },
+  {
+    "fingerprint": "rule|Delta|StatusMatch-filing-20270105|2026-10|delta.com",
+    "date": "2026-10-05",
+    "title": "[更新] Delta status match 送件時機反推：2027/1/5–1/12（審核≤15工作天，90天窗口涵蓋3/31–4/12）",
+    "url": "https://www.delta.com/us/en/skymiles/medallion-program/status-match-challenge",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "Delta",
+    "challenge_progress_pct": 0,
+    "rating": "強推",
+    "deadline": "2027-01-31"
+  },
+  {
+    "fingerprint": "rule|AA|ISP-regular-202701-registration|2026-10|thepointsguy.com",
+    "date": "2026-10-05",
+    "title": "[更新] AA Instant Status Pass：10/23 截止為企業版（需公司信箱）；一般版建議 2027/1–2 註冊",
+    "url": "http://thepointsguy.com/loyalty-programs/airline-status-matches-challenges/",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "AA",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2027-01-31"
+  },
+  {
+    "fingerprint": "promo|Starlux|COSMILE-70pct-status-miles|2026-10|starlux-airlines.com",
+    "date": "2026-10-05",
+    "title": "Starlux COSMILE 北美線商務艙（J/C/D）70% 定級哩程加成，搭乘期至 2027/3/31",
+    "url": "https://www.starlux-airlines.com/flights/en/member-specialoffers",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2027-03-31"
+  }
+]
