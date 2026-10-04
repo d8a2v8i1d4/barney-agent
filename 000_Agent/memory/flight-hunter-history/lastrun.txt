@@ -1,1 +1,1 @@
-2026-10-03 機票情報員執行完成，情況=A，尋獲 1 筆（Alaska Atmos 買點 120% bonus — 行程 1 Starlux 回程套利新水位），過濾 11 筆（Turkish 100%／Flying Blue Oct Promo／Hilton 30%／Iberia 30%／Aeromexico 20%／Flying Blue 25%／Marriott→Aeroplan 15%／Aeroplan 30% off／Virgin Atlantic 30% 已過期／LifeMiles 145% 已過期／Delta 規則不變），草稿=已建立。
+2026-10-04 機票情報員執行完成，情況=A，尋獲 4 筆（EVA 40%off／Lufthansa M&M 50%／Qatar Avios 轉點 15-35%／AA Instant Status Pass 10/23 截止），過濾 7 筆（Turkish 100%／Alaska 120%／Aeroplan 30%off／Amex→FB·IB·AM／Marriott→Aeroplan／Starlux Atmos 75K），草稿=已建立。

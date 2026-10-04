@@ -1,0 +1,50 @@
+[
+  {
+    "fingerprint": "buy|EVAInfinity|40%off|2026-10|loyaltylobby.com",
+    "date": "2026-10-04",
+    "title": "EVA Air Infinity MileageLands 買點 40% off（2026/09/22–10/08），45K+ 享 40% 折扣有效價 2.4¢/mile（原 4.0¢）。年上限 150K miles，購點不得超過兌換所需 miles 之 50%。對行程 1 EVA 自家 TPE⇄USWC J 85K/single：買 85K ≈ USD 2,040 ≈ TWD 61,000；加 USWC→FLL 現金 Y positioning TWD 15,000 + 稅 TWD 2,500 ≈ 總 TWD 78,500 single leg。EVA 不入帳 Delta/AA/Atmos，策略意義不如 Delta 全金屬 MQD。評分 76 強推。TW Amex MR 可轉 EVA Infinity 作籌碼補足。",
+    "url": "https://loyaltylobby.com/2026/09/23/eva-air-buy-miles-at-up-to-40-discount-through-october-8-2026/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 78500,
+    "credit_program": "EVAInfinity",
+    "challenge_progress_pct": 0,
+    "rating": "強推",
+    "deadline": "2026-10-08"
+  },
+  {
+    "fingerprint": "buy|LufthansaMM|50%bonus|2026-10|loyaltylobby.com",
+    "date": "2026-10-04",
+    "title": "Lufthansa Miles&More Bundle&Go 買點 50% bonus（截 2026/10/31），EUR 2,650 購 225K miles ≈ 1.18 €¢/mile；USD 定價 3,160 ≈ 1.40¢/mile；年上限 250K。M&M 可開 UA/Turkish/EVA 等 Star Alliance 商務艙但自 2024 已改 dynamic pricing，Asia–US J 常見 110K–180K miles each way。假設 110K × 1.18 €¢ ≈ EUR 1,300 ≈ TWD 44,500 one-way；兩段 TPE⇄FLL ≈ TWD 89,000+ 稅 TWD 10,000+ UA 美國轉機段 TWD 15,000 ≈ 總 TWD 114,000。缺點：M&M 稅費 YQ 重，哩程票不入帳。評分 62 參考。",
+    "url": "https://loyaltylobby.com/2026/10/02/lufthansa-milesmore-updates-buy-miles-bundles-50-bonus-until-october-31-2026/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 114000,
+    "credit_program": "LufthansaMM",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-10-31"
+  },
+  {
+    "fingerprint": "transfer|AviosQatar|conversion15-35%|2026-10|loyaltylobby.com",
+    "date": "2026-10-04",
+    "title": "Qatar Airways Privilege Club Avios 轉點加碼 15–35%（2026/10/01–10/31）。<50K Avios +15%、50K–99,999 +25%、100K+ +35%。對 Barney 無當前可用籌碼（美國 MR≈0、無大量 Marriott Bonvoy / Capital One、TW Amex 無 Qatar 通道）。純備忘：未來若累積 Capital One / Marriott 可開 Qatar Qsuite 寰宇票 ATH–DOH–TPE 甜點 78K J。評分 50 參考。",
+    "url": "https://loyaltylobby.com/2026/10/02/qatar-airways-privilege-club-15-to-35-avios-conversion-bonus-october-1-31-2026/",
+    "category": "transfer_bonus",
+    "total_cost_twd": 0,
+    "credit_program": "AviosQatar",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-10-31"
+  },
+  {
+    "fingerprint": "rule|AA|InstantStatusPass-Signup-2026-10-23|2026-10|loyaltylobby.com",
+    "date": "2026-10-04",
+    "title": "AA Instant Status Pass 報名截止 2026/10/23（距今 19 天）。三階段 × 4 個月 LP：Gold 13K、Platinum（Sapphire）25K、Platinum Pro 42K、Exec Platinum 67K；達標後 status 延至 2028/03/31。若 10/23 前報名，Phase 2 = 02/23–06/23/2027 可覆蓋行程 1 3/31–4/12、Phase 3 = 06/23–10/23/2027 可覆蓋行程 2 6/7 ATH→TPE。缺點：TPE⇄FLL 若非 AA/JAL/Qatar/Finnair/BA/Alaska 執飛則 LP 來源有限；Platinum 單階段 25K LP 單趟極難湊滿。相較 Delta MQD $3,750 一趟 Delta One 即可達標，Delta 挑戰仍為最優。AA Instant Status Pass 僅作備案。評分 55 參考（規則舊 2026/08 公告但時效近）。",
+    "url": "https://loyaltylobby.com/2026/08/21/american-airlines-instant-status-pass-promotion-sign-up-by-october-23-2026/",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "AA",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-10-23"
+  }
+]
