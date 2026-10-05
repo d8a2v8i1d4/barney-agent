@@ -38,7 +38,7 @@
   {
     "fingerprint": "promo|Starlux|COSMILE-70pct-status-miles|2026-10|starlux-airlines.com",
     "date": "2026-10-05",
-    "title": "Starlux COSMILE 北美線商務艙（J/C/D）70% 定級哩程加成，搭乘期至 2027/3/31",
+    "title": "Starlux COSMILE 北美線商務艙（J/C/D）70% 定級哩程加成,搭乘期至 2027/3/31",
     "url": "https://www.starlux-airlines.com/flights/en/member-specialoffers",
     "category": "status_match",
     "total_cost_twd": 0,
@@ -58,5 +58,41 @@
     "challenge_progress_pct": 0,
     "rating": "參考",
     "deadline": null
+  },
+  {
+    "fingerprint": "transfer|EtihadGuest|partners-10-40pct|2026-10|loyaltylobby.com",
+    "date": "2026-10-05",
+    "title": "Etihad Guest 夥伴轉點加碼 10–40%（10/1–10/31）。階梯：<10K +10%、10K–50K +20%、50K+ +40%。來源為「夥伴計畫」（Marriott Bonvoy、Amex US MR、信用卡夥伴等）。對 Barney 可用性低：美國 MR≈0、無大量 Marriott 存量、TW Amex MR 無直接 Etihad 通道。純備忘，未來若累積可用籌碼再評估 ATH→AUH→HKG/BKK→TPE 的 Etihad+夥伴票組合。評分 50 參考。",
+    "url": "https://loyaltylobby.com/2026/10/04/etihad-guest-10-to-40-conversion-bonus-from-select-partner-programs-october-1-31-2026/",
+    "category": "transfer_bonus",
+    "total_cost_twd": 0,
+    "credit_program": "EtihadGuest",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-10-31"
+  },
+  {
+    "fingerprint": "promo|FlyingBlue|OctPromoRewards-no-TPE|2026-10|loyaltylobby.com",
+    "date": "2026-10-05",
+    "title": "Flying Blue 10 月 Promo Rewards（10/1–10/31 booking，travel 至 2027/3/31）。重點路線：北美 14 城↔歐洲 J 從 45K、新加坡↔歐洲 Y 22.5K、歐洲↔北京 J 63.75K、Chicago↔Shanghai J 86.25K 單程。對行程 1/2 無直接影響（無 TPE 相關 Promo Reward 路線）。評分 45 參考。",
+    "url": "https://loyaltylobby.com/2026/10/01/air-france-klm-flying-blue-october-promo-extra-exclusive-awards-for-travel-through-march-31-2027/",
+    "category": "ath_award",
+    "total_cost_twd": 0,
+    "credit_program": "FlyingBlue",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-10-31"
+  },
+  {
+    "fingerprint": "rule|United|RevengeStatusMatch-DL-AA-only-20261015|2026-10|loyaltylobby.com",
+    "date": "2026-10-05",
+    "title": "United「Revenge」Status Match 針對 DL/AA 精英客，10/15 截止。90 天挑戰，Premier Gold 需 $3,000 qualifying spend。對 Barney 不適用（已持 UA Gold），備忘：UA 仍有釋出 match 窗口以搶 DL/AA 客，若 Barney 未來 UA Gold 失效可考慮回鍋 match 路徑。評分 40 參考。",
+    "url": "https://loyaltylobby.com/2026/10/02/uniteds-revenge-status-match-for-american-airlines-delta-air-lines-elite-members-until-october-15-2026/",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "United",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-10-15"
   }
 ]
