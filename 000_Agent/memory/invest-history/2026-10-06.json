@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-06",
+  "total_score": 52,
+  "vix": 17.63,
+  "yield_10y": 5.26,
+  "yield_2y": 4.82,
+  "dxy": 102.28,
+  "usd_twd": 31.826,
+  "etf_scores": {
+    "VWRA.L": 45,
+    "CNDX.L": 45,
+    "IWMO.L": 50,
+    "SMH": 45,
+    "SOXX": 45,
+    "AVGS.L": 45,
+    "LQQ.PA": 45
+  },
+  "stock_scores": {
+    "NVDA": 45,
+    "TSM": 45,
+    "MSFT": 50,
+    "META": 50,
+    "AMZN": 50,
+    "2454.TW": 50,
+    "00631L.TW": 45
+  },
+  "prices": {
+    "NVDA": 238.90,
+    "TSM": 484.34,
+    "MSFT": 525.18,
+    "META": 745.92,
+    "AMZN": 251.40,
+    "SMH": 630.88,
+    "SOXX": 587.62,
+    "VWRA.L": 193.84,
+    "CNDX.L": 1768.00,
+    "IWMO.L": 118.55,
+    "AVGS.L": 29.23,
+    "LQQ.PA": 10.59,
+    "2454.TW": 5165,
+    "00631L.TW": 41.54
+  },
+  "upcoming_earnings": {
+    "note": "本週（Oct 6-9）觀察清單無財報；TSM 預計 10/15、MSFT/META 10/28、AMZN 10/29"
+  },
+  "recommendation": "🟡 中性偏多｜核心：DCA 追加 20%（$2,760，VWRA.L $1,380 + IWMO.L $1,380）｜衛星：觀望（最高分 50，未達 >70 門檻）｜進攻：暫不動（LQQ.PA 距高點 0.3%，VIX 17.6 遠低於 25）",
+  "portfolio_progress": 0.48963480000000004,
+  "deployed_usd": 12240.87,
+  "remaining_usd": 12759.13,
+  "days_elapsed": 140,
+  "theoretical_progress": 0.7778,
+  "progress_note": "落後（實際 49.0% vs 理論 77.8%），建議金額追加 20%",
+  "data_fetch_failures": []
+}
