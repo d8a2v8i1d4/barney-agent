@@ -1,0 +1,26 @@
+[
+  {
+    "fingerprint": "rule|FlyingBlue|paid-match-US-Canada-Gold|2026-10|loyaltylobby.com",
+    "date": "2026-10-07",
+    "title": "Flying Blue 付費 Status Match 美加版本仍有效：UA Gold → Flying Blue Gold（= SkyTeam Elite Plus）12 個月，排除 Platinum 階。英國參考費率 £149，美加版本費率需在 StatusMatch.com 平台登入 Barney 帳號查。對行程 2 若走 AF/KL ATH→AMS/CDG→TPE 現金 J 可直接吃到 SkyTeam Elite Plus 權益（Sky Priority、休息室、優先行李），作為 Delta MQD 挑戰未達標的 SkyTeam Plan B；相較 Royal Jordanian Gold Sparrow（$149 → oneworld Sapphire）互為鏡像策略。缺點：純身份卡，不累積 XP 或任何挑戰計分。評分 78 強推。送件時機：建議先完成 Delta 挑戰、觀察 UA Gold 續卡結果，再決定是否補 Flying Blue 身份。",
+    "url": "https://loyaltylobby.com/2026/04/08/now-live-air-france-klm-flying-blue-limited-time-status-match-for-united-states-canada-april-2026/",
+    "category": "status_match",
+    "total_cost_twd": 6000,
+    "credit_program": "FlyingBlue",
+    "challenge_progress_pct": 0,
+    "rating": "強推",
+    "deadline": null
+  },
+  {
+    "fingerprint": "rule|Atmos|UA-Gold-to-Gold-90day-challenge|2026-10|awardwallet.com",
+    "date": "2026-10-07",
+    "title": "Alaska Atmos Rewards 規則補完：UA Premier Gold 只匹配到 Atmos Gold（oneworld Sapphire），不升到 Atmos Platinum。90 天挑戰窗口由匹配後起算，續期需達 20K elite 哩或 10 segments。對 Barney：若 2027/01/01 送件 → 挑戰期至 2027/04/01 剛好涵蓋去程 3/31；回程 4/11–12 已超出 90 天窗口，需靠 Atmos Rollover 或額外航段。相較付費 $149 Royal Jordanian Gold Sparrow 直接拿 Sapphire 免挑戰，Atmos 需挑戰、路徑較嚴格；但若 Barney 走 Starlux-Atmos 75K 甜點位，Atmos Gold 身份匹配可同時獲得 oneworld 權益與自家出票流程。評分 68 參考。",
+    "url": "https://awardwallet.com/airlines/alaska-atmos-rewards/alaska-status-match/",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "Atmos",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": null
+  }
+]
