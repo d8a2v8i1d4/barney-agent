@@ -1,20 +1,83 @@
 [
-  {
-    "fingerprint": "Royal Air Maroc Safar Flyer paid oneworld status match Gold Sapphire 349|viewfromthewing.com",
-    "date": "2026-10-08",
-    "title": "Royal Air Maroc Safar Flyer 付費 Oneworld Status Match（Gold = Sapphire $349、Platinum = Emerald $749、Silver = Ruby $149；status 效期至 2026-12-31）— 直接命中 Barney Oneworld Sapphire 空白區；但 2025-11-25 起條款變更，US airline status 與 US hotel elite 已被排除於合資格申請來源，Barney 的 Hilton Diamond / Marriott Gold / IHG Platinum / UA Challenge 進行中可能不被接受，需以 GHA Titanium / MSC Diamond / Ascott Platinum 或台灣居住證明試送；status 效期固定 2026-12-31 剩不到 3 個月 CP 值遞減，標 ⚠️ 參考，等 2027 版重啟才是出手時機",
-    "url": "https://viewfromthewing.com/you-can-buy-oneworld-status-and-unlock-business-and-first-class-lounges-thanks-to-new-royal-air-maroc-match-offer/",
-    "category": "airline_match",
-    "rating": "參考",
-    "deadline": "2026-12-31"
-  },
-  {
-    "fingerprint": "Capital One Miles British Airways Avios 20 transfer bonus October 1 31 2026|thepointsparty.com",
-    "date": "2026-10-08",
-    "title": "Capital One Miles → British Airways Avios 20% Transfer Bonus（2026-10-01 至 2026-10-31；1,000 CO = 1,200 Avios；最低 1,000；Avios 可於 BA/IB/EI/QR/AY/VY/Loganair 之間 1:1 互轉）— Qatar Avios 為 Barney Oneworld Sapphire 空白區兌換通貨；但 Capital One 不在下一批目標三張卡內、Barney 無 CO miles 底，純長期情報累積",
-    "url": "https://thepointsparty.com/articles/capital-one-british-airways-transfer-bonus-october-2026",
-    "category": "credit_card",
-    "rating": "參考",
-    "deadline": "2026-10-31"
-  }
+ {
+  "fingerprint": "Royal Air Maroc Safar Flyer paid oneworld status match Gold Sapphire 349|viewfromthewing.com",
+  "date": "2026-10-08",
+  "title": "Royal Air Maroc Safar Flyer 付費 Oneworld Status Match（Gold = Sapphire $349、Platinum = Emerald $749、Silver = Ruby $149；status 效期至 2026-12-31）— 直接命中 Barney Oneworld Sapphire 空白區；但 2025-11-25 起條款變更，US airline status 與 US hotel elite 已被排除於合資格申請來源，Barney 的 Hilton Diamond / Marriott Gold / IHG Platinum / UA Challenge 進行中可能不被接受，需以 GHA Titanium / MSC Diamond / Ascott Platinum 或台灣居住證明試送；status 效期固定 2026-12-31 剩不到 3 個月 CP 值遞減，標 ⚠️ 參考，等 2027 版重啟才是出手時機",
+  "url": "https://viewfromthewing.com/you-can-buy-oneworld-status-and-unlock-business-and-first-class-lounges-thanks-to-new-royal-air-maroc-match-offer/",
+  "category": "airline_match",
+  "rating": "參考",
+  "deadline": "2026-12-31"
+ },
+ {
+  "fingerprint": "Capital One Miles British Airways Avios 20 transfer bonus October 1 31 2026|thepointsparty.com",
+  "date": "2026-10-08",
+  "title": "Capital One Miles → British Airways Avios 20% Transfer Bonus（2026-10-01 至 2026-10-31；1,000 CO = 1,200 Avios；最低 1,000；Avios 可於 BA/IB/EI/QR/AY/VY/Loganair 之間 1:1 互轉）— Qatar Avios 為 Barney Oneworld Sapphire 空白區兌換通貨；但 Capital One 不在下一批目標三張卡內、Barney 無 CO miles 底，純長期情報累積",
+  "url": "https://thepointsparty.com/articles/capital-one-british-airways-transfer-bonus-october-2026",
+  "category": "credit_card",
+  "rating": "參考",
+  "deadline": "2026-10-31"
+ },
+ {
+  "category": "airline_match",
+  "date": "2026-10-08",
+  "deadline": null,
+  "fingerprint": "Kenya Airways Asante Rewards paid stat|travel-dealz.com",
+  "rating": "強推",
+  "title": "Kenya Airways Asante Rewards 付費 Status Match：飯店菁英（Marriott Bonvoy Gold / IHG Platinum / Wyndham Diamond / Choice Platinum / Best Western Diamond / GHA Titanium 皆達門檻）付 US$299 → Asante Gold（SkyTeam Elite Plus），效期 12 個月不需飛行；直接命中 Barney SkyTeam Elite Plus 空白區（travel-dealz 全文驗證）",
+  "url": "http://travel-dealz.com/deal/kenya-airways-asante-status-match/"
+ },
+ {
+  "category": "airline_match",
+  "date": "2026-10-08",
+  "deadline": null,
+  "fingerprint": "Royal Jordanian Gold Sparrow 149 one|loyaltylobby.com",
+  "rating": "參考",
+  "title": "Royal Jordanian Gold Sparrow US$149 付費 Match（oneworld Sapphire，12 個月；LoyaltyLobby 9/27 實測成功）— 但台灣居民不符資格（僅限中東/歐洲等國政府證件）、UA Premier Gold 不在認可名單 → Barney 目前無法申請，純情報累積",
+  "url": "https://loyaltylobby.com/2026/09/27/success-royal-jordanian-gold-sparrow-status-match-oneworld-sapphire-tier-2/"
+ },
+ {
+  "category": "hotel_match",
+  "date": "2026-10-08",
+  "deadline": "2026-12-31",
+  "fingerprint": "IHG double Elite Qualifying Nights|awardwallet.com",
+  "rating": "參考",
+  "title": "IHG One Rewards 雙倍 Elite Qualifying Nights（至多 10 晚）促銷至 2026-12-31，與 10 晚升 Diamond Fast Track 並行；定向制需登入確認資格；IHG Platinum → Diamond 合規升級路徑加速器",
+  "url": "https://awardwallet.com/news/ihg-one-rewards/ihg-elite-fast-track/"
+ },
+ {
+  "category": "points_talent",
+  "date": "2026-10-08",
+  "deadline": "2026-11-21",
+  "fingerprint": "Hilton buy points 120% bonus 0.45c|pointstalent.com",
+  "rating": "強推",
+  "title": "Hilton Honors 買分最高 120% 加贈（0.45¢/點，史高）至 2026-11-21（PointsTalent 10/07 更新）；Barney 靠 Aspire 持續累積 Hilton 點數，疊五晚免房 + 第五晚免費時買分補尾最划算",
+  "url": "https://www.pointstalent.com/2026/10/07/hotel-points-promotion-summary.html"
+ },
+ {
+  "category": "credit_card",
+  "date": "2026-10-08",
+  "deadline": "2026-11-18",
+  "fingerprint": "Amex Offer AMA Waterways 5x MR up|upgradedpoints.com",
+  "rating": "強推",
+  "title": "Amex Offer：AMA Waterways 每 $1 額外 5 MR（上限 50,000 MR，≈ $10,000 消費拿滿）至 2026-11-18；targeted，需登入 Amex 帳號確認；大額 Amex Offers 活動",
+  "url": "https://upgradedpoints.com/news/best-amex-offers/"
+ },
+ {
+  "category": "credit_card",
+  "date": "2026-10-08",
+  "deadline": "2026-11-21",
+  "fingerprint": "Amex Offer Red Rock Casino 100 bac|upgradedpoints.com",
+  "rating": "強推",
+  "title": "Amex Offer：Red Rock Casino Resort & Spa $500 → $100 back（20%）至 2026-11-21；targeted；回饋 ≥ $50，幫吃 Green/Aspire MSR",
+  "url": "https://upgradedpoints.com/news/best-amex-offers/"
+ },
+ {
+  "category": "credit_card",
+  "date": "2026-10-08",
+  "deadline": "2026-12-13",
+  "fingerprint": "Amex Offer Outrigger Hawaii 100 b|loyaltylobby.com",
+  "rating": "強推",
+  "title": "Amex Offer：Outrigger Hawaii $500 → $100 back（20%）至 2026-12-13（LoyaltyLobby 9/26 揭露）；targeted；回饋 ≥ $50，幫吃 MSR，夏威夷住宿可用",
+  "url": "https://loyaltylobby.com/2026/09/26/new-amex-offers-melia-radisson-outrigger-until-december-2026/"
+ }
 ]
