@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-08",
+  "total_score": 55,
+  "vix": 15.0,
+  "yield_10y": 5.24,
+  "yield_2y": 4.42,
+  "dxy": 101.8,
+  "usd_twd": 31.80,
+  "etf_scores": {
+    "SMH": 50,
+    "SOXX": 50,
+    "AVGS.L": 50,
+    "VWRA.L": 45,
+    "CNDX.L": 45,
+    "IWMO.L": 45,
+    "LQQ.PA": 45
+  },
+  "stock_scores": {
+    "AMZN": 50,
+    "2454.TW": 50,
+    "NVDA": 45,
+    "MSFT": 45,
+    "META": 45,
+    "TSM": 35,
+    "00631L.TW": 35
+  },
+  "upcoming_earnings": {
+    "TSM": "2026-10-15 (下週，本週不受影響)",
+    "ASML": "2026-10-14 (下週，半導體讀數指標)"
+  },
+  "recommendation": "🟡 中性偏多｜核心：維持月 DCA $2,300（但已部署 75.7%，接近目標，建議本月後逐步收斂）｜衛星：觀望，無標的分數>70｜進攻：暫不動（VIX 15.0 遠低於 25 門檻）",
+  "portfolio_progress": 0.4896,
+  "deployed_usd": 12240.87,
+  "market_value_usd": 13100.5,
+  "unrealized_pnl_usd": 859.63,
+  "unrealized_return": 0.0702,
+  "cost_usd": 12240.87,
+  "fee_usd": 0.0,
+  "cost_twd": 390535.19,
+  "unrealized_pnl_twd": 26130.0,
+  "unrealized_return_twd": 0.0669,
+  "avg_fx_cost": 31.9042,
+  "progress_note": "實際 48.96% vs 理論 78.9%，落後約 30pp，但未觸發追加 20% 門檻（threshold 39.5%）",
+  "days_elapsed": 142,
+  "theoretical_progress": 0.789,
+  "agg_ladder": {
+    "done": false,
+    "level": 1,
+    "amount": 1250.0,
+    "triggered": false,
+    "reason": "VIX 15.0（需 ≥25，差 10.0）｜QQQ 回檔 0.0%（需 ≥15%，差 15.0%）"
+  },
+  "agg_benchmark_drawdown": 0.0,
+  "signal_change": "環境分數：55 → 55（+0），連續 5 天無變動",
+  "data_fetch_failures": [
+    "多數標的即時價格搜尋結果過舊或衝突，採用昨日最後有效值",
+    "DXY/VIX：延續 2026-10-07 讀數",
+    "LSE/Euronext ETF 即時價格：搜尋結果過期（5月-7月資料），採用昨日估值"
+  ]
+}
