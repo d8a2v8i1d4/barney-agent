@@ -1,0 +1,26 @@
+[
+  {
+    "fingerprint": "buy|TurkishMS|25-50-100%bonus|2026-10|turkishairlines.com",
+    "date": "2026-10-08",
+    "title": "Turkish Miles&Smiles Buy Miles 25% / 50% / 100% bonus（2026/09/29–10/15）。階梯：50K–100K miles 單筆 +25%（effective 2.4¢/mile）、100K–250K +50%（2.0¢/mile）、250K–500K +100%（1.5¢/mile）。年上限 500K/會員，buy 與 bonus 皆不累積 Status Miles。對行程 2 ATH→IST→TPE J 單程試算（TK dynamic 定價 Europe→Asia J 單程約 60-80K miles 取中值 70K + USD 400 稅費）：50% bonus 層 USD 3,000 入手 150K miles → 70K × 2.0¢ + USD 400 ≈ USD 1,800 ≈ TWD 54,000，比現金軌 TWD 75-105K 省 28-49%。缺點：TK M&S 哩程票不入帳 Delta/AA/Atmos 目標挑戰計畫（-15 分），且需一次掏 USD 3,000 購點。對 Barney 23K VS 無法開 ATH→TPE 的痛點是直接解方。評分 68 參考。",
+    "url": "https://www.turkishairlines.com/en-us/miles-and-smiles/campaigns/buy-miles-earn-extra-miles/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 54000,
+    "credit_program": "TurkishMS",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-10-15"
+  },
+  {
+    "fingerprint": "rule|Delta|StatusMatch-2026cycle-cutoff-20261231|2026-10|awardwallet.com",
+    "date": "2026-10-08",
+    "title": "[更新] Delta Status Match 2026 cycle enrollment cutoff 2026-12-31（AwardWallet 版本條款）。各階門檻維持 Silver $1,250 MQD / Gold $2,500 / Platinum $3,750（3 個月挑戰期）；完成挑戰者 status 延至 2028-01-31。對 Barney 影響：原建議 2027/1/5–1/12 送件走 2027 cycle 的策略仍成立（Delta 每年延續），讓 90 天挑戰窗口涵蓋 3/31–4/12 不變。保險做法：若 2026/11–12 月 Delta 2027 cycle 條款未公告，可考慮 2026/12/28–31 用現 UA Gold 送 2026 cycle 件（但窗口約 2027/01 中–03 底，回程 4/11–12 已出窗口不理想）。UA Gold 2027/1/31 到期前（最晚 2027/1/15）應截圖存檔會員卡作為送件證據。評分 70 參考（規則補完）。",
+    "url": "https://awardwallet.com/blog/delta-status-match-promotion",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "Delta",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-12-31"
+  }
+]
