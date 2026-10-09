@@ -1,0 +1,50 @@
+[
+  {
+    "fingerprint": "buy|MarriottBonvoy|55%bonus|2026-10|onemileatatime.com",
+    "date": "2026-10-09",
+    "title": "Marriott Bonvoy 買點 up to 55% bonus（2026/09/29–11/23）。基準 $12.50 USD/1,000 pts，top 層（2K–200K 點）享 55% bonus，有效價 ~0.81¢/pt；年上限由 150K 提高至 200K 點（含 bonus）。Marriott→多數航空夥伴為 3:1、每 60K Bonvoy 送 5K bonus，實質購點效率不如 Turkish M&S 自家 100% bonus（0.75¢/mile）或 Alaska Atmos 100% bonus（1.88¢/pt 直換 Qsuite）。對 Barney：無當前 Bonvoy 大量存量；若配 Chase UR 70% transfer（10/15 截止）可開「Chase→Marriott→Aeroplan 15% bonus（10/31 截止）」星盟轉點路徑，但 Barney 以 Amex 系為主、Chase UR 存量不確定。純備忘等級。評分 50 參考。",
+    "url": "https://onemileatatime.com/deals/buy-marriott-bonvoy-points",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 0,
+    "credit_program": "MarriottBonvoy",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-11-23"
+  },
+  {
+    "fingerprint": "transfer|ChaseUR|MarriottBonvoy70%|2026-10|insideflyer.com",
+    "date": "2026-10-09",
+    "title": "Chase Ultimate Rewards → Marriott Bonvoy 70% transfer bonus，2026/10/15 截止（剩 6 天）。1,000 UR → 1,700 Bonvoy，為 Chase 歷史高點之一。對 Barney：需確認是否持有 Chase UR 卡（Sapphire/Freedom 系）；若有，可配合 10/31 截止的 Marriott→Aeroplan 15% + 10/15 截止的 Turkish M&S 100% buy miles 搭建星盟轉點複合籌碼。若 Barney 無 Chase UR 存量則純備忘。評分 40 參考。",
+    "url": "https://www.insideflyer.com/posts/amex-offers-30-bonus-to-hilton-honors/",
+    "category": "transfer_bonus",
+    "total_cost_twd": 0,
+    "credit_program": "MarriottBonvoy",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-10-15"
+  },
+  {
+    "fingerprint": "transfer|AmexUSMR|Hilton30%|2026-10|insideflyer.com",
+    "date": "2026-10-09",
+    "title": "Amex US MR → Hilton Honors 30% transfer bonus，2026/10/14 截止（剩 5 天）。1,000 MR → 2,600 Hilton Honors。InsideFlyer 建議以 ~0.38¢/pt 為兌換門檻；Hilton 整體估值已降至 ~0.35¢。對 Barney 兩段 2027 行程（商務艙機票 + 高卡挑戰）無直接助益；且美國 MR≈0 無法利用，純備忘。評分 35 參考。",
+    "url": "https://www.insideflyer.com/posts/amex-offers-30-bonus-to-hilton-honors/",
+    "category": "transfer_bonus",
+    "total_cost_twd": 0,
+    "credit_program": "HiltonHonors",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-10-14"
+  },
+  {
+    "fingerprint": "schedule|TurkishAirlines|TPE-NS27-10xweekly|2026-10|aeroroutes.com",
+    "date": "2026-10-09",
+    "title": "Turkish Airlines TPE–IST 2027 NS27（北半夏季）班次微調：2027/03/28 起由 11 班/週降為 10 班/週；機型維持 B787-9 與 B777-300ER。TK 新 Crystal 1-2-1 商務艙延後至 2026/11 於 A350 首飛，777 retrofit 排 2027–2028，TPE 線能否沾到暫未明朗。對行程 2 ATH→IST→TPE J 單程影響：IST→TPE 容量略減但 6/7–6/8 日期仍充裕；仍以 Turkish M&S 100% bonus（有效 2.0¢/mile）為最佳開票工具。對行程 1 TPE⇄FLL 無直接影響。評分 50 參考（規則補完）。",
+    "url": "https://www.aeroroutes.com/eng/261002-tkns27tpenrt",
+    "category": "ath_award",
+    "total_cost_twd": 0,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": null
+  }
+]
