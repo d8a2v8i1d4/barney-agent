@@ -1,0 +1,38 @@
+[
+  {
+    "fingerprint": "codeshare|AA-Starlux|LP-earning-live-20260930|2026-10|news.aa.com",
+    "date": "2026-10-10",
+    "title": "AA–Starlux codeshare 2026/09/30 上線，AAdvantage 可累 miles & Loyalty Points。AA code 掛 Starlux 執飛 TPE–LAX/SFO/SEA/ONT（PHX 待核准）；兌換尚未開放。對 Barney：行程 1 若選 AA code 的 Starlux J + AA 國內 USWC–FLL，一趟 RT 可累 ~ 25K+ LP，餵 AA ISP Phase 1 Gold 13K 達標、Phase 2 Platinum 25K 可達 ~ 80–120%。原「Delta MQD vs AA ISP」互斥策略可改為雙軌並進，為 Delta 挑戰未達標時的保險。評分 72 強推。缺點：Starlux 自售 JX code 不入帳 AA，需刻意選 AA code 的 fare class。",
+    "url": "https://news.aa.com/news/news-details/2026/American-Airlines-and-STARLUX-Airlines-launch-codeshare-partnership-to-expand-trans-Pacific-flight-options-NET-ALP-09/default.aspx",
+    "category": "status_match",
+    "total_cost_twd": 145000,
+    "credit_program": "AA",
+    "challenge_progress_pct": 60,
+    "rating": "強推",
+    "deadline": null
+  },
+  {
+    "fingerprint": "transfer|AmexUSMR|FlyingBlue25%|2026-10|onemileatatime.com",
+    "date": "2026-10-10",
+    "title": "Amex US MR → Flying Blue 25% transfer bonus，2026/10/31 截止（部分來源 10/30）。1,000 MR → 1,250 FB miles；最低 1,000 MR / 1,000 增量 / 最高 999K；不可回轉。對 Barney：美國 MR ≈ 0 無法利用；台灣 Amex MR 之 Flying Blue 通道不含此促銷（限 US-issued MR 卡）。未來若累積 US MR，Flying Blue 可開 ATH→AMS/CDG→TPE SkyTeam J。純備忘。評分 40 參考。",
+    "url": "https://onemileatatime.com/deals/amex-flying-blue-transfer-bonus/",
+    "category": "transfer_bonus",
+    "total_cost_twd": 0,
+    "credit_program": "FlyingBlue",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-10-31"
+  },
+  {
+    "fingerprint": "buy|Aeroplan|30pct-off-20261013|2026-10|thepointsparty.com",
+    "date": "2026-10-10",
+    "title": "Aeroplan 購點 30% off 到 2026/10/13（剩 3 天；單一弱來源 The Points Party）。階梯折扣頂階 ~ CAD 2.63¢/point（原 3.75¢）。無 Air Canada 官方 / AwardWallet / Milesopedia 佐證；Milesopedia 顯示 09/25 100% bonus 後空窗。可能為 targeted promo。對 Barney：若為真，可用 Aeroplan 購點開星盟 J（含 EVA、UA、ANA、Turkish），但 Barney 需外幣信用卡 + 不可退，建議登入 Aeroplan 帳號實測。評分 35 參考，待佐證升級。",
+    "url": "https://thepointsparty.com/articles/buy-aeroplan-points-30-percent-off-october-2026",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 0,
+    "credit_program": "Aeroplan",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-10-13"
+  }
+]
