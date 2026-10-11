@@ -1,0 +1,26 @@
+[
+  {
+    "fingerprint": "buy|DeltaSkyMiles|50%bonus|2026-10|pointscrowd.com",
+    "date": "2026-10-11",
+    "title": "Delta SkyMiles 購點 up to 50% bonus（端點不確定：9/30 or 10/31/2026 截止）。階梯：2K–10K miles +25% ... 52K–60K miles +50%，頂階有效價 ~ 2.51¢/mile。Delta 哩程估值 ~ 1.2¢，純買哩開票 CP 偏低；但對 Barney 行程 1 若採「TPE–SEA DL + SEA–FLL DL 全金屬」補哩完成 Delta Gold 挑戰（單趟 ~ $3,750 MQD 可達標）為可行路徑。假設買 70K（分 2 筆各 55K 入帳 ~82.5K）總成本 ~ USD 5,600 ≈ TWD 170,000，比現金 Delta One J RT TWD 220-260K 省 ~20%，可全額入帳 Delta MQD。端點以 Delta 個人帳號頁為準。評分 48 參考（若端點確認 10/31 升 55）。",
+    "url": "https://www.pointscrowd.com/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 170000,
+    "credit_program": "Delta",
+    "challenge_progress_pct": 100,
+    "rating": "參考",
+    "deadline": "2026-10-31"
+  },
+  {
+    "fingerprint": "rule|Atmos|UA-Gold-apply-H2-2026-valid-through-2027|2026-10|alaskaair.com",
+    "date": "2026-10-11",
+    "title": "[更新] Alaska Atmos Rewards Status Match 送件窗口規則補完（補完 10/7 history）：UA Premier Gold → Atmos Gold（oneworld Sapphire）；送件時機決定效期——2026/01/01-06/30 送件 → 效期至 2026 年底；2026/07/01-12/31 送件 → 效期至 2027 年底。對 Barney：若 2026/10 月中–12 月底之間送件，Atmos Gold 可覆蓋 2027/3/31-4/12 行程 1 + 2027/6/7 ATH→TPE 行程 2 全程，相比原「90 天挑戰窗口 4 月回程超出」的擔憂解除。但 90 天內須在 Alaska/Hawaiian 執飛段累積 10K base points（Gold 門檻）為實務瓶頸：Barney 無 AS/HA 既定航段，若不完成挑戰則狀態 90 天後失效。若無 AS 航段仍須回落 $149 Royal Jordanian Gold Sparrow 保底。建議送件日：2026/11 月中。評分 65 參考偏強推（規則補完，但 10K 挑戰門檻限制 CP）。",
+    "url": "https://www.alaskaair.com/en-us/atmosrewards/content/benefits/status-match",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "Atmos",
+    "challenge_progress_pct": 50,
+    "rating": "參考",
+    "deadline": "2026-12-31"
+  }
+]

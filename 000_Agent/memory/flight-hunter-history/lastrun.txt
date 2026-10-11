@@ -1,1 +1,1 @@
-2026-10-10 機票情報員執行完成，情況=A，尋獲 3 筆（AA-Starlux codeshare / Amex→FB 25% / Aeroplan 30% off），過濾 4 筆（AA ISP 10/23、Turkish M&S 100%、Alaska Atmos 100-120%、Delta SM 2028-01-31 近 7 日已報過），草稿=已建立（Gmail draft id 1a12367cab006bdd）。
+2026-10-11 機票情報員執行完成，情況=A，尋獲 2 筆（Delta 購點 50% bonus + Atmos SM 送件窗口規則補完），過濾 10 筆（Lufthansa M&M、Turkish M&S、Alaska Atmos buy、Qatar Avios 轉點、Starlux-Atmos、EVA、AA 40% off、United Revenge、Hilton、Marriott 購點 — 皆為近 7 天已報或規則未變），草稿=已建立（Gmail draft id r4063166890521112364）。
