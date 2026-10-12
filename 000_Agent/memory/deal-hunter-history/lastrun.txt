@@ -1,1 +1,1 @@
-2026-10-11 執行完成，情況=A（週日版週報），新增 1 筆（Amex MR→Aeromexico 20%），過濾 ≥ 10 筆（Amex Offers / RJ GCC / Royal Air Maroc / Chase CSP 100k / Citi TY→JAL 等近 7 日重複），草稿=已建立
+2026-10-12 執行完成，情況=B，新增 0 筆，過濾 15 筆（Chase UR→Marriott 70%、Rove 三檔、MR→Hilton/Flying Blue/Aeromexico、Royal Jordanian、Royal Air Maroc、Kenya Airways、Alaska Atmos match、IHG Fast Track、Hyatt 企業 Globalist、UA Challenge、Points Talent 匯總、Marriott/IHG 買分 等），草稿=已建立（Gmail draft id r5145122915522386617）
