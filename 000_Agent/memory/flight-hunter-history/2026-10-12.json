@@ -1,0 +1,38 @@
+[
+  {
+    "fingerprint": "transfer|AmexUSMR|Aeromexico20%|2026-10|milestomemories.com",
+    "date": "2026-10-12",
+    "title": "Amex US MR → Aeromexico Club Premier 20% transfer bonus，2026/10/30 截止（部分來源 10/31；MilesToMemories 與 ThePointsParty 皆有佐證）。1,000 MR → 1,200 Aeromexico points。Aeromexico Club Premier 可開 SkyTeam 夥伴獎勵票（含 KL、AF、DL、CI、GA），且常有甜點位；但 Barney 美國 MR ≈ 0 無法利用，台灣 Amex MR 無 Aeromexico 直接通道。純備忘。評分 35 參考。",
+    "url": "https://milestomemories.com/amex-transfer-bonuses-for-flying-blue-and-aeromexico/",
+    "category": "transfer_bonus",
+    "total_cost_twd": 0,
+    "credit_program": "AeromexicoClubPremier",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-10-30"
+  },
+  {
+    "fingerprint": "rule|QatarQsuite|361-day-booking-window-20261012-opens-20271008|2026-10|insideflyer.com",
+    "date": "2026-10-12",
+    "title": "[技術備忘] Qatar Qsuite 哩程票 booking window 為出發日前 361 天 03:00 Doha 時間釋出。對 Barney 行程 2：2027/6/6-6/8 ATH→DOH→TPE Qsuite 的 361 天窗口早在 2026/06/10-12 已開放，目前應可查看 Alaska Atmos / AA AAdvantage / Cathay Asia Miles / BA Avios / Qatar Privilege Club 等夥伴所見的實際放位。建議搭配 Alaska Atmos 購點 100-120% bonus（10/19 截止）實測開票。評分 55 參考（技術規則補完，驅動實測行動）。",
+    "url": "https://insideflyer.com/posts/qsuites-bookings-now-require-361-day-advance/",
+    "category": "ath_award",
+    "total_cost_twd": 0,
+    "credit_program": "AtmosRewards",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": null
+  },
+  {
+    "fingerprint": "rule|AAISP|1Phase-regular-cutoff-20261231|2026-10|aa.com",
+    "date": "2026-10-12",
+    "title": "[更新] AA 1-Phase Instant Status Pass 一般版（非企業版）terms 確認：2026/3/1-12/31 期間可登記，Loyalty Points 要在 promotional period 內達標，status 延至 2027/3/31。審核至少 4 週。對 Barney：若 2026/11-12 登記，挑戰 period 恰可涵蓋行程 1（3/31-4/12）；但 LP 門檻需查個人 target 數字。10/05 history 的「2027/1-2 註冊」建議仍更安全（挑戰 period 完整落在 Q1-Q2 2027）。本條為規則補完。評分 55 參考。",
+    "url": "https://www.aa.com/web/i18n/aadvantage-program/instant-status-pass-terms.html",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "AA",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-12-31"
+  }
+]

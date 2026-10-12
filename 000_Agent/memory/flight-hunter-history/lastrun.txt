@@ -1,1 +1,1 @@
-2026-10-11 機票情報員執行完成，情況=A，尋獲 2 筆（Delta 購點 50% bonus + Atmos SM 送件窗口規則補完），過濾 10 筆（Lufthansa M&M、Turkish M&S、Alaska Atmos buy、Qatar Avios 轉點、Starlux-Atmos、EVA、AA 40% off、United Revenge、Hilton、Marriott 購點 — 皆為近 7 天已報或規則未變），草稿=已建立（Gmail draft id r4063166890521112364）。
+2026-10-12 機票情報員執行完成，情況=B，尋獲 3 筆（Aeromexico 20% 轉點、Qatar Qsuite 361 天 booking rule 補完、AA 1-Phase ISP terms 補完；皆評分 ≤ 55 參考級），過濾 7 筆（Delta 購點 50%、Atmos 100-120%、Turkish M&S buy miles、Chase UR→Marriott、Hilton 30%、Flying Blue 25%、Virgin 70% 已結束），草稿=已建立（Gmail draft id r1278950597466691339）。
