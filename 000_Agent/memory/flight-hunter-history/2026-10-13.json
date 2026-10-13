@@ -1,0 +1,38 @@
+[
+  {
+    "fingerprint": "route|AlaskaAirlines|SEA-ATH-NS27-787-9-Business-Suites|2026-10|insideflyer.com",
+    "date": "2026-10-13",
+    "title": "[新航線] Alaska Airlines SEA-ATH 2027/05/12 開航，AS196 B787-9 週 3 班（運作至 10 月），機上 34 座 Alaska Business Suites 平躺 + Starlink。對 Barney 行程 2（6/6-6/8 ATH→TPE）戰術重大：首次出現 ATH→SEA 直飛 oneworld / Atmos 入帳路徑，接 SEA→TPE 走 AS→Starlux 甜點價 75K Atmos pts 可全程 Atmos 入帳。哩程軌粗估：ATH→SEA 70-85K Atmos + SEA→TPE 75K ≈ 145-160K 合計，搭 10/19 截止 Atmos 100% buy 促銷約 USD 2,725-3,000 ≈ TWD 82,500-91,000。現金軌 J 艙估 USD 2,800-4,500 ≈ TWD 85-135K。全程 AS 金屬可打滿 Atmos Gold 續卡 10K elite points 門檻，解決 2026/10/11 history 的實務瓶頸。缺點：J 票面與放位要到 2026/11 才上市、首航季機位有限（AS 787 機隊僅 4 架）、週 3 班須撿到 6/7-6/8 空位。評分 85 強推（偏神級）。",
+    "url": "https://www.insideflyer.com/posts/alaska-airlines-expands-seattle-intercontinental-routes/",
+    "category": "ath_award",
+    "total_cost_twd": 87000,
+    "credit_program": "Atmos",
+    "challenge_progress_pct": 100,
+    "rating": "強推",
+    "deadline": null
+  },
+  {
+    "fingerprint": "rule|AA|CorporateGoldISP-10K-LP-20261023|2026-10|insideflyer.com",
+    "date": "2026-10-13",
+    "title": "AA AAdvantage Corporate Gold Instant Status Pass 企業版 2026/10/23 截止（剩 10 天）。需用公司信箱註冊（限 AA 認可的企業帳戶），立刻拿 Gold；4 個月內累積 10K LP 保 Gold（比一般 1-Phase ISP Gold 門檻 13K 低 23%），status 延至 2028/03/31；2 年內不得再參加其他 ISP。對 Barney（商業分析師）：若任職公司有 AA 企業合約，比 10/12 history 的 2027/1-2 送 1-Phase ISP 計畫更划算，10K LP 可用行程 1 TPE⇄FLL 全程 AA code 的 Starlux + AA 國內段打滿。首要行動：先問公司商旅聯絡人 / HR 是否可用 corporate email 註冊。若不符資格則回落 regular 1-Phase ISP（12/31 截止、13K 門檻）。評分 60 參考（高度 targeted，但若 Barney 符合即是戰術升級）。",
+    "url": "https://www.insideflyer.com/posts/american-airlines-offers-instant-elite-status-until-october-2026/",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "AA",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-10-23"
+  },
+  {
+    "fingerprint": "award|FlyingBlue|45K-biz-promo-rewards-Oct2026-SEA|2026-10|monkeymiles.boardingarea.com",
+    "date": "2026-10-13",
+    "title": "Flying Blue 10 月 Promo Rewards 商務艙：Seattle、Mexico City 從 45K miles 單程（出發須在 2027/03/31 前完成），Bogotá、Cape Town、Beijing 從 63.75K miles。訂票截止 2026/10/31。對 Barney 行程 1 2027/03/31 TPE→FLL：若找到 KL/AF TPE→AMS→SEA 轉點路徑 → 45K miles + 稅費 ~USD 300 ≈ TWD 9,000。惟 TPE→AMS 段獎勵票位難求、Light fare 不可退改、Barney Flying Club 僅 23K 需補 22K miles（透過台 Amex MR 1:1 轉）。對行程 2 ATH→TPE 無此月票單覆蓋。評分 60 參考（有誘因但實務彈性差）。",
+    "url": "https://monkeymiles.boardingarea.com/flying-blue-promo-rewards/",
+    "category": "fll_award",
+    "total_cost_twd": 32000,
+    "credit_program": "FlyingBlue",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-10-31"
+  }
+]
