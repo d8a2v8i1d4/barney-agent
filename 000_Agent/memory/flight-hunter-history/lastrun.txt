@@ -1,1 +1,2 @@
 2026-10-13 機票情報員執行完成，情況=A，尋獲 3 筆（Alaska SEA-ATH 新航線[行程 2 戰術重大]、AA 企業 Gold ISP 10/23 截止、Flying Blue 10 月 Promo Rewards），過濾 5 筆（LifeMiles/Virgin 無新促、Qsuite 無新放位、Delta Status Match 2026 條款沿用、TK TPE-IST 班表微調已報），草稿=已建立。
+2026-10-13 機票情報員執行完成，情況=A，尋獲 5 筆（LifeMiles 145% 購點 強推82、Starlux 獎勵位 via Atmos 強推75、Citi→LM 25% 參考、AA Elevated Corporate Match 參考、FB Promo 雙層制 參考；與 Claude 側 3 筆合併為 8 筆），過濾 14 筆，草稿=已建立（Gmail draft id r2284232288935649643）。Etihad 購點查詢工具失敗未重試。
