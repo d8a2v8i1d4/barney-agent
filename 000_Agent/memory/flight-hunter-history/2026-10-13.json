@@ -34,5 +34,65 @@
     "challenge_progress_pct": 0,
     "rating": "參考",
     "deadline": "2026-10-31"
+  },
+  {
+    "category": "buy_miles_promo",
+    "challenge_progress_pct": 0,
+    "credit_program": "none",
+    "date": "2026-10-13",
+    "deadline": "2026-10-20",
+    "fingerprint": "buy|LifeMiles|145%bonus-20261020|2026-10|onemileatatime.com",
+    "rating": "強推",
+    "title": "Avianca LifeMiles 購點 up to 145% bonus（2026/10/12–10/20，剩 7 天；targeted 但標準帳號為 145% 檔）。階梯：買 1K–20K +125%、21K–50K +135%、51K–200K +145%；頂檔每哩 1.35¢（買 200K 實拿 490K，USD 6,600）。OMAA＋UpgradedPoints 雙來源佐證（23 小時前更新）。對行程 1：LifeMiles 美洲↔亞洲星盟 J 單程 85K，145% 檔換算單程約 USD 1,148 ≈ TWD 35,000，來回 170K＋稅費 ≈ TWD 76,000，比現金 J 基準 TWD 220-260K 省 ~65%。搭配 Citi→LifeMiles 25% 轉點（至 10/24）可混搭購點＋轉點。注意：哩程票不入帳任何挑戰計畫（-15）；LifeMiles 對部分夥伴有擋位，下單前先做 dummy 搜尋確認 3/31–4/12 放位。評分 82 強推（若目標日期放位確認可升神級）。",
+    "total_cost_twd": 76000,
+    "url": "https://onemileatatime.com/deals/buy-avianca-lifemiles/?omaatid=fm"
+  },
+  {
+    "category": "fll_award",
+    "challenge_progress_pct": 0,
+    "credit_program": "none",
+    "date": "2026-10-13",
+    "deadline": null,
+    "fingerprint": "award|Starlux|Atmos75K-mid2027-window|2026-10|tripjaunt.com",
+    "rating": "強推",
+    "title": "Starlux 商務艙大量獎勵位經 Alaska Atmos Rewards 開放，窗口自 2026/07 延續至 2027 年中（Trip Jaunt，當日爬取）。TPE ⇄ LAX/SFO/SEA/ONT 為 Atmos 75K 單程（PHX 85K），稅費約 $26/$54。可搭配 Atmos 購點 100-120% bonus（至 10/19，100% 檔約 1.88¢/pt）即刻入手：75K × 1.88¢ ≈ TWD 43,000／單程，來回 150K ≈ TWD 86,000＋稅 ≈ TWD 88,000，再加美西–FLL positioning 約 TWD 8-11K，全程 ≈ TWD 96-99K，比 Starlux 現金 J 基準 TWD 145K 省 ~32%。行程 1 建議日期 3/31–4/12 應在窗口內但需以 Alaska/Atmos 實搜驗證確切放位。哩程票不入帳（-15）。評分 75 強推。行動：10/19 購點截止前完成「購點＋查位」。若走現金改用 AA code（見 10/10 AA–Starlux codeshare 條目）可餵 AA ISP LP。",
+    "total_cost_twd": 99000,
+    "url": "http://tripjaunt.com/starlux-opens-business-class-awards-to-taipei/"
+  },
+  {
+    "category": "transfer_bonus",
+    "challenge_progress_pct": 0,
+    "credit_program": "LifeMiles",
+    "date": "2026-10-13",
+    "deadline": "2026-10-24",
+    "fingerprint": "transfer|CitiThankYou|LifeMiles25%|2026-10|loyaltylobby.com",
+    "rating": "參考",
+    "title": "Citi ThankYou → Avianca LifeMiles 25% 轉點加碼（2026/09/20–10/24，剩 11 天）。Strata Elite/Premier/Prestige/AT&T Access More：1,000 Citi → 1,250 LM；免年費卡系 1:0.875。與今日 LifeMiles 145% 購點促銷（至 10/20）可組成混搭策略：轉點補小額缺口、購點吃大額。Barney 持有哪張 Citi 卡尚未確認，有卡才適用；若無 Citi 卡則純備忘。評分 45 參考。",
+    "total_cost_twd": 0,
+    "url": "https://loyaltylobby.com/2026/09/20/citi-thankyou-to-avianca-lifemiles-25-points-to-miles-conversion-bonus-september-20-october-24-2026/"
+  },
+  {
+    "category": "status_match",
+    "challenge_progress_pct": 0,
+    "credit_program": "AA",
+    "date": "2026-10-13",
+    "deadline": null,
+    "fingerprint": "rule|AA|CorporateStatusMatchPlus-targeted|2026-10|upgradedpoints.com",
+    "rating": "參考",
+    "title": "[更新] AA 新增「Elevated Status Match / Corporate Status Match Plus」（targeted，UpgradedPoints 23 小時前更新）：符合資格者可 match 至 AA Executive Platinum，4 個月試用期內累積 50K LP（Citi 聯名卡主卡持有人）或 100K LP（無卡）即可保留至 2028/3/31。注意：此為企業版 targeted 邀請，資格取決於公司與 AA 合作關係或 AAdvantage Business Select 夥伴身份；Barney UA Gold 的映射層級未明，Delta Platinum → EP 為報導範例。建議：先登入 AAdvantage 帳號檢查 Promotions 分頁有無此邀請；無邀請者仍以 1-Phase ISP（2026/12/31 登記截止）為主線，送件時機維持 2027/01–02。背景：United 正以「Switch to Better Wi-Fi」向 Delta/AA 菁英反向挖角（申請至 10/15），三大航 loyalty war 升溫。評分 58 參考。",
+    "total_cost_twd": 0,
+    "url": "https://upgradedpoints.com/news/american-airlines-elevated-status-match/"
+  },
+  {
+    "category": "transfer_bonus",
+    "challenge_progress_pct": 0,
+    "credit_program": "FlyingBlue",
+    "date": "2026-10-13",
+    "deadline": null,
+    "fingerprint": "rule|FlyingBlue|promo-Light-Standard-dual-tier|2026-10|insideflyer.com",
+    "rating": "參考",
+    "title": "[規則補完] Flying Blue 2026/10 起 Promo Rewards 改為雙層制：Light（原折扣價，如跨大西洋 J 45K）無免費改退、無休息室、無全額行李；Standard 貴 25% 恢復彈性。9 月 devaluation 的延續影響。10 月 Promo Rewards（可訂至 10/31，適用旅行至 2027/03）：SEA/Mexico City 跨大西洋 J 45K 起，但無 TPE/ATH 相關航線 → 對 Barney 兩段行程無直接可用日期，依日期規則丟棄；僅作未來 FB 開票成本模型更新。評分 40 參考。",
+    "total_cost_twd": 0,
+    "url": "https://www.insideflyer.com/posts/flying-blue-now-offers-two-promo-award-tiers/"
   }
 ]
