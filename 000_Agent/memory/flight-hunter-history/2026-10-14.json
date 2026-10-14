@@ -1,0 +1,26 @@
+[
+  {
+    "fingerprint": "rule|Atmos|Communities-6-expansion-20261001|2026-10|news.alaskaair.com",
+    "date": "2026-10-14",
+    "title": "[規則補完] Alaska Atmos Rewards 社群擴充：自 2026/10/01 由 Club 49 + Huaka'i 擴至 6 個 Communities（Global Locals、Families on the Go、Culinary Journeys、Active Escapes、Club 49、Huaka'i）。Platinum/Titanium 自 11/02 起享 Premium Class 升等。對 Barney Atmos Gold 挑戰（10/13 history 的 SEA-ATH 戰術、Starlux 75K 甜點位開票）無直接影響，但新社群未來可能帶動 earning multiplier 或 bonus challenge activity，值得持續觀察 Alaska Newsroom。評分 45 參考。",
+    "url": "https://news.alaskaair.com/",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "Atmos",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": null
+  },
+  {
+    "fingerprint": "rule|Delta|StatusMatch-3Yr-OnceOnly-cycle2026|2026-10|awardwallet.com",
+    "date": "2026-10-14",
+    "title": "[更新] Delta Status Match 2026 cycle 條款補完：enrollment 限制「每 3 年僅能參加一次」，自 2023/01/01 起已做過任何 Delta status match 或 challenge 者視為不符資格；MQD HeadStart（Amex 卡）MQDs 不計入挑戰門檻。對 Barney：若過去 3 年內（2023-2026）曾用其他計畫路徑做過 match / challenge，Delta 這條可能被封。送件前務必確認過往 match 紀錄。相較 10/08 history 的 2026 cycle 截止 12/31 規則，這條是門檻資格端的補完，對送件決策影響更大。評分 55 參考。",
+    "url": "https://awardwallet.com/blog/delta-status-match-promotion",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "Delta",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-12-31"
+  }
+]
