@@ -1,1 +1,1 @@
-2026-10-13 執行完成，情況=A，新增 3 筆，過濾 9 筆，草稿=已建立
+2026-10-14 執行完成，情況=B，新增 0 筆，過濾 ~30 筆（近 7 天已報），草稿=已建立（Gmail draft id r8345215310735214722；WebFetch doctorofcredit.com / pointstalent.com / vvinsider.com 皆 DNS 失敗，純 WebSearch 判定）
