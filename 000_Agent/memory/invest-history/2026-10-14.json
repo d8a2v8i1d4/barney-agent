@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-14",
+  "total_score": 55,
+  "vix": 15.4,
+  "yield_10y": 5.19,
+  "yield_2y": 4.42,
+  "dxy": 102.19,
+  "usd_twd": 32.18,
+  "etf_scores": {
+    "SOXX": 60,
+    "SMH": 55,
+    "AVGS.L": 55,
+    "IWMO.L": 50,
+    "VWRA.L": 45,
+    "CNDX.L": 45,
+    "LQQ.PA": 45
+  },
+  "stock_scores": {
+    "2454.TW": 65,
+    "TSM": 50,
+    "AMZN": 50,
+    "00631L.TW": 50,
+    "NVDA": 45,
+    "MSFT": 45,
+    "META": 45
+  },
+  "upcoming_earnings": {
+    "TSM": "2026-10-15"
+  },
+  "recommendation": "🟡 中性偏多｜核心：可執行 10 月 DCA $2,300｜衛星：觀望，最高分 SOXX 60 未達 70｜進攻：暫不動（VIX 15.4 需 ≥25，QQQ 回檔 ~1.9% 需 ≥15%）",
+  "portfolio_progress": 0.48963480000000004,
+  "deployed_usd": 12240.87,
+  "market_value_usd": 12806.0,
+  "unrealized_pnl_usd": 565.13,
+  "unrealized_return": 0.04617,
+  "cost_usd": 12240.87,
+  "fee_usd": 0.0,
+  "cost_twd": 390535.191411,
+  "unrealized_pnl_twd": 20100.0,
+  "unrealized_return_twd": 0.05147,
+  "avg_fx_cost": 31.904202185874045,
+  "progress_note": "進度稍落後但在正常範圍（48.96% vs 理論 82.2%）",
+  "agg_ladder": {
+    "done": false,
+    "level": 1,
+    "amount": 1250.0,
+    "triggered": false,
+    "reason": "VIX 15.4（需 ≥25，差 9.6）｜QQQ 回檔 ~1.9%（需 ≥15%，差 13.1%）"
+  },
+  "agg_benchmark_drawdown": 1.9,
+  "signal_change": "環境分數：55 → 55（+0），與昨日類似。VIX 微升 15.21→15.40，10Y 微降 5.24%→5.19%，DXY 走弱 102.42→102.19（Williams 鴿派）",
+  "data_fetch_failures": [
+    "WebFetch (Yahoo/Google/CNBC/MarketWatch/Investing.com) DNS 無法解析，僅能用 WebSearch 間接取值",
+    "AVGS.L、IWMO.L 最近成交日搜尋結果不完整，使用近期估值",
+    "LQQ.PA 搜尋結果版本不一，沿用昨日價格"
+  ]
+}
