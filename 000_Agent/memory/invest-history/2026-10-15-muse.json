@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-15",
+  "side": "muse",
+  "total_score": 52,
+  "vix": 17.09,
+  "yield_10y": 5.189,
+  "yield_2y": 4.8,
+  "dxy": 102.909,
+  "usd_twd": 32.16,
+  "etf_scores": {"SMH": 65, "SOXX": 65, "AVGS.L": 55, "IWMO.L": 55, "VWRA.L": 50, "CNDX.L": 50, "LQQ.PA": 50, "00631L.TW": 50},
+  "stock_scores": {"2454.TW": 65, "AMZN": 55, "TSM": 55, "NVDA": 50, "META": 50, "MSFT": 45},
+  "upcoming_earnings": {"TSM": "2026-10-15", "META": "2026-10-23", "MSFT": "2026-10-28", "AMZN": "2026-10-29"},
+  "recommendation": "🟡 中性偏多｜核心：維持月 DCA $2,300（VWRA.L $800 + IWMO.L $700 + CNDX.L $800）｜衛星：觀望（無>70分標的；TSM 今日盤前財報暫停）｜進攻：暫不動（VIX 17.1<25；QQQ 回檔<15%）｜今日總建議部署 $2,300｜[訊號變化] VIX 單日+11.9%、9月CPI熱於預期",
+  "portfolio_progress": 0.4896348,
+  "deployed_usd": 12240.87,
+  "progress_note": "目前同步",
+  "agg_ladder": {"done": false, "level": 1, "amount": 1250.0, "triggered": false, "reason": "VIX 17.1（需 ≥25，差 7.9）｜QQQ 回檔 ~2%（需 ≥15%，差約 13%）"},
+  "signal_change": "環境分數：55 → 52（-3）；[訊號變化] VIX +11.9%、9月CPI 3.7%高於預期；SMH/2454 跨上 65 分",
+  "data_fetch_failures": [],
+  "notes": "Claude 側已寫入同日正本 2026-10-15.json（環境分數 55），本檔為 Muse 側並行比對版本，不覆寫正本。台指期夜盤 10/15 凌晨 -853 點收 47,945，今日 00631L 開盤承壓；TSM 今日美股盤前財報、台北 14:00 電話會議，衛星加碼暫停。2454 P/E 資料源不一致（Finnhub 77.5 vs Stockopedia 42.05），如實註記未採用。市場價值本次未重算（無新增交易；10/14 市值 $12,681.86，+3.6%）。"
+}
