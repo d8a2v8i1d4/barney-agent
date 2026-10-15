@@ -1,0 +1,86 @@
+[
+  {
+    "fingerprint": "buy|Aeroplan|90pct-bonus-20261014-1029|2026-10|onemileatatime.com",
+    "date": "2026-10-15",
+    "title": "Air Canada Aeroplan 買點 up to 90% bonus（10/14–10/29），約 1.38¢ USD；階梯 5K–25K 50% / 30K–70K 75% / 80K+ 90%",
+    "url": "https://onemileatatime.com/deals/buy-air-canada-aeroplan-points/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 38000,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "強推",
+    "deadline": "2026-10-29"
+  },
+  {
+    "fingerprint": "buy|Atmos|100pct-bonus-20261002-1019|2026-10|onemileatatime.com",
+    "date": "2026-10-15",
+    "title": "Alaska Atmos Rewards 買點 up to 100% bonus（部分帳戶 targeted 120%），10/2–10/19，約 1.88¢ 含稅；120% 版約 1.71¢",
+    "url": "https://thepointsparty.com/articles/buy-atmos-rewards-points-100-percent-bonus-october-2026",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 110000,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "強推",
+    "deadline": "2026-10-19"
+  },
+  {
+    "fingerprint": "buy|Virgin|50pct-bonus-20261112|2026-10|smartwithpoints.co.uk",
+    "date": "2026-10-15",
+    "title": "買哩追蹤（至 11/12）：Virgin Atlantic 買點 50% / Etihad Guest 買哩 25% / Qatar Privilege Club 買 Avios 20%",
+    "url": "https://smartwithpoints.co.uk/p/leshuttle-avios-25-percent-back",
+    "category": "buy_miles_promo",
+    "total_cost_twd": null,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-11-12"
+  },
+  {
+    "fingerprint": "rule|United|SwitchToBetterWiFi-match-20261015|2026-10|pointsmilesandbling.com",
+    "date": "2026-10-15",
+    "title": "United「Switch To Better Wi-Fi」反向 Status Match：Delta/AA 菁英申請至 10/15，90 天挑戰（$1,500–$7,000），達標保到 2028/1/31",
+    "url": "https://pointsmilesandbling.com/united-status-match/",
+    "category": "status_match",
+    "total_cost_twd": null,
+    "credit_program": "United",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-10-15"
+  },
+  {
+    "fingerprint": "transfer|MarriottBonvoy|Aeroplan15pct|2026-10|onemileatatime.com",
+    "date": "2026-10-15",
+    "title": "Marriott Bonvoy → Air Canada Aeroplan 15% transfer bonus（10/1–10/31，bonus 需 8–10 週入帳）",
+    "url": "https://onemileatatime.com/deals/aeroplan-hotel-points-transfer-bonus/",
+    "category": "transfer_bonus",
+    "total_cost_twd": null,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-10-31"
+  },
+  {
+    "fingerprint": "transfer|CapitalOne|BA-Avios20pct|2026-10|frequentmiler.com",
+    "date": "2026-10-15",
+    "title": "Capital One → British Airways Avios 20% transfer bonus（10/1–10/31）",
+    "url": "https://frequentmiler.com/current-point-transfer-bonuses/",
+    "category": "transfer_bonus",
+    "total_cost_twd": null,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-10-31"
+  },
+  {
+    "fingerprint": "transfer|CitiThankYou|Qatar35pct|2026-10|thepointsparty.com",
+    "date": "2026-10-15",
+    "title": "Citi ThankYou → Qatar Privilege Club up to 35% transfer bonus（階梯 15%/25%/35%，10/1–10/31；bonus 11/30 前入帳）",
+    "url": "https://thepointsparty.com/articles/citi-qatar-airways-transfer-bonus-october-2026",
+    "category": "transfer_bonus",
+    "total_cost_twd": null,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-10-31"
+  }
+]
