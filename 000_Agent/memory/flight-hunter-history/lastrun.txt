@@ -1,1 +1,1 @@
-2026-10-15 機票情報員執行完成，情況=A，尋獲 7 筆（Aeroplan 買點 90% 強推、Atmos 買點 100% 強推、Virgin/Etihad/QR 買哩追蹤、UA 反向 match、Marriott→Aeroplan 15%、Cap1→BA 20%、Citi→Qatar 35%），過濾 20+ 筆（Turkish M&S/Chase→Marriott/LifeMiles 145%/AA ISP/Citi TY→LM/Amex→Aeromexico/Amex→FB/VS 70%已過期/Aeroplan 30%off已過期/Qsuite/Flying Blue 10 月票單皆為近 7 天已報），草稿=已建立（Gmail 草稿 id r3422609693009414289，主旨驗證正確）。
+2026-10-16 機票情報員執行完成，情況=B，尋獲 1 筆（Etihad 轉點進倉 40%，參考級），過濾 11 筆（LifeMiles/Atmos/Aeroplan 購點、Marriott/Capital One/Citi 轉點、AA ISP、Flying Blue Promo、Virgin/Qatar 購點、Delta MQD 挑戰、Starlux Atmos 甜點位），草稿=已建立（Case B 平安信，含 8 條到期倒數）。
