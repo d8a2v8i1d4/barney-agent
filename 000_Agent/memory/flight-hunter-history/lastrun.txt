@@ -1,1 +1,1 @@
-2026-10-17 機票情報員執行完成，情況=A，尋獲 2 筆（Alaska SEA-ATH saver 位已釋出、AA ISP terms 跨層級限制補完），過濾 10+ 筆（Virgin/Aeroplan/Flying Blue/Etihad/Cathay 購點近期空檔、Delta/Atmos 規則條款重複），草稿=已建立。
+2026-10-17 機票情報員執行完成，情況=A，尋獲 2 筆（Rove→Flying Blue 40% 轉點，參考級；Delta Status Match 2026 門檻確認＋建議 2027/1 上旬送件，強推級），並行 run 同步 2 筆（Alaska SEA-ATH saver 位釋出，強推級；AA ISP 不得申請低於或等於現有層級規則補完，參考級），過濾 15 筆，草稿=已建立（Case A，含 8 條到期倒數；行程 2 區塊已併入並行 run 的 saver 位發現）。
