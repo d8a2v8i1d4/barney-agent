@@ -1,0 +1,26 @@
+[
+  {
+    "fingerprint": "award|Alaska|SEA-ATH-saver-availability-released-20261017|2026-10|liveandletsfly.com",
+    "date": "2026-10-17",
+    "title": "[更新] Alaska Airlines SEA-ATH saver 哩程位已釋出部分日期。Live and Let's Fly 與 Business Travel News Europe 等多家獨立佐證「there is already some saver-level award space available on select dates」。對 Barney 行程 2（6/6-6/8 ATH→TPE）戰術決定性：補完 10/13 history 原記「J 票面與放位要到 2026/11 才上市」的缺口，哩程軌實測可行性大幅提高。建議立刻用 Alaska 官網或 Seats.aero 實測 2027/6/7-6/8 ATH→SEA 的 Atmos 哩程位；若 saver 位實際存在，可與今日 Atmos 100% 購點促銷（10/19 截止，約 1.88¢/pt）同步下手。粗估 ATH→SEA 70-85K Atmos + SEA→TPE 75K ≈ 145-160K + 稅 USD 60，搭 100% 購點約 USD 2,725-3,000 ≈ TWD 82,500-91,000，比現金 J 基準 TWD 135-200K 省 ~45-60%。全程 AS 執飛可全額入 Atmos，若在 11 月中送件啟動 Atmos Gold 挑戰 90 天窗口可一次吃滿 10K base points 門檻。評分 75 強推。",
+    "url": "https://liveandletsfly.com/alaska-airlines-seattle-athens-paris-787-9/",
+    "category": "ath_award",
+    "total_cost_twd": 87000,
+    "credit_program": "Atmos",
+    "challenge_progress_pct": 100,
+    "rating": "強推",
+    "deadline": null
+  },
+  {
+    "fingerprint": "rule|AAISP|cannot-match-lower-equal-20260720|2026-10|aa.com",
+    "date": "2026-10-17",
+    "title": "[規則補完] AA 1-Phase Instant Status Pass terms（aa.com 2026/07/20 更新版）新增一條「customers may not participate for a lower or equal status than the status they currently hold」——意即申請者的現有 AA status 不得等於或高於 ISP 要兌的目標層級。對 Barney 影響：本身無 AA AAdvantage status（只持 UA Gold），不受此條款限制，仍可用 UA Gold 身份走 1-Phase ISP 一般版換 AA Gold（2026/12/31 登記截止，Gold LP 門檻 13K，4 個月 Phase 內達標）。連帶：若 Barney 日後先走 Corporate Gold ISP 拿到 AA Gold，再想用 ISP 跳 Platinum（25K LP）即被此條款封鎖，須回落實飛累 LP 的路徑。原 10/12 history 僅記錄 ISP 一般版截止日與 LP 門檻，本條補完 ISP 的「跨層級限制」細則。評分 48 參考（純規則補完，不改變當前送件策略；但先 Corporate Gold 再 Platinum 的路徑被封需記住）。",
+    "url": "https://www.aa.com/i18n/aadvantage-program/instant-status-pass-terms.jsp",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "AA",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-12-31"
+  }
+]
