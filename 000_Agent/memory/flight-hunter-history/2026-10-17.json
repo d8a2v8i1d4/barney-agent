@@ -22,5 +22,29 @@
     "challenge_progress_pct": 0,
     "rating": "參考",
     "deadline": "2026-12-31"
+  },
+  {
+    "fingerprint": "rule|Delta|MatchMQD-2500Gold-2027-01-apply|2026-10|thepointsguy.com",
+    "date": "2026-10-17",
+    "title": "[更新] Delta Status Match 2026 門檻與送件時機拍板（TPG 指南 9 天前確認）：UA Premier Gold → Gold Medallion 3 個月試用，90 天挑戰門檻 Silver 1,250／Gold 2,500／Platinum 3,750 MQD；2026 內完成者狀態延至 2028/1/31。建議送件日 2027/1 上旬：窗口自 enrollment 起算 90 天，1–4 月正好覆蓋行程 1（3/31–4/12），用行程 1 航段餵 MQD。前置條件：SkyMiles 帳戶開立 ≥30 天（現在就開戶養帳齡）、過去 3 年內至少 1 段 Delta-marketed 航班（Basic Economy 除外）、每 3 年僅能參加一次。UA Gold 效期撐到 2027/1，拖過 1 月恐失 match 資格。待確認：2027 cycle 的延長效期條款尚未公布，送件前 1 週需再查。評分 80 強推。",
+    "url": "http://thepointsguy.com/loyalty-programs/airline-status-matches-challenges/",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "Delta",
+    "challenge_progress_pct": 0,
+    "rating": "強推",
+    "deadline": null
+  },
+  {
+    "fingerprint": "transfer|Rove|FlyingBlue40pct-20261001-1031|2026-10|awardwallet.com",
+    "date": "2026-10-17",
+    "title": "[新] Rove Miles → Flying Blue 40% transfer bonus（2026/10/1–10/31 11:59pm EDT；1,000 Rove → 1,400 FB miles）。與 Rove→JAL 50%（10/31 截止）二選一：JAL 側是 6 月歐洲–日本 JAL first waitlist 250K 籌碼主線；FB 側是行程 2 ATH→TPE 的 SkyTeam 備援（KLM/AF 經 AMS/CDG 開票）。Rove 帳戶／餘額未確認（10/08 待回覆），先確認持有再決定流向。評分 60 參考。",
+    "url": "https://awardwallet.com/news/rove-miles/rove-transfer-bonus/",
+    "category": "transfer_bonus",
+    "total_cost_twd": 0,
+    "credit_program": "FlyingBlue",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-10-31"
   }
 ]
