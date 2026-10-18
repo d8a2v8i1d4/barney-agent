@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-18",
+  "side": "muse",
+  "total_score": 65,
+  "vix": 19.99,
+  "yield_10y": 5.09,
+  "yield_2y": 4.72,
+  "dxy": 101.8,
+  "usd_twd": 32.45,
+  "etf_scores": {
+    "SMH": 75,
+    "SOXX": 75,
+    "CNDX.L": 55,
+    "IWMO.L": 55,
+    "LQQ.PA": 55,
+    "00631L": 55,
+    "VWRA.L": 50,
+    "AVGS.L": 45
+  },
+  "stock_scores": {
+    "TSM": 65,
+    "2454": 65,
+    "NVDA": 55,
+    "AMZN": 55,
+    "META": 50,
+    "MSFT": 45
+  },
+  "upcoming_earnings": {
+    "META": "2026-10-21",
+    "2454": "2026-10-23"
+  },
+  "recommendation": "🟢 訊號偏多｜核心：10月DCA $2,300（VWRA.L $900/CNDX.L $800/IWMO.L $600）+ 訊號加碼 $1,000（CNDX.L $500/IWMO.L $500）｜衛星：SOXX $800（分數75，RSI 27.3超賣）｜進攻：暫不動",
+  "portfolio_progress": 0.4896348,
+  "deployed_usd": 12240.87,
+  "progress_note": "目前同步",
+  "signal_change": "環境分數：60 → 65（+5），跨越中性偏多→訊號偏多分位，訊號變化",
+  "data_fetch_failures": []
+}
