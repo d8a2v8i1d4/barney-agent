@@ -1,0 +1,26 @@
+[
+  {
+    "fingerprint": "rule|VirginAtlantic|AnySeatPoints-2024-launch-not-2026|2026-10|corporate.virginatlantic.com",
+    "date": "2026-10-18",
+    "title": "[釐清/避免重複] Virgin Atlantic Flying Club「每個座位可用點數」規則為 2024/09/30 公告、2024/10/30 正式生效（新制已上線兩年），並非 2026 新制。Saver reward seats、dynamic pricing、Red/Silver/Gold 升等 voucher 上限（75K/150K）亦同期落地。對 Barney 兩段 2027 行程評估：此規則主要影響 Virgin Atlantic 自家 metal（LHR 起降），對 Barney 經 Delta / KLM / AF 的 SkyTeam 夥伴開票不直接適用，Virgin 23K 存量仍需按原 Virgin partner award chart 評估。本條記入是為避免未來 run 把舊規則誤報為新情報。評分 30 參考（純釐清）。",
+    "url": "https://corporate.virginatlantic.com/gb/en/media/press-releases/every-virgin-atlantic-seat-now-available-with-points.html",
+    "category": "ath_award",
+    "total_cost_twd": 0,
+    "credit_program": "VirginAtlantic",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": null
+  },
+  {
+    "fingerprint": "award|JAL|awardsale-20261031-notargeting-2027|2026-10|travelingformiles.com",
+    "date": "2026-10-18",
+    "title": "[新/日期不符] JAL award sale 2026/10/31 訂票截止：Asia 區段 Japan↔Taipei 旅行窗口僅 2026/10/09–2026/10/31，US↔Japan 經濟 18,900 miles、Europe↔Japan 商務 38,500 miles 等。對 Barney 兩段 2027 行程完全無覆蓋（行程 1 3/31–4/12、行程 2 6/6–6/9），依第四步日期過濾規則丟棄。背景備忘：JAL 若 11 月再推 2027 旅行窗口的 sale，可重新評估；JAL 甜點票仍是 Europe→Asia 的優質籌碼。評分 25 不報（日期不符）。",
+    "url": "https://travelingformiles.com/japan-airlines-jal-award-sale-usa-economy-class-18900-miles-europe-business-class-38500-miles/",
+    "category": "transfer_bonus",
+    "total_cost_twd": 0,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-10-31"
+  }
+]
