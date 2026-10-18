@@ -34,5 +34,77 @@
     "category": "long_term",
     "rating": "強推",
     "deadline": null
+  },
+  {
+    "category": "ua_challenge",
+    "date": "2026-10-18",
+    "deadline": null,
+    "fingerprint": "United 2027 取消 PQF PQP only 制 1K 32k|awardwallet.com",
+    "rating": "強推",
+    "title": "United 2027 年起取消 PQF：Premier 改為 PQP-only 制（Silver 6,000 / Gold 12,000 / Platinum 18,000 / 1K 上調至 32,000；每年仍需 4 段 UA/UA Express）；2026 年已開始的 challenge（含 Barney 的 Premier Gold 120 天挑戰）保留 PQF 門檻不變——挑戰達標請在 2026 年內完成",
+    "url": "https://awardwallet.com/news/united-mileageplus/2027-premier-status-qualification-updates/"
+  },
+  {
+    "category": "biz_class",
+    "date": "2026-10-18",
+    "deadline": "2026-10-25",
+    "fingerprint": "Philippine Airlines Premium Cabin Seat Sale 60% off Oct 19 25|theglobalfilipinomagazine.com",
+    "rating": "參考",
+    "title": "Philippine Airlines 首屆 Premium Cabin Seat Sale：商務艙 / 優選經濟最高 6 折（2026-10-19 至 10-25 開放訂購；具體航線與票價 10/19 才公布；PAL 預計 2027 入盟 oneworld）——TPE–MNL 是否在列待確認，訂票窗口僅 7 天",
+    "url": "https://theglobalfilipinomagazine.com/fly-business-for-less-pal-offers-up-to-60-off-premium-seats-starting-october-19/"
+  },
+  {
+    "category": "credit_card",
+    "date": "2026-10-18",
+    "deadline": "2026-11-08",
+    "fingerprint": "Amex Offer Qatar Airways 1800 270 credit|insideflyer.com",
+    "rating": "強推",
+    "title": "Amex Offer：Qatar Airways $1,800 → $270 statement credit（15%，targeted；qatarairways.com 美國官網/App 訂票，美國出發 USD 結帳；oneworld）——回饋 $270 ≥ $50 命中衝 spend 專項，可吃 Aspire 剩餘 MSR 的 47%",
+    "url": "https://www.insideflyer.com/posts/amex-offers-270-credit-for-qatar-airways-us-bookings/"
+  },
+  {
+    "category": "credit_card",
+    "date": "2026-10-18",
+    "deadline": "2026-10-31",
+    "fingerprint": "Rove Miles Flying Blue 40% transfer bonus Oct 31|maxpoints.ai",
+    "rating": "強推",
+    "title": "Rove Miles → Flying Blue 40% Transfer Bonus（2026-10-01 至 2026-10-31，罕見 40% 加贈；同期 Rove → JAL 50% 亦至 10/31）——Barney 手持 Rove 里程，與 50% → JAL 二選一，兩者同天截止",
+    "url": "https://maxpoints.ai/transfer-bonuses"
+  },
+  {
+    "category": "credit_card",
+    "date": "2026-10-18",
+    "deadline": "2026-12-31",
+    "fingerprint": "Amex Offer Best Western 250 50 back US Canada Dec 31|insideflyer.com",
+    "rating": "參考",
+    "title": "Amex Offer：Best Western 美/加物業 $250 → $50 back（20%，targeted；bestwestern.com / App / 電話直訂；Barney BW Diamond 可疊加）",
+    "url": "https://www.insideflyer.com/posts/amex-cardholders-get-50-credit-for-best-western-stays/"
+  },
+  {
+    "category": "credit_card",
+    "date": "2026-10-18",
+    "deadline": null,
+    "fingerprint": "Amex Offer Hotels.com 10% back up to 1250 spend|frequentmiler.com",
+    "rating": "參考",
+    "title": "Amex Offer：Hotels.com 10% back（消費上限 $1,250，最多回 $125；須經 hotels.com/amex 連結 pre-paid 結帳；非直訂不累積飯店會籍房晚）",
+    "url": "https://frequentmiler.com/get-up-to-10-back-at-hotels-com-with-new-amex-offer/"
+  },
+  {
+    "category": "points_talent",
+    "date": "2026-10-18",
+    "deadline": "2026-10-29",
+    "fingerprint": "Points Talent 航司里程促銷匯總 2026-10-14 更新 Aeroplan 90%|pointstalent.com",
+    "rating": "參考",
+    "title": "Points Talent 航司里程促銷匯總（2026-10-14 更新）：Aeroplan 最高 90% 加贈（1.38¢/點，至 10/29；可兌星盟全家桶無燃油附加費）／漢莎 Miles & More 最高 50% 加贈（1.37€/點，至 10/31）",
+    "url": "https://www.pointstalent.com/2026/10/14/airlines-miles-promotion-summary.html"
+  },
+  {
+    "category": "long_term",
+    "date": "2026-10-18",
+    "deadline": null,
+    "fingerprint": "NRA 遠端開美國商業銀行 2026 Mercury Wise Bluevine 比較|startglobal.co",
+    "rating": "參考",
+    "title": "2026 年 NRA 遠端開美國商業銀行帳戶比較：Mercury（拒 registered agent 地址、依居住國審核）、Wise Business（無居住國清單、備胎選項）、Bluevine（僅 25 國居民）、Lili（約 20 國籍）；Relay/Novo 需 SSN；Chase 實質要臨櫃——Stripe+LLC+EIN 之後的下一步情報",
+    "url": "https://startglobal.co/business-bank-account-for-llc/"
   }
 ]
