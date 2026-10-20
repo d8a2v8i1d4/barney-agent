@@ -1,1 +1,38 @@
-[{"category":"credit_card","date":"2026-10-20","deadline":"2026-10-31","fingerprint":"Citi ThankYou 35 transfer bonus Qatar Airways ends Oct 31|awardwallet.com","rating":"參考","title":"Citi ThankYou → Qatar Airways Avios 高達 35% Transfer Bonus（至 2026-10-31；bonus 點最晚 11/30 入帳；Avios 可於 BA/IB/QR/EI/AY/VY 1:1 互轉）— Qatar Gold = oneworld Sapphire 命中空白區；Barney 無 TY 底，屬未來 Citi Strata Premier 開卡後的情報累積 📅","url":"https://awardwallet.com/news/airlines/qatar-airways-transfer-bonus/"},{"category":"credit_card","date":"2026-10-20","deadline":"2026-10-24","fingerprint":"Citi ThankYou 30 transfer bonus JAL ends October 24|pointstalksquad.com","rating":"參考","title":"Citi ThankYou → JAL 30% Transfer Bonus（至 2026-10-24，剩 4 天；Citi 轉點非即時）— 2027-06 歐洲–日本 JAL 頭等 waitlist 備用路徑（主路徑仍是 Rove→JAL 1:1.5）；無 TY 底，情報累積 📅","url":"https://pointstalksquad.com/transfer-bonuses-and-sales-on-points-miles-october-2026/"},{"category":"points_talent","date":"2026-10-20","deadline":"2026-10-29","fingerprint":"PointsTalent 航司里程促销汇总 10-14 Aeroplan 90% bonus|pointstalent.com","rating":"參考","title":"PointsTalent 航司買分活動匯總（2026-10-14 更新）：Aeroplan 最高 90% 加贈（最低 1.38¢/點）至 10/29；漢莎 50% 加贈至 10/31 — Aeroplan 可兌 Star Alliance 全家無燃油附加費；無 Aeroplan 底，長期情報 📅","url":"https://www.pointstalent.com/2026/10/14/airlines-miles-promotion-summary.html"}]
+[
+  {
+    "fingerprint": "United 2027 Premier qualification overhaul PQF eliminated PQP only|afar.com",
+    "date": "2026-10-20",
+    "title": "United 2027 年 Premier 改制（2026-10-13 宣布）：2027-01-01 起取消「航段數+較低 PQP」混合達標路徑，僅剩 PQP：Silver 6,000／Gold 12,000／Platinum 18,000（維持）／1K 升至 32,000；仍需 4 段 UA/UA Express 自營；2026-12-31 前持 UA 聯名卡者 2027 年初享 5% PQP head start（Gold=600 PQP）；Quest 卡限時迎新 90k miles + 首購 500 PQP（$4k/3個月）— 對 challenge PQP 缺口是潛在補血（challenge PQP 一般只計自營航班，申辦前先確認）",
+    "url": "https://www.afar.com/magazine/united-drops-flight-based-status-new-mileageplus-math",
+    "category": "ua_challenge",
+    "rating": "強推",
+    "deadline": "2026-12-31"
+  },
+  {
+    "category": "credit_card",
+    "date": "2026-10-20",
+    "deadline": "2026-10-31",
+    "fingerprint": "Citi ThankYou 35 transfer bonus Qatar Airways ends Oct 31|awardwallet.com",
+    "rating": "參考",
+    "title": "Citi ThankYou → Qatar Airways Avios 高達 35% Transfer Bonus（至 2026-10-31；bonus 點最晚 11/30 入帳；Avios 可於 BA/IB/QR/EI/AY/VY 1:1 互轉）— Qatar Gold = oneworld Sapphire 命中空白區；Barney 無 TY 底，屬未來 Citi Strata Premier 開卡後的情報累積 📅",
+    "url": "https://awardwallet.com/news/airlines/qatar-airways-transfer-bonus/"
+  },
+  {
+    "category": "credit_card",
+    "date": "2026-10-20",
+    "deadline": "2026-10-24",
+    "fingerprint": "Citi ThankYou 30 transfer bonus JAL ends October 24|pointstalksquad.com",
+    "rating": "參考",
+    "title": "Citi ThankYou → JAL 30% Transfer Bonus（至 2026-10-24，剩 4 天；Citi 轉點非即時）— 2027-06 歐洲–日本 JAL 頭等 waitlist 備用路徑（主路徑仍是 Rove→JAL 1:1.5）；無 TY 底，情報累積 📅",
+    "url": "https://pointstalksquad.com/transfer-bonuses-and-sales-on-points-miles-october-2026/"
+  },
+  {
+    "category": "points_talent",
+    "date": "2026-10-20",
+    "deadline": "2026-10-29",
+    "fingerprint": "PointsTalent 航司里程促销汇总 10-14 Aeroplan 90% bonus|pointstalent.com",
+    "rating": "參考",
+    "title": "PointsTalent 航司買分活動匯總（2026-10-14 更新）：Aeroplan 最高 90% 加贈（最低 1.38¢/點）至 10/29；漢莎 50% 加贈至 10/31 — Aeroplan 可兌 Star Alliance 全家無燃油附加費；無 Aeroplan 底，長期情報 📅",
+    "url": "https://www.pointstalent.com/2026/10/14/airlines-miles-promotion-summary.html"
+  }
+]
