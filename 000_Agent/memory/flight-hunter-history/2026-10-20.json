@@ -1,0 +1,38 @@
+[
+  {
+    "fingerprint": "buy|LifeMiles|145%bonus-20261020|2026-10|onemileatatime.com",
+    "date": "2026-10-20",
+    "title": "[今日最後一天重報] Avianca LifeMiles 購點 up to 145% bonus（10/12–10/20，targeted；51K–200K 檔 145% / 1.35¢/mile）今晚截止。對行程 1：美洲↔亞洲星盟 J 單程 85K，145% 檔換算來回 170K ≈ TWD 76,000，比現金 J 基準省 ~65%。拖到明天只剩 Aeroplan 90%（~1.38¢ 貴 ~8%）或等 M&S 下輪。哩程票不入帳（-15）。評分 82 強推。",
+    "url": "https://onemileatatime.com/deals/buy-avianca-lifemiles/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 76000,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "強推",
+    "deadline": "2026-10-20"
+  },
+  {
+    "fingerprint": "status|rjm|safar-flyer-paid-oneworld-sapphire-exists|2026-10|viewfromthewing.com",
+    "date": "2026-10-20",
+    "title": "[今日新佐證/參考] Royal Air Maroc Safar Flyer 付費 oneworld 身份 match 仍為 2026 oneworld Sapphire 保底管道之一：Gold tier（oneworld Emerald 對映）約 USD 349、Sapphire tier 約其半價、valid 至 2026/12/31；入會資格較寬但未見台灣居民排除條款。對 Barney：若 AA ISP 一般版（12/31 截止、13K LP 門檻）2027/1 送件配合行程 1 實飛不順，可考慮付費 RJM Sapphire 當 oneworld 保底進 Qatar/CX lounge。缺點：Safar Flyer 體系小、積分幾乎無法累積，純為 lounge 身份保險；且 2026 條款以 2025/11 文章為主，需上 Statusmatcher 二度確認。評分 50 參考。",
+    "url": "https://viewfromthewing.com/you-can-buy-oneworld-status-and-unlock-business-and-first-class-lounges-thanks-to-new-royal-air-maroc-match-offer/",
+    "category": "status_match",
+    "total_cost_twd": 0,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-12-31"
+  },
+  {
+    "fingerprint": "null|VirginAtlantic|no-current-buy-promo-after-20261004|2026-10|virginatlantic.com",
+    "date": "2026-10-20",
+    "title": "[今日否證] Virgin Atlantic 官方 buy-points 頁顯示上輪 up to 70% 購點促銷窗口 2026/09/01–10/04 已結束，當前無現行購點促銷；與 10/15、10/19 history 中引用 smartwithpoints.co.uk「Virgin 50% 至 11/12」訊號矛盾。Virgin 購點 23K 存量以 Delta/KLM/AF 夥伴獎勵票開 ATH→TPE 的計畫，短期內不會因新促銷進一步攤低每點成本。評分 40 參考（修正性釐清）。",
+    "url": "https://www.virginatlantic.com/en-us/flying-club/earn-points/buy-points",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 0,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": null
+  }
+]
