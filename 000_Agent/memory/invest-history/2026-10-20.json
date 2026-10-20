@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-20",
+  "total_score": 60,
+  "vix": 18.44,
+  "vix_change_pct": -7.76,
+  "yield_10y": 5.135,
+  "yield_10y_change_bps": 3.7,
+  "yield_2y": 4.759,
+  "yield_2y_change_bps": 0.9,
+  "dxy": 101.99,
+  "usd_twd": 32.5,
+  "etf_scores": {
+    "SMH": 75,
+    "SOXX": 75,
+    "IWMO.L": 65,
+    "CNDX.L": 50,
+    "LQQ.PA": 50,
+    "00631L": 50,
+    "VWRA.L": 50,
+    "AVGS.L": 45
+  },
+  "stock_scores": {
+    "2454.TW": 65,
+    "NVDA": 55,
+    "TSM": 55,
+    "META": 55,
+    "AMZN": 55,
+    "MSFT": 45
+  },
+  "upcoming_earnings": {
+    "META": "2026-10-21"
+  },
+  "earnings_note": "META 財報為美東 10/21 盤後（台北 10/22 凌晨）；歷史文件所記 10-22，以四來源交叉的 10-21 為準",
+  "recommendation": "🟡 中性偏多｜核心：維持月 DCA $2,300｜衛星：SMH 加碼 $500（分數 75，超賣區）｜進攻：暫不動（等第 1 階：VIX 18.44（需 ≥25，差 6.56）｜QQQ 回檔約 5.1%（需 ≥15%，差 9.9%，以 CNDX.L 距 52W 高為代理））",
+  "portfolio_progress": 0.4896348,
+  "deployed_usd": 12240.87,
+  "progress_note": "目前同步",
+  "agg_ladder": {
+    "done": false,
+    "level": 1,
+    "amount": 1250.0,
+    "triggered": false,
+    "reason": "VIX 18.44（需 ≥25，差 6.56）｜QQQ 回檔約 5.1%（需 ≥15%，差 9.9%，以 CNDX.L 距 52W 高為代理）"
+  },
+  "agg_benchmark_drawdown": 5.11,
+  "signal_change": "環境分數：60 → 60（+0），與昨日類似；[訊號變化] 半導體 ETF SMH/SOXX 65→75 跨越衛星加碼門檻 70",
+  "data_fetch_failures": [
+    "CNDX.L RSI（6 種來源無數值）",
+    "LQQ.PA RSI（5 種來源無數值）",
+    "00631L RSI（4 種來源無數值）"
+  ],
+  "percentiles_note": "VIX 第 23 百分位（估）｜10Y 第 87 百分位（估）｜CNDX.L 第 ~75 百分位（估）｜SMH 第 ~65 百分位（估）；均為 52 週高低區間估算"
+}
