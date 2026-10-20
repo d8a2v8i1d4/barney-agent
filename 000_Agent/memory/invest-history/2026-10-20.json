@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-20",
+  "total_score": 60,
+  "vix": 18.44,
+  "vix_change_pct": -7.75,
+  "yield_10y": 5.098,
+  "yield_2y": 4.75,
+  "dxy": 101.87,
+  "usd_twd": 32.39,
+  "sp500_close": 7690.73,
+  "sp500_change_pct": 0.41,
+  "nasdaq_change_pct": 1.11,
+  "etf_scores": {
+    "SMH": 65,
+    "SOXX": 65,
+    "CNDX.L": 55,
+    "IWMO.L": 55,
+    "LQQ.PA": 55,
+    "VWRA.L": 50,
+    "AVGS.L": 45
+  },
+  "stock_scores": {
+    "TSM": 65,
+    "2454.TW": 65,
+    "NVDA": 55,
+    "AMZN": 55,
+    "00631L.TW": 55,
+    "META": 50,
+    "MSFT": 45
+  },
+  "upcoming_earnings": {
+    "META": "2026-10-22",
+    "MSFT": "2026-10-27",
+    "AMZN": "2026-10-29"
+  },
+  "upcoming_macro": {
+    "FOMC": "2026-10-28",
+    "Core_PCE_Q3_GDP": "2026-10-29"
+  },
+  "recommendation": "🟡 中性偏多｜核心：維持月 DCA $2,300｜衛星：觀望（無標的分數>70）｜進攻：暫不動（VIX 18.44 需 ≥25，差 6.56；QQQ 回檔 ~5.5% 需 ≥15%）",
+  "portfolio_progress": 0.4896348,
+  "deployed_usd": 12240.87,
+  "remaining_usd": 12759.13,
+  "layer_progress": {
+    "core": 0.757,
+    "satellite": 0.244,
+    "aggressive": 0.0
+  },
+  "days_elapsed": 154,
+  "theoretical_progress": 0.856,
+  "progress_note": "略為落後（高於 42.8% 加速門檻，不觸發 +20% 建議金額）",
+  "agg_ladder": {
+    "done": false,
+    "level": 1,
+    "amount": 1250.0,
+    "triggered": false,
+    "reason": "VIX 18.44（需 ≥25，差 6.56）｜QQQ 回檔 ~5.5%（需 ≥15%，差 ~9.5%）"
+  },
+  "signal_change": "環境分數：60 → 60（+0）｜VIX 顯著下滑 19.99 → 18.44（-7.75%），但仍在 18-25 區間；S&P 500 +0.41%、Nasdaq +1.11% 延續反彈",
+  "data_fetch_failures": [
+    "個股即時價（NVDA、TSM、MSFT、META、AMZN）：WebFetch 到 Yahoo/Google/Investing/Benzinga/StockAnalysis 全被 proxy 擋，WebSearch 回傳 1-2 週前舊價，無今日收盤。改以昨日分數框架延用。",
+    "ETF 即時價（SMH、SOXX、VWRA.L、CNDX.L、IWMO.L、AVGS.L、LQQ.PA）：同上，無今日收盤數據。",
+    "10Y、2Y、DXY、USD/TWD 當日即時值：WebSearch 回傳的最新數據停留在 2026-10-07 前後，使用昨日歷史檔基準。VIX 已確認 10/19 收 18.44。"
+  ]
+}
