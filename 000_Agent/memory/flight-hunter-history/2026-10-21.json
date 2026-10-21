@@ -1,0 +1,50 @@
+[
+  {
+    "fingerprint": "buy|LifeMiles|145%-ended-20261020-no-successor-20261021|2026-10|onemileatatime.com",
+    "date": "2026-10-21",
+    "title": "[結束確認/無接檔] Avianca LifeMiles 145% 購點促銷已於 10/20 23:59 El Salvador 時間（= 10/21 12:59 台北）結束，10/21 複查 OMAAT、The Points Party 均未見延長或新促銷接檔，LifeMiles 官方 Buy Miles 頁回落標準定價。短期內行程 1 美洲↔亞洲星盟 J 單程 85K 的最便宜購點工具落到 Aeroplan 90%（≈1.38¢/mile，至 10/29，比 LifeMiles 145% 檔 1.35¢ 貴 ~2%）。觀測 10/21–10/31 是否有感恩節前的新一輪 LifeMiles 促銷接檔。評分 40 參考（結束確認）。",
+    "url": "https://onemileatatime.com/deals/buy-avianca-lifemiles/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": null,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": null
+  },
+  {
+    "fingerprint": "buy|Qatar|no-current-buy-avios-after-20260825|2026-10|onemileatatime.com",
+    "date": "2026-10-21",
+    "title": "[否證] Qatar Privilege Club 購點促銷目前無現行（上輪 8/18–8/25 up to 50% 已結束，OMAAT 頁面標示 \"No current offers\"）。注意：10/15、10/19 history 中引用 smartwithpoints.co.uk「Qatar Avios 20% 購點至 11/12」為另一側第三方資料，與 OMAAT 無現行促銷訊號矛盾——11/12 到期倒數項先保留，但下週請用 qatarairways.com 官方 Buy Avios 頁二度確認。對行程 2：若 Qatar 購點真有現行促銷，Qsuite ATH→DOH→TPE 哩程票（約 70–85K Avios 單程 J）可能進入可行區間；若無，Qatar 作為行程 2 ATH→TPE 的主力工具暫時缺位。評分 42 參考。",
+    "url": "https://onemileatatime.com/deals/buy-qatar-airways-privilege-club-miles",
+    "category": "buy_miles_promo",
+    "total_cost_twd": null,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": null
+  },
+  {
+    "fingerprint": "award|Starlux|SEA-TPE-saver-Atmos-75-85K-through-2027-06|2026-10|thepointsguy.com",
+    "date": "2026-10-21",
+    "title": "[補強] Starlux SFO/LAX/SEA/PHX/ONT → TPE 商務艙 saver 哩程位（Atmos 75–85K/單程 + Alaska 開票）報載涵蓋 2026/7–2027/6，部分日期最多 4 位 saver。對行程 2 戰術補強：若走 AS196 ATH→SEA（Atmos 70–85K saver）＋ Starlux SEA→TPE（75K saver）合計 145–160K Atmos + 稅費 USD 60，Alaska 可全額入 Atmos。原始報導為 2026/7 TPG，10/17 history 已確認 ATH→SEA saver 可用性；本條補強 SEA–TPE 段 2027/6 甜點位可用性仍成立。限制：Atmos 的美加居民門檻 10/16 已確認 Barney 大概率不符資格——此哩程策略取決於購點後能否正常開票，建議在 Atmos 下一輪購點促銷（最快可能 11 月中）前再確認帳戶限制。評分 50 參考。",
+    "url": "https://thepointsguy.com/deals/wide-open-starlux-business-class-award-availability/",
+    "category": "ath_award",
+    "total_cost_twd": null,
+    "credit_program": "Atmos",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": null
+  },
+  {
+    "fingerprint": "buy|TurkishMS|no-successor-after-20261015|2026-10|frequentflyerbonuses.com",
+    "date": "2026-10-21",
+    "title": "[結束確認/無接檔] Turkish Miles&Smiles 購點 up to 100% bonus 10/15 結束後，10/21 複查 FrequentFlyerBonuses、Loyalty Lobby、Insideflyer 均無新一輪促銷接檔。對行程 2：M&S 經 IST 開星盟 J ATH→IST→TPE 的購點工具暫停可用，標準定價下每哩約 ~1.5¢，比 Aeroplan 90% 貴近 10%。等 11 月雙 11／黑五期間下一輪 M&S 促銷重新評估。評分 38 參考。",
+    "url": "https://www.frequentflyerbonuses.com/milesandsmiles.html",
+    "category": "buy_miles_promo",
+    "total_cost_twd": null,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": null
+  }
+]
