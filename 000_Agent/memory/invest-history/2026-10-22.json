@@ -1,36 +1,32 @@
 {
   "date": "2026-10-22",
   "total_score": 55,
-  "vix": 16.68,
-  "vix_change_pct": -3.64,
-  "yield_10y": 5.10,
-  "yield_10y_change_bps": -2,
+  "vix": 16.68000030517578,
+  "yield_10y": 5.145999908447266,
   "yield_2y": 4.75,
-  "dxy": 99.3,
-  "dxy_change_pct_vs_prev": -2.45,
-  "usd_twd": 32.45,
+  "dxy": 101.68699645996094,
+  "usd_twd": 32.36199951171875,
   "etf_scores": {
-    "SOXX": 60,
-    "SMH": 60,
-    "CNDX.L": 55,
+    "SMH": 65,
+    "SOXX": 65,
     "IWMO.L": 55,
+    "LQQ.PA": 55,
     "VWRA.L": 50,
-    "AVGS.L": 50,
-    "LQQ.PA": 50,
-    "00631L": 55
+    "CNDX.L": 50,
+    "AVGS.L": 50
   },
   "stock_scores": {
-    "2454.TW": 60,
+    "2454.TW": 65,
+    "NVDA": 55,
+    "TSM": 55,
     "META": 55,
-    "NVDA": 50,
-    "TSM": 50,
+    "00631L.TW": 55,
     "AMZN": 50,
     "MSFT": 45
   },
   "upcoming_earnings": {
-    "META": "2026-10-21 盤後（台北 10/22 凌晨，已公布）",
-    "MSFT": "2026-10-27",
-    "AMZN": "2026-10-29"
+    "MSFT": "2026-10-29",
+    "META": "2026-10-21 盤後（台北 10/22 凌晨，已公布）"
   },
   "meta_earnings_result": {
     "revenue": "$64.6B",
@@ -41,30 +37,28 @@
     "q4_guidance": "$73B-$76B（高於預期 $73.73B）",
     "after_hours": "+2.5%"
   },
-  "recommendation": "🟡 中性偏多｜核心：維持月 DCA $2,300｜衛星：暫停加碼（最高分數 60 < 70）｜進攻：暫不動（VIX 16.68 需 ≥25，差 8.32；QQQ 回檔約 5% 需 ≥15%，差 10%）",
-  "portfolio_progress": 0.4896348,
+  "recommendation": "🟡 中性偏多｜核心：維持月 DCA $2,300｜衛星：觀望，只挑分數>70 加 $500｜進攻：暫不動（等第 1 階：VIX 16.7（需 ≥25，差 8.3）｜QQQ 回檔 4.5%（需 ≥15%，差 10.5%））",
+  "portfolio_progress": 0.48963480000000004,
   "deployed_usd": 12240.87,
-  "days_elapsed": 156,
-  "theoretical_progress_6m": 0.867,
-  "progress_note": "實際 48.96% vs 理論 86.7%（6 個月基準）→ 略落後，但未達「追加 20%」門檻（需 < 43.4%）",
+  "market_value_usd": 12414.1664,
+  "unrealized_pnl_usd": 173.29640000000109,
+  "unrealized_return": 0.014157196343070477,
+  "cost_usd": 12240.869999999999,
+  "fee_usd": 0.0,
+  "cost_twd": 390535.191411,
+  "unrealized_pnl_twd": 11212.055564195325,
+  "unrealized_return_twd": 0.028709462836591686,
+  "avg_fx_cost": 31.904202185874045,
+  "progress_note": "目前同步",
   "agg_ladder": {
     "done": false,
     "level": 1,
     "amount": 1250.0,
     "triggered": false,
-    "reason": "VIX 16.68（需 ≥25，差 8.32）｜QQQ 回檔 ~5%（需 ≥15%，差 10%）"
+    "reason": "VIX 16.7（需 ≥25，差 8.3）｜QQQ 回檔 4.5%（需 ≥15%，差 10.5%）"
   },
-  "agg_benchmark_drawdown": 5.0,
-  "signal_change": "📌 環境分數：55 → 55（持平）；[訊號變化] VIX 17.31→16.68（-3.64%，市場更樂觀），DXY ~101.79→~99.3（-2.4%，美元弱化對風險資產正面）；META Q3 財報 beat，盤後 +2.5%，不確定性移除",
-  "percentiles_note": "VIX 第 ~18 百分位（偏低，市場偏樂觀）｜10Y 第 ~85 百分位（偏高）｜DXY 近 1 年低位附近",
-  "weekly_events": [
-    "10/22（今）META 財報已出：營收 $64.6B beat、Q4 指引 $73-76B 高於預期，盤後 +2.5%",
-    "10/27-28 FOMC 會議（非 SEP meeting，決策 10/28 14:00 ET）",
-    "10/27 MSFT 財報",
-    "10/29 AMZN 財報 + 9 月 PCE"
-  ],
-  "data_fetch_failures": [
-    "部分標的為週內/月初最新確認價，未取得 10/22 當日即時收盤（LSE/Euronext 於台北早上尚未開盤）"
-  ],
-  "note": "2026-05-19 的三筆建倉（IWMO.L 7股 $770、VWRA.L 6股 $1,103.04、CNDX.L 0.3股 $496.44，共 $2,369.48）**已在 portfolio.json 核心層交易清單中**（第 111-140 行），且已計入 core.deployed=$10,408.37。本次不重複寫入以避免 double-counting。"
+  "agg_benchmark_drawdown": 4.53623652196493,
+  "signal_change": "環境分數：55 → 55（+0），與昨日類似；[訊號變化] META Q3 財報 beat（營收 $64.6B、Q4 指引 $73-76B 高於預期），盤後 +2.5%，風險事件已過",
+  "data_fetch_failures": [],
+  "note": "2026-05-19 的三筆建倉（IWMO.L 7股 $770、VWRA.L 6股 $1,103.04、CNDX.L 0.3股 $496.44，共 $2,369.48）已在 portfolio.json 核心層交易清單中（第 111-140 行），且已計入 core.deployed=$10,408.37。本次不重複寫入以避免 double-counting。"
 }
