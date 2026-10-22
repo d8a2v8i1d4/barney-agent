@@ -34,5 +34,59 @@
     "category": "biz_class",
     "rating": "強推",
     "deadline": null
+  },
+  {
+    "category": "credit_card",
+    "date": "2026-10-22",
+    "deadline": null,
+    "fingerprint": "[更新] BoA Atmos Rewards Summ|thepointsguy.com",
+    "rating": "強推",
+    "title": "[更新] BoA Atmos Rewards Summit 迎新回到 100,000 點：100,000 bonus points + 25,000-point Global Companion Award / $6,000 90 天（公開版 10/1 的 70k/$3k 再拉回；8-10 月前版 100k/$6.5k 已於 6/30 結束；TPG 估值 ~$1,938）；Atmos points 可兌 Starlux TPE 商務艙 75k，Barney 目標三張卡之一",
+    "url": "https://thepointsguy.com/credit-cards/alaska-atmos-rewards-current-offers?catID=travel&catID=travel"
+  },
+  {
+    "category": "credit_card",
+    "date": "2026-10-22",
+    "deadline": "2026-12-31",
+    "fingerprint": "Amex Offer Leading Hotels of the Worl|travel-on-points.com",
+    "rating": "強推",
+    "title": "Amex Offer（Targeted）：Leading Hotels of the World $700 → 15,000 MR（2026-10-19 至 12-31；LHW 官網直訂，須先 enroll）：約 $150–300 價值 ≥ $50 門檻，$700 單筆吃 Aspire 剩餘 MSR 的 18%",
+    "url": "https://travel-on-points.com/leading-hotels-of-the-world-amex-offer/"
+  },
+  {
+    "category": "credit_card",
+    "date": "2026-10-22",
+    "deadline": "2026-12-10",
+    "fingerprint": "Amex MR Marriott Bonvoy 35 transf|thepointsparty.com",
+    "rating": "參考",
+    "title": "Amex MR → Marriott Bonvoy 35% Transfer Bonus（2026-10-20 至 12-10；1,000 MR = 1,350 Bonvoy）：Barney Marriott Gold + MR ≈ 0，無已定價房晚可對沖，不囤點；情報累積 📅",
+    "url": "https://thepointsparty.com/articles/amex-marriott-bonvoy-35-percent-transfer-bonus-december-2026"
+  },
+  {
+    "category": "biz_class",
+    "date": "2026-10-22",
+    "deadline": "2026-11-13",
+    "fingerprint": "Cathay Pacific 2026 Online Trave|hongkongmiles.com",
+    "rating": "參考",
+    "title": "Cathay Pacific 2026 線上旅展（TPE/KHH 出發）：2026-10-16 至 11-13 訂票，旅行至 2027-09-30（2/3–2/7 除外）；短程商務 9 折（I 艙），可疊 promo code（CXITF500 有限額）；台灣出發少見官方促銷，2027-06 希臘回程可比價",
+    "url": "https://hongkongmiles.com/2026/10/cathay-pacific-2026-online-travel-fair-taiwan-hong-kong"
+  },
+  {
+    "category": "hotel_match",
+    "date": "2026-10-22",
+    "deadline": "2026-11-09",
+    "fingerprint": "Hilton Honors cobranded Amex 10k bonus|loyaltylobby.com",
+    "rating": "參考",
+    "title": "Hilton 美國聯名卡持卡人：住 3+ 晚送 10,000 bonus points（Aspire 等；11/9 前訂房、1/3/2027 前完成；另有全球每晚 1,000/3,000 點促銷至 12/31）",
+    "url": "https://loyaltylobby.com/2026/10/13/new-hilton-bonus-honors-points-offer-on-cobranded-amex-cards-in-us-until-december-31-2026/"
+  },
+  {
+    "category": "points_talent",
+    "date": "2026-10-22",
+    "deadline": "2026-11-21",
+    "fingerprint": "PointsTalent 酒店积分促销汇总 10-21 Hilton|pointstalent.com",
+    "rating": "參考",
+    "title": "PointsTalent 酒店积分促销汇总（2026-10-21 更新）：Hilton 120% 加贈（0.45¢/點，史高，至 11/21；近兩年最低價）；IHG 100% 加贈（0.5¢/點，至 11/5）；Marriott 55%（targeted，至 11/23）",
+    "url": "https://www.pointstalent.com/2026/10/21/hotel-points-promotion-summary.html"
   }
 ]
