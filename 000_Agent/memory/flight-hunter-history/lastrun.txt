@@ -1,1 +1,1 @@
-2026-10-21 機票情報員執行完成，情況=B，尋獲 0 筆新情報（FLL/ATH/購點/挑戰均無變動），過濾 10+ 筆（LifeMiles 145% 結束/Aeroplan 90%/Amex→FB 25%/Rove→JAL 50% 等近 7 天已報過），記錄 4 筆否證/補強條目供下次 run 去重，草稿=已建立（Gmail create_draft id=r-1292348987615813983）。
+2026-10-22 機票情報員執行完成，情況=B，尋獲 2 筆（Turkish 30% off Miles promo Economy 日期不符／LifeMiles 無接檔二次確認），過濾 7 筆（Aeroplan 90%、Flying Blue Promo、Amex→FB 25%、Rove→JAL 50%、Citi→Qatar 35%、Capital One→BA Avios 20%、Starlux SEA–TPE saver 皆為 10/15–10/21 已報），草稿=已建立（情況 B 平安信，到期倒數 8 筆，🚨 AA Corporate ISP Elevated 剩 1 天）。
