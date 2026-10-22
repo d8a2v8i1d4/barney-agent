@@ -22,5 +22,77 @@
     "challenge_progress_pct": 0,
     "rating": "參考",
     "deadline": null
+  },
+  {
+    "fingerprint": "buy|Aeroplan|90%bonus-20261014-29|2026-10|milesopedia.com",
+    "date": "2026-10-22",
+    "title": "[新] Air Canada Aeroplan 購點最高 90% bonus（2026/10/14–10/29，剩7天）：買80K+享90%，約1.38¢ USD/點；行程2 ATH→TPE 土航商務 92,500點+稅≈NT$42–46K（強推帶）、行程1來回205,000點≈NT$91K（參考）。targeted，加碼以帳戶顯示為準；先查到2027/6/6–6/8 saver位再買點。",
+    "url": "https://milesopedia.com/en/offers/buy-points/buy-aeroplan-points-bonus/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": 44000,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "強推",
+    "deadline": "2026-10-29"
+  },
+  {
+    "fingerprint": "buy|AA|40%discount-20261031|2026-10|thegatewithbriancohen.com",
+    "date": "2026-10-22",
+    "title": "[新] AA AAdvantage 購點最高40%折扣（至2026/10/31）：151K–300K享40% off，約$0.0226/哩；oneworld兌換（CX/JL）備用籌碼，無特定目標不囤。",
+    "url": "https://thegatewithbriancohen.com/miles-and-points-on-sale-october-16-2026/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": null,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-10-31"
+  },
+  {
+    "fingerprint": "rule|StatusMatch|submit-window-Delta-20270112|2026-10|thepointsguy.com",
+    "date": "2026-10-22",
+    "title": "[新] 挑戰送件時機分析（規則今日確認無變動）：Delta match建議2027/1/12前後送件讓90天窗口涵蓋3/31–4/12；行程1若搭Delta金屬商務艙（估~$4,500→~4,500 MQDs）一趟近乎吃完Platinum 3,750門檻（2026年內完成→status至2028/1/31）。Atmos挑戰僅AS/HA營運航班計分：SEA–FLL Alaska金屬來回約5,400哩可達Silver延長門檻；行程2餵不到Atmos。",
+    "url": "https://thepointsparty.com/articles/airline-status-match-challenge-offers",
+    "category": "status_match",
+    "total_cost_twd": null,
+    "credit_program": "Delta",
+    "challenge_progress_pct": 100,
+    "rating": "強推",
+    "deadline": null
+  },
+  {
+    "fingerprint": "buy|VirginAtlantic|no-successor-after-20261004|2026-10|awardwallet.com",
+    "date": "2026-10-22",
+    "title": "[否證] Virgin Atlantic 70%購點加碼10/4結束後，10/22複查仍無接檔新一輪（Barney現有約23,000點不受影響）。",
+    "url": "https://awardwallet.com/airlines/virgin-atlantic-flying-club/buy-virgin-points/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": null,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": null
+  },
+  {
+    "fingerprint": "buy|AtmosRewards|no-successor-after-20261019|2026-10|onemileatatime.com",
+    "date": "2026-10-22",
+    "title": "[否證] Alaska Atmos Rewards 100%購點加碼10/19結束後，10/22複查無接檔（部分帳戶曾見120%版本亦已結束）。",
+    "url": "https://onemileatatime.com/deals/buy-alaska-atmos-rewards-points/",
+    "category": "buy_miles_promo",
+    "total_cost_twd": null,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": null
+  },
+  {
+    "fingerprint": "transfer|EtihadGuest|40%transfer-bonus|2026-10|blog.frequentflyerbonuses.com",
+    "date": "2026-10-22",
+    "title": "[補強] Etihad Guest轉點加碼最高40%（2026/10/1–10/31，剩9天）：僅限hotel/bank點數轉入（非購點），50K+哩享40%；合作夥伴不含Barney常用卡→參考。",
+    "url": "https://blog.frequentflyerbonuses.com/2026/10/etihad-guest-transfer-bonus-2026.html",
+    "category": "transfer_bonus",
+    "total_cost_twd": null,
+    "credit_program": "none",
+    "challenge_progress_pct": 0,
+    "rating": "參考",
+    "deadline": "2026-10-31"
   }
 ]
