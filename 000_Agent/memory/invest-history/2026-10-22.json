@@ -26,7 +26,16 @@
   },
   "upcoming_earnings": {
     "MSFT": "2026-10-29",
-    "META": "2026-10-22"
+    "META": "2026-10-21 盤後（台北 10/22 凌晨，已公布）"
+  },
+  "meta_earnings_result": {
+    "revenue": "$64.6B",
+    "revenue_vs_est": "beat（估 $63.3B）",
+    "eps_gaap": 3.83,
+    "eps_adjusted": 7.40,
+    "charge": "$9.9B 法律和解費用（Multistate AG Agreement）",
+    "q4_guidance": "$73B-$76B（高於預期 $73.73B）",
+    "after_hours": "+2.5%"
   },
   "recommendation": "🟡 中性偏多｜核心：維持月 DCA $2,300｜衛星：觀望，只挑分數>70 加 $500｜進攻：暫不動（等第 1 階：VIX 16.7（需 ≥25，差 8.3）｜QQQ 回檔 4.5%（需 ≥15%，差 10.5%））",
   "portfolio_progress": 0.48963480000000004,
@@ -49,6 +58,7 @@
     "reason": "VIX 16.7（需 ≥25，差 8.3）｜QQQ 回檔 4.5%（需 ≥15%，差 10.5%）"
   },
   "agg_benchmark_drawdown": 4.53623652196493,
-  "signal_change": "環境分數：55 → 55（+0），與昨日類似",
-  "data_fetch_failures": []
+  "signal_change": "環境分數：55 → 55（+0），與昨日類似；[訊號變化] META Q3 財報 beat（營收 $64.6B、Q4 指引 $73-76B 高於預期），盤後 +2.5%，風險事件已過",
+  "data_fetch_failures": [],
+  "note": "2026-05-19 的三筆建倉（IWMO.L 7股 $770、VWRA.L 6股 $1,103.04、CNDX.L 0.3股 $496.44，共 $2,369.48）已在 portfolio.json 核心層交易清單中（第 111-140 行），且已計入 core.deployed=$10,408.37。本次不重複寫入以避免 double-counting。"
 }
