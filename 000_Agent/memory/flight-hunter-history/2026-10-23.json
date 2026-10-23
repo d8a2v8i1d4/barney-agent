@@ -118,5 +118,65 @@
     "challenge_progress_pct": 0,
     "rating": "參考",
     "deadline": null
+  },
+  {
+    "category": "transfer_bonus",
+    "challenge_progress_pct": 0,
+    "credit_program": "none",
+    "date": "2026-10-23",
+    "deadline": "2026-10-24",
+    "fingerprint": "transfer|CitiThankYou|LifeMiles25pct-20260920-1024|2026-10|maxpoints.ai",
+    "rating": "參考",
+    "title": "[新/Muse 側] Citi ThankYou → Avianca LifeMiles 25% 轉點加碼（9/20–10/24 23:59 ET，明日截止；年費卡 Strata Elite/Premier/Prestige 1:1→1,000 TY=1,250 LifeMiles，無年費卡 1:0.7→875；無需註冊自動加碼）。對行程 1：美洲↔亞洲星盟 J 單程 85K 僅需 68K Citi points；行程 2 歐洲↔遠東 J 單程 90K 僅需 72K。LifeMiles 145% 購點 10/20 結束後，這是目前唯一能加碼取得 LifeMiles 的路徑（另一條是 Aeroplan 90% 購點至 10/29，約 1.38¢/mile）。哩程票不入帳。需先確認 Barney 是否持有 Citi 年費卡。評分 55 參考。",
+    "total_cost_twd": null,
+    "url": "https://maxpoints.ai/transfer-bonuses"
+  },
+  {
+    "category": "transfer_bonus",
+    "challenge_progress_pct": 0,
+    "credit_program": "none",
+    "date": "2026-10-23",
+    "deadline": "2026-11-20",
+    "fingerprint": "transfer|CapitalOne|Virgin30pct-20261021-1120|2026-10|onemileatatime.com",
+    "rating": "參考",
+    "title": "[新/Muse 側] Capital One → Virgin Atlantic 30% 轉點加碼（10/21–11/20；1,000→1,300 VS points，即時到帳，無上限；OMAAT 昨日確認，約一年來首見）。對行程 2：可補強 Barney 現有 23K Virgin Atlantic 存量（Delta/KLM/AF SkyTeam 夥伴票開 ATH→TPE）。但 Barney CapOne Venture 申請 10/22 剛被拒，目前應無 Cap1 點數可轉，實用性低，純備忘。Virgin 購點促銷目前仍無現行（10/20、10/22 已否證）。評分 35 參考。",
+    "total_cost_twd": null,
+    "url": "https://onemileatatime.com/deals/capital-one-virgin-atlantic-transfer-bonus/"
+  },
+  {
+    "category": "status_match",
+    "challenge_progress_pct": 0,
+    "credit_program": "AA",
+    "date": "2026-10-23",
+    "deadline": "2026-10-23",
+    "fingerprint": "rule|AA|CorporateISP-Elevated-lastday-20261023|2026-10|aa.com",
+    "rating": "參考",
+    "title": "[更新/Muse 側/🚨今日最後一天] AA Elevated 1-Phase ISP（Corporate Status Match Plus）登記截止 10/23 23:59 CT（=10/24 12:59 台北；aa.com 條款 8/17/2026 更新版逐字確認）。今日新確認細節：(a) UA Premier Gold → AAdvantage Platinum Pro（比標準 match 高一級）；(b) Citi/AAdvantage primary cardmember 挑戰期內達 100K LP 可落 Executive Platinum 檔；(c) 審核 2–4 週（有 Reddit 案例近乎即時通過）；(d) 送件要件：AAdvantage 帳戶＋公司名稱＋公司信箱（需驗證）＋UA Gold 實飛證明（3 檔，png/jpg/pdf 各 ≤1MB）。戰術關鍵：4 個月挑戰窗口約 2026/11–2027/2，不覆蓋行程 1（3/31–4/12）——要用行程 1 航段餵 LP 請走一般版 1-Phase ISP（12/31 登記截止、Gold 13K LP 門檻）。送件後 2 年內不得再參加其他 ISP。評分：🚨 規則警報。",
+    "total_cost_twd": 0,
+    "url": "https://www.aa.com/web/i18n/aadvantage-program/elevated-instant-status-pass-terms.html"
+  },
+  {
+    "category": "buy_miles_promo",
+    "challenge_progress_pct": 0,
+    "credit_program": "none",
+    "date": "2026-10-23",
+    "deadline": null,
+    "fingerprint": "null|Atmos|no-successor-after-20261019-confirmed-20261023|2026-10|rewardsguru.club",
+    "rating": "參考",
+    "title": "[結束確認無變動/Muse 側] Alaska Atmos Rewards 購點 up to 100%（10/19 23:59 PT 結束）後複查無新一輪接檔。Atmos 相關新動態僅為信用卡開卡禮（Summit Visa Infinite 100K＋25K Global Companion Award，10/21 起；Ascent 80K＋$99 Companion Fare）——開卡非購點，不直接影響行程 2 哩程策略。評分 30 參考。",
+    "total_cost_twd": null,
+    "url": "https://rewardsguru.club/blog/alaska-atmos-buy-points-100-bonus-worth-it-lifemiles-october-2026"
+  },
+  {
+    "category": "status_match",
+    "challenge_progress_pct": 0,
+    "credit_program": "Delta",
+    "date": "2026-10-23",
+    "deadline": null,
+    "fingerprint": "null|Delta|match-rules-unchanged-20261023|2026-10|thepointsparty.com",
+    "rating": "參考",
+    "title": "[規則無變動確認/Muse 側] Delta Status Match 2026 規則今日複查無變動：UA Premier Gold → Gold Medallion 90 天試用，挑戰門檻 Silver 1,250／Gold 2,500／Platinum 3,750 MQD；2026 年內完成者狀態延至 2028/1/31；前置條件 SkyMiles 帳戶 ≥30 天＋過去 3 年 1 段 Delta-marketed 航班（Basic Economy 除外）。建議送件日維持 2027/1 上旬（90 天窗口覆蓋行程 1）。評分 40 參考。",
+    "total_cost_twd": 0,
+    "url": "https://thepointsparty.com/articles/airline-status-match-challenge-offers"
   }
 ]
