@@ -25,5 +25,41 @@
     "category": "long_term",
     "rating": "強推",
     "deadline": null
+  },
+  {
+    "title": "[更新] SAS EuroBonus Status Match 回歸：UA Premier Gold 明確可拿 EuroBonus Gold（SkyTeam Elite Plus，€199，無需飛行；10 月新開戶效期至 2028/9/30）",
+    "url": "https://rewardsguru.club/blog/sas-eurobonus-status-match-skyteam-elite-plus-2026",
+    "category": "airline_match",
+    "rating": "強推",
+    "deadline": null,
+    "fingerprint": "[更新] SAS EuroBonus Status Matc|rewardsguru.club",
+    "date": "2026-10-23"
+  },
+  {
+    "title": "Amex Offer：Platinum Member Airfares $1,000 → $200 back（20%，targeted，至 10-31）",
+    "url": "https://upgradedpoints.com/news/best-amex-offers/",
+    "category": "credit_card",
+    "rating": "強推",
+    "deadline": "2026-10-31",
+    "fingerprint": "Amex Offer：Platinum Member Air|upgradedpoints.com",
+    "date": "2026-10-23"
+  },
+  {
+    "title": "Amex Offer：Enterprise 租車 $300 → $60 back（20%，targeted，至 12-31）",
+    "url": "https://www.doctorofcredit.com/amex-offers-enterprise-car-rental-spend-300-get-60-statement-credit/",
+    "category": "credit_card",
+    "rating": "參考",
+    "deadline": "2026-12-31",
+    "fingerprint": "Amex Offer：Enterprise 租車 $300 |doctorofcredit.com",
+    "date": "2026-10-23"
+  },
+  {
+    "title": "Wyndham Rewards → United MileagePlus 100% Transfer Bonus（至 10-30）",
+    "url": "https://frequentmiler.com/last-chance-deals/",
+    "category": "ua_challenge",
+    "rating": "參考",
+    "deadline": "2026-10-30",
+    "fingerprint": "Wyndham Rewards → United Milea|frequentmiler.com",
+    "date": "2026-10-23"
   }
 ]
