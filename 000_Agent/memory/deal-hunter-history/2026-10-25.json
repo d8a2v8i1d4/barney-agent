@@ -70,5 +70,32 @@
     "category": "credit_card",
     "rating": "參考",
     "deadline": null
+  },
+  {
+    "category": "credit_card",
+    "date": "2026-10-25",
+    "deadline": "2026-11-30",
+    "fingerprint": "[更新] Amex Offer Marriott $375 → $150|doctorofcredit.com",
+    "rating": "強推",
+    "title": "[更新] Amex Offer：Marriott 新變體 $375 消費送 $150（10/23 新一輪；部分帳戶同卡雙 offer 可疊加；先前已報 $300→$150 / $450→$200）",
+    "url": "https://www.doctorofcredit.com/amex-offers-marriott-spend-300-450-get-150-200-back/"
+  },
+  {
+    "category": "credit_card",
+    "date": "2026-10-25",
+    "deadline": null,
+    "fingerprint": "Rakuten Citi Strata Premier $150 cash back|rakuten.com",
+    "rating": "參考",
+    "title": "Rakuten 申辦 Citi Strata Premier 額外 $150 仍在線（Rakuten 官網 10 月頁面），但現行 60k 低於常態 80k，且 Strata 已改一生一次——現在申等於燒掉一生一次機會換較低 offer，建議等 80k 檔期",
+    "url": "https://www.rakuten.com/shop/citistratapremiercard"
+  },
+  {
+    "category": "long_term",
+    "date": "2026-10-25",
+    "deadline": null,
+    "fingerprint": "Relay 商業銀行申請問 SSN/ITIN：有 ITIN 可行|infohubme.blogspot.com",
+    "rating": "參考",
+    "title": "週日深度：Relay 商業銀行申請會問 SSN/ITIN，Barney 有 ITIN 所以 Relay 可行，可當 Mercury（RA 地址審查趨嚴）備胎；Wise 仍是保底",
+    "url": "https://infohubme.blogspot.com/2026/09/mercury-vs-relay-vs-wise-best-us-bank.html"
   }
 ]
