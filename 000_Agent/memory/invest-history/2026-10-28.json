@@ -1,54 +1,55 @@
 {
+  "agg_benchmark_drawdown": 5.46,
+  "agg_ladder": {
+    "amount": 1250.0,
+    "done": false,
+    "level": 1,
+    "reason": "VIX 17.52（需 ≥25，差 7.48）｜QQQ 回檔 5.5%（需 ≥15%，差 9.5 個百分點）",
+    "triggered": false
+  },
+  "data_fetch_failures": [
+    "TSM Finnhub 台股 52W 高低量級異常未採用（1375-2590 皆非 ADR 區間）",
+    "LQQ.PA Finnhub 巴黎報價量級錯誤，改採 stockanalysis EPA 9.90 歐元",
+    "2454.TW、00631L.TW 台股收盤未刷新（00631L 僅至 2026-10-22 收盤）",
+    "SMH、META、AMZN、TSM、VWRA.L、CNDX.L、IWMO.L、LQQ.PA 之 RSI 未取得，分數沿用昨日或以距高點區間計"
+  ],
   "date": "2026-10-28",
-  "total_score": 55,
-  "vix": 17.520000457763672,
-  "yield_10y": 4.993000030517578,
-  "yield_2y": 4.75,
-  "dxy": 102.33699798583984,
-  "usd_twd": 32.41999816894531,
+  "deployed_usd": 15474.37,
+  "dxy": 102.29,
   "etf_scores": {
-    "SMH": 65,
-    "SOXX": 65,
+    "AVGS.L": 45,
     "CNDX.L": 55,
     "IWMO.L": 55,
     "LQQ.PA": 55,
-    "VWRA.L": 50,
-    "AVGS.L": 45
+    "SMH": 65,
+    "SOXX": 65,
+    "VWRA.L": 50
   },
-  "stock_scores": {
-    "2454.TW": 75,
-    "META": 65,
-    "00631L.TW": 65,
-    "NVDA": 55,
-    "TSM": 55,
-    "AMZN": 55,
-    "MSFT": 45
-  },
-  "upcoming_earnings": {
-    "MSFT": "2026-10-29",
-    "AMZN": "2026-10-30"
-  },
-  "recommendation": "🟡 中性偏多｜核心：維持月 DCA $2,300｜衛星：觀望，只挑分數>70 加 $500｜進攻：暫不動（等第 1 階：VIX 17.5（需 ≥25，差 7.5）｜QQQ 回檔 5.1%（需 ≥15%，差 9.9%））",
+  "notes": "數據皆為 2026-10-27 收盤；台股 2454 採 10/27 收盤 NT$2,400，00631L 僅取得 10/22 收盤 NT$35.60。昨日 SOXX 限價 $480 未觸及即反彈至 $511.06。今日盤後 MSFT、GOOGL 財報，FOMC 利率決議美東 14:00。本檔覆寫同日稍早另一執行緒寫入的版本，修正其核心 DCA 表述（核心已完成，不再 DCA）與財報日期（MSFT 10/28、AMZN 10/29）。",
   "portfolio_progress": 0.6189748,
-  "deployed_usd": 15474.37,
-  "market_value_usd": 15624.719400000002,
-  "unrealized_pnl_usd": 150.3494000000028,
-  "unrealized_return": 0.009716027211447239,
-  "cost_usd": 15474.369999999999,
-  "fee_usd": 0.0,
-  "cost_twd": 495177.71841100004,
-  "unrealized_pnl_twd": 11375.65592728433,
-  "unrealized_return_twd": 0.022972875200823306,
-  "avg_fx_cost": 31.999862896583192,
-  "progress_note": "目前同步",
-  "agg_ladder": {
-    "done": false,
-    "level": 1,
-    "amount": 1250.0,
-    "triggered": false,
-    "reason": "VIX 17.5（需 ≥25，差 7.5）｜QQQ 回檔 5.1%（需 ≥15%，差 9.9%）"
+  "progress_note": "目前同步（61.9%，未超前、未達落後追加門檻 45.0%）",
+  "recommendation": "核心：已完成，不動｜衛星：今日不動，觀望（SOXX 觸發解除：10/27 收 $511.06，+3.91%，昨日限價 $480 未觸及，分數 75→65；SMH 65 亦未觸發）｜進攻：暫不動（VIX 17.52，需 ≥25，差 7.48｜QQQ 回檔 5.5%，需 ≥15%，差 9.5 個百分點）",
+  "signal_change": "環境分數：60 → 55（-5）；SOXX 買點觸發解除（75 → 65），結論由觸發加碼轉為觀望",
+  "stock_scores": {
+    "00631L.TW": 55,
+    "2454.TW": 65,
+    "AMZN": 55,
+    "META": 65,
+    "MSFT": 45,
+    "NVDA": 55,
+    "TSM": 55
   },
-  "agg_benchmark_drawdown": 5.056206000368464,
-  "signal_change": "📌 環境分數：60 → 55（-5），訊號變化",
-  "data_fetch_failures": []
+  "suggested_deployment_usd": 0,
+  "total_score": 55,
+  "upcoming_earnings": {
+    "AAPL": "2026-10-29",
+    "AMZN": "2026-10-29",
+    "GOOGL": "2026-10-28",
+    "INTC": "2026-10-29",
+    "MSFT": "2026-10-28"
+  },
+  "usd_twd": 32.42,
+  "vix": 17.52,
+  "yield_10y": 4.992,
+  "yield_2y": 4.74
 }
