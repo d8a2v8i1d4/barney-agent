@@ -9,3 +9,4 @@
 2026-10-29 執行完成（Muse 側），情況=B，新增 0 筆，過濾 50+ 筆，草稿=已建立（Gmail draft id r-4693418642190507183）
 2026-10-30 執行完成（Muse 側），情況=B，新增 0 筆，過濾 60+ 筆，草稿=已建立（Gmail draft id r3053580582348496449）
 2026-10-31 執行完成（Muse 側），情況=A，新增 1 筆（Amex Offer：Korean Air $2,000→$250，至 11/30），過濾 ~45 筆，草稿=已建立（Gmail draft id r684569144145319571）
+2026-11-01 執行完成（Muse 側），情況=A，新增 4 筆（Delta $2,000→$250 / Delta Stays $600→$100 / Citi→Cathay 10% / Rakuten Big Deal Reveal），過濾約 40 筆，草稿=已建立（Gmail draft id r1595676680021864332）
