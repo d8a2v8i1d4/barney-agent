@@ -18,3 +18,4 @@
 2026-11-09 執行完成（Muse 側），情況=A，新增 1 筆（Citi AAdvantage Business 75,000 AA miles 回歸，10/27 自 65k 調回），過濾約 48 筆，草稿=已建立（Gmail draft id r-234373376170881540）
 2026-11-11 執行完成（Muse 側），情況=A，新增 6 筆（Amex MR→Hilton 40%／Chase UR→Avios 30%／Marriott 秋季促銷 4,500 點／Amex Offer Lotte $750→$175／Peninsula $500→$100／WorldHotels $500→$125），過濾約 50 筆，草稿=已建立（Gmail draft id r-8079533370687357224）
 2026-11-12 執行完成（Muse 側），情況=B，新增 0 筆，過濾 28 筆，草稿=已建立（Gmail draft id r4754045244424177590，messageId 1a1cd121d98ad26d）；註：初版草稿誤將 11/03–11/04 已報的 MR→Virgin 30% 等 4 筆列為新活動，已作廢重發平安信，錯誤草稿 messageId 1a1cd106fd1c1c4d 因權限不足無法以 CLI 刪除／移至垃圾桶，請手動刪除
+2026-11-13 執行完成（Muse 側），情況=A，新增 16 筆（Chase Marriott Boundless 200k／Delta 禮卡 5x 上限 20k MR／Hotels.com 10% 上限 $125／Perplexity $200→$100／Avis $350→$75／Virgin 買分 50%／同批 Amex Offers 10 筆），過濾約 40 筆，草稿=已建立（Gmail draft id r3213432318611594056）
