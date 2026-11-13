@@ -1,1 +1,53 @@
-{"agg_benchmark_drawdown":9.79,"agg_ladder":{"amount":1250.0,"done":false,"level":1,"reason":"VIX 18.7（需 ≥25，差 6.3）｜QQQ 回檔 9.79%（需 ≥15%，差 5.21%）","triggered":false},"avg_fx_cost":null,"cost_twd":null,"cost_usd":16419.87,"data_fetch_failures":["00631L.TW 52週高點數據異常（NT$542，疑似拆股未還原，改以近月走勢評分）"],"date":"2026-11-13","deployed_usd":16419.87,"dxy":103.18,"etf_scores":{"AVGS.L":50,"CNDX.L":55,"IWMO.L":65,"LQQ.PA":65,"SMH":75,"SOXX":75,"VWRA.L":50},"fee_usd":0.0,"market_value_usd":15973.02,"portfolio_progress":0.6567948,"progress_note":"目前同步（時程 178/180 天，剩餘資金為機會性彈藥）","recommendation":"🟡 中性偏多｜核心：已完成，不動｜衛星：[買點觸發] SMH $500 限價 $475（分數 75）；SOXX $500 限價 $130 繼續待命｜進攻：暫不動（等第 1 階：VIX 18.7（需 ≥25，差 6.3）｜QQQ 回檔 9.79%（需 ≥15%，差 5.21%））","signal_change":"📌 [訊號變化] 環境分數：52 → 55（+3）；SMH 分數 65 → 75，跨越 70 買點門檻；NVDA 執行長請辭、10Y 升破 5.10%","stock_scores":{"00631L.TW":55,"2454.TW":75,"AMZN":50,"META":65,"MSFT":55,"NVDA":85,"TSM":60},"total_score":55,"unrealized_pnl_twd":null,"unrealized_pnl_usd":-446.85,"unrealized_return":-0.0272,"unrealized_return_twd":null,"upcoming_earnings":{"NVDA":"2026-11-17"},"usd_twd":32.89,"vix":18.7,"yield_10y":5.1,"yield_2y":4.86}
+{
+  "date": "2026-11-13",
+  "total_score": 55,
+  "vix": 18.700000762939453,
+  "yield_10y": 5.102999687194824,
+  "yield_2y": 4.75,
+  "dxy": 103.13899993896484,
+  "usd_twd": 32.85599899291992,
+  "etf_scores": {
+    "SOXX": 75,
+    "SMH": 65,
+    "LQQ.PA": 65,
+    "CNDX.L": 55,
+    "IWMO.L": 55,
+    "VWRA.L": 50,
+    "AVGS.L": 50
+  },
+  "stock_scores": {
+    "NVDA": 85,
+    "TSM": 65,
+    "META": 65,
+    "00631L.TW": 65,
+    "2454.TW": 60,
+    "MSFT": 55,
+    "AMZN": 50
+  },
+  "upcoming_earnings": {
+    "NVDA": "2026-11-18"
+  },
+  "recommendation": "🟡 中性偏多｜核心：維持月 DCA $2,300｜衛星：觀望，只挑分數>70 加 $500｜建議標的：SOXX（分數 75）｜進攻：暫不動（等第 1 階：VIX 18.7（需 ≥25，差 6.3）｜QQQ 回檔 9.4%（需 ≥15%，差 5.6%））",
+  "portfolio_progress": 0.6567948,
+  "deployed_usd": 16419.87,
+  "market_value_usd": 15973.015,
+  "unrealized_pnl_usd": -446.85499999999956,
+  "unrealized_return": -0.02721428366972452,
+  "cost_usd": 16419.87,
+  "fee_usd": 0.0,
+  "cost_twd": null,
+  "unrealized_pnl_twd": null,
+  "unrealized_return_twd": null,
+  "avg_fx_cost": null,
+  "progress_note": "目前同步",
+  "agg_ladder": {
+    "done": false,
+    "level": 1,
+    "amount": 1250.0,
+    "triggered": false,
+    "reason": "VIX 18.7（需 ≥25，差 6.3）｜QQQ 回檔 9.4%（需 ≥15%，差 5.6%）"
+  },
+  "agg_benchmark_drawdown": 9.410785834694725,
+  "signal_change": "環境分數：52 → 55（+3），與昨日類似",
+  "data_fetch_failures": []
+}
