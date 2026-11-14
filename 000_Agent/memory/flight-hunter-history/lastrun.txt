@@ -14,3 +14,4 @@
 2026-11-11 機票情報員執行完成，情況=A，尋獲 4 筆（購點 3：FB Multiply Your Miles 16x＋50%、JetBlue 30% off、Garuda 25%；更新 1：Finnair 購點附 tier points 直升 Silver 角度），過濾 30 筆，草稿=已建立。
 2026-11-12 機票情報員執行完成，情況=A，尋獲 3 筆（FLL 1：AA 70K SEA→TPE JAL 數據點；購點 1：Atmos Shopping 假期加碼最高 1,500 點至 11/20；挑戰 1：Virgin BA Silver→Gold 快閃 Match 至 11/16，Barney 不符資格），過濾 30 筆（Finnair 50% 至 11/16、Virgin 50%、Aeroplan 30%、Etihad 25%、Qatar 20% 爭議未解、LifeMiles／TK／Atmos／COSMILE 購點皆無新一輪；Delta／Atmos／AA 挑戰規則不變；FLL 現金 J、ATH 新位、Bug 票皆無），草稿=已建立。
 2026-11-13 機票情報員執行完成，情況=A，尋獲 5 筆（購點 4：長榮雙11購哩 50%、華航華夏哩程 55 折、Etihad 購哩 60% 更新、Qatar Avios 20% 未證實更新；挑戰 1：AA ISP 兩版本門檻提醒），過濾 71 筆，草稿=已建立。
+2026-11-14 機票情報員執行完成，情況=A，尋獲 4 筆（LifeMiles TPE–SEA J 83,220 哩數據點、United TPE–SEA J 110K 數據點、PAL 付費 Status Match $349 新增、Citi→土航 40% 轉點加碼哩程 11/30 後才入帳更新），過濾 52 筆，草稿=已建立。
