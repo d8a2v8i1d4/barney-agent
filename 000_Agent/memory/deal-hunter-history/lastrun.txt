@@ -21,3 +21,4 @@
 2026-11-13 執行完成（Muse 側），情況=A，新增 16 筆（Chase Marriott Boundless 200k／Delta 禮卡 5x 上限 20k MR／Hotels.com 10% 上限 $125／Perplexity $200→$100／Avis $350→$75／Virgin 買分 50%／同批 Amex Offers 10 筆），過濾約 40 筆，草稿=已建立（Gmail draft id r3213432318611594056）
 2026-11-14 執行完成（Muse 側），情況=B，新增 0 筆，過濾 19 筆，草稿=已建立（Gmail draft id r17994586407156672）
 2026-11-15 執行完成（Muse 側），情況=A，新增 18 筆（AA Instant Status Pass／Delta Status Match／菲航 $349／Amex Offers 新一波 11 筆／UR→Wyndham 30%／Rakuten Strata $170／Iberia 40.5k Avios／Virgin 點數兌 ANA 頭等），過濾約 60 筆，草稿=已建立（Gmail draft id r1946838768486291630）
+2026-11-16 執行完成（Muse 側），情況=A，新增 4 筆（Amex Offer：Norwegian Cruise Line $750→$150／[更新] Citi AAdvantage Business 改版細節／Chase Sapphire Reserve for Business 300,000 點 targeted／Relay 要求 SSN），過濾約 45 筆，草稿=已建立（Gmail draft id r6226698292009289172）
