@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-17",
+  "total_score": 60,
+  "vix": 22.91,
+  "yield_10y": 5.122,
+  "yield_2y": 4.82,
+  "dxy": 103.47,
+  "usd_twd": 32.886,
+  "etf_scores": {
+    "SMH": 75,
+    "SOXX": 75,
+    "IWMO.L": 65,
+    "LQQ.PA": 65,
+    "AVGS.L": 55,
+    "CNDX.L": 55,
+    "VWRA.L": 50
+  },
+  "stock_scores": {
+    "NVDA": 85,
+    "2454.TW": 75,
+    "00631L.TW": 75,
+    "TSM": 65,
+    "META": 65,
+    "MSFT": 55,
+    "AMZN": 55
+  },
+  "upcoming_earnings": {
+    "NVDA": "2026-11-17"
+  },
+  "recommendation": "🟡 中性偏多｜核心：已完成，不動｜衛星：[買點觸發] SOXX $500（11/16 收 $141.22，拆股前等值 $423.66，跌破預設第二筆接點 $430，限價 $141–143）｜SMH 觀望等 NVDA 財報後｜進攻：暫不動（VIX 22.91，需 ≥25，差 2.09｜QQQ 回檔 12.9%，需 ≥15%，差 2.1pp）",
+  "portfolio_progress": 0.6568,
+  "deployed_usd": 16419.87,
+  "market_value_usd": 15384.67,
+  "unrealized_pnl_usd": -1035.2,
+  "unrealized_return": -0.063,
+  "cost_usd": 16419.87,
+  "fee_usd": 0.0,
+  "progress_note": "180 天基準期已屆滿，剩餘 $8,580.13 為機會性彈藥",
+  "agg_ladder": {
+    "done": false,
+    "level": 1,
+    "amount": 1250.0,
+    "triggered": false,
+    "reason": "VIX 22.91（需 ≥25，差 2.09）｜QQQ 回檔 12.9%（需 ≥15%，差 2.1pp）；觸發價 ≤ $648.43，現價 $661.75"
+  },
+  "agg_benchmark_drawdown": 12.89,
+  "signal_change": "環境分數：60 → 60（+0）；但 VIX 19.3 → 22.91（+18.7%）、QQQ 回檔 10.5% → 12.9%、半導體重挫（SMH -5.11%、SOXX -5.41%）；SOXX 跌破預設第二筆接點 $430（拆股前等值 $423.66），買點觸發",
+  "data_as_of": "2026-11-16 收盤（美股／LSE／Euronext／台股）；台北時間 2026-11-17 早晨彙整",
+  "data_fetch_failures": [
+    "00631L.TW Finnhub 52W 高 $542 為拆股前舊值，改採近 60 日高點 NT$41.94（2026-10-07）計算回檔",
+    "LQQ.PA Finnhub 巴黎報價量級錯誤（€1,470.2），改採 StockAnalysis EPA 11/16 收 €8.52"
+  ],
+  "days_elapsed": 182
+}
