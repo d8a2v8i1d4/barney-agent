@@ -1,17 +1,16 @@
 {
   "date": "2026-11-19",
   "total_score": 60,
-  "vix": 24.6,
-  "yield_10y": 5.065,
-  "yield_2y": 4.798,
-  "dxy": 103.86,
-  "usd_twd": 32.94,
+  "vix": 24.559999465942383,
+  "yield_10y": 5.065999984741211,
+  "yield_2y": 4.75,
+  "dxy": 103.85099792480469,
+  "usd_twd": 32.974998474121094,
   "etf_scores": {
     "SMH": 75,
     "SOXX": 75,
     "LQQ.PA": 75,
     "IWMO.L": 65,
-    "00631L.TW": 65,
     "VWRA.L": 55,
     "CNDX.L": 55,
     "AVGS.L": 55
@@ -20,22 +19,33 @@
     "NVDA": 85,
     "TSM": 75,
     "2454.TW": 75,
+    "00631L.TW": 75,
     "META": 65,
     "MSFT": 55,
-    "AMZN": 55
+    "AMZN": 50
   },
   "upcoming_earnings": {},
-  "recommendation": "🟡 中性偏多｜[訊號變化] 環境分數 70→60｜核心：已完成，不動｜衛星：[買點觸發] SOXX 分數 75、現價 $141.85 已跌破 $430 拆股前等值 $143.33，建議 $500 限價 $135 待命（勿追價）；下單前先確認 $143 限價單是否已成交，若已成交勿重複。SMH 觀望（11/17 才以 $450 成交，現價 $459.54 不追高）｜進攻：暫不動，LQQ.PA $1,250 @ €7.85 GTC 續掛（VIX 24.6 需 ≥25 差 0.4｜QQQ 回檔 13.5% 需 ≥15% 差 1.5%，目標價 ≤$648.43）",
-  "portfolio_progress": 0.7018,
+  "recommendation": "🟡 中性偏多｜核心：維持月 DCA $2,300｜衛星：觀望，只挑分數>70 加 $500｜建議標的：SMH（分數 75）｜進攻：暫不動（等第 1 階：VIX 24.6（需 ≥25，差 0.4）｜QQQ 回檔 13.2%（需 ≥15%，差 1.8%））",
+  "portfolio_progress": 0.7017947999999999,
   "deployed_usd": 17544.87,
   "market_value_usd": 16209.28,
-  "unrealized_pnl_usd": -1335.59,
-  "unrealized_return": -0.0761,
+  "unrealized_pnl_usd": -1335.5899999999983,
+  "unrealized_return": -0.0761242460046725,
   "cost_usd": 17544.87,
   "fee_usd": 0.0,
   "cost_twd": null,
   "unrealized_pnl_twd": null,
   "unrealized_return_twd": null,
-  "data_fetch_failures": [],
-  "notes": "NVDA Q3 財報 11/17 公布（營收 $115.8B 優於預期 $109.3B），但黃仁勳 11/12 辭任 CEO、10-Q 延遲，股價 11/18 -2.89% 至 $150.96。FOMC 10 月紀要偏鷹：12 月升息幾乎確定，Waller 提 50bp。SOXX $143 與 SMH $450 限價皆曾觸及，下單前務必先確認成交狀態。LQQ.PA GTC 維持 €7.85（非 €8.00，避免在雙條件未達時立即成交）。"
+  "avg_fx_cost": null,
+  "progress_note": "目前同步",
+  "agg_ladder": {
+    "done": false,
+    "level": 1,
+    "amount": 1250.0,
+    "triggered": false,
+    "reason": "VIX 24.6（需 ≥25，差 0.4）｜QQQ 回檔 13.2%（需 ≥15%，差 1.8%）"
+  },
+  "agg_benchmark_drawdown": 13.18352640457956,
+  "signal_change": "📌 環境分數：70 → 60（-10），訊號變化",
+  "data_fetch_failures": []
 }
