@@ -1,7 +1,7 @@
 {
   "total_capital": 25000,
-  "deployed": 17544.87,
-  "remaining": 7455.13,
+  "deployed": 19261.12,
+  "remaining": 5738.88,
   "layers": {
     "core": {
       "target": 13750,
@@ -172,8 +172,8 @@
     },
     "satellite": {
       "target": 7500,
-      "deployed": 3903.0,
-      "remaining": 3597.0,
+      "deployed": 4293.0,
+      "remaining": 3207.0,
       "trades": [
         {
           "date": "2026-08-31",
@@ -212,16 +212,36 @@
           "amount": 1125.0,
           "note": "衛星層加碼（$450 限價成交）",
           "fee": 0.0
+        },
+        {
+          "date": "2026-11-20",
+          "ticker": "SOXX",
+          "shares": 3,
+          "price": 130.0,
+          "amount": 390.0,
+          "note": "衛星層加碼（$130 第三筆限價成交）",
+          "fee": 0.0
         }
       ]
     },
     "aggressive": {
       "target": 3750,
-      "deployed": 0,
-      "remaining": 3750,
-      "trades": []
+      "deployed": 1326.25,
+      "remaining": 2423.75,
+      "trades": [
+        {
+          "date": "2026-11-20",
+          "ticker": "LQQ.PA",
+          "shares": 156,
+          "price": 7.74,
+          "amount": 1326.25,
+          "note": "進攻層第一筆（雙觸發成立後建倉）｜156 股 @ €7.74 = €1,207.44，EUR/USD 1.0984 換算 $1,326.25",
+          "fee": 0.0,
+          "fx_rate": 1.0984
+        }
+      ]
     }
   },
   "start_date": "2026-05-19",
-  "last_updated": "2026-11-18"
+  "last_updated": "2026-11-20"
 }
