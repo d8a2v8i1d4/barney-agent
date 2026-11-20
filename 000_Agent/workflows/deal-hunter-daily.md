@@ -41,16 +41,14 @@
 - 已有 **ITIN**，Amex 信用檔案已建立
 - 已持有（Amex 家 3 張）：Amex Hilton Honors（免年費）、**Amex Green**、**Hilton Aspire**
 
-**⏳ 開卡禮 minimum spend 進度（截止 2026-12-03，兩張同日）**
+**⏳ 開卡禮 minimum spend 進度：✅ 已達成（2026-11-20，Barney 確認）**
 
-| 卡 | 門檻 | 已花（2026-09-04 快照）| 剩餘 |
-|----|------|----------------------|------|
-| Amex Green | $3,000 | $1,087 | **$1,913** |
-| Hilton Aspire | $6,000 | $2,137 | **$3,863** |
+| 卡 | 門檻 | 狀態 |
+|----|------|------|
+| Amex Green | $3,000 | ✅ 已達成 |
+| Hilton Aspire | $6,000 | ✅ 已達成 |
 
-- 每次執行用 `date` 算出**距 12/3 剩餘天數**，寫在報告最上方一行：`⏳ 距 Amex spend 截止 X 天｜Green 剩 $1,913｜Aspire 剩 $3,863`（金額為快照值，Barney 手動更新此表）
-- 剩餘 ≤ 30 天且任一張剩餘 > $1,000 → 該行改標 🚨
-- **Amex Offers 衝 spend 專項**：報能自然消化剩餘額度的 Amex Offers（旅遊 / 飯店 / 航空 / 大額訂閱 / 禮品卡相關），優先報「消費 ≥ $200 回饋 ≥ 10%」或「回饋 ≥ $50」的；也報可轉嫁的付款管道（如可信用卡繳的稅、租金、保險、水電、購買點數 / PQP 促銷）能同時衝 spend 的機會。純現金流工具（manufactured spending）不報。
+- 兩張卡的開卡禮消費門檻皆已達成，報告中不再顯示 MSR 倒數行，也不再為衝 spend 而特別報 Amex Offers（Amex Offers 大額活動本身仍照報）。
 - 下一批目標（⭐ 重點關注，三張並行）：
   - **Bank of America Atmos Rewards Summit**（Alaska / Hawaiian Atmos Rewards）
   - **Chase Sapphire Preferred（CSP）**
