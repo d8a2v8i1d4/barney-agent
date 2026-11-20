@@ -1,1 +1,51 @@
-{"agg_benchmark_drawdown":15.09,"agg_ladder":{"amount":1250.0,"done":false,"level":1,"reason":"VIX 28.44 ≥ 25｜QQQ 回檔 15.09% ≥ 15%（雙條件達成）","triggered":true},"avg_fx_cost":null,"cost_twd":null,"cost_usd":17544.87,"data_fetch_failures":[],"date":"2026-11-20","deployed_usd":17544.87,"dxy":103.85,"etf_scores":{"AVGS.L":55,"CNDX.L":55,"IWMO.L":65,"LQQ.PA":75,"SMH":75,"SOXX":75,"VWRA.L":55},"fee_usd":0.0,"market_value_usd":16138.02,"portfolio_progress":0.7018,"progress_note":"目前同步","recommendation":"🟢 訊號偏多｜[買點觸發] 進攻 LQQ.PA 第 1 階 $1,250（限價 €8.00；VIX 28.44 ≥ 25、QQQ 回檔 15.09% ≥ 15%，雙條件達成）｜[買點觸發] 衛星 SOXX $500（限價 $135，已跌破第二筆觸發價 $143.33 拆股後等值）｜核心：已完成，不動｜今日總建議部署 $1,750","signal_change":"📌 環境分數：60 → 70（+10），訊號變化｜[買點觸發] 進攻第 1 階雙條件達成","stock_scores":{"00631L.TW":75,"2454.TW":75,"AMZN":55,"META":65,"MSFT":55,"NVDA":85,"TSM":75},"total_score":70,"unrealized_pnl_twd":null,"unrealized_pnl_usd":-1406.85,"unrealized_return":-0.0802,"unrealized_return_twd":null,"upcoming_earnings":{},"usd_twd":32.97,"vix":28.44,"yield_10y":5.051,"yield_2y":4.777}
+{
+  "date": "2026-11-20",
+  "total_score": 70,
+  "vix": 28.440000534057617,
+  "yield_10y": 5.052000045776367,
+  "yield_2y": 4.75,
+  "dxy": 103.91200256347656,
+  "usd_twd": 32.96900177001953,
+  "etf_scores": {
+    "SMH": 75,
+    "SOXX": 75,
+    "IWMO.L": 65,
+    "LQQ.PA": 65,
+    "VWRA.L": 55,
+    "CNDX.L": 55,
+    "AVGS.L": 55
+  },
+  "stock_scores": {
+    "NVDA": 85,
+    "00631L.TW": 85,
+    "TSM": 75,
+    "2454.TW": 75,
+    "META": 65,
+    "MSFT": 55,
+    "AMZN": 55
+  },
+  "upcoming_earnings": {},
+  "recommendation": "🟢 訊號偏多｜核心：DCA $2,300 + 加 $1,000｜衛星：加分數>60 標的 $500-1,000｜建議標的：SMH（分數 75）｜進攻：🟢 第 1 階觸發（VIX 28.4 ≥ 25、QQQ 回檔 15.1% ≥ 15%），可投入 $1,250",
+  "portfolio_progress": 0.7017947999999999,
+  "deployed_usd": 17544.87,
+  "market_value_usd": 16138.02,
+  "unrealized_pnl_usd": -1406.8499999999985,
+  "unrealized_return": -0.0801858320979294,
+  "cost_usd": 17544.87,
+  "fee_usd": 0.0,
+  "cost_twd": null,
+  "unrealized_pnl_twd": null,
+  "unrealized_return_twd": null,
+  "avg_fx_cost": null,
+  "progress_note": "目前同步",
+  "agg_ladder": {
+    "done": false,
+    "level": 1,
+    "amount": 1250.0,
+    "triggered": true,
+    "reason": "VIX 28.4 ≥ 25、QQQ 回檔 15.1% ≥ 15%"
+  },
+  "agg_benchmark_drawdown": 15.088325987490714,
+  "signal_change": "📌 環境分數：60 → 70（+10），訊號變化",
+  "data_fetch_failures": []
+}
