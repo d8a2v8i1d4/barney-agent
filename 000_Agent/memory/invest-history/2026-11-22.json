@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-22",
+  "total_score": 85,
+  "vix": 35.88999938964844,
+  "yield_10y": 4.9120001792907715,
+  "yield_2y": 4.75,
+  "dxy": 103.80999755859375,
+  "usd_twd": 33.02629852294922,
+  "etf_scores": {
+    "SMH": 85,
+    "SOXX": 85,
+    "LQQ.PA": 85,
+    "CNDX.L": 75,
+    "IWMO.L": 75,
+    "VWRA.L": 65,
+    "AVGS.L": 65
+  },
+  "stock_scores": {
+    "NVDA": 85,
+    "TSM": 85,
+    "00631L.TW": 85,
+    "META": 75,
+    "2454.TW": 75,
+    "MSFT": 55,
+    "AMZN": 55
+  },
+  "upcoming_earnings": {},
+  "recommendation": "🟢 歷史機會｜核心：DCA + 重倉 $3,000-5,000｜衛星：積極加分數>60 標的 $1,000-1,500｜建議標的：SMH（分數 85）｜進攻：🟢 第 2 階觸發（VIX 35.9 ≥ 32），可投入 $1,174",
+  "portfolio_progress": 0.7704447999999999,
+  "deployed_usd": 19261.12,
+  "market_value_usd": 16847.96953649378,
+  "unrealized_pnl_usd": -2413.1504635062192,
+  "unrealized_return": -0.12528609257957063,
+  "cost_usd": 19261.12,
+  "fee_usd": 0.0,
+  "cost_twd": null,
+  "unrealized_pnl_twd": null,
+  "unrealized_return_twd": null,
+  "avg_fx_cost": null,
+  "progress_note": "目前同步",
+  "agg_ladder": {
+    "done": false,
+    "level": 2,
+    "amount": 1173.75,
+    "triggered": true,
+    "reason": "VIX 35.9 ≥ 32"
+  },
+  "agg_benchmark_drawdown": 19.90495464946161,
+  "signal_change": "環境分數：85 → 85（+0），與昨日類似",
+  "data_fetch_failures": []
+}
