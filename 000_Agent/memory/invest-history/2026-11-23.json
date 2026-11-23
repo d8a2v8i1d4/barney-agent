@@ -1,1 +1,51 @@
-{"agg_benchmark_drawdown":19.9,"agg_ladder":{"amount":1250.0,"done":false,"level":2,"reason":"VIX 35.89 ≥ 32、QQQ 回檔約 19.9% ≥ 15%（雙條件持續成立）","triggered":true},"cost_usd":19261.12,"data_fetch_failures":[],"date":"2026-11-23","deployed_usd":19261.12,"dxy":103.84,"etf_scores":{"AVGS.L":65,"CNDX.L":75,"IWMO.L":75,"LQQ.PA":85,"SMH":85,"SOXX":85,"VWRA.L":65},"market_value_usd":null,"portfolio_progress":0.7704,"progress_note":"已過 188 天，超過 180 天基準時程；剩餘 $5,738.88 改列機會性彈藥，無金額調節","recommendation":"🟢 歷史機會｜核心：已完成，不動｜衛星：[買點觸發] SMH $1,000（限價~$395）+ SOXX $1,000（限價~$122）｜進攻：[買點觸發] LQQ.PA 第 2 階 $1,250（限價~€7.20）｜今日總建議部署 $3,250","signal_change":"📌 連續 3 天環境分數維持 85（11/21、11/22、11/23），週末無新收盤價，維持原計畫","stock_scores":{"00631L.TW":85,"2454.TW":75,"AMZN":55,"META":75,"MSFT":55,"NVDA":85,"TSM":85},"total_score":85,"unrealized_pnl_usd":null,"upcoming_earnings":{},"usd_twd":32.94,"vix":35.89,"yield_10y":4.91,"yield_2y":4.63}
+{
+  "date": "2026-11-23",
+  "total_score": 85,
+  "vix": 35.88999938964844,
+  "yield_10y": 4.9120001792907715,
+  "yield_2y": 4.75,
+  "dxy": 103.75599670410156,
+  "usd_twd": 32.94499969482422,
+  "etf_scores": {
+    "SMH": 85,
+    "SOXX": 85,
+    "LQQ.PA": 85,
+    "CNDX.L": 75,
+    "IWMO.L": 75,
+    "VWRA.L": 65,
+    "AVGS.L": 65
+  },
+  "stock_scores": {
+    "NVDA": 85,
+    "TSM": 85,
+    "00631L.TW": 85,
+    "META": 75,
+    "2454.TW": 75,
+    "MSFT": 55,
+    "AMZN": 55
+  },
+  "upcoming_earnings": {},
+  "recommendation": "🟢 歷史機會｜核心：DCA + 重倉 $3,000-5,000｜衛星：積極加分數>60 標的 $1,000-1,500｜建議標的：SMH（分數 85）｜進攻：🟢 第 2 階觸發（VIX 35.9 ≥ 32），可投入 $1,174",
+  "portfolio_progress": 0.7704447999999999,
+  "deployed_usd": 19261.12,
+  "market_value_usd": 16850.060413010597,
+  "unrealized_pnl_usd": -2411.0595869894023,
+  "unrealized_return": -0.1251775383253623,
+  "cost_usd": 19261.12,
+  "fee_usd": 0.0,
+  "cost_twd": null,
+  "unrealized_pnl_twd": null,
+  "unrealized_return_twd": null,
+  "avg_fx_cost": null,
+  "progress_note": "目前同步",
+  "agg_ladder": {
+    "done": false,
+    "level": 2,
+    "amount": 1173.75,
+    "triggered": true,
+    "reason": "VIX 35.9 ≥ 32"
+  },
+  "agg_benchmark_drawdown": 19.90495464946161,
+  "signal_change": "環境分數：85 → 85（+0），與昨日類似",
+  "data_fetch_failures": []
+}
