@@ -28,3 +28,4 @@
 2026-11-20 執行完成（Muse 側），情況=A，新增 13 筆（Amex Offer：Delta $2,000→$250／Amex MR→Virgin 30%／Citi Strata 終身一次／同批 Amex Offers 6 筆／Chase UR→IHG 80%／Hilton 買分 120%／Marriott 買分 55%／BoA Atmos Summit 80K 更新），過濾約 40 筆，草稿=已建立（Gmail draft id r5088937143653092555）
 2026-11-21 執行完成（Muse 側），情況=A，新增 4 筆（TPE–ICN Virgin 15,500 點／國泰中美商務大放水／Amazon Amex Shop with Points 40% off／Rakuten 新戶 $50），過濾 24 筆，草稿=已建立（Gmail draft id r-2161873455095654746）
 2026-11-22 執行完成（Muse 側），情況=A，新增 28 筆（Dusit Gold 免費 match 頂級 Platinum／Amex Offer Marriott Homes & Villas $1,000→$350／同批 Amex Offers 14 筆／United 商務卡 100K／TPE–HKG 12,500 Avios 等），過濾 16 筆，草稿=已建立（Gmail draft id r-9157176045137274368）
+2026-11-23 執行完成（Muse 側），情況=A，新增 9 筆（CSP 定向 125K 史上最高／TPE 出發 Atmos／Flying Blue 商務艙 4 筆／Amex Offer JetBlue／Orient Express／Ponant／Virgin ANA The Room），過濾 35 筆，草稿=已建立（Gmail draft id r7029975680141707389）
