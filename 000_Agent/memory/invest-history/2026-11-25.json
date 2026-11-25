@@ -1,17 +1,17 @@
 {
   "date": "2026-11-25",
   "total_score": 70,
-  "vix": 26.36,
-  "yield_10y": 4.901,
-  "yield_2y": 4.668,
-  "dxy": 103.82,
-  "usd_twd": 32.94,
+  "vix": 26.360000610351562,
+  "yield_10y": 4.904000282287598,
+  "yield_2y": 4.75,
+  "dxy": 103.9729995727539,
+  "usd_twd": 32.97800064086914,
   "etf_scores": {
-    "LQQ.PA": 75,
     "SMH": 75,
     "SOXX": 75,
-    "IWMO.L": 65,
+    "LQQ.PA": 75,
     "CNDX.L": 65,
+    "IWMO.L": 65,
     "VWRA.L": 55,
     "AVGS.L": 55
   },
@@ -25,22 +25,27 @@
     "AMZN": 55
   },
   "upcoming_earnings": {},
-  "recommendation": "[買點觸發] 衛星：SOXX $1,000（限價 $130，現價 $128.62）+ SMH $500（限價 $430，現價 $426.75）｜核心：已完成，不動｜進攻：暫不動（第 2 階未觸發：VIX 26.36 需 ≥32，差 5.64｜QQQ 回檔 16.4% 需 ≥25%，差 8.6%）",
-  "portfolio_progress": 0.7704,
+  "recommendation": "🟢 訊號偏多｜核心：DCA $2,300 + 加 $1,000｜衛星：加分數>60 標的 $500-1,000｜建議標的：SMH（分數 75）｜進攻：暫不動（等第 2 階：VIX 26.4（需 ≥32，差 5.6）｜QQQ 回檔 16.0%（需 ≥25%，差 9.0%））",
+  "portfolio_progress": 0.7704447999999999,
   "deployed_usd": 19261.12,
-  "market_value_usd": 17243.83,
-  "unrealized_pnl_usd": -2017.29,
-  "unrealized_return": -0.1047,
+  "market_value_usd": 17204.520980787278,
+  "unrealized_pnl_usd": -2056.599019212721,
+  "unrealized_return": -0.106774633002272,
+  "cost_usd": 19261.12,
+  "fee_usd": 0.0,
+  "cost_twd": null,
+  "unrealized_pnl_twd": null,
+  "unrealized_return_twd": null,
+  "avg_fx_cost": null,
+  "progress_note": "目前同步",
   "agg_ladder": {
     "done": false,
     "level": 2,
     "amount": 1173.75,
     "triggered": false,
-    "reason": "VIX 26.36（需 ≥32，差 5.64）｜QQQ 回檔 16.4%（需 ≥25%，差 8.6%）"
+    "reason": "VIX 26.4（需 ≥32，差 5.6）｜QQQ 回檔 16.0%（需 ≥25%，差 9.0%）"
   },
-  "agg_benchmark_drawdown": 16.35,
-  "signal_change": "📌 [訊號變化] 環境分數持平 70，但半導體再破底：SMH -7.26%、SOXX -8.27%，雙雙跌破前次成交價（SMH $450、SOXX $130）；QQQ 自高點回檔加深至 16.4%（昨日 14.3%）；週一 NVDA +31% 反彈一日行情，週二全數回吐",
-  "data_fetch_failures": [
-    "LQQ.PA 11/24 Euronext 收盤價未取得乾淨報價（Finnhub 顯示異常值 €1,470.2），採 11/23 收盤 €8.09，市值以 €7.77 估算"
-  ]
+  "agg_benchmark_drawdown": 16.00189261536931,
+  "signal_change": "環境分數：70 → 70（+0），與昨日類似",
+  "data_fetch_failures": []
 }
