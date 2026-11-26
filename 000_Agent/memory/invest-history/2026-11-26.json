@@ -1,1 +1,51 @@
-{"agg_benchmark_drawdown":16.9,"agg_ladder":{"amount":1173.75,"done":false,"level":2,"reason":"VIX 28.29（需 ≥32，差 3.71）｜QQQ 回檔 16.9%（需 ≥25%，差 8.1pp）","triggered":false},"avg_fx_cost":null,"cost_twd":null,"cost_usd":19261.12,"data_fetch_failures":["00631L.TW 52W高：Finnhub 回傳 542，與現價 23.78 嚴重不符（疑為分割未調整），改以近1月 -33.2% 呈現"],"date":"2026-11-26","deployed_usd":19261.12,"dxy":103.81,"etf_scores":{"00631L.TW":85,"AVGS.L":55,"CNDX.L":65,"IWMO.L":75,"LQQ.PA":75,"SMH":75,"SOXX":75,"VWRA.L":55},"fee_usd":0.0,"market_value_usd":16747.94,"portfolio_progress":0.7704,"progress_note":"目前同步（已過191天，基準180天已過；剩餘資金按機會部署，不再按月均攤）","recommendation":"🟢 訊號偏多｜[買點觸發] 衛星 SMH $1,000 + SOXX $500（合計 $1,500）｜核心：已完成，不動｜進攻：暫不動（等第 2 階：VIX 28.29（需 ≥32，差 3.71）｜QQQ 回檔 16.9%（需 ≥25%，差 8.1pp））","signal_change":"📌 連續 3 天環境分數維持 70/100；SMH、SOXX 雙雙跌破先前限價觸發點，轉為[買點觸發]","stock_scores":{"2454.TW":75,"AMZN":55,"META":60,"MSFT":55,"NVDA":75,"TSM":75},"total_score":70,"unrealized_pnl_twd":null,"unrealized_pnl_usd":-2513.18,"unrealized_return":-0.1305,"unrealized_return_twd":null,"upcoming_earnings":{},"usd_twd":33.13,"vix":28.29,"yield_10y":4.845,"yield_2y":4.633}
+{
+  "date": "2026-11-26",
+  "total_score": 70,
+  "vix": 28.290000915527344,
+  "yield_10y": 4.8480000495910645,
+  "yield_2y": 4.75,
+  "dxy": 103.81199645996094,
+  "usd_twd": 32.96500015258789,
+  "etf_scores": {
+    "IWMO.L": 75,
+    "SMH": 75,
+    "SOXX": 75,
+    "LQQ.PA": 75,
+    "CNDX.L": 65,
+    "VWRA.L": 55,
+    "AVGS.L": 55
+  },
+  "stock_scores": {
+    "NVDA": 75,
+    "TSM": 75,
+    "2454.TW": 75,
+    "00631L.TW": 75,
+    "META": 65,
+    "MSFT": 55,
+    "AMZN": 55
+  },
+  "upcoming_earnings": {},
+  "recommendation": "🟢 訊號偏多｜核心：DCA $2,300 + 加 $1,000｜衛星：加分數>60 標的 $500-1,000｜建議標的：SMH（分數 75）｜進攻：暫不動（等第 2 階：VIX 28.3（需 ≥32，差 3.7）｜QQQ 回檔 16.6%（需 ≥25%，差 8.4%））",
+  "portfolio_progress": 0.7704447999999999,
+  "deployed_usd": 19261.12,
+  "market_value_usd": 16749.33468363762,
+  "unrealized_pnl_usd": -2511.7853163623804,
+  "unrealized_return": -0.13040702287106776,
+  "cost_usd": 19261.12,
+  "fee_usd": 0.0,
+  "cost_twd": null,
+  "unrealized_pnl_twd": null,
+  "unrealized_return_twd": null,
+  "avg_fx_cost": null,
+  "progress_note": "目前同步",
+  "agg_ladder": {
+    "done": false,
+    "level": 2,
+    "amount": 1173.75,
+    "triggered": false,
+    "reason": "VIX 28.3（需 ≥32，差 3.7）｜QQQ 回檔 16.6%（需 ≥25%，差 8.4%）"
+  },
+  "agg_benchmark_drawdown": 16.550822419152283,
+  "signal_change": "環境分數：70 → 70（+0），與昨日類似",
+  "data_fetch_failures": []
+}
