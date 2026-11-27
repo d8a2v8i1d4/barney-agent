@@ -32,3 +32,4 @@
 2026-11-24 執行完成（Muse 側），情況=A，新增 21 筆（Hyatt×Aeroplan 挑戰／Chase 新增國泰＋Qantas 轉點夥伴／BoA Atmos 商務卡改版／ANA HNL–TYO 37,500 Virgin／TPE–AMS/FRA 63k FB／IHG 買分 100% 等），過濾約 77 筆，草稿=已建立（Gmail draft id r-1404527614236157228）
 2026-11-25 執行完成（Muse 側），情況=A，新增 27 筆（SAS EuroBonus match 重開／UA challenge 申請截止 12/21／MR→Marriott 35%／Amex Offers 11 月新一波／Virgin 買分 80% 史高等），過濾約 45 筆，草稿=已建立（Gmail draft id r-6939033026070696384）
 2026-11-26 執行完成（Muse 側），情況=A，新增 2 筆（Hyatt × Delta 合作上線／Hyatt 2027 改版），過濾約 40 筆，草稿=已建立（Gmail draft id r6097954513689991786）
+2026-11-27 執行完成（Muse 側），情況=A，新增 7 筆（Amex Offer 大韓航空／Marriott Bonvoy／Etihad／阿拉斯加夏威夷／Hilton／Chase UR→Virgin 40%／Rakuten 黑五），過濾約 40 筆，草稿=已建立（Gmail draft id r-6961832499657391781）
