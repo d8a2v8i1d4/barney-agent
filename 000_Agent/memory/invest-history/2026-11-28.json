@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-28",
+  "total_score": 60,
+  "vix": 23.81,
+  "yield_10y": 4.94,
+  "yield_2y": 4.7,
+  "dxy": 104.05,
+  "usd_twd": 32.98,
+  "etf_scores": {
+    "SMH": 75,
+    "SOXX": 75,
+    "LQQ.PA": 75,
+    "CNDX.L": 65,
+    "IWMO.L": 65,
+    "VWRA.L": 55,
+    "AVGS.L": 55
+  },
+  "stock_scores": {
+    "NVDA": 75,
+    "TSM": 75,
+    "00631L.TW": 75,
+    "2454.TW": 70,
+    "META": 60,
+    "MSFT": 55,
+    "AMZN": 55
+  },
+  "upcoming_earnings": {},
+  "recommendation": "[買點觸發] 衛星 SOXX $750（限價 $132）+ SMH $500（限價 $435）｜核心：已完成，不動｜進攻：暫不動（等第 2 階：VIX 23.81（需 ≥32，差 8.19）｜QQQ 回檔 14.7%（需 ≥25%，差 10.3%））",
+  "portfolio_progress": 0.7704448,
+  "deployed_usd": 19261.12,
+  "market_value_usd": 17648.74,
+  "unrealized_pnl_usd": -1612.38,
+  "unrealized_return": -0.0837,
+  "cost_usd": 19261.12,
+  "fee_usd": 0.0,
+  "progress_note": "已過 193 天，超過 180 天基準時程；剩餘資金改列機會性彈藥",
+  "agg_ladder": {
+    "done": false,
+    "level": 2,
+    "amount": 1173.75,
+    "triggered": false,
+    "reason": "VIX 23.81（需 ≥32，差 8.19）｜QQQ 回檔 14.7%（需 ≥25%，差 10.3%）"
+  },
+  "agg_benchmark_drawdown": 14.66,
+  "signal_change": "環境分數：70 → 60（-10），跨越 65 門檻，由訊號偏多轉為中性偏多；VIX 自 26.8 回落至 23.81；各標的分數與昨日相同",
+  "data_fetch_failures": []
+}
